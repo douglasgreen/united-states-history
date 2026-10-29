@@ -35,6 +35,29 @@ The first draft uses descriptive chapter file names and an `outline.md`; these a
 
 When migration is requested, inventory the existing files and references first. Move and reconcile the outline into `README.md`, preserving useful material; map every old chapter path to its new path; then rename files and repair links and build inputs as one coordinated change. Reconcile the visual registers and appendix promises against the actual manuscript. Retire `outline.md` only after its content and references have been accounted for. Do not overwrite a draft with an outline or discard unresolved editorial notes. Until migration is complete, locate existing chapters by their numeric prefix and record actual paths rather than inventing links to files that do not yet exist.
 
+### Repository checks
+
+`tools/check_book.py` is the pre-render structural checker. Run it from the repository root:
+
+```bash
+python3 tools/check_book.py
+python3 tools/check_book.py --strict
+python3 tools/check_book.py --json
+python3 tools/check_book.py chapters/00-introduction.md
+```
+
+With no arguments it checks the 56 stable manuscript files in manifest order and warns about unexpected `chapters/*.md` files. Positional paths check only those files, which is useful during revision. `--strict` treats warnings as failures; `--json` emits a machine-readable report; `--quiet` suppresses individual findings. Exit status is 0 when the check passes, 1 when it fails, and 2 for invalid usage.
+
+The checker verifies the stable file manifest; one level-one heading per file; heading levels and numbered section/subsection order; the combined footnote namespace across all checked files, including missing, duplicate, unused, numeric, and wrongly prefixed keys, nested references, `ibid.`, citation notes without a “Used for:” annotation, content after the definitions, and a separate Sources or References heading; pipe-table header, separator, and row width, empty tables, captions, textual references, and bold leading cells; local Markdown links and heading anchors; curly quotation marks and apostrophes, the ellipsis character, ordinary spaces, hard breaks, tabs, hyphenated number ranges, and double hyphens; and body word counts excluding notes and code.
+
+It does not verify that evidence supports a claim, that a quotation matches its edition, that a scene is documented, that the visual register matches actual assets, that a table fits a typeset page, or that rendered note links and return links work. Those remain Stage 5 and Stage 7 checks. A passing run means the Markdown is structurally sound, not that the chapter is checked.
+
+Report codes such as `note-missing-definition` and `table-ragged` are stable identifiers and may be cited in review notes. `INFO` findings, such as an uncaptioned planning table, are reported but never fail the run. The checker’s own tests live in `tools/test_check_book.py`; run them with:
+
+```bash
+python3 -m unittest discover -s tools -p 'test_*.py'
+```
+
 ## 2. The writing process: plan → seed → research → draft → check → integrate → release
 
 These are separate writing steps with saved outputs. Do not turn a short outline into supposedly finished prose in one pass. For a new book, finish the complete book plan before seeding files, and seed every file before expanding individual chapters. For an existing book, audit and reconcile the plan before resuming the relevant stage; do not destroy existing prose to recreate an earlier stage.
@@ -294,6 +317,7 @@ Before calling a chapter checked, complete every applicable item. Whole-book ite
 - [ ] **Language and sound:** terminology, names, tense, spelling, quotation marks, dashes, ellipses, and emphasis follow §6. Cadence has been checked; repetitions and mechanical scaffolding have been cut.
 - [ ] **Notes and citations:** citations, explanations, qualifications, and editorial questions appear in one named-footnote list, ordered by first reference; no separate Sources or citation list remains. Editorial questions are resolved or remain declared blockers, permanent citations are retained, and Further Reading is not being used as an evidence ledger.
 - [ ] **Integration:** Introduction, README, chapter claims, appendices, recurring datasets, and visual counts agree; no obsolete second outline or contradictory register is being maintained.
+- [ ] **Structural checks:** `python3 tools/check_book.py --strict` passes, or every reported error and warning is resolved or declared as a blocker. This does not replace the evidence, quotation, scene, visual, or rendering checks above.
 - [ ] **Rendering and budget:** available builds pass without unresolved warnings; the combined notes, citation/return links, tables, images, and emphasis have been inspected; measured length has been reconciled with the budget. Unavailable checks are reported, not asserted as passed.
 
 ## 8. Web research with TinyFish
