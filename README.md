@@ -66,15 +66,15 @@ The 56 manuscript files below are the complete Stage 2 seed set: one Introductio
 
 The repository held only `README.md`, `AGENTS.md`, `metadata.yaml`, and `LICENSE` when seeding began; it contained no manuscript files. References in the copied entries to “the existing draft,” and register locations described as “existing,” are therefore inherited Stage 1 planning language and plan targets, not evidence that those sections are present. Stage 3 must establish or replace them.
 
-The status vocabulary is `planned`, `seeded`, `researched`, `drafted`, `checked`, and `integrated`. All 56 files are `seeded`. The blocker column names the next gate; each file’s copied entry lists its specific scene, evidence, and visual checks. A substantive later change reopens the affected status.
+The status vocabulary is `planned`, `seeded`, `researched`, `drafted`, `checked`, and `integrated`. All 56 files are `seeded` except the Introduction, which is `researched` as a Stage 3 outline. The blocker column names the next gate; each file’s copied entry lists its specific scene, evidence, and visual checks. A substantive later change reopens the affected status.
 
-**Stage 2 exit check (October 29, 2026):** 56 files exist; there are exactly 50 numbered chapter files; every file contains its README entry rather than a title alone; and every copied body matches the README text.
+**Stage 2 exit check (October 29, 2026):** 56 files exist; there are exactly 50 numbered chapter files; every file contains its README entry rather than a title alone; and every copied body matches the README text. The Introduction has since been replaced by its Stage 3 researched outline, so it no longer matches its entry verbatim; its plan remains the README entry above.
 
 ### Introduction and chapters
 
 | File | Title | Pages | Stage | Last review | Review scope | Outstanding blockers |
 |---|---|---|---|---|---|---|
-| **[00-introduction.md](chapters/00-introduction.md)** | Introduction — A Nation in Question | 24 | `seeded` | October 29, 2026 | Stage 2: full README entry copied; title and page allowance promoted. | Stage 3 research; July 4, 2026, ceremony details and every 2025–26 claim require verification. |
+| **[00-introduction.md](chapters/00-introduction.md)** | Introduction — A Nation in Question | 24 | `researched` | October 29, 2026 | Stage 3: researched outline of §§1–9, opening-scene blueprint, page budget, Table 1 draft, and 40 named notes; footnote references and definitions reconciled. | Stage 4 drafting; official Monticello livestream not reviewed; Hofstadter, Foner, Dunbar-Ortiz, White, Cronon, Beckert, Baptist, and Olmstead–Rhode consulted only in excerpt; no build pipeline to measure rendered length. |
 | **[01-chapter-1.md](chapters/01-chapter-1.md)** | Chapter 1. The First Americans (to 1500 CE) | 19 | `seeded` | October 29, 2026 | Stage 2: full README entry copied; title and page allowance promoted. | Stage 3 research; dates, population estimates, and Serpent Mound dating open. |
 | **[02-chapter-2.md](chapters/02-chapter-2.md)** | Chapter 2. Contact, Catastrophe, and Exchange (c. 1000–1551) | 18 | `seeded` | October 29, 2026 | Stage 2: full README entry copied; title and page allowance promoted. | Stage 3 research; regional mortality estimates and epidemic identification open. |
 | **[03-chapter-3.md](chapters/03-chapter-3.md)** | Chapter 3. Native North America in the Age of Contact (1500–1620) | 18 | `seeded` | October 29, 2026 | Stage 2: full README entry copied; title and page allowance promoted. | Stage 3 research; Two Row Wampum dating, confederacy chronology, and Hiawatha Belt rights open. |
