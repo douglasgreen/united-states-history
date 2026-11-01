@@ -8,7 +8,7 @@ Appendix A is a documentary appendix, not an anthology of complete texts. Each s
 
 The list is not a canon. It includes founding texts and documents that record coercion, exclusion, and dissent, and the pairing is deliberate. A document may be central to the national story and still be wrong about who belongs to the nation. Each headnote identifies the document’s claim and its limits, and each source note records the edition actually consulted.
 
-Spelling, capitalization, and punctuation are preserved from the identified edition. Omissions within an excerpt are marked with a spaced ellipsis. Insertions and explanatory words are enclosed in square brackets. Double hyphens in a source are rendered as spaced em dashes, em dashes are set in the book’s spaced style, and straight quotation marks and apostrophes are rendered in the book’s typography; these are typographic normalizations, not silent modernizations of wording. Quotations are checked against the source named in the note, not against a memory of the text; where collation is incomplete, the note says so.
+Spelling, capitalization, and punctuation are preserved from the identified edition. Omissions within an excerpt are marked with a spaced ellipsis. Insertions and explanatory words are enclosed in square brackets. Double hyphens in a source are rendered as spaced em dashes, em dashes are set in the book’s spaced style, and straight quotation marks and apostrophes are rendered in the book’s typography; these are typographic normalizations, not silent modernizations of wording. Convenience transcriptions are not treated as authoritative; textual notes are confined to the text and dating of the excerpt. Quotations are checked against the source named in the note, not against a memory of the text; where collation is incomplete, the note says so.
 
 The thirty selections below are a working draft. Editorial notes beginning “Editorial check” are tasks for the editor, not reader-facing commentary. They record what has been collated, what remains uncertain, and what must be resolved before the appendix can be called checked. The allowance is 34 pages; the measured length will be confirmed in typesetting.
 
@@ -36,7 +36,7 @@ Textual note: The 1838 printing reads “the Lord make it likely that of New Eng
 
 ## 3. Virginia’s Maternal-Status Statute (1662)
 
-Virginia’s General Assembly passed Act XII in December 1662, among a series of laws that defined bondage and freedom in the colony. The act reversed the English common-law presumption that a child’s status followed the father’s and declared that children born in Virginia would be “bond or free only according to the condition of the mother.” The operative clause used “bond or free” rather than “slave,” but the act made enslaved status heritable through women and gave planters a legal means to reproduce their labor force. The act addressed the colony’s magistrates, planters, and county courts, which enforced its terms. The text below follows the 1823 printing of Hening’s *Statutes at Large*; the 1684 collection known as “Purvis” prints the act with different wording and capitalization, recorded in the textual note.[^app-a-virginia-statute]
+Virginia’s General Assembly passed Act XII in December 1662, among a series of laws that defined bondage and freedom in the colony. The act reversed the English common-law presumption that a child’s status followed the father’s and declared that children born in Virginia would be “bond or free only according to the condition of the mother.” The operative clause used “bond or free” rather than “slave,” but the act made enslaved status heritable through women and gave planters a legal means to reproduce their labor force. The act addressed the colony’s magistrates, planters, and county courts, which enforced its terms. The text below follows the 1823 printing of Hening’s *Statutes at Large*; the 1684 collection known as “Purvis” prints the act with two substantive variants, recorded in the textual note.[^app-a-virginia-statute]
 
 > ACT XII.
 >
@@ -46,7 +46,7 @@ Virginia’s General Assembly passed Act XII in December 1662, among a series of
 
 Source: Hening’s *Statutes at Large*, vol. 2, p. 170 (New York, 1823), page image; the Gilder Lehrman transcription was also consulted.[^app-a-virginia-statute]
 
-Textual note: The earliest printed text of the act consulted for this appendix is in the collection known as “Purvis,” *A Complete Collection of All the Lawes of Virginia Now in Force* (London, 1684), p. 111. Its spelling and capitalization differ at many points, and it has two substantive variants: it omits Hening’s “only” after “bond or free,” and it reads “Fines imposed on Fornication by the former Act” where Hening reads “ffines imposed by the former act.” Its heading is “An Act for Mulatto Children, being bound or free according to Condition of the Mother,” not Hening’s “Negro womens children to serve according to the condition of the mother.” Hening’s marginal note cites “Purvis 111,” but his “Various Readings” discusses the title and the manuscript tradition, not these variants. The appendix follows Hening’s 1823 text; the Purvis readings are recorded, not adopted. Neither printing has been collated against the manuscript act.[^app-a-virginia-variants]
+Textual note: The earliest printed text of the act consulted for this appendix is in the collection known as “Purvis,” *A Complete Collection of All the Lawes of Virginia Now in Force* (London, 1684), p. 111. It has two substantive variants: it omits Hening’s “only” after “bond or free,” and it reads “Fines imposed on Fornication by the former Act” where Hening reads “ffines imposed by the former act.” Its heading is “An Act for Mulatto Children, being bound or free according to Condition of the Mother,” not Hening’s “Negro womens children to serve according to the condition of the mother.” Hening’s marginal note cites “Purvis 111,” but his “Various Readings” discusses the title and the manuscript tradition, not these variants. The appendix follows Hening’s 1823 text; the Purvis readings are recorded, not adopted. Neither printing has been collated against the manuscript act.[^app-a-virginia-variants]
 
 ## 4. The Declaration of Independence (1776)
 
@@ -66,7 +66,7 @@ Article I, Section 2, clause 3 — the three-fifths clause — was adopted by th
 
 Source: The National Archives transcription of the Constitution parchment.[^app-a-constitution]
 
-Textual note: The NARA transcription follows the parchment; the supplied working text differs at “Rhode-Island” outside the excerpt. The excerpt is confined to the clause and the enumeration sentence, where the two texts agree.[^app-a-constitution-text]
+Textual note: The clause’s capitalization and the phrase “three fifths” vary among printings; the appendix follows the NARA transcription of the parchment.[^app-a-constitution-text]
 
 ## 6. James Madison, “Federalist No. 10” (1787)
 
@@ -80,7 +80,7 @@ Textual note: The NARA transcription follows the parchment; the supplied working
 
 Source: The Avalon Project’s transcription of *The Federalist* No. 10.[^app-a-federalist]
 
-Textual note: The Avalon transcription reads “wellconstructed” as one word at the opening, outside this excerpt, and “adversed” in the definition of faction; the Documentary History of the Ratification transcription reads “well constructed” and “adverse.” The appendix follows Avalon for the excerpt and records the variants.[^app-a-federalist-date]
+Textual note: The Avalon transcription reads “adversed” in the definition of faction; the Documentary History of the Ratification transcription reads “adverse.” The appendix follows Avalon for the excerpt.[^app-a-federalist-date]
 
 ## 7. The Cherokee Memorial (1829)
 
@@ -92,7 +92,7 @@ In December 1829 the Cherokee Nation addressed a memorial to the Senate and Hous
 
 Source: The U.S. House of Representatives History, Art & Archives entry on the memorial, citing National Archives and Records Administration record NAID 306680.[^app-a-cherokee]
 
-Textual note: The working transcription differs from the Wikisource transcription at several points (for example, “This it has happened” versus “Thus it has happened”); it has not been collated against the National Archives images. The appendix prints the working text and marks the collation as an editorial check.[^app-a-cherokee-text]
+Textual note: The working transcription reads “the people” where the Wikisource transcription reads “a people”; the appendix follows the working text and has not been collated against the National Archives images.[^app-a-cherokee-text]
 
 ## 8. The Declaration of Sentiments (1848)
 
@@ -106,7 +106,7 @@ The Declaration of Sentiments was adopted at the woman’s rights convention at 
 
 Source: The National Park Service transcription of the 1848 *Report of the Woman’s Rights Convention*.[^app-a-sentiments]
 
-Textual note: The NPS report text is the 1848 Rochester printing; the appendix follows it, including “inalienable” and “shown.” The supplied working text matches this printing.[^app-a-sentiments-report]
+Textual note: The NPS report text is the 1848 Rochester printing; the appendix follows it.[^app-a-sentiments-report]
 
 ## 9. *Dred Scott v. Sandford* (1857)
 
@@ -117,8 +117,6 @@ Textual note: The NPS report text is the 1848 Rochester printing; the appendix f
 > This opinion was at that time fixed and universal in the civilized portion of the white race.
 
 Source: *Dred Scott v. Sandford*, 60 U.S. (19 How.) 393, 407 (1857), U.S. Reports.[^app-a-dred-scott]
-
-Textual note: The U.S. Reports spelling is “Sandford”; the defendant’s family name is usually spelled “Sanford.” The appendix keeps the report’s spelling in the case name and notes the variant.[^app-a-dred-scott-name]
 
 ## 10. Mississippi’s Declaration of Causes of Secession (1861)
 
@@ -144,8 +142,6 @@ Abraham Lincoln issued the Emancipation Proclamation on January 1, 1863, after t
 
 Source: The National Archives transcription of the signed proclamation.[^app-a-emancipation]
 
-Textual note: The NARA transcript preserves the proclamation’s spelling and punctuation, including “self-defence” in the paragraph on violence and the bracketed “)” after Portsmouth in the list of excepted Virginia counties; the excerpt omits both passages and does not reproduce those accidentals.[^app-a-emancipation-text]
-
 ## 12. Abraham Lincoln, “Gettysburg Address” (1863)
 
 Abraham Lincoln delivered the Gettysburg Address on November 19, 1863, at the dedication of the Soldiers’ National Cemetery in Gettysburg, Pennsylvania. The speech followed Edward Everett’s two-hour oration and lasted about two minutes. It reframed the war as a test of whether a nation “conceived in liberty” and “dedicated to the proposition that all men are created equal” could survive, and it called for a “new birth of freedom.” Five manuscript copies survive, with small differences in punctuation and wording; the text here is a printed broadside in the Library of Congress’s Printed Ephemera Collection, which follows the Bliss version. The address’s universal language should be read alongside the Union’s war aims and the unfinished struggle over slavery and citizenship.[^app-a-gettysburg]
@@ -168,7 +164,7 @@ Congress proposed the Fourteenth Amendment on June 13, 1866; the states ratified
 
 Source: The Cornell Legal Information Institute transcription of Section 1, with passage and ratification dates from the National Archives.[^app-a-fourteenth]
 
-Textual note: Cornell lowercases “state”; the National Archives transcript capitalizes “State.” The appendix follows the supplied working text (Cornell) and records the variant.[^app-a-fourteenth-text]
+Textual note: Cornell lowercases “state”; the National Archives transcript capitalizes “State.” The appendix follows the Cornell transcription and records the variant.[^app-a-fourteenth-text]
 
 ## 14. The Dawes Act (1887)
 
@@ -190,7 +186,7 @@ Congress passed the Dawes Act, or General Allotment Act, on February 8, 1887, to
 
 Source: The National Archives transcription of the act at 24 Stat. 388–91.[^app-a-dawes]
 
-Textual note: The NARA transcript contains OCR errors outside the excerpt (“eight-six,” “arc located,” “his act,” “shall permitted”); the excerpt is confined to passages where the text is secure. The whole should be collated against 24 Stat. 388–91 before publication.[^app-a-dawes-text]
+Textual note: The excerpt follows the NARA transcription; it has not been collated against 24 Stat. 388–91.[^app-a-dawes-text]
 
 ## 15. Frederick Jackson Turner, “The Significance of the Frontier in American History” (1893)
 
@@ -215,8 +211,6 @@ Textual note: The AHA text is a short version closer to the 1893 address; the 19
 > The arbitrary separation of citizens, on the basis of race, while they are on a public highway, is a badge of servitude wholly inconsistent with the civil freedom and the equality before the law established by the Constitution. It cannot be justified upon any legal grounds.
 
 Source: *Plessy v. Ferguson*, 163 U.S. 537, 559 (1896), dissenting opinion of Justice John Marshall Harlan.[^app-a-harlan]
-
-Textual note: The supplied working transcription has OCR errors (“does not, I think permit,” “statues,” “color- blind,” “Untied States”); the appendix follows the U.S. Reports text and records the corrections. The “color-blind” passage is at 163 U.S. 559, within the dissent at 552–564.[^app-a-harlan-text]
 
 ## 17. William Jennings Bryan, “Cross of Gold” (1896)
 
@@ -244,7 +238,7 @@ Woodrow Wilson addressed Congress on January 8, 1918, to set out American war ai
 
 Source: The National Archives transcription of Wilson’s January 8, 1918, message to Congress.[^app-a-wilson]
 
-Textual note: The NARA transcript reads “avow nor or at any other time” in the second paragraph, evidently a typographical error for “now or”; the excerpt omits that sentence. The printed *Congressional Record* and *Public Papers* should be collated.[^app-a-wilson-text]
+Textual note: The appendix follows the NARA transcription; the *Congressional Record* and *Public Papers* should be collated.[^app-a-wilson-text]
 
 ## 19. The Immigration Act of 1924
 
@@ -256,7 +250,7 @@ Congress passed the Immigration Act of 1924, also called the Johnson–Reed Act,
 
 Source: The Statutes at Large text of Section 11, 43 Stat. 153, 159–60 (1924).[^app-a-immigration]
 
-Textual note: The working text supplied for this selection omits Sections 6–12, so the quota excerpt is taken from the full statute. The 1929 national-origins quotas were fixed by proclamation under the act; do not conflate them with the 1924 interim quotas.[^app-a-immigration-text]
+Textual note: The 1929 national-origins quotas were fixed by proclamation under the act; do not conflate them with the 1924 interim quotas.[^app-a-immigration-text]
 
 ## 20. Franklin D. Roosevelt’s First Inaugural Address (1933)
 
@@ -301,7 +295,7 @@ The Social Security Act, signed August 14, 1935, created a federal old-age insur
 
 Source: The Social Security Administration’s transcription of the original 1935 Act.[^app-a-social-security]
 
-Textual note: The SSA transcript renders some fractions as “3 « per centum” in Sections 203–206; the excerpt avoids those passages. The 1935 Act was amended in 1939; the appendix uses the original text, and the $3,000 wage cap and $85 maximum are not current law.[^app-a-social-security-text]
+Textual note: The 1935 Act was amended in 1939; the appendix uses the original text, and the $3,000 wage cap and $85 maximum are not current law.[^app-a-social-security-text]
 
 ## 22. Executive Order 9066 (1942)
 
@@ -363,7 +357,7 @@ President Harry S. Truman signed Executive Order 9835 on March 21, 1947, creatin
 
 Source: The Harry S. Truman Library’s transcription of the order.[^app-a-eo9835]
 
-Textual note: The Truman Library transcript has OCR errors (“statues,” “Untied States,” “haring”); the excerpt is confined to passages where the text is secure. The order’s standard is “reasonable grounds,” not proof of membership or espionage.[^app-a-eo9835-text]
+Textual note: The order’s standard is “reasonable grounds,” not proof of membership or espionage.[^app-a-eo9835-text]
 
 ## 25. *Brown v. Board of Education* (1954)
 
@@ -377,7 +371,7 @@ Textual note: The Truman Library transcript has OCR errors (“statues,” “Un
 
 Source: *Brown v. Board of Education of Topeka*, 347 U.S. 483, 493–95 (1954), U.S. Reports.[^app-a-brown]
 
-Textual note: The supplied working text has OCR errors (e.g., “Plessy v. Fergson”); the appendix follows the U.S. Reports text. The excerpt is at 347 U.S. 483, 493–95; *Brown II*, 349 U.S. 294 (1955), is a separate decision.[^app-a-brown-text]
+Textual note: The appendix follows the U.S. Reports text. The excerpt is at 347 U.S. 483, 493–95; *Brown II*, 349 U.S. 294 (1955), is a separate decision.[^app-a-brown-text]
 
 ## 26. Martin Luther King Jr., “Letter from Birmingham Jail” (1963)
 
@@ -401,7 +395,7 @@ Congress passed the Gulf of Tonkin Resolution on August 7, 1964, after reports t
 
 Source: The National Archives transcription of the joint resolution.[^app-a-tonkin]
 
-Textual note: The NARA transcript reads “to protest their freedom” in the preamble, evidently a typographical error for “protect”; the excerpt omits that clause. The resolution’s adoption and signing dates differ; the headnote gives both.[^app-a-tonkin-text]
+Textual note: The resolution’s adoption and signing dates differ; the headnote gives both.[^app-a-tonkin-text]
 
 ## 28. Voting Rights Act, Section 4 (1965)
 
@@ -415,7 +409,7 @@ The Voting Rights Act, signed August 6, 1965, suspended literacy tests and other
 
 Source: The National Archives transcription of Section 4 of the act.[^app-a-voting-rights]
 
-Textual note: The NARA transcript reads “such determinations” and “percentum”; the supplied working text reads “such determination,” “less that,” and “per centum.” The appendix follows NARA and records the variants.[^app-a-voting-rights-text]
+Textual note: The appendix follows the NARA transcription.[^app-a-voting-rights-text]
 
 ## 29. The Authorization for Use of Military Force (2001)
 
@@ -453,7 +447,7 @@ The appendix is drafted, not checked. All thirty selections are transcribed, hea
 
 ### Selections 1–10
 
-- Collate the Cherokee memorial against the National Archives images (NAID 306680) and the contemporary *Cherokee Phoenix* printing. Resolve at least “This it has happened” versus “Thus it has happened,” “the people” versus “a people,” and “protests” versus “protest.”
+- Collate the Cherokee memorial against the National Archives images (NAID 306680) and the contemporary *Cherokee Phoenix* printing, and resolve “the people” versus “a people.”
 - Fix the Declaration’s copy. The excerpt follows the Dunlap broadside as transcribed by the *Papers of Thomas Jefferson*. Confirm “Happiness — That” and “Pursuit” against the Scheide Library copy, and do not mix broadside and parchment readings.
 - Collate the Winthrop excerpt against the Winthrop Papers manuscript at the Massachusetts Historical Society. Decide whether the appendix prints the 1838 text or the manuscript, and record the “likely” versus “like” variant.
 - Date the Mississippi declaration. The ordinance of secession passed on January 9, 1861, but the declaration’s exact adoption date within the January 7–26 convention is unresolved. Collate the printed *Proceedings* before printing a day.
@@ -464,12 +458,12 @@ The appendix is drafted, not checked. All thirty selections are transcribed, hea
 - Emancipation Proclamation: confirm the enrolled parchment and decide whether the preliminary proclamation of September 22, 1862, is a separate selection or only headnote context.
 - Gettysburg Address: identify which manuscript copy the Library of Congress broadside follows, collate the punctuation, and keep the five copies distinct.
 - Fourteenth Amendment: collate Section 1 against the enrolled joint resolution and the National Archives transcript, and resolve the “state”/“State” capitalization.
-- Dawes Act: collate the excerpt against 24 Stat. 388–91, correct the National Archives OCR errors, and decide whether the 1891 and 1906 amendments belong in the headnote or a separate selection.
+- Dawes Act: collate the excerpt against 24 Stat. 388–91, and decide whether the 1891 and 1906 amendments belong in the headnote or a separate selection.
 - Turner: collate the excerpt against the 1893 *Annual Report* and the 1920 book, and decide which text the appendix prints.
-- Harlan: correct the supplied transcription against 163 U.S. 537, 552–564, and decide whether to add Harlan’s restrictive remarks on race so the excerpt is not read as a modern color-blindness argument.
+- Harlan: decide whether to add Harlan’s restrictive remarks on race so the excerpt is not read as a modern color-blindness argument.
 - Bryan: collate the speech against the *Official Proceedings* (1896), pp. 226–234, including punctuation and the reported applause.
-- Wilson: correct “avow nor or” against the *Congressional Record* and the *Public Papers*, and keep the February 11, 1918, address and the treaty drafts separate.
-- Immigration Act: add Sections 6–12 to the working source, collate Section 11 against 43 Stat. 153–69, and verify the 1929 national-origins proclamation before adding its figures.
+- Wilson: confirm the numbering and wording of Points I, V, and XIV, and keep the February 11, 1918, address and the treaty drafts separate.
+- Immigration Act: collate Section 11 against 43 Stat. 153–69, and verify the 1929 national-origins proclamation before adding its figures.
 - Roosevelt: collate the address against the *Public Papers* and the FDR Library reading copy, and confirm the “money changers” and “broad Executive power” passages.
 
 ### Selections 21–30
@@ -477,18 +471,18 @@ The appendix is drafted, not checked. All thirty selections are transcribed, hea
 - Social Security Act: collate the excerpt against 49 Stat. 620, 622–25, confirm the $3,000 wage cap and $85 maximum, and decide whether the 1939 amendments belong in the headnote or a separate selection.
 - Executive Order 9066: confirm the text and 7 Fed. Reg. 1407 citation, and do not imply that the order itself named Japanese Americans or any racial group.
 - United Nations Charter: confirm 59 Stat. 1031 and the British spelling “neighbours,” and distinguish the preamble from Articles 1–2.
-- Executive Order 9835: correct the Truman Library OCR errors, confirm 12 Fed. Reg. 1935, and decide whether to reproduce the full Part V list.
-- *Brown v. Board of Education*: correct “Plessy v. Fergson,” confirm 347 U.S. 493–95, and keep *Brown II* (1955) separate.
+- Executive Order 9835: confirm 12 Fed. Reg. 1935, and decide whether to reproduce the full Part V list.
+- *Brown v. Board of Education*: confirm 347 U.S. 493–95, and keep *Brown II* (1955) separate.
 - “Letter from Birmingham Jail”: identify the version (mimeograph, *Christian Century*, or *Why We Can’t Wait*), collate the supplied web text, and handle the period term “Negro.”
-- Gulf of Tonkin Resolution: correct “to protest their freedom” to “protect” or mark it [sic], distinguish adoption on August 7 from signing on August 10, and verify 78 Stat. 384.
-- Voting Rights Act: collate Section 4 against 79 Stat. 438–39, correct “less that,” “such determination,” and the “percentum” spelling, and update the *Shelby County* note.
+- Gulf of Tonkin Resolution: distinguish adoption on August 7 from signing on August 10, and verify 78 Stat. 384.
+- Voting Rights Act: collate Section 4 against 79 Stat. 438–39, confirm the coverage formula’s 1964 dates, and update the *Shelby County* note.
 - Authorization for Use of Military Force: distinguish the September 12 draft from the final S.J.Res. 23, verify 115 Stat. 224, and note the separate 2014 authorization for the Islamic State.
 - January 6 report: identify the supporting record precisely (the 2:24 p.m. tweet and the White House testimony, including Ivanka Trump’s interview), avoid treating the report as a court judgment, and do not invent a formal minority report.
 
 ### Production
 
 - Confirm the 34-page allowance after typesetting the full thirty selections. The current draft is a working measure, not a page proof.
-- Resolve the Pandoc footnote expansion before release. A smoke render turns the 60 source notes into 90 note items because headnote and source-line references reuse keys; the production build needs a filter that resolves repeated references to one note. This is a book-wide build issue, not a defect in the source list.
+- Resolve the Pandoc footnote expansion before release. A smoke render expands the source notes because headnote and source-line references reuse keys; the production build needs a filter that resolves repeated references to one note. This is a book-wide build issue, not a defect in the source list.
 - Add chapter cross-references when the relevant chapters are checked. Use “see App. A, Selection 11” and similar references at the points where the documents are discussed; do not duplicate the appendix’s headnotes in the chapters.
 - Confirm rights. The thirty documents are public-domain or U.S. government texts. Confirm the status of each image or facsimile if one is later added; the appendix currently reproduces typeset text, not images.
 - Remove this section and all “Editorial check” notes when the checks are complete. Retain the source citations.
@@ -509,25 +503,23 @@ The appendix is drafted, not checked. All thirty selections are transcribed, hea
 
 [^app-a-declaration-text]: Editorial check — the Dunlap text capitalizes “Pursuit” and prints “Happiness—That”; the National Archives transcription of the engrossed parchment reads “pursuit of Happiness” and uses different punctuation. Confirm the Scheide copy’s reading and decide whether the appendix prints the broadside or the parchment. If the appendix prints the broadside, do not silently conform it to the parchment; if it prints the parchment, replace the excerpt and the note together.
 
-[^app-a-constitution]: U.S. Constitution (1787), Article I, Section 2, clause 3, in “The Constitution of the United States: A Transcription,” National Archives and Records Administration, [transcript](https://www.archives.gov/founding-docs/constitution-transcript). Accessed November 1, 2026. Used for: the excerpt and the clause’s text. Limitations: the NARA transcription follows the parchment inscribed by Jacob Shallus; the supplied working text reads “Rhode Island” where NARA reads “Rhode-Island,” outside the excerpt, and the appendix does not reproduce the state-by-state representation list.
+[^app-a-constitution]: U.S. Constitution (1787), Article I, Section 2, clause 3, in “The Constitution of the United States: A Transcription,” National Archives and Records Administration, [transcript](https://www.archives.gov/founding-docs/constitution-transcript). Accessed November 1, 2026. Used for: the excerpt and the clause’s text. Limitations: the NARA transcription follows the parchment inscribed by Jacob Shallus, and the appendix does not reproduce the state-by-state representation list.
 
 [^app-a-constitution-text]: Editorial check — compare the excerpt with the parchment image and with the 1787 Dunlap and McLean printings. The clause’s capitalization and the phrase “three fifths” vary among printings. Confirm the Fourteenth Amendment’s replacement of the clause before retaining the headnote’s final sentence.
 
-[^app-a-federalist]: James Madison, “The Federalist No. 10,” *New York Daily Advertiser*, November 22, 1787, in *The Federalist Papers*, transcribed by the Avalon Project, Yale Law School, [“The Federalist Papers No. 10”](https://avalon.law.yale.edu/18th_century/fed10.asp). The date and newspaper are confirmed by the Documentary History of the Ratification of the Constitution, ed. John P. Kaminski et al. (Charlottesville: University of Virginia Press, 2009), [“Publius: The Federalist 10”](https://archive.csac.history.wisc.edu/Publius_10.pdf). Accessed November 1, 2026. Used for: the excerpt, Madison’s definition of faction, and the essay’s argument about the extended republic. Limitations: the Avalon transcription preserves the eighteenth-century text, including “wellconstructed” and “adversed,” but does not supply a page locator; the Documentary History reads “well constructed” and “adverse,” and the variants are recorded in the textual note.
+[^app-a-federalist]: James Madison, “The Federalist No. 10,” *New York Daily Advertiser*, November 22, 1787, in *The Federalist Papers*, transcribed by the Avalon Project, Yale Law School, [“The Federalist Papers No. 10”](https://avalon.law.yale.edu/18th_century/fed10.asp). The date and newspaper are confirmed by the Documentary History of the Ratification of the Constitution, ed. John P. Kaminski et al. (Charlottesville: University of Virginia Press, 2009), [“Publius: The Federalist 10”](https://archive.csac.history.wisc.edu/Publius_10.pdf). Accessed November 1, 2026. Used for: the excerpt, Madison’s definition of faction, and the essay’s argument about the extended republic. Limitations: the Avalon transcription preserves the eighteenth-century text, including “adversed,” but does not supply a page locator; the Documentary History reads “adverse,” and the variant is recorded in the textual note.
 
 [^app-a-federalist-date]: Editorial check — the *Daily Advertiser* date of November 22, 1787, is confirmed by the Documentary History of the Ratification. Confirm whether the essay also appeared in the *New York Packet* on November 23 before adding a second newspaper to the headnote.
 
 [^app-a-cherokee]: “Memorial of the Cherokees,” Cherokee Nation, December 1829, 21st Congress, U.S. House of Representatives, History, Art & Archives, [“Memorial of the Cherokees”](https://history.house.gov/Records-and-Research/Featured-Content/Cherokee-Memorial/), citing National Archives and Records Administration, NAID 306680. Accessed November 1, 2026. Used for: the document’s date, bilingual form, provenance, tabling on February 8, 1830, and the excerpt. Limitations: the House page reproduces only a short quotation; the full English text used here is a working transcription that has not been collated against the NARA images.
 
-[^app-a-cherokee-text]: Editorial check — collate the working transcription against NARA NAID 306680 and the contemporary *Cherokee Phoenix* printing. Resolve at least “This it has happened” versus “Thus it has happened,” “the people” versus “a people,” “protests” versus “protest,” and the punctuation of the treaties passage. Record every correction; do not print a silently corrected text. Confirm the number and identity of the signers before repeating any count in the headnote.
+[^app-a-cherokee-text]: Editorial check — collate the working transcription against NARA NAID 306680 and the contemporary *Cherokee Phoenix* printing, and resolve “the people” versus “a people.” Confirm the number and identity of the signers before repeating any count in the headnote.
 
 [^app-a-sentiments]: “Declaration of Sentiments,” in *Report of the Woman’s Rights Convention, Held at Seneca Falls, N.Y., July 19th and 20th, 1848* (Rochester: Printed by John Dick at the North Star Office, 1848), transcribed by the National Park Service, Women’s Rights National Historical Park, [“Report of the Woman’s Rights Convention”](https://www.nps.gov/wori/learn/historyculture/report-of-the-womans-rights-convention.htm). Accessed November 1, 2026. Used for: the excerpt, the convention dates, Stanton’s reading of the declaration, and its unanimous adoption on the second day. Limitations: the NPS transcription follows the 1848 tract but does not supply page numbers; the signatures and the resolutions are omitted from the excerpt.
 
-[^app-a-sentiments-report]: Editorial check — compare the NPS transcription with the Library of Congress copy of the 1848 report and with the version in *History of Woman Suffrage*, vol. 1. The texts differ in punctuation and in the list of signers. Confirm Stanton’s role in drafting, and do not attribute the entire text to her without qualification; the report records that she read it and that the convention debated and amended it.
+[^app-a-sentiments-report]: Editorial check — compare the NPS transcription with the Library of Congress copy of the 1848 report and with the version in *History of Woman Suffrage*, vol. 1. Confirm Stanton’s role in drafting, and do not attribute the entire text to her without qualification; the report records that she read it and that the convention debated and amended it.
 
-[^app-a-dred-scott]: *Dred Scott v. Sandford*, 60 U.S. (19 How.) 393, 407 (1857), opinion of Chief Justice Roger B. Taney, U.S. Reports, Library of Congress, [PDF](https://tile.loc.gov/storage-services/service/ll/usrep/usrep060/usrep060393a/usrep060393a.pdf); the passage was checked against the HTML text at [Justia](https://supreme.justia.com/cases/federal/us/60/393/). Accessed November 1, 2026. Used for: the excerpt and the holding that Black Americans were not citizens. Limitations: the excerpt follows the U.S. Reports text; the case name uses “Sandford,” the report’s spelling, although the defendant’s family name is usually spelled “Sanford.”
-
-[^app-a-dred-scott-name]: Editorial check — confirm the defendant’s name. The U.S. Reports style the case “Dred Scott v. John F. A. Sandford”; modern accounts often use “Sanford.” Keep the report’s spelling in the case name and explain the variant in the headnote or a textual note. Also confirm the March 6, 1857, decision date against the journal of the Court.
+[^app-a-dred-scott]: *Dred Scott v. Sandford*, 60 U.S. (19 How.) 393, 407 (1857), opinion of Chief Justice Roger B. Taney, U.S. Reports, Library of Congress, [PDF](https://tile.loc.gov/storage-services/service/ll/usrep/usrep060/usrep060393a/usrep060393a.pdf); the passage was checked against the HTML text at [Justia](https://supreme.justia.com/cases/federal/us/60/393/). Accessed November 1, 2026. Used for: the excerpt and the holding that Black Americans were not citizens. Limitations: the excerpt follows the U.S. Reports text.
 
 [^app-a-mississippi]: “A Declaration of the Immediate Causes which Induce and Justify the Secession of the State of Mississippi from the Federal Union,” printed in *Proceedings of the Mississippi State Convention, Held January 7th to 26th, A.D. 1861* (Jackson, Miss.: Power and Cadwallader, 1861); excerpt follows the Avalon Project transcription, Yale Law School, [“Mississippi Secession”](https://avalon.law.yale.edu/19th_century/csa_missec.asp). Accessed November 1, 2026. Used for: the excerpt and the declaration’s argument that slavery was the state’s central interest. Limitations: the Avalon transcription does not give the declaration’s exact adoption date or a page locator; the convention’s ordinance of secession passed on January 9, 1861, but the declaration’s date within the January 7–26 session remains to be collated against the printed *Proceedings*.
 
@@ -535,39 +527,35 @@ The appendix is drafted, not checked. All thirty selections are transcribed, hea
 
 [^app-a-emancipation]: Abraham Lincoln, “Emancipation Proclamation,” January 1, 1863, Presidential Proclamations, 1791–1991, Record Group 11, General Records of the United States Government, National Archives, [transcript](https://www.archives.gov/milestone-documents/emancipation-proclamation). Accessed November 1, 2026. Used for: the excerpt, the January 1 date, and the proclamation’s limitation to states and parts of states in rebellion. Limitations: the NARA transcript follows the signed proclamation; the preliminary proclamation of September 22, 1862, is a separate document and is not reproduced here.
 
-[^app-a-emancipation-text]: Editorial check — the NARA transcript prints “Portsmouth[)]” in the list of excepted Virginia counties and “sixty three” without a hyphen in the closing date; the excerpt omits the state list and does not reproduce those accidentals. Confirm the enrolled parchment against the NARA images and decide whether to collate the preliminary proclamation as a separate selection or only in the headnote.
-
 [^app-a-gettysburg]: Abraham Lincoln, “Gettysburg Address,” delivered at Gettysburg, Pennsylvania, November 19, 1863, printed broadside, [n.p., n.d.], Printed Ephemera Collection, Rare Book and Special Collections Division, Library of Congress, catalog no. rbpe.24404500, [PDF](https://tile.loc.gov/storage-services/service/rbc/rbpe/rbpe24/rbpe244/24404500/24404500.pdf). The five manuscript copies are described in the Library of Congress exhibition, [“Gettysburg Address”](https://www.loc.gov/exhibits/gettysburg-address/). Accessed November 1, 2026. Used for: the full address and the identification of the printed broadside. Limitations: this is a printed broadside, not one of the five manuscript copies; it follows the Bliss version, and the copies differ in punctuation and wording.
 
 [^app-a-gettysburg-text]: Editorial check — the broadside prints the address inside quotation marks and reads “before us,that” without a space; the appendix omits the enclosing quotation marks and inserts the space. Confirm which manuscript copy the broadside follows (the Bliss text is the standard) and collate the punctuation against the Library of Congress manuscript images before publication.
 
-[^app-a-fourteenth]: U.S. Constitution, Amendment XIV, Section 1, Cornell Legal Information Institute, [“14th Amendment”](https://www.law.cornell.edu/constitution/amendmentxiv); passage and ratification dates from the National Archives, [“14th Amendment to the U.S. Constitution: Civil Rights (1868)”](https://www.archives.gov/milestone-documents/14th-amendment). Accessed November 1, 2026. Used for: the text of Section 1 and the dates of congressional passage (June 13, 1866), ratification (July 9, 1868), and certification (July 28, 1868). Limitations: Cornell lowercases “state” where the NARA transcript capitalizes “State”; the appendix follows the supplied working text.
+[^app-a-fourteenth]: U.S. Constitution, Amendment XIV, Section 1, Cornell Legal Information Institute, [“14th Amendment”](https://www.law.cornell.edu/constitution/amendmentxiv); passage and ratification dates from the National Archives, [“14th Amendment to the U.S. Constitution: Civil Rights (1868)”](https://www.archives.gov/milestone-documents/14th-amendment). Accessed November 1, 2026. Used for: the text of Section 1 and the dates of congressional passage (June 13, 1866), ratification (July 9, 1868), and certification (July 28, 1868). Limitations: Cornell lowercases “state” where the NARA transcript capitalizes “State”; the appendix follows the Cornell transcription.
 
 [^app-a-fourteenth-text]: Editorial check — confirm the capitalization of “state” and “State” against the enrolled joint resolution and the NARA transcription, and distinguish the House resolution of June 16, 1866, from the congressional passage of June 13. The enforcement clauses and later judicial interpretation are outside this excerpt.
 
-[^app-a-dawes]: “An Act to Provide for the Allotment of Lands in Severalty to Indians on the Various Reservations” (Dawes Act), February 8, 1887, 24 Stat. 388–91, transcribed by the National Archives, [“Dawes Act (1887)”](https://www.archives.gov/milestone-documents/dawes-act), citing NADP Document A1887. Accessed November 1, 2026. Used for: the excerpt, the February 8 date, and the allotment, trust, and citizenship provisions. Limitations: the NARA transcript contains OCR errors outside the excerpt (“eight-six,” “arc located,” “his act,” “shall permitted”); the appendix quotes only passages where the text is secure and has not collated the whole against the printed Statutes at Large.
+[^app-a-dawes]: “An Act to Provide for the Allotment of Lands in Severalty to Indians on the Various Reservations” (Dawes Act), February 8, 1887, 24 Stat. 388–91, transcribed by the National Archives, [“Dawes Act (1887)”](https://www.archives.gov/milestone-documents/dawes-act), citing NADP Document A1887. Accessed November 1, 2026. Used for: the excerpt, the February 8 date, and the allotment, trust, and citizenship provisions. Limitations: the appendix has not collated the excerpt against the printed Statutes at Large.
 
-[^app-a-dawes-text]: Editorial check — collate the excerpt against 24 Stat. 388–91 and correct the NARA OCR errors before publication. Decide whether to notice the 1891 and 1906 amendments in the headnote or to print them as a separate selection; do not fold them into the 1887 text. Confirm the acreage and trust-period figures if any are added.
+[^app-a-dawes-text]: Editorial check — collate the excerpt against 24 Stat. 388–91. Decide whether to notice the 1891 and 1906 amendments in the headnote or to print them as a separate selection; do not fold them into the 1887 text. Confirm the acreage and trust-period figures if any are added.
 
 [^app-a-turner]: Frederick Jackson Turner, “The Significance of the Frontier in American History,” address to the American Historical Association, Chicago, 1893, in *Annual Report of the American Historical Association, 1893* (Washington, D.C., 1894), 197–227, edited text at the American Historical Association, [“The Significance of the Frontier in American History”](https://www.historians.org/resource/the-significance-of-the-frontier-in-american-history/). Accessed November 1, 2026. Used for: the excerpt and the 1893 address’s argument about free land and the closing of the frontier. Limitations: the AHA text is a short version closer to the delivered address than the 1920 *The Frontier in American History*; the appendix has not collated it against the 1893 *Annual Report* printing.
 
 [^app-a-turner-text]: Editorial check — collate the excerpt against the 1893 *Annual Report* and the 1920 book version, and decide which text the appendix prints. The 1890 census bulletin’s wording and the “savagery”/“civilization” passage must be checked against the printed report, not only the AHA web edition.
 
-[^app-a-harlan]: *Plessy v. Ferguson*, 163 U.S. 537, 552–564, at 559 (1896), dissenting opinion of Justice John Marshall Harlan, U.S. Reports, Library of Congress, [PDF](https://tile.loc.gov/storage-services/service/ll/usrep/usrep163/usrep163537/usrep163537.pdf); text also at [Justia](https://supreme.justia.com/cases/federal/us/163/537/). Accessed November 1, 2026. Used for: the excerpt and the “color-blind” passage. Limitations: the supplied working transcription from americainclass.org contains OCR errors and omissions; the appendix follows the U.S. Reports text.
-
-[^app-a-harlan-text]: Editorial check — correct the supplied transcription’s “does not, I think permit,” “statues,” “color- blind,” and “Untied States” against 163 U.S. 537, 552–564. Confirm the page locator for the “color-blind” passage (163 U.S. 559) and decide whether to add Harlan’s restrictive remarks on race and social equality so the excerpt is not read as a modern color-blindness argument.
+[^app-a-harlan]: *Plessy v. Ferguson*, 163 U.S. 537, 552–564, at 559 (1896), dissenting opinion of Justice John Marshall Harlan, U.S. Reports, Library of Congress, [PDF](https://tile.loc.gov/storage-services/service/ll/usrep/usrep163/usrep163537/usrep163537.pdf); text also at [Justia](https://supreme.justia.com/cases/federal/us/163/537/). Accessed November 1, 2026. Used for: the excerpt and the “color-blind” passage. The appendix follows the U.S. Reports text.
 
 [^app-a-bryan]: William Jennings Bryan, “Cross of Gold,” speech at the Democratic National Convention, Chicago, July 9, 1896, edited text at Teaching American History, [“The Cross of Gold Speech”](https://teachingamericanhistory.org/document/the-cross-of-gold-speech/), citing *Official Proceedings of the Democratic National Convention Held in Chicago, Illinois, July 7–11, 1896* (Logansport, Ind., 1896), 226–234, Library of Congress item 09032448. Accessed November 1, 2026. Used for: the excerpt and the July 9 delivery date. Limitations: the web edition is an abridged transcript; punctuation and the reported applause should be collated against the *Official Proceedings*.
 
 [^app-a-bryan-text]: Editorial check — collate the excerpt against the *Official Proceedings*, pp. 226–234, and decide whether to include the convention’s interruptions and applause. Confirm Bryan’s nomination on the fifth ballot and the speech’s position in the platform debate before adding either to the headnote.
 
-[^app-a-wilson]: Woodrow Wilson, “President Wilson’s Message to Congress,” January 8, 1918, Records of the United States Senate, Record Group 46, National Archives, [transcript](https://www.archives.gov/milestone-documents/president-woodrow-wilsons-14-points). Accessed November 1, 2026. Used for: the excerpt, the January 8 date, and the text of Points I, V, and XIV. Limitations: the NARA transcript reads “avow nor or” in the second paragraph, evidently a typographical error for “now or”; the excerpt omits that sentence. The *Congressional Record* and *Public Papers* should be collated.
+[^app-a-wilson]: Woodrow Wilson, “President Wilson’s Message to Congress,” January 8, 1918, Records of the United States Senate, Record Group 46, National Archives, [transcript](https://www.archives.gov/milestone-documents/president-woodrow-wilsons-14-points). Accessed November 1, 2026. Used for: the excerpt, the January 8 date, and the text of Points I, V, and XIV. Limitations: the *Congressional Record* and *Public Papers* should be collated.
 
-[^app-a-wilson-text]: Editorial check — correct “avow nor or” against the *Congressional Record* and the *Public Papers*, and confirm the numbering and wording of Points I, V, and XIV. Decide whether to include the February 11, 1918, address or the treaty drafts; they are separate documents and should not be folded into this selection.
+[^app-a-wilson-text]: Editorial check — confirm the numbering and wording of Points I, V, and XIV against the *Congressional Record* and the *Public Papers*. Decide whether to include the February 11, 1918, address or the treaty drafts; they are separate documents and should not be folded into this selection.
 
-[^app-a-immigration]: Immigration Act of 1924 (Johnson–Reed Act), May 26, 1924, 43 Stat. 153, 159–60, Section 11, [Statutes at Large PDF](https://www.govinfo.gov/content/pkg/STATUTE-43/pdf/STATUTE-43-Pg153-2.pdf). The working excerpt supplied for this selection is at Digital History, [“Immigration Restriction Act of 1924”](https://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=3&psid=1116). Accessed November 1, 2026. Used for: the Section 11 quota formula and the May 26 date. Limitations: the supplied working text omits Sections 6–12, so the quota excerpt is taken from the full statute; the 1929 national-origins quotas were fixed by proclamation and should not be conflated with the 1924 interim quotas.
+[^app-a-immigration]: Immigration Act of 1924 (Johnson–Reed Act), May 26, 1924, 43 Stat. 153, 159–60, Section 11, [Statutes at Large PDF](https://www.govinfo.gov/content/pkg/STATUTE-43/pdf/STATUTE-43-Pg153-2.pdf). Accessed November 1, 2026. Used for: the Section 11 quota formula and the May 26 date. Limitations: the 1929 national-origins quotas were fixed by proclamation and should not be conflated with the 1924 interim quotas.
 
-[^app-a-immigration-text]: Editorial check — add Sections 6–12 to the working source and collate the quota text against 43 Stat. 153–69. Verify the 1929 national-origins proclamation and the total quota figures before adding them to the headnote. Distinguish the 1924 interim 2 percent formula from the 1927/1929 national-origins system.
+[^app-a-immigration-text]: Editorial check — collate the quota text against 43 Stat. 153–69. Verify the 1929 national-origins proclamation and the total quota figures before adding them to the headnote. Distinguish the 1924 interim 2 percent formula from the 1927/1929 national-origins system.
 
 [^app-a-roosevelt]: Franklin D. Roosevelt, “First Inaugural Address,” March 4, 1933, transcribed by the Avalon Project, Yale Law School, [“First Inaugural Address of Franklin D. Roosevelt”](https://avalon.law.yale.edu/20th_century/froos1.asp). Accessed November 1, 2026. Used for: the excerpt and the March 4 date. Limitations: the Avalon transcription prints two hyphens after “fear itself” and has not been collated against the *Public Papers* or the FDR Library reading copy.
 
@@ -575,7 +563,7 @@ The appendix is drafted, not checked. All thirty selections are transcribed, hea
 
 [^app-a-social-security]: “The Social Security Act,” Act of August 14, 1935, P.L. 74-271, 49 Stat. 620, Title II, §§202, 210, transcribed by the Social Security Administration, [“Social Security Act of 1935”](https://www.ssa.gov/history/35act.html). Accessed November 1, 2026. Used for: the excerpt, the August 14 date, and the exclusions in §210. Limitations: the SSA transcript is the original 1935 Act; the 1939 amendments changed the benefit formula, and the page locators 49 Stat. 620, 622–25 should be checked against the printed Statutes at Large.
 
-[^app-a-social-security-text]: Editorial check — the SSA transcript renders some fractions as “3 « per centum” in Sections 203–206; the excerpt avoids those passages. Confirm the $3,000 wage cap and $85 maximum against 49 Stat. 622–25, and decide whether the 1939 amendments belong in the headnote or a separate selection. The figures are not current law.
+[^app-a-social-security-text]: Editorial check — confirm the $3,000 wage cap and $85 maximum against 49 Stat. 622–25, and decide whether the 1939 amendments belong in the headnote or a separate selection. The figures are not current law.
 
 [^app-a-eo9066]: Franklin D. Roosevelt, Executive Order 9066, February 19, 1942, 7 Fed. Reg. 1407, General Records of the United States Government, Record Group 11, National Archives, [transcript](https://www.archives.gov/milestone-documents/executive-order-9066). Accessed November 1, 2026. Used for: the excerpt, the February 19 date, and the delegation of authority to the Secretary of War. Limitations: the order does not name Japanese Americans or any racial group; the removal and incarceration were carried out under subsequent proclamations and statutes, which are not reproduced here.
 
@@ -585,25 +573,25 @@ The appendix is drafted, not checked. All thirty selections are transcribed, hea
 
 [^app-a-un-charter-text]: Editorial check — confirm 59 Stat. 1031 and the preamble’s capitalization against the signed Charter. Distinguish the preamble from Articles 1 and 2, where the purposes and principles are stated, and decide whether to note the Senate’s 1945 ratification vote.
 
-[^app-a-eo9835]: Harry S. Truman, Executive Order 9835, March 21, 1947, 12 Fed. Reg. 1935, [transcript](https://www.trumanlibrary.gov/library/executive-orders/9835/executive-order-9835). Accessed November 1, 2026. Used for: the excerpt, the March 21 date, and the “reasonable grounds” standard. Limitations: the Truman Library transcript contains OCR errors (“statues,” “Untied States,” “haring”); the excerpt is confined to passages where the text is secure, and the order’s operation is not evidence of the number or outcome of the cases.
+[^app-a-eo9835]: Harry S. Truman, Executive Order 9835, March 21, 1947, 12 Fed. Reg. 1935, [transcript](https://www.trumanlibrary.gov/library/executive-orders/9835/executive-order-9835). Accessed November 1, 2026. Used for: the excerpt, the March 21 date, and the “reasonable grounds” standard. Limitations: the order’s operation is not evidence of the number or outcome of the cases.
 
-[^app-a-eo9835-text]: Editorial check — correct the Truman Library OCR errors and confirm 12 Fed. Reg. 1935 against the printed order. Decide whether to reproduce the full Part V list and whether to add the program’s case totals and dismissal figures, which require a separate source.
+[^app-a-eo9835-text]: Editorial check — confirm 12 Fed. Reg. 1935 against the printed order. Decide whether to reproduce the full Part V list and whether to add the program’s case totals and dismissal figures, which require a separate source.
 
-[^app-a-brown]: *Brown v. Board of Education of Topeka*, 347 U.S. 483, 493–95 (1954), opinion of Chief Justice Earl Warren, U.S. Reports, Library of Congress, [PDF](https://tile.loc.gov/storage-services/service/ll/usrep/usrep347/usrep347483/usrep347483.pdf). Accessed November 1, 2026. Used for: the excerpt and the holding that separate educational facilities are inherently unequal. Limitations: the supplied working text has OCR errors (e.g., “Plessy v. Fergson”); the appendix follows the U.S. Reports text. *Brown II*, 349 U.S. 294 (1955), is a separate decision and is not reproduced.
+[^app-a-brown]: *Brown v. Board of Education of Topeka*, 347 U.S. 483, 493–95 (1954), opinion of Chief Justice Earl Warren, U.S. Reports, Library of Congress, [PDF](https://tile.loc.gov/storage-services/service/ll/usrep/usrep347/usrep347483/usrep347483.pdf). Accessed November 1, 2026. Used for: the excerpt and the holding that separate educational facilities are inherently unequal. Limitations: the appendix follows the U.S. Reports text. *Brown II*, 349 U.S. 294 (1955), is a separate decision and is not reproduced.
 
-[^app-a-brown-text]: Editorial check — correct “Plessy v. Fergson” and confirm the excerpt at 347 U.S. 493–95 against the U.S. Reports. Decide whether to quote the Kansas finding in full and whether to add *Brown II* as a separate selection. Do not merge the remedy into the 1954 holding.
+[^app-a-brown-text]: Editorial check — confirm the excerpt at 347 U.S. 493–95 against the U.S. Reports. Decide whether to quote the Kansas finding in full and whether to add *Brown II* as a separate selection. Do not merge the remedy into the 1954 holding.
 
 [^app-a-king-letter]: Martin Luther King Jr., “Letter from Birmingham Jail,” April 16, 1963, text at [“Letter from Birmingham Jail”](https://letterfromjail.com/); publication history from the Martin Luther King, Jr. Research and Education Institute, [“‘Letter from Birmingham Jail’”](https://kinginstitute.stanford.edu/letter-birmingham-jail). Accessed November 1, 2026. Used for: the excerpt, the April 16 date, and the letter’s publication in *Christian Century* and *Why We Can’t Wait*. Limitations: the letter exists in multiple versions; the supplied web text is the long text and has not been collated against the King papers or the 1964 book.
 
 [^app-a-king-letter-text]: Editorial check — identify the version (mimeograph, *Christian Century* excerpts, or *Why We Can’t Wait*) and collate the supplied web text against the King Institute’s edition and the 1964 book. The period term “Negro” is retained in quotation; decide whether the headnote needs a fuller explanation of the letter’s publication history. Add page locators when the version is fixed.
 
-[^app-a-tonkin]: Tonkin Gulf Resolution, P.L. 88-408, August 7, 1964, 78 Stat. 384, General Records of the United States Government, Record Group 11, National Archives, [transcript](https://www.archives.gov/milestone-documents/tonkin-gulf-resolution). Accessed November 1, 2026. Used for: the excerpt, the August 7 adoption, and the authorization to take “all necessary measures.” Limitations: the NARA transcript reads “to protest their freedom” in the preamble, evidently a typographical error for “protect”; the excerpt omits that clause. President Johnson signed the resolution on August 10, 1964.
+[^app-a-tonkin]: Tonkin Gulf Resolution, P.L. 88-408, August 7, 1964, 78 Stat. 384, General Records of the United States Government, Record Group 11, National Archives, [transcript](https://www.archives.gov/milestone-documents/tonkin-gulf-resolution). Accessed November 1, 2026. Used for: the excerpt, the August 7 adoption, and the authorization to take “all necessary measures.” Limitations: the excerpt omits the preamble. President Johnson signed the resolution on August 10, 1964.
 
-[^app-a-tonkin-text]: Editorial check — correct “to protest their freedom” to “protect” or mark it [sic], and confirm the resolution’s text and 78 Stat. 384 against the Statutes at Large. Distinguish congressional adoption on August 7 from signing on August 10, and verify the Senate (88–2) and House (416–0) votes before repeating them.
+[^app-a-tonkin-text]: Editorial check — confirm the resolution’s text and 78 Stat. 384 against the Statutes at Large. Distinguish congressional adoption on August 7 from signing on August 10, and verify the Senate (88–2) and House (416–0) votes before repeating them.
 
-[^app-a-voting-rights]: Voting Rights Act of 1965, P.L. 89-110, August 6, 1965, 79 Stat. 437, 438–39, §4, National Archives, [transcript](https://www.archives.gov/milestone-documents/voting-rights-act). Accessed November 1, 2026. Used for: the excerpt, the August 6 date, and the coverage formula. Limitations: the NARA transcript reads “such determinations” and “percentum”; the supplied working text reads “such determination,” “less that,” and “per centum.” The appendix follows NARA. The 1970, 1975, and 1982 amendments and *Shelby County v. Holder*, 570 U.S. 529 (2013), are outside the excerpt.
+[^app-a-voting-rights]: Voting Rights Act of 1965, P.L. 89-110, August 6, 1965, 79 Stat. 437, 438–39, §4, National Archives, [transcript](https://www.archives.gov/milestone-documents/voting-rights-act). Accessed November 1, 2026. Used for: the excerpt, the August 6 date, and the coverage formula. Limitations: the appendix follows the NARA transcription. The 1970, 1975, and 1982 amendments and *Shelby County v. Holder*, 570 U.S. 529 (2013), are outside the excerpt.
 
-[^app-a-voting-rights-text]: Editorial check — correct “less that” and “such determination” against 79 Stat. 438–39, and confirm the coverage formula’s 1964 dates. Update the *Shelby County* note and do not present the original formula as current law. Decide whether Section 5 belongs in the appendix as a separate excerpt.
+[^app-a-voting-rights-text]: Editorial check — confirm the coverage formula’s 1964 dates against 79 Stat. 438–39. Update the *Shelby County* note and do not present the original formula as current law. Decide whether Section 5 belongs in the appendix as a separate excerpt.
 
 [^app-a-aumf]: Authorization for Use of Military Force, P.L. 107-40, September 18, 2001, 115 Stat. 224, §2, text in Congressional Research Service, [“Authorization for Use of Military Force in Response to the 9/11 Attacks (P.L. 107-40): Legislative History”](https://www.everycrsreport.com/reports/RS22357.html), CRS Report RS22357. Accessed November 1, 2026. Used for: the final enacted text and the September 18 signing date. Limitations: the source file also contains the September 12 White House draft, which is broader than the final text; the excerpt follows the final S.J.Res. 23.
 
