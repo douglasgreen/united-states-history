@@ -70,7 +70,7 @@ Textual note: The clause’s capitalization and the phrase “three fifths” va
 
 ## 6. James Madison, “Federalist No. 10” (1787)
 
-*The Federalist* No. 10 appeared in the *New York Daily Advertiser* on November 22, 1787, over the pseudonym “Publius.” James Madison wrote it to persuade New Yorkers to ratify the Constitution. Its subject is faction — organized interest that threatens the rights of others or the common good — and the extended republic’s capacity to control it. Madison argued that the causes of faction cannot be removed without destroying liberty, so the remedy is to control its effects through representation and a large, diverse republic. The essay is a central text in debates over pluralism and the Constitution’s design. Madison was a slaveholder, and the Union whose stability he defended protected slavery.[^app-a-federalist]
+*The Federalist* No. 10 appeared in the *New York Daily Advertiser* on November 22, 1787, over the pseudonym “Publius.” It was reprinted in the *New York Packet* on November 23 and the *New York Independent Journal* on November 24. James Madison wrote it to persuade New Yorkers to ratify the Constitution. Its subject is faction — organized interest that threatens the rights of others or the common good — and the extended republic’s capacity to control it. Madison argued that the causes of faction cannot be removed without destroying liberty, so the remedy is to control its effects through representation and a large, diverse republic. The essay is a central text in debates over pluralism and the Constitution’s design. Madison was a slaveholder, and the Union whose stability he defended protected slavery.[^app-a-federalist]
 
 > By a faction, I understand a number of citizens, whether amounting to a majority or a minority of the whole, who are united and actuated by some common impulse of passion, or of interest, adversed to the rights of other citizens, or to the permanent and aggregate interests of the community.
 >
@@ -78,9 +78,9 @@ Textual note: The clause’s capitalization and the phrase “three fifths” va
 >
 > The inference to which we are brought is, that the CAUSES of faction cannot be removed, and that relief is only to be sought in the means of controlling its EFFECTS.
 
-Source: The Avalon Project’s transcription of *The Federalist* No. 10.[^app-a-federalist]
+Source: The Avalon Project’s transcription of the *New York Packet* text of *The Federalist* No. 10.[^app-a-federalist]
 
-Textual note: The Avalon transcription reads “adversed” in the definition of faction; the Documentary History of the Ratification transcription reads “adverse.” The appendix follows Avalon for the excerpt.[^app-a-federalist-date]
+Textual note: The Avalon transcription, which is headed “From the New York Packet. Friday, November 23, 1787,” reads “adversed” in the definition of faction; the Documentary History of the Ratification’s *Daily Advertiser* text reads “adverse.” The difference therefore appears to be a variant between the two newspaper printings rather than a transcription error. The three New York printings have not been collated against one another, and the *Independent Journal* text has not been examined. The appendix follows the *Packet* text as transcribed by Avalon.[^app-a-federalist-text]
 
 ## 7. The Cherokee Memorial (1829)
 
@@ -441,10 +441,6 @@ Textual note: The excerpt follows the executive summary’s findings list. The 2
 
 The appendix is drafted, not checked. All thirty selections are transcribed, headnoted, and cited. The following tasks must be completed before the appendix can be integrated.
 
-### Selections 1–10
-
-- Confirm the Federalist reprint. The *Daily Advertiser* date and newspaper are confirmed; check whether No. 10 also appeared in the *New York Packet* on November 23 before adding a second newspaper to the headnote.
-
 ### Selections 11–20
 
 - Emancipation Proclamation: confirm the enrolled parchment and decide whether the preliminary proclamation of September 22, 1862, is a separate selection or only headnote context.
@@ -499,9 +495,9 @@ The appendix is drafted, not checked. All thirty selections are transcribed, hea
 
 [^app-a-constitution-text]: Editorial check — compare the excerpt with the parchment image and with the 1787 Dunlap and McLean printings. The clause’s capitalization and the phrase “three fifths” vary among printings. Confirm the Fourteenth Amendment’s replacement of the clause before retaining the headnote’s final sentence.
 
-[^app-a-federalist]: James Madison, “The Federalist No. 10,” *New York Daily Advertiser*, November 22, 1787, in *The Federalist Papers*, transcribed by the Avalon Project, Yale Law School, [“The Federalist Papers No. 10”](https://avalon.law.yale.edu/18th_century/fed10.asp). The date and newspaper are confirmed by the Documentary History of the Ratification of the Constitution, ed. John P. Kaminski et al. (Charlottesville: University of Virginia Press, 2009), [“Publius: The Federalist 10”](https://archive.csac.history.wisc.edu/Publius_10.pdf). Accessed November 1, 2026. Used for: the excerpt, Madison’s definition of faction, and the essay’s argument about the extended republic. Limitations: the Avalon transcription preserves the eighteenth-century text, including “adversed,” but does not supply a page locator; the Documentary History reads “adverse,” and the variant is recorded in the textual note.
+[^app-a-federalist]: James Madison, “The Federalist No. 10,” *New York Packet*, November 23, 1787, transcribed by the Avalon Project, Yale Law School, [“The Federalist Papers No. 10”](https://avalon.law.yale.edu/18th_century/fed10.asp), headed “From the New York Packet. Friday, November 23, 1787.” Accessed November 1, 2026. The essay had first appeared in the *New York Daily Advertiser* on November 22, 1787, and was also reprinted in the *New York Independent Journal* on November 24; the New York printings are recorded in the Documentary History of the Ratification of the Constitution, ed. John P. Kaminski et al. (Charlottesville: University of Virginia Press, 2009), [“Printings and Reprintings of The Federalist”](https://csac.history.wisc.edu/wp-content/uploads/sites/1026/2023/12/DC6-04-00.1_Printings-and-Reprintings-of-The-Federalist.pdf), Document DC6-04-00.1, entry for No. 10. Accessed November 1, 2026. Used for: the excerpt from the *Packet* text; the first printing in the *Daily Advertiser* on November 22, 1787; the *Packet* and *Independent Journal* reprints; and the essay’s argument about the extended republic. Limitations: the Avalon transcription supplies no page locator; its reading “adversed” and the Documentary History’s “adverse” are recorded in the textual note. The chronology also lists later reprints in the *Pennsylvania Gazette*, the *Hudson Weekly Gazette*, the *Lansingburgh Northern Centinel*, and the *Albany Gazette*, which the headnote does not enumerate.
 
-[^app-a-federalist-date]: Editorial check — the *Daily Advertiser* date of November 22, 1787, is confirmed by the Documentary History of the Ratification. Confirm whether the essay also appeared in the *New York Packet* on November 23 before adding a second newspaper to the headnote.
+[^app-a-federalist-text]: James Madison, “The Federalist No. 10,” *New York Daily Advertiser*, November 22, 1787, in the Documentary History of the Ratification of the Constitution, ed. John P. Kaminski et al. (Charlottesville: University of Virginia Press, 2009), [“Publius: The Federalist 10”](https://archive.csac.history.wisc.edu/Publius_10.pdf), reads “adverse” in the definition of faction; the Avalon transcription of the *New York Packet* text, headed “From the New York Packet. Friday, November 23, 1787,” reads “adversed.” Accessed November 1, 2026. Used for: Selection 6, the collation recorded in the textual note. Limitations: the Documentary History file transcribes the *Daily Advertiser* printing and does not collate the *Packet* or *Independent Journal* texts; the *Independent Journal* printing was not examined for this draft, so the note compares only the *Daily Advertiser* and *Packet* texts.
 
 [^app-a-cherokee]: “Memorial of the Cherokees,” Cherokee Nation, December 1829, 21st Congress, U.S. House of Representatives, History, Art & Archives, [“Memorial of the Cherokees”](https://history.house.gov/Records-and-Research/Featured-Content/Cherokee-Memorial/), citing National Archives and Records Administration, NAID 306680. Accessed November 1, 2026. Used for: the document’s date, bilingual form, provenance, tabling on February 8, 1830, and the excerpt. Limitations: the House page reproduces only a short quotation; the full English text used here is a working transcription that has not been collated against the NARA images.
 
