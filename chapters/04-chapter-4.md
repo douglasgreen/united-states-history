@@ -33,7 +33,7 @@ The outline itself is longer than the planned chapter because it contains eviden
 
 ### Architecture at a glance
 
-1. **Epigraphs.** George Percy’s lament for the Starving Time, John Winthrop’s “citty upon a hill,” and Francis J. Bremer’s statement that the puritans did not come for religious freedom for all. Three voices, not a consensus.
+1. **Epigraphs.** George Percy’s lament for the Starving Time, John Winthrop’s “Citty vpon a Hill,” and Francis J. Bremer’s statement that the puritans did not come for religious freedom for all. Three voices, not a consensus.
 2. **Scene.** The Mayflower Compact: adult men signing a civil body politic at Cape Cod in November 1620, and the fact that no original survives. It ends with the guiding question.
 3. **Framing paragraph.** Years, scope, terms, evidence, and the caution that “freedom” in these colonies was claimed by some at others’ expense.
 4. **Roadmap.** The six movements, stated to match the actual sections.
@@ -60,9 +60,9 @@ The chapter’s exceptions are deliberate: one In Focus box, one registered map,
 >
 > — George Percy, eyewitness narrative of the 1609–1610 winter, quoted in Encyclopedia Virginia, “The Starving Time”[^ch04-starving-time]
 
-> “For wee must consider that wee shall be as a citty upon a hill. The eies of all people are uppon us.”
+> “For wee must Consider that wee shall be as a Citty vpon a Hill, the eies of all people are vppon vs;”
 >
-> — John Winthrop, “A Modell of Christian Charity” (1630), transcript at Hanover College[^ch04-winthrop-model]
+> — John Winthrop, “A Modell of Christian Charity” (1630), *Winthrop Papers* digital edition, Massachusetts Historical Society[^ch04-winthrop-model]
 
 > “The puritans who settled New England in 1630 were not coming to America to promote religious freedom for all, but to achieve for themselves a freedom from the church and civil officials in England who had prevented them from pursuing their faith as they believed God wanted them to.”
 >
@@ -240,15 +240,15 @@ The roadmap (120–180 words) should match the actual sections: “The chapter p
 - **The economic side.** Migration also had an economic dimension. Emigration drew on a mobile English population and on the attraction of land; the Massachusetts economy depended on fishing, shipbuilding, and trade from the start.[^ch04-mass-bay]
 - **The consequence.** The Great Migration created a society of towns whose members had to be admitted, whose ministers had to be supported, and whose boundaries of belief had to be enforced.
 
-### 4.3 Winthrop’s “citty upon a hill” and its manuscript
+### 4.3 Winthrop’s “Citty vpon a Hill” and its manuscript
 
 - **The claim.** Winthrop’s lay sermon is the best-known statement of the colony’s purpose and the most overread. Its single surviving manuscript is not in Winthrop’s hand, its delivery is disputed, and the text as printed may be incomplete.
-- **The text.** The sermon calls on the colonists to be “knitt together, in this worke, as one man,” warns that “if wee shall deale falsely with our God in this worke wee haue undertaken … wee shall be made a story and a by-word through the world,” and concludes that “wee shall be as a citty upon a hill. The eies of all people are uppon us.” The famous line is a warning, not a boast.[^ch04-winthrop-model]
+- **The text.** The sermon calls on the colonists to be “knitt together in this worke as one man,” warns that “if wee shall deale falsely with our god in this worke wee haue vndertaken … wee shall be made a story and a by-word through the world,” and concludes that “wee shall be as a Citty vpon a Hill, the eies of all people are vppon vs.” The famous line is a warning, not a boast.[^ch04-winthrop-model]
 - **The manuscript.** Only one contemporary copy survives, at the New-York Historical Society. It is not in Winthrop’s hand; a pasted-on cover sheet, probably from the nineteenth century, claimed the sermon was written aboard the *Arbella*. Scholars now doubt that attribution.[^ch04-winthrop-manuscript]
 - **The debates.** Abram Van Engen argues that the surviving copy is “corrupt” and may be missing its opening text, which he identifies as Galatians 5:13–14. Daniel Rodgers and Richard Gamble argue the text was a treatise, not a sermon. Jerome McGann argues a layman did not preach it. Francis J. Bremer argues that it was preached, by Winthrop, probably at Southampton before departure, on the same occasion as John Cotton’s departure sermon.[^ch04-winthrop-manuscript]
-- **The rule for the chapter.** The chapter should quote the sermon as a text, explain that its delivery circumstances are contested, and not date the “citty upon a hill” line to a shipboard moment the evidence does not support.[^ch04-check-dating]
+- **The rule for the chapter.** The chapter should quote the sermon as a text, explain that its delivery circumstances are contested, and not date the “Citty vpon a Hill” line to a shipboard moment the evidence does not support.[^ch04-check-dating]
 - **The contract.** The sermon’s argument is that the colony is bound to God by covenant, with blessings for faithfulness and ruin for betrayal. Its social teaching is corporate and unequal: mercy to the poor, submission of the mean, and unity under God’s providence.[^ch04-winthrop-model]
-- **The consequence.** The “citty upon a hill” phrase has become an American civic text while its original meaning — a warning to a covenant people — has narrowed. The chapter should restore the context without dismissing the phrase’s later career.
+- **The consequence.** The “Citty vpon a Hill” phrase has become an American civic text while its original meaning — a warning to a covenant people — has narrowed. The chapter should restore the context without dismissing the phrase’s later career.
 
 ### 4.4 The godly commonwealth
 
@@ -346,7 +346,7 @@ Table 1 compares four positions that organize the debate. The rows are tools for
 
 ## Legacies
 
-The English colonies left two competing origin stories. One begins in 1619, with the first Africans and the first elected assembly in the same year; the other begins in 1620, with the Mayflower Compact and the “citty upon a hill.” The chapter shows that the two stories are inseparable: the Chesapeake’s freedom came with the buying and selling of human beings, and New England’s self-government came with the expulsion of dissenters and the destruction of the Pequot.[^ch04-first-africans][^ch04-mayflower-compact][^ch04-pequot-mystic]
+The English colonies left two competing origin stories. One begins in 1619, with the first Africans and the first elected assembly in the same year; the other begins in 1620, with the Mayflower Compact and the “Citty vpon a Hill.” The chapter shows that the two stories are inseparable: the Chesapeake’s freedom came with the buying and selling of human beings, and New England’s self-government came with the expulsion of dissenters and the destruction of the Pequot.[^ch04-first-africans][^ch04-mayflower-compact][^ch04-pequot-mystic]
 
 The Mayflower Compact’s later career is a study in memory. Invoked as an origin of American self-government, it was in fact a temporary agreement among a few men outside their patent, transmitted through later printings after the loss of its original. Its elevation reflects a national preference for founding documents over the unfinished struggles around them.[^ch04-mayflower-compact][^ch04-check-compact]
 
@@ -371,7 +371,7 @@ The legacies are double, as in earlier chapters. The same decades produced the f
 - The Mayflower Compact (1620) was a civil agreement among adult men outside their patent; its original is lost, and it survives through later printings.[^ch04-mayflower-compact]
 - Plymouth survived through the 1621 Wampanoag alliance and a diversified economy; it sought freedom for its own faith, not for all.[^ch04-check-ch3][^ch04-mass-bay]
 - Massachusetts Bay’s 1629 charter, lacking a residency requirement, let the company become a self-governing commonwealth; about 20,000 puritans migrated in the 1630s.[^ch04-mass-bay]
-- Winthrop’s “citty upon a hill” came from a single, later manuscript copy of a sermon whose delivery is disputed.[^ch04-winthrop-model][^ch04-winthrop-manuscript]
+- Winthrop’s “Citty vpon a Hill” came from a single, later manuscript copy of a sermon whose delivery is disputed.[^ch04-winthrop-model][^ch04-winthrop-manuscript]
 - Roger Williams and Anne Hutchinson were expelled for challenging the colony’s religious authority; their cases defined the godly commonwealth’s boundaries.[^ch04-dissent][^ch04-hutchinson-mhs]
 - The Pequot War ended in the massacre at Mystic, where more than 400 died, and the 1638 Treaty of Hartford dispossessed and enslaved the survivors.[^ch04-pequot-mystic][^ch04-pequot-war]
 
@@ -385,7 +385,7 @@ The legacies are double, as in earlier chapters. The same decades produced the f
 6. Read the Mayflower Compact’s text. What did the signers actually agree to, and what does the document leave out? What can the loss of the original tell you about how historians work?
 7. Was the 1621 Wampanoag alliance a friendship, a treaty, or a temporary bargain? Use at least two sources.
 8. How did Massachusetts Bay’s 1629 charter allow the colony to govern itself, and what limits did the charter place on that self-rule?
-9. Winthrop’s sermon survives in one copy, not in his hand. How should that affect the way a historian uses the “citty upon a hill”?
+9. Winthrop’s sermon survives in one copy, not in his hand. How should that affect the way a historian uses the “Citty vpon a Hill”?
 10. Compare the banishment of Roger Williams with the banishment of Anne Hutchinson. What did each challenge, and what did the colony’s response reveal about its definition of freedom?
 11. How did the Pequot War begin, and what did the 1638 settlement do? Whose accounts of the war survive, and whose do not?
 12. Choose one source cited in this chapter. Identify its author, audience, purpose, and silences. What can it establish, and what can it not?
@@ -398,7 +398,7 @@ This is a selective guide, not a citation ledger. The groups move from company r
 
 - **Encyclopedia Virginia, “Virginia Company of London,” “Early Jamestown Settlement,” and “The Starving Time.”** Short, sourced syntheses of the company, the founding, and the 1609–10 catastrophe. They are encyclopedia entries, not monographs, and the Starving Time entry carefully presents the cannibalism debate.
 - **Encyclopedia Virginia, “Indentured Servants in Colonial Virginia,” “Tobacco in Colonial Virginia,” and “House of Burgesses.”** Clear accounts of the colony’s labor, staple, and assembly. They quote Morgan on servitude and give the burgesses’ dates and powers.
-- **John Winthrop, “A Modell of Christian Charity” (1630),** transcript at Hanover College, and **Francis J. Bremer, “Sermon? Treatise? or not by Winthrop at all?”** The text of the sermon and a scholar’s guide to the manuscript and delivery debates. Read them together.
+- **John Winthrop, “A Modell of Christian Charity” (1630),** *Winthrop Papers* digital edition, Massachusetts Historical Society, and **Francis J. Bremer, “Sermon? Treatise? or not by Winthrop at all?”** The text of the sermon and a scholar’s guide to the manuscript and delivery debates. Read them together.
 
 ### Surveys and syntheses
 
@@ -432,7 +432,7 @@ This is a selective guide, not a citation ledger. The groups move from company r
 
 [^ch04-check-africans]: Editorial check — the chapter must distinguish the August 1619 arrival of Africans in Virginia from the later creation of a codified hereditary racial slave system. In 1619 Virginia had no such statute; people were bought and sold and listed as servants. Do not describe all the 1619 arrivals as legally enslaved by statute, and do not treat 1619 as the founding date of American slavery. Reconcile the wording with Chapter 5, which owns the 1662 statute and the legal consolidation.
 
-[^ch04-check-dating]: Editorial check — keep contested dates and claims as contested: the Starving Time’s cause and the cannibalism evidence; the Mayflower Compact’s signers; Winthrop’s sermon delivery and its manuscript’s reliability. Do not date the “citty upon a hill” line to a shipboard moment or print the 19th-century cover-sheet claim as fact. Reconcile relevant dates with Appendix D (Chronology).
+[^ch04-check-dating]: Editorial check — keep contested dates and claims as contested: the Starving Time’s cause and the cannibalism evidence; the Mayflower Compact’s signers; Winthrop’s sermon delivery and its manuscript’s reliability. Do not date the “Citty vpon a Hill” line to a shipboard moment or print the 19th-century cover-sheet claim as fact. Reconcile relevant dates with Appendix D (Chronology).
 
 [^ch04-check-names]: Editorial check — use the nations’ and persons’ preferred names and forms: Tsenacomoco; Wahunsenacawh (Powhatan); Opechancanough; Amonute/Matoaka (Pocahontas in historical labels and quotations); Wampanoag; Ousamequin (Massasoit); Narragansett; Pequot; Mohegan; Massachusetts Bay. Capitalize Native American, Indigenous, Black, and White for people; use “enslaved people” in the book’s prose except in quotations.
 
@@ -468,7 +468,7 @@ This is a selective guide, not a citation ledger. The groups move from company r
 
 [^ch04-tobacco]: Encyclopedia Virginia, “Tobacco in Colonial Virginia,” Virginia Humanities. [Consulted text](https://encyclopediavirginia.org/entries/tobacco-in-colonial-virginia/). Accessed October 30, 2026. Used for: §§1.3, 2.1, and the Summary, Rolfe’s experiments of 1611–1612, the introduction of *Nicotiana tabacum*, the 1617, 1618, and 1622 export volumes, the headright system, the 1632 planting limit of 1,500 plants, and the movement of cultivation away from Jamestown by the 1630s. Limitations: an encyclopedia synthesis; the export figures are reported from contemporaneous estimates and are rounded.
 
-[^ch04-winthrop-model]: John Winthrop, “A Modell of Christian Charity” (1630), transcript, Hanover College History Department. [Consulted text](https://history.hanover.edu/texts/winthmod.html). Accessed October 30, 2026. Used for: epigraph 2 and §§4.3 and 4.4, the quotation “wee shall be as a citty upon a hill. The eies of all people are uppon us,” the covenant language, the warning against “dealing falsely with our God,” and the sermon’s corporate and hierarchical social teaching. Limitations: a modern transcript of a single manuscript copy; it is not in Winthrop’s hand, and its wording should be checked against the New-York Historical Society manuscript before quotation in type.
+[^ch04-winthrop-model]: John Winthrop, “A Modell of Christian Charity” (1630), in *Winthrop Papers*, vol. 2, *1623–1630* (Boston: Massachusetts Historical Society, 1931), 282–95, at 295, digital edition, [“A Modell of Christian Charity,” PWF02d270](https://www.masshist.org/publications/winthrop/index.php/view/PWF02d270), Massachusetts Historical Society. Accessed November 1, 2026. Used for: epigraph 2 and §§4.3 and 4.4; the quotations “wee must be knitt together in this worke as one man,” “if wee shall deale falsely with our god in this worke wee haue vndertaken … wee shall be made a story and a by-word through the world,” and “wee shall be as a Citty vpon a Hill, the eies of all people are vppon vs”; the covenant language; and the sermon’s corporate and hierarchical social teaching. Limitations: the digital edition is a transcription of the single surviving manuscript copy, apparently contemporary or nearly so, in the Library of the New-York Historical Society, not a facsimile; the manuscript was not examined directly, the copy is not in Winthrop’s hand, the delivery circumstances remain disputed, and the first word of epigraph 2 is capitalized to open the quotation.
 
 [^ch04-winthrop-manuscript]: Francis J. Bremer, “Sermon? Treatise? or not by Winthrop at all?”, Partnership of Historic Bostons, August 20 (n.d.). [Consulted text](https://historicbostons.org/blog-1/mcc8fwmndntnml9kl2dn48kt59bs3n-ysgwz-wbmxa-ldhsl). Accessed October 30, 2026. Used for: §§4.3, 6.1, and 6.2, the single contemporary copy at the New-York Historical Society, the manuscript not in Winthrop’s hand, the nineteenth-century pasted-on cover sheet’s *Arbella* claim, Abram Van Engen’s reading of the copy as corrupt and missing its opening, Daniel Rodgers’s and Richard Gamble’s treatise argument, Jerome McGann’s doubt that a layman preached it, and Bremer’s conclusion that Winthrop preached it at Southampton before departure. Limitations: a scholar’s blog essay for a public history organization; it summarizes books not read here.
 
