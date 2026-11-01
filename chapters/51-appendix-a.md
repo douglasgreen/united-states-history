@@ -443,7 +443,6 @@ The appendix is drafted, not checked. All thirty selections are transcribed, hea
 
 ### Selections 11–20
 
-- Emancipation Proclamation: confirm the enrolled parchment and decide whether the preliminary proclamation of September 22, 1862, is a separate selection or only headnote context.
 - Gettysburg Address: identify which manuscript copy the Library of Congress broadside follows, collate the punctuation, and keep the five copies distinct.
 - Fourteenth Amendment: collate Section 1 against the enrolled joint resolution and the National Archives transcript, and resolve the “state”/“State” capitalization.
 - Dawes Act: collate the excerpt against 24 Stat. 388–91, and decide whether the 1891 and 1906 amendments belong in the headnote or a separate selection.
