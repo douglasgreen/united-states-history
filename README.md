@@ -738,7 +738,7 @@ The 30 planned selections are:
 29. The Authorization for Use of Military Force (2001; distinguish passage and signing).
 30. The January 6 committee’s final report, executive summary (2022), with an identified supporting record discussed in the headnote, not a thirty-first selection.
 
-**Local blockers:** Entry 30’s excerpt is now drafted from the executive summary; verify the supporting record and do not promise a nonexistent formal committee minority report. Check the Tonkin quotation, the reordered *Brown* passages, modernizations, and Mississippi’s secession chronology. Excerpts are typeset text, not unregistered facsimile images.
+**Local blockers:** Entry 30’s excerpt is now drafted from the executive summary; verify the supporting record and do not promise a nonexistent formal committee minority report. Check the Tonkin quotation, the reordered *Brown* passages, and modernizations. The Mississippi declaration’s adoption date is now established as January 26, 1861. Excerpts are typeset text, not unregistered facsimile images.
 
 **Draft status (November 1, 2026):** All thirty selections are transcribed, headnoted, and cited in [the appendix](chapters/51-appendix-a.md). The 34-page allowance is provisional and must be checked against a typeset sample before release. The appendix’s Work Remaining section lists the open collations.
 
