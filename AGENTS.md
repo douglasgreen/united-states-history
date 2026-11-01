@@ -2,7 +2,7 @@
 
 This is a collaborative, single-authored history of the United States, *A Nation in Question*, written to be read aloud. The title, author, rights statement, and language live in `metadata.yaml`. This file governs the writing process and house style; `README.md` governs the book’s plan.
 
-The deliverable is **exactly 50 numbered chapters, plus an unnumbered Introduction and Appendices A–E**, totaling approximately 1,000 typeset pages. Chapter 50 is the conclusion, not an additional fifty-first chapter. The chapter count is fixed; the page count is an estimate, not a reason to pad or omit evidence.
+The deliverable is **exactly 50 numbered chapters, plus an unnumbered Introduction and Appendices A–E**, totaling more than 1,000 typeset pages. Chapter 50 is the conclusion, not an additional fifty-first chapter. The chapter count is fixed; the page count is an estimate, not a reason to pad or omit evidence.
 
 ## 1. Repository and sources of truth
 
@@ -76,7 +76,7 @@ Write the complete outline in `README.md` before drafting chapters. It must cont
 6. A complete table and illustration register as specified in §3, including comparison tables and debate tables.
 7. A page budget and a status record for each manuscript file.
 
-Budget the whole book, not just its narrative. Include epigraphs, visuals, captions, the combined notes and citations, Further Reading, front matter, and appendices. An illustrative allocation is 24 pages for the Introduction, 925 for the 50 chapters, 41 for appendices, and 10 for other front/back matter: 1,000 in total. These are planning allowances, not claims about the existing draft. Chapter allocations usually fall within 16–20 pages, averaging about 18.5 under that example. Charge each item once and reconcile the arithmetic whenever allocations change.
+Budget the whole book, not just its narrative. Include epigraphs, visuals, captions, the combined notes and citations, Further Reading, front matter, and appendices. A working allocation is 24 pages for the Introduction, 925 for the 50 chapters, 63 for appendices, and 10 for other front/back matter: 1,022 in total, above the 1,000-page floor. These are planning allowances, not claims about the existing draft. Chapter allocations usually fall within 16–20 pages, averaging about 18.5 under that example. Charge each item once and reconcile the arithmetic whenever allocations change.
 
 Page counts depend on layout. Record word counts as a working measure, calibrate them against a representative typeset chapter, and revise the budget after actual builds. Do not silently equate a Markdown page or an assumed words-per-page ratio with a finished page. Any part-ending reflection must have an assigned home and page allowance; it must not become an unplanned extra chapter.
 
@@ -134,7 +134,7 @@ Read the epigraphs, openings, roadmaps, summaries, closing notes, and bridges in
 
 Use the repository’s actual build tooling; discover it rather than inventing commands or claiming that a nonexistent pipeline passed. If no build is available, report that limitation. Inspect rendered output for the single combined note list, citation links and return links, tables, images, captions, emphasis, and page breaks. Resolve build warnings and inspect both representative pages and known difficult passages.
 
-Reconcile the measured page count with the approximately 1,000-page budget. Confirm exactly 50 numbered chapters, one Introduction, and Appendices A–E. Remove planning debris and resolve editorial blockers before release. Do not delete permanent citations or scholarly caveats to make the book look finished. Report build results, remaining limitations, and any deliberate departures from the plan.
+Reconcile the measured page count with the more-than-1,000-page budget. Confirm exactly 50 numbered chapters, one Introduction, and Appendices A–E. Remove planning debris and resolve editorial blockers before release. Do not delete permanent citations or scholarly caveats to make the book look finished. Report build results, remaining limitations, and any deliberate departures from the plan.
 
 ## 3. The complete table and illustration register
 

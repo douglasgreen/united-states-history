@@ -1,6 +1,6 @@
 # A Nation in Question: A History of the United States
 
-This is the canonical outline and production plan for a history written for attentive general readers, students, and listeners. The book contains an unnumbered Introduction, **exactly 50 numbered chapters, including the conclusion**, and Appendices A–E. The target is approximately 1,000 typeset pages, including notes, sources, illustrations, and reference material.
+This is the canonical outline and production plan for a history written for attentive general readers, students, and listeners. The book contains an unnumbered Introduction, **exactly 50 numbered chapters, including the conclusion**, and Appendices A–E. The target is more than 1,000 typeset pages, including notes, sources, illustrations, and reference material.
 
 The title and publication metadata live in [metadata.yaml](metadata.yaml). The writing process, chapter architecture, evidence standards, and house style live in [AGENTS.md](AGENTS.md). This README replaces the former separate outline. Appendix C will present the reader’s illustration catalog; it does not independently assign numbers or authorize additions.
 
@@ -48,17 +48,17 @@ These are allocations, not measured lengths. Each chapter’s allowance includes
 | **Part X** | 42–45 | 74 |
 | **Part XI** | 46–50 | 93 |
 | **Chapters subtotal** | 50 chapters; not an additional allocation | 925 |
-| **Appendix A** | Documents | 12 |
+| **Appendix A** | Documents | 34 |
 | **Appendix B** | Tables and Data | 10 |
 | **Appendix C** | Maps and Gazetteer | 5 |
 | **Appendix D** | Chronology | 6 |
 | **Appendix E** | Historiographical Essay and Further Reading | 8 |
-| **Appendices subtotal** | A–E; not an additional allocation | 41 |
-| **Book total** | 10 + 24 + 925 + 41 | 1,000 |
+| **Appendices subtotal** | A–E; not an additional allocation | 63 |
+| **Book total** | 10 + 24 + 925 + 63 | 1,022 |
 
 The old individual chapter allowances totaled 919 pages, not the stated 934; the old part subtotals also disagreed with those entries. This plan adds one page each to Chapters 2, 7, 8, 19, 23, and 49, bringing the chapters to 925. All subtotals above are recomputed from the file manifest below.
 
-The Stage 1 planning record reported a pre-migration manuscript baseline of 530,059 whitespace-delimited words, including Markdown and apparatus. No manuscript files were present in this repository when Stage 2 seeded the files, so that figure cannot be re-measured here. It remains a workload indicator, not a calibrated editorial word count or proof that the draft fits 1,000 pages. Typeset a representative narrative chapter, a table-heavy chapter, and an appendix before further expansion. Reallocate space or compress repetition if necessary; never shrink away evidence to preserve a fictional page total. No repository build pipeline currently establishes a measured book length.
+The Stage 1 planning record reported a pre-migration manuscript baseline of 530,059 whitespace-delimited words, including Markdown and apparatus. No manuscript files were present in this repository when Stage 2 seeded the files, so that figure cannot be re-measured here. It remains a workload indicator, not a calibrated editorial word count or proof that the draft fits the page budget. Typeset a representative narrative chapter, a table-heavy chapter, and an appendix before further expansion. Reallocate space or compress repetition if necessary; never shrink away evidence to preserve a fictional page total. No repository build pipeline currently establishes a measured book length.
 
 ## File manifest and status record
 
@@ -66,9 +66,9 @@ The 56 manuscript files below began as the complete Stage 2 seed set: one Introd
 
 The repository held only `README.md`, `AGENTS.md`, `metadata.yaml`, and `LICENSE` when seeding began; it contained no manuscript files. References in the copied entries to “the existing draft,” and register locations described as “existing,” are therefore inherited Stage 1 planning language and plan targets, not evidence that those sections are present. Stage 3 must establish or replace them.
 
-The status vocabulary is `planned`, `seeded`, `researched`, `drafted`, `checked`, and `integrated`. All 56 files are `seeded` except the Introduction and Chapters 1–50, which are `researched` as Stage 3 outlines. The blocker column names the next gate; each file’s copied entry lists its specific scene, evidence, and visual checks. A substantive later change reopens the affected status.
+The status vocabulary is `planned`, `seeded`, `researched`, `drafted`, `checked`, and `integrated`. The status table below is authoritative: the Introduction and Chapters 1–50 are `researched`, Appendix A is `drafted`, and Appendices B–E are `seeded`. The blocker column names the next gate; each file’s copied entry lists its specific scene, evidence, and visual checks. A substantive later change reopens the affected status.
 
-**Stage 2 exit check (October 29, 2026):** 56 files exist; there are exactly 50 numbered chapter files; every file contains its README entry rather than a title alone; and every copied body matches the README text. The Introduction and Chapters 1–50 have since been replaced by Stage 3 researched outlines, so they no longer match their entries verbatim; their plans remain the README entries above.
+**Stage 2 exit check (October 29, 2026):** 56 files exist; there are exactly 50 numbered chapter files; every file contains its README entry rather than a title alone; and every copied body matches the README text. The Introduction and Chapters 1–50 have since been replaced by Stage 3 researched outlines, and Appendix A has been drafted, so they no longer match their entries verbatim; their plans remain the README entries above.
 
 ### Introduction and chapters
 
@@ -130,7 +130,7 @@ The status vocabulary is `planned`, `seeded`, `researched`, `drafted`, `checked`
 
 | File | Title | Pages | Stage | Last review | Review scope | Outstanding blockers |
 |---|---|---|---|---|---|---|
-| **[51-appendix-a.md](chapters/51-appendix-a.md)** | Appendix A. Documents — Thirty Texts That Made and Marked the Nation | 12 | `seeded` | October 29, 2026 | Stage 2: full README entry copied; title and page allowance promoted. | Entry 30 excerpt not collated; Tonkin, *Brown*, Mississippi, and modernization checks open. |
+| **[51-appendix-a.md](chapters/51-appendix-a.md)** | Appendix A. Documents — Thirty Texts That Made and Marked the Nation | 34 | `drafted` | November 1, 2026 | Stage 4: all thirty selections transcribed, headnoted, and cited in a combined note list; appendix framed by a note on the texts and an editorial work list. | 34-page allowance (draft ~16,200 words); collations open across the thirty selections (see appendix Work Remaining); no checked or integrated version yet. |
 | **[52-appendix-b.md](chapters/52-appendix-b.md)** | Appendix B. Tables and Data | 10 | `seeded` | October 29, 2026 | Stage 2: full README entry copied; title and page allowance promoted. | Eight datasets unbuilt; definitions, series, and source locators unresolved. |
 | **[53-appendix-c.md](chapters/53-appendix-c.md)** | Appendix C. Maps and Gazetteer | 5 | `seeded` | October 29, 2026 | Stage 2: full README entry copied; title and page allowance promoted. | 39 maps, nine figures, and eight images unproduced; Indigenous names and rights unverified. |
 | **[54-appendix-d.md](chapters/54-appendix-d.md)** | Appendix D. Chronology | 6 | `seeded` | October 29, 2026 | Stage 2: full README entry copied; title and page allowance promoted. | Seven chronology tables unbuilt; recent events unverified against the cutoff. |
@@ -697,11 +697,11 @@ Each entry names its incoming subject and its outgoing scene. These are the agre
 - **Ownership and ending:** Synthesize rather than retell. There is a closing note but no formal bridge to Chapter 51 or to Appendix A; a reading suggestion may point to the documents without pretending the narrative continues.
 - **Visual:** `ch50-figure-01` (Figure 9), subject to rechecking the final available observation and methodology.
 
-## Appendices — 41 pages
+## Appendices — 63 pages
 
 These are reference works with actual documents, datasets, catalog entries, chronology, and reading guidance. A list of promises is not a finished appendix. Each ends with one combined footnote list for annotated citations and other notes. The page allowances include all citation details and annotations.
 
-### Appendix A. Documents — Thirty Texts That Made and Marked the Nation — 12 pages
+### Appendix A. Documents — Thirty Texts That Made and Marked the Nation — 34 pages
 
 **Purpose:** Give readers short, checkable primary-source excerpts with approximately 100-word headnotes identifying authorship, audience, context, and limits. Sort chronologically by the event/document date, not the existing draft’s accidental order. Dates of composition, publication, passage, signature, and ratification must be distinguished. Do not modernize a source silently or rearrange quotation passages without marking the change.
 
@@ -738,7 +738,9 @@ The 30 planned selections are:
 29. The Authorization for Use of Military Force (2001; distinguish passage and signing).
 30. The January 6 committee’s final report, executive summary (2022), with an identified supporting record discussed in the headnote, not a thirty-first selection.
 
-**Local blockers:** Entry 30 is still a manuscript placeholder although an official accessible report collection exists (`plan-january-six`). Select and collate the excerpt; do not promise a nonexistent formal committee minority report. Check the currently noted Tonkin quotation, the reordered *Brown* passages, modernizations, and Mississippi’s secession chronology. Excerpts are typeset text, not unregistered facsimile images.
+**Local blockers:** Entry 30’s excerpt is now drafted from the executive summary; verify the supporting record and do not promise a nonexistent formal committee minority report. Check the Tonkin quotation, the reordered *Brown* passages, modernizations, and Mississippi’s secession chronology. Excerpts are typeset text, not unregistered facsimile images.
+
+**Draft status (November 1, 2026):** All thirty selections are transcribed, headnoted, and cited in [the appendix](chapters/51-appendix-a.md). The 34-page allowance is provisional and must be checked against a typeset sample before release. The appendix’s Work Remaining section lists the open collations.
 
 ### Appendix B. Tables and Data — 10 pages
 
@@ -1059,7 +1061,7 @@ These are production-provenance records for the README, not a separate citation 
 - **repo-tables.** [Appendix B](chapters/52-appendix-b.md), the eight planned dataset entries and their source tasks. A “Tables in the Chapters” crosswalk is not present in the Stage 2 seed; the register above is the surviving planning record. Used for: intended reference series and known wrong-subject citations. Its data tables do not yet exist; numerical claims must not cite this inventory as a dataset.
 - **repo-maps; repo-map01–repo-map39.** [Appendix C](chapters/53-appendix-c.md), the planned Map 1–39 catalog and draft-number concordance. Those detailed entries are not present in the Stage 2 seed; the map register above is the surviving planning record. Used for: fuller map subjects, ownership, candidate provenance, and repair aliases. Underlying sources and artwork remain unverified/unproduced; the README now governs future assignments.
 - **repo-figures; repo-figure01–repo-figure09.** [Appendix C](chapters/53-appendix-c.md), the planned Figure 1–9 catalog. Those detailed rows and the six tabular drafts are not present in the Stage 2 seed; the figure register above is the surviving planning record. Used for: the separate figure sequence and the distinction between charts and additional published tables. These are planning records, not verified numerical series.
-- **repo-documents.** [Appendix A](chapters/51-appendix-a.md), existing selections 1–30 and editorial notes. Used for: the document inventory, chronological-order repairs, the missing final excerpt, and quotation/version checks to schedule. No excerpt is declared collated by this outline revision.
+- **repo-documents.** [Appendix A](chapters/51-appendix-a.md), all thirty drafted selections and editorial notes. Used for: the document inventory, chronological order, source editions, and quotation/version checks still scheduled. The draft does not establish that any excerpt is collated; see Appendix A’s Work Remaining.
 - **repo-gazetteer.** [Appendix C](chapters/53-appendix-c.md), “Gazetteer”. Used for: the individual place-name inventory and identified uncertainty checks, not verification of all etymologies or dates.
 - **repo-chronology.** [Appendix D](chapters/54-appendix-d.md), its seven chronology blocks. Used for: the reference-table count, five tracks, duplicate boundary-year repairs, and recent-event verification tasks. Existing 2026 claims remain subject to the cutoff/evidence checks.
 - **repo-reading.** [Appendix E](chapters/55-appendix-e.md), essay, era/theme guides, digital-source and permissions sections. Used for: the reading-guide architecture and avoidance of redundant generic bibliographies. Its recommendations are not automatically consulted evidence.
