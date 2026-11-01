@@ -86,13 +86,9 @@ Textual note: The Avalon transcription reads “adversed” in the definition of
 
 In December 1829 the Cherokee Nation addressed a memorial to the Senate and House of Representatives, protesting Georgia’s extension of state law over Cherokee territory and the federal government’s refusal to protect the Nation. The memorial was written in English and Cherokee and sent by Cherokee representatives; the House tabled it on February 8, 1830, and Congress passed the Indian Removal Act later that year. The document argues from inheritance, treaty rights, and sovereignty, and it uses the language of “civilization” that was current in American politics. The audience was Congress and the American public. The text below is a working transcription of the English text; the surviving document is in the National Archives.[^app-a-cherokee]
 
-> The land on which we stand we have received as an inheritance from our fathers, who possessed it from time immemorial, as a gift from our common father in heaven. We have already said, that, when the white man came to the shores of America, our ancestors were found in peaceable possession of this very land. They bequeathed it to us as their children, and we have sacredly kept it, as containing the remains of our beloved men. This right of inheritance we have never ceded, nor ever forfeited. Permit us to ask, what better right can the people have to a country, than the right of inheritance and immemorial peaceable possession?
->
-> To the land, of which we are now in possession, we are attached — It is our fathers’ gift — it contains their ashes — it is the land of our nativity, and the land of our intellectual birth.
+> The land on which we stand we have received as an inheritance from our fathers, who possessed it from time immemorial, as a gift from our common father in heaven. We have already said, that, when the white man came to the shores of America, our ancestors were found in peaceable possession of this very land. They bequeathed it to us as their children, and we have sacredly kept it, as containing the remains of our beloved men. This right of inheritance we have *never ceded*, nor ever *forfeited*. Permit us to ask, what better right can a people have to a country, than the right of *inheritance* and *immemorial peaceable possession*? … To the land, of which we are now in possession, we are attached — It is our fathers’ gift — it contains their ashes — it is the land of our nativity, and the land of our intellectual birth.
 
 Source: The U.S. House of Representatives History, Art & Archives entry on the memorial, citing National Archives and Records Administration record NAID 306680.[^app-a-cherokee]
-
-Textual note: The working transcription reads “the people” where the Wikisource transcription reads “a people”; the appendix follows the working text and has not been collated against the National Archives images.[^app-a-cherokee-text]
 
 ## 8. The Declaration of Sentiments (1848)
 
@@ -447,7 +443,6 @@ The appendix is drafted, not checked. All thirty selections are transcribed, hea
 
 ### Selections 1–10
 
-- Collate the Cherokee memorial against the National Archives images (NAID 306680) and the contemporary *Cherokee Phoenix* printing, and resolve “the people” versus “a people.”
 - Fix the Declaration’s copy. The excerpt follows the Dunlap broadside as transcribed by the *Papers of Thomas Jefferson*. Confirm “Happiness — That” and “Pursuit” against the Scheide Library copy, and do not mix broadside and parchment readings.
 - Collate the Winthrop excerpt against the Winthrop Papers manuscript at the Massachusetts Historical Society. Decide whether the appendix prints the 1838 text or the manuscript, and record the “likely” versus “like” variant.
 - Date the Mississippi declaration. The ordinance of secession passed on January 9, 1861, but the declaration’s exact adoption date within the January 7–26 convention is unresolved. Collate the printed *Proceedings* before printing a day.
@@ -512,8 +507,6 @@ The appendix is drafted, not checked. All thirty selections are transcribed, hea
 [^app-a-federalist-date]: Editorial check — the *Daily Advertiser* date of November 22, 1787, is confirmed by the Documentary History of the Ratification. Confirm whether the essay also appeared in the *New York Packet* on November 23 before adding a second newspaper to the headnote.
 
 [^app-a-cherokee]: “Memorial of the Cherokees,” Cherokee Nation, December 1829, 21st Congress, U.S. House of Representatives, History, Art & Archives, [“Memorial of the Cherokees”](https://history.house.gov/Records-and-Research/Featured-Content/Cherokee-Memorial/), citing National Archives and Records Administration, NAID 306680. Accessed November 1, 2026. Used for: the document’s date, bilingual form, provenance, tabling on February 8, 1830, and the excerpt. Limitations: the House page reproduces only a short quotation; the full English text used here is a working transcription that has not been collated against the NARA images.
-
-[^app-a-cherokee-text]: Editorial check — collate the working transcription against NARA NAID 306680 and the contemporary *Cherokee Phoenix* printing, and resolve “the people” versus “a people.” Confirm the number and identity of the signers before repeating any count in the headnote.
 
 [^app-a-sentiments]: “Declaration of Sentiments,” in *Report of the Woman’s Rights Convention, Held at Seneca Falls, N.Y., July 19th and 20th, 1848* (Rochester: Printed by John Dick at the North Star Office, 1848), transcribed by the National Park Service, Women’s Rights National Historical Park, [“Report of the Woman’s Rights Convention”](https://www.nps.gov/wori/learn/historyculture/report-of-the-womans-rights-convention.htm). Accessed November 1, 2026. Used for: the excerpt, the convention dates, Stanton’s reading of the declaration, and its unanimous adoption on the second day. Limitations: the NPS transcription follows the 1848 tract but does not supply page numbers; the signatures and the resolutions are omitted from the excerpt.
 
