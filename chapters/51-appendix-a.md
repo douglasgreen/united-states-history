@@ -50,7 +50,7 @@ Textual note: The earliest printed text of the act consulted for this appendix i
 
 ## 4. The Declaration of Independence (1776)
 
-The Declaration of Independence was adopted by the Continental Congress on July 4, 1776, and printed that night by John Dunlap as a broadside. It announced the separation of thirteen colonies from Britain and stated a theory of natural rights, consent, and the right of revolution. Thomas Jefferson drafted the text; Congress edited it, and the version printed here is the Dunlap broadside, not the engrossed parchment signed in August. The audience was “a candid World,” but the document’s universal language coexisted with slavery and with the exclusion of Indigenous nations and women from the political community. The excerpt is the second paragraph.[^app-a-declaration]
+The Declaration of Independence was adopted by the Continental Congress on July 4, 1776, and printed that night by John Dunlap as a broadside. It announced the separation of thirteen colonies from Britain and stated a theory of natural rights, consent, and the right of revolution. Thomas Jefferson drafted the text; Congress edited it, and the version printed here is the Dunlap broadside, not the engrossed parchment signed in August. The audience was “a candid World,” but the document’s universal language coexisted with slavery and with the exclusion of Indigenous nations and women from the political community. The excerpt is the opening of the second paragraph.[^app-a-declaration]
 
 > We hold these Truths to be self-evident, that all Men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty, and the Pursuit of Happiness — That to secure these Rights, Governments are instituted among Men, deriving their just Powers from the Consent of the Governed, that whenever any Form of Government becomes destructive of these Ends, it is the Right of the People to alter or to abolish it, and to institute new Government, laying its Foundation on such Principles, and organizing its Powers in such Form, as to them shall seem most likely to effect their Safety and Happiness.
 
@@ -74,7 +74,9 @@ Textual note: The clause’s capitalization and the phrase “three fifths” va
 
 > By a faction, I understand a number of citizens, whether amounting to a majority or a minority of the whole, who are united and actuated by some common impulse of passion, or of interest, adversed to the rights of other citizens, or to the permanent and aggregate interests of the community.
 >
-> The latent causes of faction are thus sown in the nature of man; and we see them everywhere brought into different degrees of activity, according to the different circumstances of civil society. … But the most common and durable source of factions has been the various and unequal distribution of property. Those who hold and those who are without property have ever formed distinct interests in society.
+> …
+>
+> The latent causes of faction are thus sown in the nature of man; and we see them everywhere brought into different degrees of activity, according to the different circumstances of civil society. … But the most common and durable source of factions has been the various and unequal distribution of property. Those who hold and those who are without property have ever formed distinct interests in society. …
 >
 > The inference to which we are brought is, that the CAUSES of faction cannot be removed, and that relief is only to be sought in the means of controlling its EFFECTS.
 
@@ -92,9 +94,9 @@ Source: The U.S. House of Representatives History, Art & Archives entry on the m
 
 ## 8. The Declaration of Sentiments (1848)
 
-The Declaration of Sentiments was adopted at the woman’s rights convention at Seneca Falls, New York, on July 19–20, 1848. Elizabeth Cady Stanton read the declaration, which was debated and unanimously adopted on the second day; the convention’s report, printed in Rochester by John Dick at the *North Star* office, is the source of the text. The declaration rewrites the Declaration of Independence’s second paragraph to include women — “all men and women are created equal” — and then lists grievances against the laws and customs that denied women citizenship, education, property, and personhood. The audience was the convention and the broader public. The excerpt is the declaration’s rights paragraph, the indictment, and the first grievance.[^app-a-sentiments]
+The Declaration of Sentiments was adopted at the woman’s rights convention at Seneca Falls, New York, on July 19–20, 1848. Elizabeth Cady Stanton read the declaration, which was debated and unanimously adopted on the second day; the convention’s report, printed in Rochester by John Dick at the *North Star* office, is the source of the text. The declaration rewrites the Declaration of Independence’s second paragraph to include women — “all men and women are created equal” — and then lists grievances against the laws and customs that denied women citizenship, education, property, and personhood. The audience was the convention and the broader public. The excerpt is the opening of the declaration’s rights paragraph, the indictment, and the first grievance.[^app-a-sentiments]
 
-> We hold these truths to be self-evident; that all men and women are created equal; that they are endowed by their Creator with certain inalienable rights; that among these are life, liberty, and the pursuit of happiness; that to secure these rights governments are instituted, deriving their just powers from the consent of the governed.
+> We hold these truths to be self-evident; that all men and women are created equal; that they are endowed by their Creator with certain inalienable rights; that among these are life, liberty, and the pursuit of happiness; that to secure these rights governments are instituted, deriving their just powers from the consent of the governed. …
 >
 > The history of mankind is a history of repeated injuries and usurpations on the part of man toward woman, having in direct object the establishment of an absolute tyranny over her. To prove this, let facts be submitted to a candid world.
 >
@@ -118,7 +120,7 @@ Source: *Dred Scott v. Sandford*, 60 U.S. (19 How.) 393, 407 (1857), U.S. Report
 
 Mississippi’s convention adopted an ordinance of secession on January 9, 1861, becoming the second state to leave the Union. On January 26, the final day of the January session, the delegates adopted a “Declaration of the Immediate Causes,” which explains secession as a defense of slavery, “the greatest material interest of the world.”[^app-a-mississippi-date] The declaration was addressed to the public, and it is explicit about the centrality of slavery to the secessionist case. It is not a neutral summary of Mississippi politics; it is a partisan argument, and its claims about Northern aggression should be read as rhetoric. The text below follows the Avalon Project transcription.[^app-a-mississippi]
 
-> Our position is thoroughly identified with the institution of slavery — the greatest material interest of the world. Its labor supplies the product which constitutes by far the largest and most important portions of commerce of the earth. These products are peculiar to the climate verging on the tropical regions, and by an imperious law of nature, none but the black race can bear exposure to the tropical sun. These products have become necessities of the world, and a blow at slavery is a blow at commerce and civilization.
+> Our position is thoroughly identified with the institution of slavery — the greatest material interest of the world. Its labor supplies the product which constitutes by far the largest and most important portions of commerce of the earth. These products are peculiar to the climate verging on the tropical regions, and by an imperious law of nature, none but the black race can bear exposure to the tropical sun. These products have become necessities of the world, and a blow at slavery is a blow at commerce and civilization. …
 >
 > Utter subjugation awaits us in the Union, if we should consent longer to remain in it. It is not a matter of choice, but of necessity. We must either submit to degradation, and to the loss of property worth four billions of money, or we must secede from the Union framed by our fathers, to secure this as well as every other species of property.
 
@@ -132,7 +134,11 @@ Abraham Lincoln issued the Emancipation Proclamation on January 1, 1863, after t
 
 > “That on the first day of January, in the year of our Lord one thousand eight hundred and sixty-three, all persons held as slaves within any State or designated part of a State, the people whereof shall then be in rebellion against the United States, shall be then, thenceforward, and forever free; and the Executive Government of the United States, including the military and naval authority thereof, will recognize and maintain the freedom of such persons, and will do no act or acts to repress such persons, or any of them, in any efforts they may make for their actual freedom.”
 >
+> …
+>
 > And by virtue of the power, and for the purpose aforesaid, I do order and declare that all persons held as slaves within said designated States, and parts of States, are, and henceforward shall be free; and that the Executive government of the United States, including the military and naval authorities thereof, will recognize and maintain the freedom of said persons.
+>
+> …
 >
 > And I further declare and make known, that such persons of suitable condition, will be received into the armed service of the United States to garrison forts, positions, stations, and other places, and to man vessels of all sorts in said service.
 
@@ -202,9 +208,9 @@ Textual note: The excerpt has been collated against the 1893 *Annual Report* pri
 
 *Plessy v. Ferguson* (1896) upheld Louisiana’s separate-car law and established the “separate but equal” doctrine. Justice John Marshall Harlan dissented alone. He argued that the Constitution forbids racial classification in civil rights and that segregation imposed a “badge of servitude” on Black citizens. The excerpt includes the passage in which he calls the Constitution “color-blind.” Harlan’s dissent was not a modern equality program: he accepted social inequality and the prevailing racial hierarchy even while denying legal caste, and the “color-blind” phrase has been quoted by later movements on different sides of affirmative action. The audience was the Court and the nation; the opinion’s language is part of its enduring authority and its limits. The text follows the U.S. Reports.[^app-a-harlan]
 
-> In respect of civil rights, common to all citizens, the Constitution of the United States does not, I think, permit any public authority to know the race of those entitled to be protected in the enjoyment of such rights.
+> In respect of civil rights, common to all citizens, the Constitution of the United States does not, I think, permit any public authority to know the race of those entitled to be protected in the enjoyment of such rights. …
 >
-> The white race deems itself to be the dominant race in this country. And so it is, in prestige, in achievements, in education, in wealth and in power. So, I doubt not, it will continue to be for all time, if it remains true to its great heritage and holds fast to the principles of constitutional liberty. But in view of the Constitution, in the eye of the law, there is in this country no superior, dominant, ruling class of citizens. There is no caste here. Our Constitution is color-blind, and neither knows nor tolerates classes among citizens. In respect of civil rights, all citizens are equal before the law. The humblest is the peer of the most powerful.
+> The white race deems itself to be the dominant race in this country. And so it is, in prestige, in achievements, in education, in wealth and in power. So, I doubt not, it will continue to be for all time, if it remains true to its great heritage and holds fast to the principles of constitutional liberty. But in view of the Constitution, in the eye of the law, there is in this country no superior, dominant, ruling class of citizens. There is no caste here. Our Constitution is color-blind, and neither knows nor tolerates classes among citizens. In respect of civil rights, all citizens are equal before the law. The humblest is the peer of the most powerful. …
 >
 > The arbitrary separation of citizens, on the basis of race, while they are on a public highway, is a badge of servitude wholly inconsistent with the civil freedom and the equality before the law established by the Constitution. It cannot be justified upon any legal grounds.
 
@@ -215,6 +221,8 @@ Source: *Plessy v. Ferguson*, 163 U.S. 537, 559 (1896), dissenting opinion of Ju
 William Jennings Bryan delivered the “Cross of Gold” speech at the Democratic National Convention in Chicago on July 9, 1896. The convention was divided over the gold standard and the free coinage of silver; Bryan, a former Nebraska congressman, spoke for the free-silver cause and won the nomination. The speech framed the money question as a struggle between “the producing masses” and the holders of fixed investments, and its closing lines became among the most famous in American political oratory. The audience was the convention, but the speech was also a national campaign address. The speech’s producerist language did not address the racial exclusions of the Democratic coalition, which was built on Black disfranchisement in the South. The text follows the Teaching American History edition, which cites the *Official Proceedings*.[^app-a-bryan]
 
 > There are two ideas of government. There are those who believe that if you just legislate to make the well-to-do prosperous that their prosperity will leak through on those below. The Democratic idea has been that if you legislate to make the masses prosperous their prosperity will find its way up and through every class that rests upon it.
+>
+> …
 >
 > If they dare to come out and in the open defend the gold standard as a good thing, we shall fight them to the uttermost, having behind us the producing masses of the Nation and the world. Having behind us the commercial interests and the laboring interests and all the toiling masses, we shall answer their demands for a gold standard by saying to them, you shall not press down upon the brow of labor this crown of thorns. You shall not crucify mankind upon a cross of gold.
 
@@ -228,9 +236,15 @@ Woodrow Wilson addressed Congress on January 8, 1918, to set out American war ai
 
 > It will be our wish and purpose that the processes of peace, when they are begun, shall be absolutely open and that they shall involve and permit henceforth no secret understandings of any kind.
 >
+> …
+>
 > I. Open covenants of peace, openly arrived at, after which there shall be no private international understandings of any kind but diplomacy shall proceed always frankly and in the public view.
 >
+> …
+>
 > V. A free, open-minded, and absolutely impartial adjustment of all colonial claims, based upon a strict observance of the principle that in determining all such questions of sovereignty the interests of the populations concerned must have equal weight with the equitable claims of the government whose title is to be determined.
+>
+> …
 >
 > XIV. A general association of nations must be formed under specific covenants for the purpose of affording mutual guarantees of political independence and territorial integrity to great and small states alike.
 
@@ -254,7 +268,7 @@ Textual note: The 1929 national-origins quotas were fixed by proclamation under 
 
 Franklin D. Roosevelt delivered his first inaugural address on March 4, 1933, as the banking system was collapsing and millions were unemployed. The speech reassured Americans that “the only thing we have to fear is fear itself,” blamed the “money changers” for the crisis, and demanded “action, and action now.” It also warned that if Congress did not act, he would ask for “broad Executive power to wage a war against the emergency.” The audience was the nation and Congress; the speech set the tone for the New Deal but did not itself create its programs. Its call for executive power and its images of national discipline are part of the speech’s political meaning, as is its limited attention to the racial and gender inequalities of the Depression.[^app-a-roosevelt]
 
-> I am certain that my fellow Americans expect that on my induction into the Presidency I will address them with a candor and a decision which the present situation of our Nation impels. This is preeminently the time to speak the truth, the whole truth, frankly and boldly. Nor need we shrink from honestly facing conditions in our country today. This great Nation will endure as it has endured, will revive and will prosper. So, first of all, let me assert my firm belief that the only thing we have to fear is fear itself—nameless, unreasoning, unjustified terror which paralyzes needed efforts to convert retreat into advance.
+> I am certain that my fellow Americans expect that on my induction into the Presidency I will address them with a candor and a decision which the present situation of our Nation impels. This is preeminently the time to speak the truth, the whole truth, frankly and boldly. Nor need we shrink from honestly facing conditions in our country today. This great Nation will endure as it has endured, will revive and will prosper. So, first of all, let me assert my firm belief that the only thing we have to fear is fear itself—nameless, unreasoning, unjustified terror which paralyzes needed efforts to convert retreat into advance. …
 >
 > Restoration calls, however, not for changes in ethics alone. This Nation asks for action, and action now.
 >
@@ -276,6 +290,8 @@ The Social Security Act, signed August 14, 1935, created a federal old-age insur
 > …
 >
 > (b) In no case shall the monthly rate computed under subsection (a) exceed $85.
+>
+> …
 >
 > SEC. 210. … (b) The term employment means any service, of whatever nature, performed within the United States by an employee for his employer, except—
 >
@@ -345,6 +361,8 @@ President Harry S. Truman signed Executive Order 9835 on March 21, 1947, creatin
 
 > 1. There shall be a loyalty investigation of every person entering the civilian employment of any department or agency of the executive branch of the Federal Government.
 >
+> …
+>
 > PART V - STANDARDS
 >
 > 1. The standard for the refusal of employment or the removal from employment in an executive department or agency on grounds relating to loyalty shall be that, on all the evidence, reasonable grounds exists for belief that the person involved is disloyal to the Government of the United States.
@@ -362,6 +380,8 @@ Textual note: The order’s standard is “reasonable grounds,” not proof of m
 *Brown v. Board of Education* was decided on May 17, 1954. Chief Justice Earl Warren’s unanimous opinion held that racial segregation in public schools violated the Equal Protection Clause and that the “separate but equal” doctrine had no place in education. The excerpt is the passage on education as a public right, the psychological and social effects of segregation, and the holding that separate facilities are “inherently unequal.” The audience was the nation and the segregated states; the decision did not order immediate desegregation. *Brown II* (1955) left the remedy to district courts with “all deliberate speed,” and massive resistance followed. The case was a landmark but not the end of segregation.[^app-a-brown]
 
 > Today, education is perhaps the most important function of state and local governments. … Such an opportunity, where the state has undertaken to provide it, is a right which must be made available to all on equal terms.
+>
+> …
 >
 > Such considerations apply with added force to children in grade and high schools. To separate them from others of similar age and qualifications solely because of their race generates a feeling of inferiority as to their status in the community that may affect their hearts and minds in a way unlikely ever to be undone. …
 >
