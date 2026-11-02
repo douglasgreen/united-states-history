@@ -465,7 +465,6 @@ The appendix is drafted, not checked. All thirty selections are transcribed, hea
 
 ### Selections 11–20
 
-- Harlan: decide whether to add Harlan’s restrictive remarks on race so the excerpt is not read as a modern color-blindness argument.
 - Bryan: collate the speech against the *Official Proceedings* (1896), pp. 226–234, including punctuation and the reported applause.
 - Wilson: confirm the numbering and wording of Points I, V, and XIV, and keep the February 11, 1918, address and the treaty drafts separate.
 - Immigration Act: collate Section 11 against 43 Stat. 153–69, and verify the 1929 national-origins proclamation before adding its figures.
