@@ -252,8 +252,6 @@ Woodrow Wilson addressed Congress on January 8, 1918, to set out American war ai
 
 Source: The National Archives transcription of Wilson’s January 8, 1918, message to Congress.[^app-a-wilson]
 
-Textual note: The appendix follows the NARA transcription; the *Congressional Record* and *Public Papers* should be collated.[^app-a-wilson-text]
-
 ## 19. The Immigration Act of 1924
 
 Congress passed the Immigration Act of 1924, also called the Johnson–Reed Act, on May 26, 1924. It set annual quotas at 2 percent of the foreign-born population of each nationality resident in the continental United States in 1890, with a minimum of 100 per nationality; after July 1, 1927, later postponed to 1929, the quota was to be based on the 1920 census and a national-origins formula with a total of 150,000. The act excluded most Asian immigrants and created a consular visa system. Its defenders presented the quotas as a way to preserve the nation’s “racial” composition; its effects included severe limits on Southern and Eastern European immigration and the exclusion of Asian immigrants. The audience was Congress, the State Department, and the immigration service. The excerpt is from Section 11 of the original statute.[^app-a-immigration]
@@ -467,7 +465,6 @@ The appendix is drafted, not checked. All thirty selections are transcribed, hea
 
 ### Selections 11–20
 
-- Wilson: confirm the numbering and wording of Points I, V, and XIV, and keep the February 11, 1918, address and the treaty drafts separate.
 - Immigration Act: collate Section 11 against 43 Stat. 153–69, and verify the 1929 national-origins proclamation before adding its figures.
 - Roosevelt: collate the address against the *Public Papers* and the FDR Library reading copy, and confirm the “money changers” and “broad Executive power” passages.
 
@@ -559,8 +556,6 @@ The appendix is drafted, not checked. All thirty selections are transcribed, hea
 [^app-a-bryan-text]: Textual note — collation of Selection 17 against the page images of the *Official Proceedings* at 233–235. The 1896 printing reads “well-to-do prosperous that,” “masses prosperous their,” “by saying to them, you,” and “crown of thorns. You.” The Teaching American History text agrees in these readings. A common modern quotation repunctuates the passage with a comma after “prosperous,” a comma after the second “prosperous,” a colon after “them,” and a semicolon after “thorns”; those readings are not in the 1896 printing. The appendix follows the printing. The bracketed final passage is the stenographer’s report, not Bryan’s words. The proceedings’ text at 226–234 contains no bracketed applause reports; the only interruption it records is the continued cheering at p. 232. Used for: Selection 17, the textual note and the decision to retain the 1896 punctuation. Limitations: the collation was made from the digitized page images at 233–235; the physical volume was not examined, and the proceedings do not report audience reactions within the omitted middle passages.
 
 [^app-a-wilson]: Woodrow Wilson, “President Wilson’s Message to Congress,” January 8, 1918, Records of the United States Senate, Record Group 46, National Archives, [transcript](https://www.archives.gov/milestone-documents/president-woodrow-wilsons-14-points). Accessed November 1, 2026. Used for: the excerpt, the January 8 date, and the text of Points I, V, and XIV. Limitations: the *Congressional Record* and *Public Papers* should be collated.
-
-[^app-a-wilson-text]: Editorial check — confirm the numbering and wording of Points I, V, and XIV against the *Congressional Record* and the *Public Papers*. Decide whether to include the February 11, 1918, address or the treaty drafts; they are separate documents and should not be folded into this selection.
 
 [^app-a-immigration]: Immigration Act of 1924 (Johnson–Reed Act), May 26, 1924, 43 Stat. 153, 159–60, Section 11, [Statutes at Large PDF](https://www.govinfo.gov/content/pkg/STATUTE-43/pdf/STATUTE-43-Pg153-2.pdf). Accessed November 1, 2026. Used for: the Section 11 quota formula and the May 26 date. Limitations: the 1929 national-origins quotas were fixed by proclamation and should not be conflated with the 1924 interim quotas.
 
