@@ -1,6 +1,6 @@
 # Appendix A. Documents — Thirty Texts That Made and Marked the Nation
 
-*Stage 4 draft — November 1, 2026. Page allowance: 34 pages. All thirty selections are drafted. This appendix is not checked or integrated.*
+*Stage 4 draft — November 2, 2026. Page allowance: 34 pages. All thirty selections are drafted. This appendix is not checked or integrated.*
 
 ## Note on the Texts
 
@@ -266,18 +266,25 @@ Textual note: Subsections 11(a) and 11(b) were collated against the page images 
 
 ## 20. Franklin D. Roosevelt’s First Inaugural Address (1933)
 
-Franklin D. Roosevelt delivered his first inaugural address on March 4, 1933, as the banking system was collapsing and millions were unemployed. The speech reassured Americans that “the only thing we have to fear is fear itself,” blamed the “money changers” for the crisis, and demanded “action, and action now.” It also warned that if Congress did not act, he would ask for “broad Executive power to wage a war against the emergency.” The audience was the nation and Congress; the speech set the tone for the New Deal but did not itself create its programs. Its call for executive power and its images of national discipline are part of the speech’s political meaning, as is its limited attention to the racial and gender inequalities of the Depression.[^app-a-roosevelt]
+Franklin D. Roosevelt delivered his first inaugural address on March 4, 1933, as the banking system was collapsing and millions were unemployed.[^app-a-roosevelt] Banks in 37 states had already closed or restricted withdrawals when he spoke, and in the early hours of March 6 he invoked Section 5(b) of the Trading with the Enemy Act of 1917 to proclaim a national bank holiday through March 9.[^app-a-roosevelt-holiday] The speech reassured Americans that “the only thing we have to fear is fear itself,” blamed the “money changers” for the crisis, and demanded “action, and action now.” It also warned that if Congress did not act, he would ask for “broad Executive power to wage a war against the emergency.” The audience was the nation and Congress; the speech set the tone for the New Deal but did not itself create its programs. Its call for executive power and its images of national discipline are part of the speech’s political meaning, as is its limited attention to the racial and gender inequalities of the Depression.
 
-> I am certain that my fellow Americans expect that on my induction into the Presidency I will address them with a candor and a decision which the present situation of our Nation impels. This is preeminently the time to speak the truth, the whole truth, frankly and boldly. Nor need we shrink from honestly facing conditions in our country today. This great Nation will endure as it has endured, will revive and will prosper. So, first of all, let me assert my firm belief that the only thing we have to fear is fear itself—nameless, unreasoning, unjustified terror which paralyzes needed efforts to convert retreat into advance. …
+> I am certain that my fellow Americans expect that on my induction into the Presidency I will address them with a candor and a decision which the present situation of our Nation impels. This is preeminently the time to speak the truth, the whole truth, frankly and boldly. Nor need we shrink from honestly facing conditions in our country today. This great Nation will endure as it has endured, will revive and will prosper. So, first of all, let me assert my firm belief that the only thing we have to fear is fear itself — nameless, unreasoning, unjustified terror which paralyzes needed efforts to convert retreat into advance. …
+>
+> Practices of the unscrupulous money changers stand indicted in the court of public opinion, rejected by the hearts and minds of men. …
+>
+> The money changers have fled from their high seats in the temple of our civilization. We may now restore that temple to the ancient truths. The measure of the restoration lies in the extent to which we apply social values more noble than mere monetary profit.
+>
+> …
 >
 > Restoration calls, however, not for changes in ethics alone. This Nation asks for action, and action now.
 >
-> Our greatest primary task is to put people to work.
+> Our greatest primary task is to put people to work. …
+>
+> But in the event that the Congress shall fail to take one of these two courses, and in the event that the national emergency is still critical, I shall not evade the clear course of duty that will then confront me. I shall ask the Congress for the one remaining instrument to meet the crisis — broad Executive power to wage a war against the emergency, as great as the power that would be given to me if we were in fact invaded by a foreign foe.
 
-Source: The Avalon Project transcription of Roosevelt’s first inaugural address.[^app-a-roosevelt]
+Source: *The Public Papers and Addresses of Franklin D. Roosevelt*, vol. 2, *The Year of Crisis, 1933*, ed. Samuel I. Rosenman (New York: Random House, 1938), pp. 11–16.[^app-a-roosevelt]
 
-Textual note: Avalon prints two hyphens after “fear itself”; the appendix renders a spaced em dash. Collate against the *Public Papers* and the FDR Library reading copy.[^app-a-roosevelt-text]
-
+Textual note: The excerpt follows the *Public Papers* text of the address as prepared, which reads “our Nation,” “This Nation asks,” and “fear itself” joined to “nameless” by a closed em dash. The FDR Library reading copy, a typescript with Roosevelt’s penciled addition “This is a day of consecration” at its head, lowercases “nation” in “our nation” and “This great nation” and punctuates the famous phrase “fear itself, - nameless.” As delivered, Roosevelt prefaced the address with “President Hoover, Mr. Chief Justice, my friends: This is a day of national consecration,” and said “This Nation is asking for action, and action now.” The Avalon transcription prints two hyphens where the *Public Papers* sets an em dash. The appendix follows the *Public Papers* wording and sets the dash spaced under the book’s convention.[^app-a-roosevelt-text]
 
 ## 21. The Social Security Act (1935)
 
@@ -463,10 +470,6 @@ Textual note: The excerpt follows the executive summary’s findings list. The 2
 
 The appendix is drafted, not checked. All thirty selections are transcribed, headnoted, and cited. The following tasks must be completed before the appendix can be integrated.
 
-### Selections 11–20
-
-- Roosevelt: collate the address against the *Public Papers* and the FDR Library reading copy, and confirm the “money changers” and “broad Executive power” passages.
-
 ### Selections 21–30
 
 - Social Security Act: collate the excerpt against 49 Stat. 620, 622–25, confirm the $3,000 wage cap and $85 maximum, and decide whether the 1939 amendments belong in the headnote or a separate selection.
@@ -566,9 +569,11 @@ The appendix is drafted, not checked. All thirty selections are transcribed, hea
 
 [^app-a-immigration-text]: Textual note — Subsections 11(a) and 11(b) were collated against the page images of 43 Stat. 159–60 and read verbatim; the excerpt keeps the statute’s “2 per centum” and its original July 1, 1927, date. The 1929 national-origins quotas were fixed by Proclamation 1872 under Section 11(b), as amended by the joint resolutions of March 4, 1927 (44 Stat. 1455), and March 31, 1928 (45 Stat. 400). Do not conflate the 1924 interim quotas under Proclamation 1703 (43 Stat. 1958–61) with the 1929 national-origins quotas under Proclamation 1872 (46 Stat. 2984–86). The aggregate figures are sums of the proclaimed schedules, not totals stated in the statutes or proclamations. Used for: Selection 19, the collation and the distinction between the two quota systems. Limitations: the collation used the GovInfo page images of the Statutes at Large, not the physical volume or the enrolled act; the aggregates are sums of the proclaimed schedules, not figures stated in the proclamations.
 
-[^app-a-roosevelt]: Franklin D. Roosevelt, “First Inaugural Address,” March 4, 1933, transcribed by the Avalon Project, Yale Law School, [“First Inaugural Address of Franklin D. Roosevelt”](https://avalon.law.yale.edu/20th_century/froos1.asp). Accessed November 1, 2026. Used for: the excerpt and the March 4 date. Limitations: the Avalon transcription prints two hyphens after “fear itself” and has not been collated against the *Public Papers* or the FDR Library reading copy.
+[^app-a-roosevelt]: Franklin D. Roosevelt, “First Inaugural Address,” March 4, 1933, in *The Public Papers and Addresses of Franklin D. Roosevelt*, vol. 2, *The Year of Crisis, 1933*, ed. Samuel I. Rosenman (New York: Random House, 1938), 11–16, at 11–12 and 15, [Internet Archive copy](https://archive.org/details/publicpapersaddr0002samu). Accessed November 2, 2026. Used for: Selection 20, the excerpt; the March 4 date; the prepared text’s readings “our Nation,” “This Nation asks,” and “fear itself” joined to “nameless” by a closed em dash; the money changers passage at 12; and the “broad Executive power” passage at 15. Limitations: the volume prints the address as prepared for delivery, not a verbatim transcript; the Internet Archive copy is access-restricted, and the page locators follow the printed volume.
 
-[^app-a-roosevelt-text]: Editorial check — collate the excerpt against the *Public Papers of the Presidents: Franklin D. Roosevelt, 1933* and the FDR Library reading copy. Confirm the “money changers” and “broad Executive power” passages and decide whether to include the bank-holiday context in the headnote.
+[^app-a-roosevelt-holiday]: Franklin D. Roosevelt, Proclamation 2039, “Bank Holiday, March 6–9, 1933, Inclusive,” March 6, 1933, 48 Stat. 1689–90, [Statutes at Large PDF](https://www.govinfo.gov/content/pkg/STATUTE-48/pdf/STATUTE-48-Pg1689.pdf); text also at The American Presidency Project, [“Proclamation 2039”](https://www.presidency.ucsb.edu/documents/proclamation-2039-bank-holiday-march-6-9-1933-inclusive). Accessed November 2, 2026. Used for: Selection 20, the proclamation’s March 6 date and 1:00 a.m. signing, its invocation of Section 5(b) of the Act of October 6, 1917, and the holiday’s March 6–9 span. Robert Jabaily, “Bank Holiday of 1933,” Federal Reserve History, [essay](https://www.federalreservehistory.org/essays/bank-holiday-of-1933), accessed November 2, 2026, used for: the 37 states with closed or restricted banks on March 4 and the 36-hour interval between the oath of office and the proclamation. Limitations: the 36-hour interval is the Federal Reserve History’s rounded figure; the proclamation is dated March 6 and was signed at 1:00 a.m., so it is sometimes described as a late-night action of March 5.
+
+[^app-a-roosevelt-text]: Textual note — collation of Selection 20 against *The Public Papers*, 2:11–16; the FDR Library reading copy, Master Speech File, Box 13, Franklin D. Roosevelt Presidential Library and Museum, [PDF of page 1](https://www.fdrlibrary.org/documents/356632/390886/document003.pdf/ee286f5b-ce6b-4784-9b1f-176686e60959), accessed November 2, 2026; and the American Presidency Project’s transcript made from video of the delivery, [“Inaugural Address”](https://www.presidency.ucsb.edu/documents/inaugural-address-8), accessed November 2, 2026. The reading copy reads “our nation” and “This great nation” in lower case, carries “This is a day of consecration” in pencil above the typescript, and prints “fear itself, - nameless.” It agrees with the *Public Papers* on the money changers passage and on the wording and capitalization of the “broad Executive power” sentence. The delivery transcript supplies the spoken prologue and “This Nation is asking for action.” The Avalon Project transcription, [“First Inaugural Address”](https://avalon.law.yale.edu/20th_century/froos1.asp), accessed November 2, 2026, prints “fear itself” and “nameless” with two hyphens between them. Used for: Selection 20, the collation recorded in the textual note and the decision to follow the *Public Papers* prepared text. Limitations: the library’s online PDF reproduces the first page of the reading copy only; the remaining pages were collated in the Master Speech File, not from that PDF. The delivery transcript is a modern transcription from video, not a stenographic record, and the *Public Papers* prints the prepared text rather than the spoken words.
 
 [^app-a-social-security]: “The Social Security Act,” Act of August 14, 1935, P.L. 74-271, 49 Stat. 620, Title II, §§202, 210, transcribed by the Social Security Administration, [“Social Security Act of 1935”](https://www.ssa.gov/history/35act.html). Accessed November 1, 2026. Used for: the excerpt, the August 14 date, and the exclusions in §210. Limitations: the SSA transcript is the original 1935 Act; the 1939 amendments changed the benefit formula, and the page locators 49 Stat. 620, 622–25 should be checked against the printed Statutes at Large.
 
