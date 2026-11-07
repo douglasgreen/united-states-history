@@ -392,6 +392,7 @@ Table 1 compares five positions. It is a planning draft; each row must be checke
 ### 8.3 Dates and numbers
 
 - **Dates.** Use American date order: July 4, 1776. Give full years before 1800 and at first mention; a standalone year is never abbreviated. Write “the 1850s.” Use CE and BCE for the deep past. Explain “years before present” and its reference year when used in scientific dating; radiocarbon dates conventionally use 1950 CE.
+- **Calendar.** Great Britain and its North American colonies adopted the Gregorian calendar in September 1752. The book uses Julian (Old Style) dates through September 2, 1752, and Gregorian (New Style) dates from September 14, 1752, and does not silently convert them to the other system. Where a source’s calendar or year-start creates a real ambiguity, the note explains it. Dates from Spanish, French, or other jurisdictions that used a different calendar are given as their records date them, with the system identified when it matters.
 - **Ranges.** Use en dashes for ranges and coordinated compounds: 1861–65, Chs. 5–13, North–South. Never use a hyphen between numbers to mean a range.
 - **Numbers.** Spell out one through nine in prose; use figures for 10 and above. Exceptions include proper names, dates, statistics, populations, money, and item numbers. Tables, data, and appendices use figures.
 - **Statistics.** State the source, observation year or period, units, population or denominator, and series or table locator. State rounding and calculations. Inflation-adjusted money names the price index and base year.

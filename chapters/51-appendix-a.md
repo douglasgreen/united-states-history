@@ -10,6 +10,8 @@ The list is not a canon. It includes founding texts and documents that record co
 
 Spelling, capitalization, and punctuation are preserved from the identified edition. Omissions within an excerpt are marked with a spaced ellipsis. Insertions and explanatory words are enclosed in square brackets. Double hyphens in a source are rendered as spaced em dashes, em dashes are set in the book’s spaced style, and straight quotation marks and apostrophes are rendered in the book’s typography; these are typographic normalizations, not silent modernizations of wording. Convenience transcriptions are not treated as authoritative; textual notes are confined to the text and dating of the excerpt. Quotations are checked against the source named in the note, not against a memory of the text; where collation is incomplete, the note says so.
 
+Dates follow the book’s calendar policy: Julian (Old Style) dates through September 2, 1752, and Gregorian (New Style) dates from September 14, 1752. Each document is dated as its own record dates it; the appendix converts or double-dates a date only where the text or a note requires it.
+
 The thirty selections below are a working draft. Editorial notes beginning “Editorial check” are tasks for the editor, not reader-facing commentary. They record what has been collated, what remains uncertain, and what must be resolved before the appendix can be called checked. The allowance is 34 pages; the measured length will be confirmed in typesetting.
 
 ## 1. The Mayflower Compact (1620)
@@ -22,7 +24,7 @@ The Mayflower Compact was subscribed in November 1620 by 41 adult men aboard the
 
 Source: The Avalon Project’s transcription of the compact in Thorpe’s 1909 compilation.[^app-a-mayflower]
 
-Textual note: The heading keeps the document’s own date, “the eleventh of November” 1620; a New Style equivalent is not supplied because the conversion should be checked against the colony’s calendar usage.[^app-a-mayflower-date]
+Textual note: The heading keeps the document’s own date, “the eleventh of November” 1620. Under the book’s calendar policy, that date is Julian (Old Style); modern accounts sometimes give November 21, the Gregorian equivalent, but this appendix does not convert it.
 
 ## 2. John Winthrop, “A Modell of Christian Charity” (1630)
 
@@ -492,8 +494,6 @@ The appendix is drafted, not checked. All thirty selections are transcribed, hea
 - Remove this section and all “Editorial check” notes when the checks are complete. Retain the source citations.
 
 [^app-a-mayflower]: The Mayflower Compact, November 11, 1620, in Francis Newton Thorpe, comp., *The Federal and State Constitutions, Colonial Charters, and Other Organic Laws of the States, Territories, and Colonies Now or Heretofore Forming the United States of America*, vol. 3 (Washington, D.C.: Government Printing Office, 1909), 1841–42, transcribed by the Avalon Project, Yale Law School, [“Mayflower Compact: 1620”](https://avalon.law.yale.edu/17th_century/mayflower.asp). Accessed November 1, 2026. Used for: the excerpt, the document’s self-date, and the count of 41 signers. Limitations: the Avalon page reproduces Thorpe’s compilation without a facsimile; the signer list is omitted from the excerpt, and the page reproduces a compilation text, not an early printing.
-
-[^app-a-mayflower-date]: Editorial check — the heading uses the document’s own date, “the eleventh of November” 1620. England used the Julian calendar in 1620, and modern accounts sometimes give November 21 on the Gregorian calendar. Confirm the convention to be followed in this book and add the New Style equivalent only if it can be sourced.
 
 [^app-a-winthrop]: John Winthrop, “A Modell of Christian Charity” (1630), in *Winthrop Papers*, vol. 2, *1623–1630* (Boston: Massachusetts Historical Society, 1931), 282–95, at 295, digital edition, [“A Modell of Christian Charity,” PWF02d270](https://www.masshist.org/publications/winthrop/index.php/view/PWF02d270), Massachusetts Historical Society. Accessed November 1, 2026. Used for: the excerpt, the attribution to the *Arbella* voyage of 1630, and the “Citty vpon a Hill” passage. Limitations: the digital edition is a transcription of the single surviving manuscript copy, apparently contemporary or nearly so, in the Library of the New-York Historical Society, not a facsimile; the manuscript was not examined directly, and whether the discourse was delivered aloud, and to whom, is not established by this source.
 
