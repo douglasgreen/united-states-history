@@ -342,7 +342,7 @@ Textual note: The text follows the National Archives transcription and agrees wi
 
 ## 23. Charter of the United Nations, Preamble (1945)
 
-The preamble of the Charter of the United Nations was adopted at the San Francisco conference on June 26, 1945, and the Charter entered into force on October 24, 1945. It states the purposes of the new organization: to save succeeding generations from war, reaffirm human rights, establish conditions of justice and international law, and promote social progress. The audience was the founding states and “we the peoples”; the language is universal, but the Charter’s enforcement depends on the Security Council and its permanent members’ veto. The United States ratified the Charter in 1945. The excerpt is the full preamble.[^app-a-un-charter]
+The Charter of the United Nations was signed at San Francisco on June 26, 1945, and entered into force on October 24, 1945, under Article 110. Its preamble states the purposes of the new organization: to save succeeding generations from war, reaffirm human rights, establish conditions of justice and international law, and promote social progress. It speaks in the name of “we the peoples,” but the instrument was made by governments, and its enforcement depends on the Security Council and the veto held by its five permanent members. The Senate advised and consented to ratification on July 28, 1945, by a vote of 89 to 2; Senators William Langer of North Dakota and Henrik Shipstead of Minnesota voted no, and President Truman ratified the Charter on August 8, 1945.[^app-a-un-charter-senate] The preamble recites motives and purposes; the obligations that bind members appear in the Charter’s articles. The Charter’s purposes are enumerated in Article 1 and its principles in Article 2, including the prohibition on the threat or use of force in Article 2(4) and the reservation of domestic jurisdiction in Article 2(7). The excerpt is the full preamble.[^app-a-un-charter]
 
 > WE THE PEOPLES OF THE UNITED NATIONS DETERMINED
 >
@@ -356,7 +356,7 @@ The preamble of the Charter of the United Nations was adopted at the San Francis
 >
 > AND FOR THESE ENDS
 >
-> to practice tolerance and live together in peace with one another as good neighbours, and
+> to practice tolerance and live together in peace with one another as good neighbors, and
 >
 > to unite our strength to maintain international peace and security, and
 >
@@ -368,9 +368,9 @@ The preamble of the Charter of the United Nations was adopted at the San Francis
 >
 > Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the present Charter of the United Nations and do hereby establish an international organization to be known as the United Nations.
 
-Source: The United Nations’ official text of the Charter preamble.[^app-a-un-charter]
+Source: The Statutes at Large printing of the Charter at 59 Stat. 1035 and the United Nations’ certified true copy of the 1945 text.[^app-a-un-charter]
 
-Textual note: The UN text uses “neighbours” (British spelling); the appendix preserves it. The preamble is not operative law; the purposes and principles are in Articles 1 and 2.[^app-a-un-charter-text]
+Textual note: The excerpt follows the Charter as printed at 59 Stat. 1035 and the United Nations’ certified true copy of the San Francisco text; both read “neighbors,” the American spelling. The United Nations’ current web transcription of the preamble reads “neighbours,” a British spelling that does not appear in the 1945 printings consulted here. The 1945 text sets the framing phrases in small capitals and breaks the lines as “WE THE PEOPLES OF THE UNITED NATIONS / DETERMINED” and “HAVE RESOLVED TO COMBINE OUR EFFORTS / TO ACCOMPLISH THESE AIMS”; the appendix sets them in full capitals and joins each pair on one line. The preamble’s purpose clauses form a single sentence from “WE THE PEOPLES” through “THESE AIMS,” and the final “Accordingly” sentence records the agreement; the paragraph breaks here follow the printed indentation.[^app-a-un-charter-text]
 
 ## 24. Executive Order 9835 (1947)
 
@@ -482,7 +482,6 @@ The appendix is drafted, not checked. All thirty selections are transcribed, hea
 
 ### Selections 21–30
 
-- United Nations Charter: confirm 59 Stat. 1031 and the British spelling “neighbours,” and distinguish the preamble from Articles 1–2.
 - Executive Order 9835: confirm 12 Fed. Reg. 1935, and decide whether to reproduce the full Part V list.
 - *Brown v. Board of Education*: confirm 347 U.S. 493–95, and keep *Brown II* (1955) separate.
 - “Letter from Birmingham Jail”: identify the version (mimeograph, *Christian Century*, or *Why We Can’t Wait*), collate the supplied web text, and handle the period term “Negro.”
@@ -601,9 +600,11 @@ The appendix is drafted, not checked. All thirty selections are transcribed, hea
 
 [^app-a-eo9066-text]: Textual note — collation of Selection 22 against the National Archives transcription and the printed order at 7 Fed. Reg. 1407 (February 25, 1942). The two texts agree in the excerpted passages. The order is facially neutral: it names no racial, ethnic, or national group and refers only to “any or all persons.” The removal and incarceration were carried out under subsequent military proclamations and civilian exclusion orders and under Executive Order 9102. Used for: Selection 22, the textual note and the description of the order as facially neutral. Limitations: the collation used the National Archives web transcription and the GovInfo PDF of the Federal Register issue, not the original signed document; the ellipsis omits the paragraph on the supersession of Department of Justice designations, and the excerpt ends before the order’s remaining administrative paragraphs, which are not reproduced.
 
-[^app-a-un-charter]: Charter of the United Nations, preamble, June 26, 1945, 59 Stat. 1031, T.S. No. 993, [“Preamble”](https://www.un.org/en/about-us/un-charter/preamble). Accessed November 1, 2026. Used for: the full preamble and the San Francisco adoption. Limitations: the UN web text uses British spelling (“neighbours”); the Charter’s operative provisions and the Security Council veto are outside the excerpt.
+[^app-a-un-charter]: Charter of the United Nations, June 26, 1945, 59 Stat. 1031, 1035, T.S. No. 993, 3 Bevans 1153, [Statutes at Large PDF](https://www.govinfo.gov/content/pkg/STATUTE-59/pdf/STATUTE-59-Pg1031.pdf), page image at 59 Stat. 1035; United Nations, *Charter of the United Nations and Statute of the International Court of Justice* (San Francisco, 1945), certified true copy, [PDF](https://treaties.un.org/doc/publication/ctc/uncharter.pdf), 2. Accessed November 7, 2026. Used for: Selection 23, the full preamble, the June 26 signature date, its capitalization and line arrangement, and the reading “neighbors.” Limitations: the Statutes at Large page image and the certified true copy agree in the excerpted text; the Treaty Series and Bevans printings were not examined, and those citations are given for identification. The United Nations’ web transcription, [“Preamble”](https://www.un.org/en/about-us/un-charter/preamble), reads “neighbours”; the textual note records that variant and does not adopt it.
 
-[^app-a-un-charter-text]: Editorial check — confirm 59 Stat. 1031 and the preamble’s capitalization against the signed Charter. Distinguish the preamble from Articles 1 and 2, where the purposes and principles are stated, and decide whether to note the Senate’s 1945 ratification vote.
+[^app-a-un-charter-senate]: *Congressional Record*, 91 Cong. Rec. 8190 (July 28, 1945), Senate, [PDF](https://www.congress.gov/79/crecb/1945/07/28/GPO-CRECB-1945-pt6-21.pdf). Accessed November 7, 2026. Used for: Selection 23, the Senate’s advice and consent on July 28, 1945, the 89–2 vote, and the two dissenting senators; the Record states, “On this vote the yeas are 89, the nays are 2,” lists Langer and Shipstead under the nays, and records five senators not voting (Bailey, Johnson of California, Glass, Reed, and Thomas of Idaho). President Truman’s ratification on August 8, 1945, is recorded in the proclamation at 59 Stat. 1213–14, [Statutes at Large PDF](https://www.govinfo.gov/content/pkg/STATUTE-59/pdf/STATUTE-59-Pg1031.pdf); the deposit of the U.S. ratification on August 8, 1945, and the Charter’s entry into force on October 24, 1945, are recorded in the United Nations Treaty Collection, [“Charter of the United Nations”](https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=I-1&chapter=1&clang=_en). Limitations: the *Congressional Record* is a bound-volume printing; the roll call records the vote but not the senators’ reasons. The proclamation’s “Resolution of July 28 (legislative day of July 9), 1945” reflects the Senate’s legislative-day calendar, not a second vote.
+
+[^app-a-un-charter-text]: Textual note — collation of Selection 23 against the page image of 59 Stat. 1035 and the United Nations’ certified true copy of the 1945 text, [PDF](https://treaties.un.org/doc/publication/ctc/uncharter.pdf), 2. Both print “neighbors” and set the framing phrases in small capitals, breaking the lines as “WE THE PEOPLES OF THE UNITED NATIONS / DETERMINED” and “HAVE RESOLVED TO COMBINE OUR EFFORTS / TO ACCOMPLISH THESE AIMS.” The United Nations’ web transcription, [“Preamble”](https://www.un.org/en/about-us/un-charter/preamble), reads “neighbours”; that reading is recorded, not adopted. Accessed November 7, 2026. Used for: Selection 23, the textual note’s spelling, capitalization, line arrangement, and the treatment of the preamble’s sentence structure. Limitations: the 1945 printings were read from page images, not the original signed sheet; the signed original in the National Archives was not examined for this collation.
 
 [^app-a-eo9835]: Harry S. Truman, Executive Order 9835, March 21, 1947, 12 Fed. Reg. 1935, [transcript](https://www.trumanlibrary.gov/library/executive-orders/9835/executive-order-9835). Accessed November 1, 2026. Used for: the excerpt, the March 21 date, and the “reasonable grounds” standard. Limitations: the order’s operation is not evidence of the number or outcome of the cases.
 
