@@ -396,7 +396,7 @@ Textual note: The excerpt follows the printed order at 12 Fed. Reg. 1935–39 (M
 
 ## 25. *Brown v. Board of Education* (1954)
 
-*Brown v. Board of Education* was decided on May 17, 1954. Chief Justice Earl Warren’s unanimous opinion held that racial segregation in public schools violated the Equal Protection Clause and that the “separate but equal” doctrine had no place in education. The excerpt is the passage on education as a public right, the psychological and social effects of segregation, and the holding that separate facilities are “inherently unequal.” The audience was the nation and the segregated states; the decision did not order immediate desegregation. *Brown II* (1955) left the remedy to district courts with “all deliberate speed,” and massive resistance followed. The case was a landmark but not the end of segregation.[^app-a-brown]
+*Brown v. Board of Education* was decided on May 17, 1954. Chief Justice Earl Warren’s unanimous opinion held that racial segregation in public schools violated the Equal Protection Clause and that the “separate but equal” doctrine had no place in education. The excerpt captures the Court’s framing of public education as a foundational right, the psychological harm of state-mandated segregation, and the definitive holding that separate educational facilities are “inherently unequal.” The Court reserved the question of relief for reargument; the enforcement decree followed a year later in *Brown II* (1955), which remanded implementation to the district courts with “all deliberate speed.” The audience was the nation and the segregated states, and massive resistance to the decision followed. The case was a landmark but not the end of segregation.[^app-a-brown]
 
 > Today, education is perhaps the most important function of state and local governments. … Such an opportunity, where the state has undertaken to provide it, is a right which must be made available to all on equal terms.
 >
@@ -408,7 +408,7 @@ Textual note: The excerpt follows the printed order at 12 Fed. Reg. 1935–39 (M
 
 Source: *Brown v. Board of Education of Topeka*, 347 U.S. 483, 493–95 (1954), U.S. Reports.[^app-a-brown]
 
-Textual note: The appendix follows the U.S. Reports text. The excerpt is at 347 U.S. 483, 493–95; *Brown II*, 349 U.S. 294 (1955), is a separate decision.[^app-a-brown-text]
+Textual note: The excerpt follows the official U.S. Reports text at 347 U.S. 483, 493–95; omissions are marked with ellipses. The Kansas District Court finding quoted at 494 is omitted to keep the excerpt focused on Warren’s constitutional holding. *Brown II*, 349 U.S. 294 (1955), addresses the remedial framework and is kept conceptually distinct.[^app-a-brown-text]
 
 ## 26. Martin Luther King Jr., “Letter from Birmingham Jail” (1963)
 
@@ -484,7 +484,6 @@ The appendix is drafted, not checked. All thirty selections are transcribed, hea
 
 ### Selections 21–30
 
-- *Brown v. Board of Education*: confirm 347 U.S. 493–95, and keep *Brown II* (1955) separate.
 - “Letter from Birmingham Jail”: identify the version (mimeograph, *Christian Century*, or *Why We Can’t Wait*), collate the supplied web text, and handle the period term “Negro.”
 - Gulf of Tonkin Resolution: distinguish adoption on August 7 from signing on August 10, and verify 78 Stat. 384.
 - Voting Rights Act: collate Section 4 against 79 Stat. 438–39, confirm the coverage formula’s 1964 dates, and update the *Shelby County* note.
@@ -613,9 +612,9 @@ The appendix is drafted, not checked. All thirty selections are transcribed, hea
 
 [^app-a-eo9835-text]: Textual note — Executive Order 9835, 12 Fed. Reg. 1935, 1938 (March 25, 1947). The printed text reads “reasonable grounds exist,” “applicant or employee,” and “one or more of the following”; the Truman Library transcription reads “exists,” “employees,” and “follow,” and those readings are not adopted. The standard is “reasonable grounds,” not proof of membership or espionage. Items a–e are omitted from the excerpt and summarized in brackets; item f is reproduced in full because it is the clause that made membership in organizations on the Attorney General’s list a loyalty factor and adopted the “sympathetic association” standard. The heading is set as “PART V — STANDARDS” in the book’s spaced-dash style. Used for: Selection 24, the textual note and the decision to summarize items a–e rather than reproduce them. Limitations: the collation used the GovInfo PDF of the Federal Register issue and the Truman Library transcription, not the original signed order; the summary of items a–e is editorial and does not reproduce their wording.
 
-[^app-a-brown]: *Brown v. Board of Education of Topeka*, 347 U.S. 483, 493–95 (1954), opinion of Chief Justice Earl Warren, U.S. Reports, Library of Congress, [PDF](https://tile.loc.gov/storage-services/service/ll/usrep/usrep347/usrep347483/usrep347483.pdf). Accessed November 1, 2026. Used for: the excerpt and the holding that separate educational facilities are inherently unequal. Limitations: the appendix follows the U.S. Reports text. *Brown II*, 349 U.S. 294 (1955), is a separate decision and is not reproduced.
+[^app-a-brown]: *Brown v. Board of Education of Topeka*, 347 U.S. 483, 493–95 (1954), opinion of Chief Justice Earl Warren, U.S. Reports, Library of Congress, [PDF](https://tile.loc.gov/storage-services/service/ll/usrep/usrep347/usrep347483/usrep347483.pdf). Accessed November 7, 2026. Used for: the status of education as a public right, the psychological and social effects of state-mandated segregation, and the holding that separate educational facilities are inherently unequal. Limitations: *Brown I* decided the constitutional violation; the remedy was reserved for *Brown II*, 349 U.S. 294 (1955), which is not reproduced here.
 
-[^app-a-brown-text]: Editorial check — confirm the excerpt at 347 U.S. 493–95 against the U.S. Reports. Decide whether to quote the Kansas finding in full and whether to add *Brown II* as a separate selection. Do not merge the remedy into the 1954 holding.
+[^app-a-brown-text]: Textual note — the excerpt was collated against the U.S. Reports text at 347 U.S. 483, 493–95. The Kansas District Court finding quoted at 494 is omitted by ellipsis to focus on Warren’s constitutional holding. *Brown II*, 349 U.S. 294 (1955), addressed the remedy and remanded the cases to the district courts; it is a separate decision and is not merged into this excerpt. Used for: Selection 25, the collation and the treatment of the omitted Kansas finding and *Brown II*. Limitations: the collation used the Library of Congress PDF of the U.S. Reports, not the printed volume.
 
 [^app-a-king-letter]: Martin Luther King Jr., “Letter from Birmingham Jail,” April 16, 1963, text at [“Letter from Birmingham Jail”](https://letterfromjail.com/); publication history from the Martin Luther King, Jr. Research and Education Institute, [“‘Letter from Birmingham Jail’”](https://kinginstitute.stanford.edu/letter-birmingham-jail). Accessed November 1, 2026. Used for: the excerpt, the April 16 date, and the letter’s publication in *Christian Century* and *Why We Can’t Wait*. Limitations: the letter exists in multiple versions; the supplied web text is the long text and has not been collated against the King papers or the 1964 book.
 
