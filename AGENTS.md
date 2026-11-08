@@ -25,15 +25,9 @@ The deliverable is **exactly 50 numbered chapters, plus an unnumbered Introducti
 
 ### One plan, not competing plans
 
-`README.md` is the only maintained book outline. Do not create or maintain `outline.md` as a second authority. Chapter files contain the local, more detailed development of the README outline; Appendix C is a reader-facing catalog, not a competing illustration plan. Appendix D is the published chronology and must agree with the planned coverage and manuscript.
+`README.md` is the only maintained book outline. Chapter files contain the local, more detailed development of the README outline; Appendix C is a reader-facing catalog, not a competing illustration plan. Appendix D is the published chronology and must agree with the planned coverage and manuscript.
 
 When scope, section structure, an opening scene, a bridge, a page allocation, or a visual changes during writing, update the relevant README record and affected chapter or appendix together. Resolve contradictions by checking evidence and making an explicit decision, not by assuming either an older plan or newer prose must be right.
-
-### Applying these rules to the existing draft
-
-The first draft uses descriptive chapter file names and an `outline.md`; these are legacy artifacts, not the convention going forward. A revision of this instruction file alone does not authorize moving the outline, renaming the manuscript, or rewriting chapters.
-
-When migration is requested, inventory the existing files and references first. Move and reconcile the outline into `README.md`, preserving useful material; map every old chapter path to its new path; then rename files and repair links and build inputs as one coordinated change. Reconcile the visual registers and appendix promises against the actual manuscript. Retire `outline.md` only after its content and references have been accounted for. Do not overwrite a draft with an outline or discard unresolved editorial notes. Until migration is complete, locate existing chapters by their numeric prefix and record actual paths rather than inventing links to files that do not yet exist.
 
 ### Repository checks
 
