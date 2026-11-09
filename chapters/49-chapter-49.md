@@ -139,7 +139,7 @@ The roadmap (120–180 words) should match the actual sections: “The chapter p
 
 - **The actions.** In 2023 the United Auto Workers conducted a “stand-up” strike against the three large automakers, and Hollywood writers and actors struck separately, with the writers’ contract addressing generative artificial intelligence; the chapter should give the dates, the employers, and the settlements from the parties’ records.[^ch49-uaw-2023]
 - **The stakes.** The strikes tested whether a tight labor market and public support could raise wages in sectors facing technological change; the chapter should present the settlements and their later effects rather than a verdict at the time.[^ch49-uaw-2023][^ch49-eo-14179-2025]
-- **The silences.** The chapter should name the workers whose voices are least represented in the record — the unorganized, the undocumented, and the care workers — rather than speaking for them.[^ch49-check-silences]
+- **The silences.** The chapter should name the workers whose voices are least represented in the record — the unorganized, unauthorized immigrant workers, and the care workers — rather than speaking for them.[^ch49-check-silences]
 
 ## 2. Rights: *Dobbs*, firearms, affirmative action, and immunity (2022–2024)
 
