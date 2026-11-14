@@ -386,9 +386,11 @@ This is a selective guide, not a citation ledger. The groups move from the prima
 - **David Montgomery, *The Fall of the House of Labor* (1987) and Herbert G. Gutman, *Work, Culture, and Society in Industrializing America* (1976).** The labor interpretation; discovered but not yet consulted.[^ch24-check-sources]
 - **Martin J. Sklar, *The Corporate Reconstruction of American Capitalism, 1890–1916* (1988) and William G. Roy, *Socializing Capital* (1997).** The corporate-law interpretation; discovered but not yet consulted.[^ch24-check-sources]
 
-> *A closing note.* The second industrial revolution made the United States the world’s leading industrial power and made the corporation the organizing institution of American life. It standardized time, built the trust, filled the cities, and broke the great strikes; and it left a republic with more productive capacity than it had institutions to govern it. The questions it raised — about the boundary between private and public power, the meaning of a wage, and who belonged to the industrial nation — were not settled in 1900.[^ch24-loc-two-noons][^ch24-archives-sherman][^ch24-loc-organized-labor]
+## Closing note and bridge
 
-> *And a bridge.* The next chapter begins with the 1874 Black Hills expedition and its documented reports of gold, where industrial demand and federal power met the Lakota and other nations of the northern Plains. The chapter takes up conquest, extraction, and the end of the frontier that the same industrial order was consuming. Chapter 25 takes up the West.[^ch24-check-ch25][^ch24-check-bridge]
+*A closing note.* The second industrial revolution made the United States the world’s leading industrial power and made the corporation the organizing institution of American life. It standardized time, built the trust, filled the cities, and broke the great strikes; and it left a republic with more productive capacity than it had institutions to govern it. The questions it raised — about the boundary between private and public power, the meaning of a wage, and who belonged to the industrial nation — were not settled in 1900.[^ch24-loc-two-noons][^ch24-archives-sherman][^ch24-loc-organized-labor]
+
+*And a bridge.* The next chapter begins with the 1874 Black Hills expedition and its documented reports of gold, where industrial demand and federal power met the Lakota and other nations of the northern Plains. The chapter takes up conquest, extraction, and the end of the frontier that the same industrial order was consuming. Chapter 25 takes up the West.[^ch24-check-ch25][^ch24-check-bridge]
 
 *Combined footnote list — definitions follow as plain Markdown; the build supplies the heading.*
 

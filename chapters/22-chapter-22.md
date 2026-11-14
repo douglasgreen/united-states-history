@@ -395,9 +395,11 @@ This is a selective guide, not a citation ledger. The groups move from the prima
 - **Drew Gilpin Faust, *This Republic of Suffering* (2008).** The war’s culture of death; consulted through publisher descriptions, a scholarly review, and the author’s retrospective.[^ch22-faust-republic-suffering]
 - **Joan Barceló, Jeffrey L. Jensen, Leonid Peisakhin, and Haoyu Zhai, “New estimates of US Civil War mortality from full-census records,” *PNAS* (2024).** The full-count census estimate and its method; consulted directly.[^ch22-pnas-mortality]
 
-> *A closing note.* The spring of 1865 gave the United States a victory it had not dared to expect in 1864 and a president it could not replace. The Confederacy was destroyed, slavery was abolished, and the Union was restored; yet the freedpeople who buried the Union dead in Charleston and the families who would seek land in the sea islands knew that the war’s deepest question had only changed its ground. Freedom had been declared; its terms were still being contested.[^ch22-archives-13th][^ch22-blight-decoration-day][^ch22-freedmen-umd-sfo15]
+## Closing note and bridge
 
-> *And a bridge.* The next chapter begins with Mississippi’s Black Code of late 1865, where the state legislature tried to fix the meaning of emancipation by binding freedpeople to labor and denying them rights. The chapter takes up presidential Reconstruction, congressional Reconstruction, the freedpeople’s institution-building, the white supremacist counterrevolution, and the settlement of 1876–77. Chapter 23 takes up Reconstruction and its betrayals.[^ch22-check-ch23][^ch22-check-bridge]
+*A closing note.* The spring of 1865 gave the United States a victory it had not dared to expect in 1864 and a president it could not replace. The Confederacy was destroyed, slavery was abolished, and the Union was restored; yet the freedpeople who buried the Union dead in Charleston and the families who would seek land in the sea islands knew that the war’s deepest question had only changed its ground. Freedom had been declared; its terms were still being contested.[^ch22-archives-13th][^ch22-blight-decoration-day][^ch22-freedmen-umd-sfo15]
+
+*And a bridge.* The next chapter begins with Mississippi’s Black Code of late 1865, where the state legislature tried to fix the meaning of emancipation by binding freedpeople to labor and denying them rights. The chapter takes up presidential Reconstruction, congressional Reconstruction, the freedpeople’s institution-building, the white supremacist counterrevolution, and the settlement of 1876–77. Chapter 23 takes up Reconstruction and its betrayals.[^ch22-check-ch23][^ch22-check-bridge]
 
 *Combined footnote list — definitions follow as plain Markdown; the build supplies the heading.*
 

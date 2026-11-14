@@ -431,9 +431,11 @@ This is a selective guide, not a citation ledger. The groups move from the prima
 - **David W. Blight, *Race and Reunion* (2001).** How reunion purchased a White republic and suppressed the emancipationist memory; consulted through the publisher’s description and reviews.[^ch23-blight-race-reunion]
 - **The Black church in Reconstruction.** The *Journal of the Civil War Era* essay for the institutional and gendered politics of Black congregations.[^ch23-journal-civilwar-churches]
 
-> *A closing note.* Reconstruction gave the United States its first constitutional definition of a biracial citizenship and its first serious attempt at interracial democracy, and it withdrew the protection that made both possible. The amendments outlived the era; the land, the schools, and the votes did not, or not for long. What the freedpeople had built—families, churches, schools, and political organizations—proved more durable than the federal will to defend them.[^ch23-archives-14th][^ch23-georgiaencyclopedia-education][^ch23-millercenter-1876]
+## Closing note and bridge
 
-> *And a bridge.* The next chapter begins at railroad standard time in New York on November 18, 1883, where the nation standardized the clocks that governed its industry and its trains. The chapter takes up the second industrial revolution, the corporation, immigration, and the labor conflicts that followed Reconstruction. Chapter 24 takes up the making of modern America.[^ch23-check-ch24][^ch23-check-bridge][^ch23-pbs-panic-1873]
+*A closing note.* Reconstruction gave the United States its first constitutional definition of a biracial citizenship and its first serious attempt at interracial democracy, and it withdrew the protection that made both possible. The amendments outlived the era; the land, the schools, and the votes did not, or not for long. What the freedpeople had built—families, churches, schools, and political organizations—proved more durable than the federal will to defend them.[^ch23-archives-14th][^ch23-georgiaencyclopedia-education][^ch23-millercenter-1876]
+
+*And a bridge.* The next chapter begins at railroad standard time in New York on November 18, 1883, where the nation standardized the clocks that governed its industry and its trains. The chapter takes up the second industrial revolution, the corporation, immigration, and the labor conflicts that followed Reconstruction. Chapter 24 takes up the making of modern America.[^ch23-check-ch24][^ch23-check-bridge][^ch23-pbs-panic-1873]
 
 *Combined footnote list — definitions follow as plain Markdown; the build supplies the heading.*
 

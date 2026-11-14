@@ -372,9 +372,11 @@ This is a selective guide, not a citation ledger. The groups move from the prima
 - **Glenda Elizabeth Gilmore and Grace Elizabeth Hale.** The culture-and-gender interpretation of segregation; consulted only through Pfeifer’s review.[^ch26-pfeifer-woodward]
 - **Paula Giddings, *Ida: A Sword among Lions*, and Shawn Leigh Alexander.** The scholarship restoring Black agency and the Niagara Movement; discovered but not yet consulted.[^ch26-check-sources]
 
-> *A closing note.* Between 1877 and 1910 the South’s leaders turned emancipation’s promise inside out. They redeemed the state by violence, leased the prisoners, kept the land, wrote exclusion into constitutions, upheld it in the courts, and enforced it with the rope. Yet the same decades produced Ida B. Wells’s record of the lynchings, Du Bois’s demand for the vote, and the organizations that carried the struggle into the next century. The chapter’s question — how racial domination became an institutional order — is answered by law, capital, violence, and the choices of people who refused to accept it.[^ch26-ms-plan-1890][^ch26-wells-red-record][^ch26-durocher-wells]
+## Closing note and bridge
 
-> *And a bridge.* The next chapter begins in Chicago on July 9, 1896, where William Jennings Bryan told the Democratic National Convention that “you shall not crucify mankind upon a cross of gold.” The agrarian revolt that Bryan spoke for had once promised a politics that crossed the color line; Chapter 27 takes up what became of it, and of the republic’s turn to empire.[^ch26-check-ch27][^ch26-check-bridge]
+*A closing note.* Between 1877 and 1910 the South’s leaders turned emancipation’s promise inside out. They redeemed the state by violence, leased the prisoners, kept the land, wrote exclusion into constitutions, upheld it in the courts, and enforced it with the rope. Yet the same decades produced Ida B. Wells’s record of the lynchings, Du Bois’s demand for the vote, and the organizations that carried the struggle into the next century. The chapter’s question — how racial domination became an institutional order — is answered by law, capital, violence, and the choices of people who refused to accept it.[^ch26-ms-plan-1890][^ch26-wells-red-record][^ch26-durocher-wells]
+
+*And a bridge.* The next chapter begins in Chicago on July 9, 1896, where William Jennings Bryan told the Democratic National Convention that “you shall not crucify mankind upon a cross of gold.” The agrarian revolt that Bryan spoke for had once promised a politics that crossed the color line; Chapter 27 takes up what became of it, and of the republic’s turn to empire.[^ch26-check-ch27][^ch26-check-bridge]
 
 *Combined footnote list — definitions follow as plain Markdown; the build supplies the heading.*
 

@@ -385,9 +385,11 @@ This is a selective guide, not a citation ledger. The groups move from the prima
 - **Donald Worster, *Rivers of Empire* (1985).** The hydraulic-empire and environmental-limits interpretation; consulted only through reviews.[^ch25-worster-rivers]
 - **Pekka Hämäläinen, *The Comanche Empire* (2008) and *Lakota America* (2019).** The Indigenous-power interpretation; consulted only through reviews and descriptions.[^ch25-hamalainen-lakota]
 
-> *A closing note.* The decades after the Civil War took the West from the nations that held it by treaty and turned it into a reserve of land, minerals, water, and myths. The treaties were signed and broken; the railroads and mines were built by Mexican and Chinese and Black labor as well as White; the Plains nations lost the bison and then the land; the schools took the children; and the census declared the frontier gone while the conquest continued. The chapter’s question — who held title, and how was it enforced — was answered in land, in law, and in violence, and it was never answered once.[^ch25-avalon-ft-laramie][^ch25-archives-dawes][^ch25-pbs-wounded-knee]
+## Closing note and bridge
 
-> *And a bridge.* The next chapter begins in Mississippi in 1890, where a state convention wrote a new constitution that stripped Black men of the vote. The instruments of exclusion that had organized the West through treaty, allotment, and schooling were being matched in the South by instruments of racial rule; Chapter 26 takes up the South, race, and the new order.[^ch25-check-ch26][^ch25-check-bridge]
+*A closing note.* The decades after the Civil War took the West from the nations that held it by treaty and turned it into a reserve of land, minerals, water, and myths. The treaties were signed and broken; the railroads and mines were built by Mexican and Chinese and Black labor as well as White; the Plains nations lost the bison and then the land; the schools took the children; and the census declared the frontier gone while the conquest continued. The chapter’s question — who held title, and how was it enforced — was answered in land, in law, and in violence, and it was never answered once.[^ch25-avalon-ft-laramie][^ch25-archives-dawes][^ch25-pbs-wounded-knee]
+
+*And a bridge.* The next chapter begins in Mississippi in 1890, where a state convention wrote a new constitution that stripped Black men of the vote. The instruments of exclusion that had organized the West through treaty, allotment, and schooling were being matched in the South by instruments of racial rule; Chapter 26 takes up the South, race, and the new order.[^ch25-check-ch26][^ch25-check-bridge]
 
 *Combined footnote list — definitions follow as plain Markdown; the build supplies the heading.*
 
