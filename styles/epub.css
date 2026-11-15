@@ -1,0 +1,381 @@
+/*
+ * A Nation in Question — reflowable EPUB 3 stylesheet for Kindle.
+ *
+ * Amazon converts the EPUB to KFX. This file therefore uses only widely
+ * supported CSS, relative units, and inherited colors. It deliberately
+ * sets no font family, no fixed font size, no page geometry, and no
+ * background colors, so the Kindle's own type and theme settings win.
+ *
+ * The book is 50 long narrative chapters plus an Introduction and five
+ * appendices. Its recurring page furniture is: chapter epigraphs, long
+ * documentary blockquotes (Appendix A), five-column debate tables, and a
+ * combined citation list of dozens of notes at the end of each chapter
+ * or appendix.
+ */
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* History-book paragraphing: indent consecutive paragraphs rather than
+   separating every one with a blank line. The first paragraph after a
+   heading or another block element stays flush left. */
+p {
+    margin: 0;
+    text-indent: 1.2em;
+    orphans: 2;
+    widows: 2;
+}
+
+h1 + p,
+h2 + p,
+h3 + p,
+h4 + p,
+h5 + p,
+h6 + p,
+blockquote + p,
+figure + p,
+table + p,
+ul + p,
+ol + p,
+hr + p,
+section > p:first-child {
+    text-indent: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: left;
+    line-height: 1.25;
+    page-break-after: avoid;
+    break-after: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+/* Each manuscript file is normally its own spine item, but this also
+   keeps chapters apart if the book is built as one XHTML file. */
+h1 {
+    font-size: 1.5em;
+    margin: 0 0 1.2em;
+    page-break-before: always;
+    break-before: page;
+}
+
+h2 {
+    font-size: 1.25em;
+    margin: 1.8em 0 0.5em;
+}
+
+h3 {
+    font-size: 1.05em;
+    margin: 1.4em 0 0.4em;
+}
+
+h4 {
+    font-size: 1em;
+    font-style: italic;
+    margin: 1.2em 0 0.35em;
+}
+
+h5,
+h6 {
+    font-size: 1em;
+    margin: 1em 0 0.3em;
+}
+
+/* Pandoc's generated title page and navigation document must not be
+   pushed onto an extra page by the chapter rule above. */
+h1.title,
+.titlepage h1,
+nav#toc h1,
+#toc-title {
+    page-break-before: avoid;
+    break-before: auto;
+}
+
+.titlepage {
+    margin-top: 3em;
+    text-align: center;
+}
+
+.titlepage p {
+    text-indent: 0;
+}
+
+.titlepage h1.title {
+    font-size: 1.8em;
+    margin: 0 0 1.4em;
+    text-align: center;
+}
+
+.titlepage .author {
+    font-size: 1.2em;
+    margin: 0 0 2em;
+}
+
+.titlepage .rights {
+    font-size: 0.8em;
+    margin-top: 3em;
+}
+
+/* Epigraphs at the head of each chapter and the documentary excerpts in
+   Appendix A share this element. Keep the indentation moderate so a
+   long document does not become a narrow column on a phone. */
+blockquote {
+    margin: 0.8em 1.25em;
+    padding: 0;
+    text-align: left;
+}
+
+blockquote p {
+    margin: 0 0 0.45em;
+    text-indent: 0;
+}
+
+blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+/* Chapter epigraphs are the blockquotes immediately after the h1. They
+   occur in runs of one to four. Appendix A's documentary blockquotes sit
+   after h2 headings and keep the ordinary blockquote treatment above. */
+h1 + blockquote,
+h1 + blockquote + blockquote,
+h1 + blockquote + blockquote + blockquote,
+h1 + blockquote + blockquote + blockquote + blockquote {
+    margin: 0 0 1.6em;
+    padding: 0 1em;
+    text-align: center;
+    font-style: italic;
+}
+
+h1 + blockquote p:last-child,
+h1 + blockquote + blockquote p:last-child,
+h1 + blockquote + blockquote + blockquote p:last-child,
+h1 + blockquote + blockquote + blockquote + blockquote p:last-child {
+    text-align: right;
+    font-size: 0.92em;
+    font-style: normal;
+}
+
+ul,
+ol {
+    margin: 0.5em 0 1em 1.4em;
+    padding: 0;
+    text-align: left;
+}
+
+li {
+    margin: 0 0 0.35em;
+}
+
+li p {
+    margin: 0;
+    text-indent: 0;
+}
+
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+/* Kindle screens are narrow. Compact tables are more legible than a
+   five-column debate table set at body size, and currentColor keeps
+   rules visible in both light and dark themes. */
+table {
+    width: 100%;
+    margin: 1.2em 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-top: 1px solid currentColor;
+    border-bottom: 1px solid currentColor;
+    font-size: 0.8em;
+    line-height: 1.3;
+    page-break-inside: auto;
+    break-inside: auto;
+}
+
+caption {
+    caption-side: top;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 0;
+    margin-bottom: 0.4em;
+}
+
+th,
+td {
+    padding: 0.25em 0.35em;
+    vertical-align: top;
+    text-align: left;
+    text-indent: 0;
+    border-bottom: 1px solid currentColor;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+thead {
+    display: table-header-group;
+}
+
+th {
+    font-weight: bold;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+tr {
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+table p {
+    margin: 0;
+    text-indent: 0;
+}
+
+td ul,
+td ol {
+    margin: 0.2em 0 0.2em 1em;
+}
+
+figure {
+    margin: 1.2em 0;
+    text-align: center;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+figure img {
+    display: block;
+    margin: 0 auto;
+}
+
+figcaption {
+    margin-top: 0.5em;
+    font-size: 0.85em;
+    line-height: 1.35;
+    text-align: left;
+    text-indent: 0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Pandoc writes each chapter's citations as a .footnotes section of
+   <aside> elements. URLs in those notes are long, so links must wrap. */
+.footnotes {
+    margin-top: 2.5em;
+    padding-top: 0.8em;
+    border-top: 1px solid currentColor;
+    font-size: 0.85em;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.footnotes hr {
+    display: none;
+}
+
+.footnotes aside {
+    margin: 0 0 0.8em;
+}
+
+.footnotes p {
+    margin: 0;
+    text-indent: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+a.footnote-ref,
+a.footnote-back {
+    text-decoration: none;
+}
+
+sup {
+    margin-left: 0.08em;
+    font-size: 0.7em;
+    line-height: 0;
+    vertical-align: super;
+}
+
+hr {
+    margin: 1.5em 0;
+    border: 0;
+    border-top: 1px solid currentColor;
+}
+
+/* The book's back-matter sections begin a new movement of the chapter.
+   A hairline rule makes them findable without introducing a new font or
+   color. Both id forms cover HTML with and without Pandoc sections. */
+h2#legacies,
+h2#optional-threads,
+h2#summary,
+h2#study-questions,
+h2#further-reading,
+h2#closing-note-and-bridge,
+h2#closing-note,
+section#legacies > h2,
+section#optional-threads > h2,
+section#summary > h2,
+section#study-questions > h2,
+section#further-reading > h2,
+section#closing-note-and-bridge > h2,
+section#closing-note > h2 {
+    margin-top: 2.5em;
+    padding-top: 0.7em;
+    border-top: 1px solid currentColor;
+}
+
+nav#toc {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+nav#toc h1 {
+    font-size: 1.4em;
+    margin: 0 0 1em;
+}
+
+nav#toc ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav#toc ol ol {
+    margin-left: 1.2em;
+}
+
+nav#toc li {
+    margin: 0 0 0.3em;
+}
+
+nav#toc a {
+    text-decoration: none;
+}

@@ -1,0 +1,645 @@
+/*
+ * A Nation in Question — browser proofreading stylesheet for Pandoc HTML.
+ *
+ * Intended use, from the repository root:
+ *   pandoc metadata.yaml chapters/01-chapter-1.md \
+ *     --standalone --toc --css=styles/html.css -o ch01.html
+ *
+ * This sheet is deliberately more expressive than the Kindle EPUB sheet.
+ * It uses locally available fonts (no web fonts), a comfortable reading
+ * measure, a distinct masthead and contents block, zebra-striped data
+ * tables, and highlighted footnote targets for checking citations.
+ */
+
+:root {
+    color-scheme: light dark;
+    --bg: #f8f5ef;
+    --text: #201d19;
+    --muted: #665e52;
+    --rule: #d8d0c1;
+    --soft: #efe9dd;
+    --hover: #e9e1d2;
+    --accent: #8a3324;
+    --highlight: #fff0b8;
+    --serif: "Charis SIL", "EB Garamond", "Iowan Old Style",
+        "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    --sans: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: dark;
+        --bg: #15171a;
+        --text: #e9e3d8;
+        --muted: #a79f92;
+        --rule: #3a3f45;
+        --soft: #1d2024;
+        --hover: #24282d;
+        --accent: #e6a27f;
+        --highlight: #4b3a00;
+    }
+}
+
+html {
+    background: var(--bg);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+body {
+    max-width: 48rem;
+    margin: 0 auto;
+    padding: 3.5rem 1.5rem 6rem;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--serif);
+    font-size: 1.125rem;
+    line-height: 1.65;
+    text-rendering: optimizeLegibility;
+    font-kerning: normal;
+}
+
+::selection {
+    background: var(--highlight);
+    color: var(--text);
+}
+
+/* ---------- Pandoc masthead, contents, and chapter titles ---------- */
+
+#title-block-header {
+    margin: 0 0 2.5rem;
+    padding: 0 0 1.1rem;
+    border-bottom: 1px solid var(--rule);
+    text-align: center;
+}
+
+#title-block-header h1.title {
+    margin: 0 0 0.35rem;
+    padding: 0;
+    border: 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    text-wrap: balance;
+}
+
+#title-block-header .author,
+#title-block-header .date {
+    margin: 0;
+    color: var(--muted);
+    font-family: var(--sans);
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+nav#TOC {
+    max-height: 25rem;
+    margin: 1.5rem 0 2.5rem;
+    padding: 1rem 1.25rem;
+    overflow-y: auto;
+    border: 1px solid var(--rule);
+    background: var(--soft);
+    font-family: var(--sans);
+    font-size: 0.88rem;
+    line-height: 1.45;
+    scrollbar-width: thin;
+    scrollbar-color: var(--rule) transparent;
+}
+
+nav#TOC::-webkit-scrollbar {
+    width: 8px;
+}
+
+nav#TOC::-webkit-scrollbar-thumb {
+    background: var(--rule);
+    border-radius: 4px;
+}
+
+nav#TOC::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+nav#TOC::before {
+    display: block;
+    margin-bottom: 0.75rem;
+    content: "Contents";
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+nav#TOC > ul,
+nav#TOC ul ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav#TOC ul ul {
+    margin: 0.3rem 0 0.75rem 1.1rem;
+}
+
+nav#TOC li {
+    margin: 0 0 0.25rem;
+}
+
+nav#TOC a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+nav#TOC a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--sans);
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: var(--text);
+    text-wrap: balance;
+    scroll-margin-top: 1rem;
+}
+
+h1 {
+    margin: 0 0 1.8rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 3px double var(--rule);
+    font-size: 2.05rem;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+}
+
+h2 {
+    margin: 3rem 0 0.8rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--rule);
+    font-size: 1.4rem;
+}
+
+h3 {
+    margin: 2rem 0 0.5rem;
+    font-size: 1.12rem;
+}
+
+h4 {
+    margin: 1.6rem 0 0.4rem;
+    font-size: 0.95rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+h5,
+h6 {
+    margin: 1.3rem 0 0.35rem;
+    font-size: 1rem;
+}
+
+/* Back matter is a separate movement of each chapter. A double rule
+   makes Legacies, Summary, Study Questions, and Further Reading easier
+   to find while scrolling. Both id forms cover Pandoc with and without
+   section wrappers. */
+h2#legacies,
+h2#optional-threads,
+h2#summary,
+h2#study-questions,
+h2#further-reading,
+h2#closing-note-and-bridge,
+h2#closing-note,
+section#legacies > h2,
+section#optional-threads > h2,
+section#summary > h2,
+section#study-questions > h2,
+section#further-reading > h2,
+section#closing-note-and-bridge > h2,
+section#closing-note > h2 {
+    margin-top: 4rem;
+    padding-top: 1.2rem;
+    border-top: 3px double var(--rule);
+}
+
+/* ---------- Prose ---------- */
+
+p {
+    margin: 0 0 1.05em;
+    text-indent: 0;
+    text-wrap: pretty;
+}
+
+/* Bold lead-ins such as "In Focus.", "Caption.", and "Source line."
+   are apparatus, not ordinary emphasis. */
+p > strong:first-child {
+    color: var(--accent);
+}
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: 700;
+}
+
+/* ---------- Epigraphs and documentary blockquotes ---------- */
+
+blockquote {
+    margin: 2rem 0;
+    padding: 0.15rem 0 0.15rem 1.25rem;
+    border-left: 3px solid var(--rule);
+    text-align: left;
+}
+
+blockquote p {
+    margin: 0 0 0.6em;
+    text-indent: 0;
+}
+
+blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+/* Chapter epigraphs sit immediately after the h1 and occur in runs of
+   one to four. Style those runs as epigraphs, not as documents. */
+h1 + blockquote,
+h1 + blockquote + blockquote,
+h1 + blockquote + blockquote + blockquote,
+h1 + blockquote + blockquote + blockquote + blockquote {
+    margin: 0 0 1.6rem;
+    padding: 0 1.5rem;
+    border-left: 0;
+    color: var(--muted);
+    font-size: 1.05rem;
+    font-style: italic;
+    line-height: 1.55;
+    text-align: center;
+}
+
+h1 + blockquote p:last-child,
+h1 + blockquote + blockquote p:last-child,
+h1 + blockquote + blockquote + blockquote p:last-child,
+h1 + blockquote + blockquote + blockquote + blockquote p:last-child {
+    text-align: right;
+    font-size: 0.92em;
+    font-style: normal;
+}
+
+/* ---------- Lists ---------- */
+
+ul,
+ol {
+    margin: 0 0 1.25em 1.5em;
+    padding: 0;
+}
+
+li {
+    margin: 0 0 0.45em;
+}
+
+li > p {
+    margin: 0;
+    text-indent: 0;
+}
+
+li::marker {
+    color: var(--muted);
+}
+
+ul > li::marker {
+    color: var(--accent);
+}
+
+/* ---------- Tables ---------- */
+
+table {
+    width: 100%;
+    margin: 2rem 0;
+    border-collapse: collapse;
+    font-family: var(--sans);
+    font-size: 0.86rem;
+    line-height: 1.45;
+    font-variant-numeric: tabular-nums;
+}
+
+caption {
+    padding-bottom: 0.5rem;
+    color: var(--text);
+    font-family: var(--sans);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 0.5rem 0.55rem;
+    border-bottom: 1px solid var(--rule);
+    vertical-align: top;
+    text-align: left;
+    overflow-wrap: break-word;
+}
+
+thead th {
+    border-top: 2px solid var(--text);
+    border-bottom: 2px solid var(--text);
+    font-weight: 600;
+}
+
+tbody tr:nth-child(even) {
+    background: var(--soft);
+}
+
+tbody tr:hover {
+    background: var(--hover);
+}
+
+tbody tr:last-child td {
+    border-bottom: 2px solid var(--text);
+}
+
+/* The debate tables lead each row with a bold position name. */
+td > strong:first-child {
+    color: var(--accent);
+}
+
+table p {
+    margin: 0;
+}
+
+/* On wide screens, let reference tables use more width than the prose
+   measure without moving the reading column. */
+@media screen and (min-width: 72rem) {
+    table {
+        width: calc(100% + 8rem);
+        margin-left: -4rem;
+    }
+}
+
+/* ---------- Figures ---------- */
+
+figure {
+    margin: 2.5rem 0;
+    text-align: center;
+    break-inside: avoid;
+}
+
+figure img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid var(--rule);
+}
+
+figcaption {
+    max-width: 42rem;
+    margin: 0.7rem auto 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ---------- Notes ---------- */
+
+.footnotes {
+    margin-top: 4.5rem;
+    padding-top: 1.5rem;
+    border-top: 3px double var(--rule);
+    font-size: 0.9rem;
+    line-height: 1.55;
+}
+
+.footnotes hr {
+    display: none;
+}
+
+.footnotes ol {
+    margin: 0;
+    padding-left: 2rem;
+}
+
+.footnotes li,
+.footnotes aside {
+    margin: 0 0 1rem;
+    scroll-margin-top: 1rem;
+}
+
+.footnotes li:target,
+.footnotes aside:target {
+    background: var(--highlight);
+    outline: 2px solid var(--accent);
+    outline-offset: 0.15rem;
+}
+
+.footnotes p {
+    margin: 0;
+    text-indent: 0;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-decoration-thickness: 0.06em;
+    text-underline-offset: 0.14em;
+    overflow-wrap: anywhere;
+}
+
+a:hover {
+    text-decoration-thickness: 0.12em;
+}
+
+a:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+a.footnote-ref {
+    padding: 0 0.08em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a.footnote-ref:hover {
+    background: var(--highlight);
+}
+
+a.footnote-back {
+    margin-left: 0.25em;
+    color: var(--muted);
+    font-size: 0.88em;
+    text-decoration: none;
+}
+
+a.footnote-back:hover {
+    color: var(--accent);
+    text-decoration: underline;
+}
+
+sup {
+    margin-left: 0.08em;
+    font-size: 0.72em;
+    line-height: 0;
+    vertical-align: super;
+}
+
+hr {
+    margin: 3rem 0;
+    border: 0;
+    border-top: 1px solid var(--rule);
+}
+
+/* ---------- Narrow screens ---------- */
+
+@media screen and (max-width: 44rem) {
+    body {
+        padding: 1.5rem 1rem 4rem;
+        font-size: 1.05rem;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    h2 {
+        margin-top: 2.3rem;
+        font-size: 1.25rem;
+    }
+
+    h3 {
+        font-size: 1.08rem;
+    }
+
+    h1 + blockquote,
+    h1 + blockquote + blockquote,
+    h1 + blockquote + blockquote + blockquote,
+    h1 + blockquote + blockquote + blockquote + blockquote {
+        padding: 0 0.5rem;
+    }
+
+    nav#TOC {
+        padding: 1rem;
+    }
+
+    /* Keep wide reference tables inside their own horizontal scroller
+       rather than forcing the whole page sideways. */
+    table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        font-size: 0.8rem;
+    }
+
+    th,
+    td {
+        padding: 0.4rem 0.45rem;
+        white-space: nowrap;
+    }
+}
+
+/* ---------- Print proofing ---------- */
+
+@media print {
+    :root {
+        --bg: #ffffff;
+        --text: #000000;
+        --muted: #333333;
+        --rule: #999999;
+        --soft: #f2f2f2;
+        --hover: #f2f2f2;
+        --accent: #000000;
+        --highlight: #fff0b8;
+    }
+
+    html,
+    body {
+        background: #ffffff;
+    }
+
+    body {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        font-size: 11pt;
+        line-height: 1.45;
+    }
+
+    /* The masthead and contents block are screen proofing aids. */
+    #title-block-header {
+        display: none;
+    }
+
+    nav#TOC {
+        max-height: none;
+        margin: 0 0 2rem;
+        padding: 0;
+        overflow: visible;
+        border: 0;
+        background: transparent;
+        break-after: page;
+    }
+
+    h1 {
+        break-before: page;
+    }
+
+    h1,
+    h2,
+    h3 {
+        break-after: avoid;
+    }
+
+    figure,
+    tr {
+        break-inside: avoid;
+    }
+
+    table {
+        width: 100%;
+        margin-left: 0;
+        font-size: 9pt;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tbody tr:nth-child(even) {
+        background: transparent;
+    }
+
+    a {
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .footnotes {
+        border-top: 1px solid #000000;
+        font-size: 9pt;
+    }
+
+    .footnotes li:target,
+    .footnotes aside:target {
+        background: transparent;
+        outline: none;
+    }
+}
