@@ -145,8 +145,11 @@ blockquote p:last-child {
 }
 
 /* Chapter epigraphs are the blockquotes immediately after the h1. They
-   occur in runs of one to four. Appendix A's documentary blockquotes sit
-   after h2 headings and keep the ordinary blockquote treatment above. */
+   occur in runs of one to four, and each epigraph is a single blockquote
+   holding the quotation and its attribution as consecutive paragraphs.
+   A blank line between those paragraphs creates a second blockquote and
+   breaks the run. Appendix A's documentary blockquotes sit after h2
+   headings and keep the ordinary blockquote treatment above. */
 h1 + blockquote,
 h1 + blockquote + blockquote,
 h1 + blockquote + blockquote + blockquote,

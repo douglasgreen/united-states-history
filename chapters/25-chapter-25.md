@@ -1,15 +1,15 @@
 # Chapter 25. The West: Conquest, Extraction, and the End of the Frontier (1865–1900)
 
 > “I have seen nothing that the white man has … which is as good as our right to roam and live on the open plains as we choose.”[^ch25-nps-sitting-bull]
-
+>
 > — Sitting Bull (Tatanka-Iyotanka), Hunkpapa Lakota leader, statement recorded without a date, quoted by the National Park Service.[^ch25-nps-sitting-bull]
 
 > “And now, four centuries from the discovery of America, at the end of a hundred years of life under the Constitution, the frontier has gone, and with its going has closed the first period of American history.”[^ch25-tah-turner]
-
+>
 > — Frederick Jackson Turner, “The Significance of the Frontier in American History,” address to the American Historical Association, Chicago, 1893.[^ch25-tah-turner]
 
 > “Deemphasize the frontier and its supposed end, conceive of the West as a place and not a process …”[^ch25-archive-limerick]
-
+>
 > — Patricia Nelson Limerick, *The Legacy of Conquest: The Unbroken Past of the American West*, 1987.[^ch25-archive-limerick]
 
 A Lakota leader treated the plains as a right to live upon, not an empty area to be crossed. A historian declared the frontier closed and made its closing the end of a period. A second historian refused both the process and its end, treating the West as a place whose conquest continued. The three disagree about whether the West was a home, a stage of development, or an unfinished conquest. This chapter asks who held title to the West, and how it was enforced.[^ch25-check-epigraphs]

@@ -273,7 +273,10 @@ blockquote p:last-child {
 }
 
 /* Chapter epigraphs sit immediately after the h1 and occur in runs of
-   one to four. Style those runs as epigraphs, not as documents. */
+   one to four blockquotes. Each epigraph must be a single blockquote:
+   the quotation and its attribution are consecutive paragraphs inside
+   it. A blank line between them creates two blockquotes and breaks the
+   run, leaving the later epigraphs unstyled. */
 h1 + blockquote,
 h1 + blockquote + blockquote,
 h1 + blockquote + blockquote + blockquote,

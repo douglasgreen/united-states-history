@@ -1,15 +1,15 @@
 # Chapter 24. The Second Industrial Revolution (1865–1900)
 
 > “This association of poverty with progress is the great enigma of our times. It is the central fact from which spring industrial, social, and political difficulties that perplex the world, and with which statesmanship and philanthropy and education grapple in vain.”[^ch24-yawp-george]
-
+>
 > — Henry George, *Progress and Poverty*, 1879.[^ch24-yawp-george]
 
 > “We accept and welcome, therefore, as conditions to which we must accommodate ourselves, great inequality of environment, the concentration of business, industrial and commercial, in the hands of a few, and the law of competition between these, as being not only beneficial, but essential for the future progress of the race.”[^ch24-yawp-carnegie]
-
+>
 > — Andrew Carnegie, “Wealth,” *North American Review*, June 1889.[^ch24-yawp-carnegie]
 
 > “In many sectors of the economy the visible hand of management replaced what Adam Smith referred to as the invisible hand of market forces.”[^ch24-chandler-visible-hand]
-
+>
 > — Alfred D. Chandler Jr., *The Visible Hand: The Managerial Revolution in American Business*, 1977.[^ch24-chandler-visible-hand]
 
 A land reformer called the coupling of wealth and want the great riddle of the age. A steelmaker welcomed the concentration of business as the engine of progress. A business historian argued that the decisive change was organizational: salaried managers, not market prices, increasingly coordinated the economy. The three disagree about whether industrial progress was the problem, the price of progress, or a question of institutional design. This chapter asks how private enterprises acquired public power.[^ch24-check-epigraphs]
