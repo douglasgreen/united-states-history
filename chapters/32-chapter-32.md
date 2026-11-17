@@ -1,16 +1,16 @@
 # Chapter 32. The 1920s: Prosperity, Culture, and Conflict (1920–1929)
 
 > “America’s present need is not heroics, but healing; not nostrums, but normalcy; not revolution, but restoration; …”[^ch32-harding-normalcy]
-
-— Warren G. Harding, address to the Home Market Club, Boston, May 14, 1920.[^ch32-harding-normalcy]
+>
+> — Warren G. Harding, address to the Home Market Club, Boston, May 14, 1920.[^ch32-harding-normalcy]
 
 > “We younger Negro artists who create now intend to express our individual dark-skinned selves without fear or shame.”[^ch32-hughes-negro-artist]
-
-— Langston Hughes, “The Negro Artist and the Racial Mountain,” *The Nation*, June 23, 1926.[^ch32-hughes-negro-artist]
+>
+> — Langston Hughes, “The Negro Artist and the Racial Mountain,” *The Nation*, June 23, 1926.[^ch32-hughes-negro-artist]
 
 > “The unmatched prosperity and cultural advancement was accompanied by intense social unrest and reaction.”[^ch32-gilder-zeitz]
-
-— Joshua Zeitz, “The Roaring Twenties,” Gilder Lehrman Institute of American History.[^ch32-gilder-zeitz]
+>
+> — Joshua Zeitz, “The Roaring Twenties,” Gilder Lehrman Institute of American History.[^ch32-gilder-zeitz]
 
 Harding asked the country to return to what he called normalcy. Hughes answered that a generation of Black artists would not apologize for itself. Zeitz describes a decade in which prosperity and reaction arrived together. The three quotations disagree about whether the 1920s restored an old order, created a new one, or did both at once. That disagreement is the chapter’s subject.[^ch32-check-epigraphs]
 
