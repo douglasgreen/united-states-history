@@ -1,0 +1,130 @@
+/*
+ * A Nation in Question — PDF proofreading stylesheet for Pandoc HTML.
+ *
+ * Intended use, from the repository root:
+ *   pandoc a-nation-in-question.epub -o a-nation-in-question.pdf \
+ *     --pdf-engine=weasyprint \
+ *     --extract-media=./media \
+ *     --css=styles/textbook.css \
+ *     -M lang=en
+ *
+ * This sheet results in 500 words per page on average.
+ */
+
+/* === Page Setup (US Letter) === */
+@page {
+  size: letter;                 /* 8.5in x 11in (overrides WeasyPrint's A4 default) */
+  margin: 0.95in 1.1in;         /* Top/Bottom 0.95in, Left/Right 1.1in */
+
+  @bottom-center {
+    content: counter(page);
+    font-family: "Georgia", "Liberation Serif", "Times New Roman", serif;
+    font-size: 9.5pt;
+    color: #444;
+  }
+}
+
+/* Hide page number on the first page (cover / title page) */
+@page :first {
+  @bottom-center {
+    content: none;
+  }
+}
+
+/* === Base Typography === */
+html {
+  font-family: "Georgia", "Liberation Serif", "Times New Roman", serif;
+  font-size: 10.5pt;            /* Standard book body size (10.5pt–11pt) */
+  line-height: 1.4;             /* Comfortable reading density */
+  color: #111;
+  hyphens: auto;                /* Works with -M lang=en */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* === Paragraphs === */
+p {
+  margin: 0 0 0.55em 0;         /* Slight gap between paragraphs */
+  text-align: justify;
+  orphans: 3;                   /* Avoid stray single/double lines at page breaks */
+  widows: 3;
+}
+
+/* === Headings === */
+h1, h2, h3, h4 {
+  font-family: "Helvetica Neue", "Liberation Sans", "Arial", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #000;
+  page-break-after: avoid;      /* Never leave a heading stranded at page bottom */
+  hyphens: none;
+}
+
+h1 {
+  font-size: 20pt;
+  margin: 0 0 0.8em 0;
+  padding-bottom: 0.25em;
+  border-bottom: 1px solid #ccc;
+  page-break-before: always;    /* Start each chapter on a new page */
+}
+
+h1:first-of-type {
+  page-break-before: avoid;     /* Don't insert a blank page at the very start */
+}
+
+h2 {
+  font-size: 14pt;
+  margin: 1.4em 0 0.5em 0;
+}
+
+h3 {
+  font-size: 11.5pt;
+  margin: 1.1em 0 0.4em 0;
+}
+
+/* === History Textbook Elements (Quotes, Figures, Tables) === */
+blockquote {
+  /* Great for primary-source excerpts */
+  margin: 0.9em 1.5em;
+  padding-left: 0.9em;
+  border-left: 2.5px solid #999;
+  font-size: 9.8pt;
+  line-height: 1.35;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}
+
+figure {
+  margin: 1.2em 0;
+  page-break-inside: avoid;
+}
+
+figcaption {
+  font-size: 9pt;
+  font-style: italic;
+  color: #444;
+  text-align: center;
+  margin-top: 0.4em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  font-size: 9.5pt;
+  page-break-inside: avoid;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.4em 0.6em;
+  text-align: left;
+}
