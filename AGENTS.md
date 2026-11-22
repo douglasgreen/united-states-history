@@ -2,13 +2,13 @@
 
 This is a collaborative, single-authored history of the United States, *A Nation in Question*, written to be read aloud. The title, author, rights statement, and language live in `metadata.yaml`. This file governs the writing process and house style; `README.md` governs the book’s plan.
 
-The deliverable is **exactly 50 numbered chapters, plus an unnumbered Introduction and Appendices A–E**, totaling more than 1,000 typeset pages. Chapter 50 is the conclusion, not an additional fifty-first chapter. The chapter count is fixed; the page count is an estimate, not a reason to pad or omit evidence.
+The deliverable is **exactly 50 numbered chapters, plus an unnumbered Introduction and Appendices A–E**, totaling more than 1,000 text pages, excluding images and notes. Chapter 50 is the conclusion, not an additional fifty-first chapter. The chapter count is fixed; the page count is an estimate, not a reason to pad or omit evidence or to cap footnotes.
 
 ## 1. Repository and sources of truth
 
 | File or directory | Responsibility |
 |---|---|
-| **`README.md`** | Canonical book outline, scope, page budget, chapter status, and complete register of tables and illustrations |
+| **`README.md`** | Canonical book outline, scope, text-page budget, chapter status, and complete register of tables and illustrations |
 | **`metadata.yaml`** | Title, author, rights, and language |
 | **`AGENTS.md`** | Process, conventions, and acceptance checks |
 | **`chapters/00-introduction.md`** | Introduction |
@@ -68,11 +68,11 @@ Write the complete outline in `README.md` before drafting chapters. It must cont
 4. For every chapter: file link, title, dates, guiding question, provisional claim, coverage and exclusions, principal people and places, planned sections, opening scene, In Focus object, central historiographical disagreement, visuals, backward connection, and next-chapter hand-off.
 5. For the Introduction and each appendix: contents, purpose, scope, and page allocation. List promised documents, datasets, maps, and other reference material individually, not merely as categories.
 6. A complete table and illustration register as specified in §3, including comparison tables and debate tables.
-7. A page budget and a status record for each manuscript file.
+7. A text-page budget and a status record for each manuscript file.
 
-Budget the whole book, not just its narrative. Include epigraphs, visuals, captions, the combined notes and citations, Further Reading, front matter, and appendices. A working allocation is 24 pages for the Introduction, 925 for the 50 chapters, 63 for appendices, and 10 for other front/back matter: 1,022 in total, above the 1,000-page floor. These are planning allowances, not claims about the existing draft. Chapter allocations usually fall within 16–20 pages, averaging about 18.5 under that example. Charge each item once and reconcile the arithmetic whenever allocations change.
+Budget the text, not the apparatus. The page goal counts prose, tables, epigraphs, Further Reading, front matter, and appendices, but excludes images, image captions, and the combined notes and citations, which are estimated and checked separately so that footnote length is not capped by an arbitrary page count. At the calibrated measure of about 500 body words per page, a working allocation is 20 pages for the Introduction, 922 for the 50 chapters, 60 for appendices, and 10 for other front/back matter: 1,012 in total, above the 1,000-page floor. These are planning allowances, not claims about the existing draft; the finished volume will be longer once images and notes are set. Chapter allocations are the current body word counts divided by 500, rounded up to the next page, and usually fall between 14 and 23 pages under that example. Charge each item once and reconcile the arithmetic whenever allocations change.
 
-Page counts depend on layout. Record word counts as a working measure, calibrate them against a representative typeset chapter, and revise the budget after actual builds. Do not silently equate a Markdown page or an assumed words-per-page ratio with a finished page. Any part-ending reflection must have an assigned home and page allowance; it must not become an unplanned extra chapter.
+Page counts depend on layout. Record body word counts and convert at 500 words per page; this measure was calibrated against a footnote-free PDF conversion of the current manuscript that produced 954 pages for 473,599 body words. Recheck it after layout changes and revise the budget from measured builds. Do not silently equate a Markdown page with a finished page. Images and notes sit outside the text-page goal and need their own space and production estimates. Any part-ending reflection must have an assigned home and text-page allowance; it must not become an unplanned extra chapter.
 
 **Exit check:** every required file has an outline entry; the count and budget reconcile; coverage has no unexplained gaps or duplication; every planned visual has a register entry.
 
@@ -128,7 +128,7 @@ Read the epigraphs, openings, roadmaps, summaries, closing notes, and bridges in
 
 Use the repository’s actual build tooling; discover it rather than inventing commands or claiming that a nonexistent pipeline passed. If no build is available, report that limitation. Inspect rendered output for the single combined note list, citation links and return links, tables, images, captions, emphasis, and page breaks. Resolve build warnings and inspect both representative pages and known difficult passages.
 
-Reconcile the measured page count with the more-than-1,000-page budget. Confirm exactly 50 numbered chapters, one Introduction, and Appendices A–E. Remove planning debris and resolve editorial blockers before release. Do not delete permanent citations or scholarly caveats to make the book look finished. Report build results, remaining limitations, and any deliberate departures from the plan.
+Reconcile the measured text-page count, excluding images and notes, with the budget of more than 1,000 text pages. Confirm exactly 50 numbered chapters, one Introduction, and Appendices A–E. Remove planning debris and resolve editorial blockers before release. Do not delete permanent citations or scholarly caveats to make the book look finished. Report build results, remaining limitations, and any deliberate departures from the plan.
 
 ## 3. The complete table and illustration register
 
@@ -222,7 +222,7 @@ Statistics carry a source, observation year or period, units, population or deno
 
 ## 5. The shape of a finished chapter
 
-The researched outline supplies the argument; the architecture supports it rather than replacing it. Required lengths below are drafting targets, not permission to repeat material. The chapter’s total allowance includes its combined notes and citations, tables, and reading list.
+The researched outline supplies the argument; the architecture supports it rather than replacing it. Required lengths below are drafting targets, not permission to repeat material. The chapter’s text-page allowance covers its prose, epigraphs, tables, and reading list; images, image captions, and the combined notes and citations are excluded from the page goal and estimated separately.
 
 1. **Title.** One level-one heading with chapter number, descriptive title, and date range where appropriate.
 2. **Epigraphs.** Two to four, normally three, chosen to disagree productively. Include a voice from the period and a historian. Each block quotation has an attribution beginning “— ” with author/speaker, title formatted by type, date, and precise locator, with a named citation footnote in the combined list.
@@ -302,7 +302,7 @@ These conventions apply to the book’s own prose, headings, tables, and caption
 
 Before calling a chapter checked, complete every applicable item. Whole-book items are required again at integration and release.
 
-- [ ] **Plan and scope:** README entry, actual title/dates, file path, section count, page allowance, status, and registered items agree. There are exactly 50 numbered chapters at book level.
+- [ ] **Plan and scope:** README entry, actual title/dates, file path, section count, text-page allowance, status, and registered items agree. There are exactly 50 numbered chapters at book level.
 - [ ] **Evidence:** every factual assertion is traceable to consulted evidence through a named citation note; citations retain full identification, exact locators, and “Used for” annotations as specified in §4; access problems and uncertainty are explicit. No invented scene detail, unread-source attribution, or unsupported correction remains.
 - [ ] **Quotations:** every quotation, epigraph, and excerpt matches the identified edition character by character, with a precise locator and marked omissions/insertions.
 - [ ] **Reasoning:** evidence supports the causal claims; counterarguments receive their strongest fair statement; retrospective judgments are distinguished from actors’ knowledge. Summary and conclusion do not claim more than the chapter established.
@@ -315,7 +315,7 @@ Before calling a chapter checked, complete every applicable item. Whole-book ite
 - [ ] **Notes and citations:** citations, explanations, qualifications, and editorial questions appear in one named-footnote list, ordered by first reference; no separate Sources or citation list remains. Editorial questions are resolved or remain declared blockers, permanent citations are retained, and Further Reading is not being used as an evidence ledger.
 - [ ] **Integration:** Introduction, README, chapter claims, appendices, recurring datasets, and visual counts agree; no obsolete second outline or contradictory register is being maintained.
 - [ ] **Structural checks:** `python3 tools/check_book.py --strict` passes, or every reported error and warning is resolved or declared as a blocker. This does not replace the evidence, quotation, scene, visual, or rendering checks above.
-- [ ] **Rendering and budget:** available builds pass without unresolved warnings; the combined notes, citation/return links, tables, images, and emphasis have been inspected; measured length has been reconciled with the budget. Unavailable checks are reported, not asserted as passed.
+- [ ] **Rendering and budget:** available builds pass without unresolved warnings; the combined notes, citation/return links, tables, images, and emphasis have been inspected; measured text length, excluding images and notes, has been reconciled with the budget, with image and note space accounted for separately. Unavailable checks are reported, not asserted as passed.
 
 ## 8. Web research with TinyFish
 

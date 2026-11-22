@@ -24,7 +24,7 @@ This guide is written for the person who has to gather the data, verify it, and 
 | **`planned`** | The table has a registered purpose, location, and scope, but no verified data or finished layout. |
 | **`drafted`** | A complete draft table exists in the owning file, with caption and source line, but its cells have not been verified against the cited evidence. |
 | **`verified`** | Every cell has been checked against a named source and locator; definitions, units, denominators, and rounding are stated; the caption and source line are final. |
-| **`typeset`** | The table has been set in the book’s layout, inspected in proof, and reconciled with the page budget. |
+| **`typeset`** | The table has been set in the book’s layout, inspected in proof, and reconciled with the text-page budget. |
 
 The current manuscript is at `drafted` for the 13 chapter data tables and the 51 historiographical tables, and `planned` for the 16 appendix tables. One historiographical table, Ch. 49, Table 1, still has a placeholder row for the institutional-resilience position; it is a partial draft, not a finished one. No table in this repository is `verified` or `typeset`. The chapter files call these drafts “planned”; this guide uses `drafted` for the table block and `planned` for the data verification, because the distinction matters: the structure exists, the evidence does not yet.
 
@@ -113,7 +113,7 @@ The caption, source line, alt text, and textual reference are part of the table�
 
 ### 3.6 Sizing and typesetting
 
-- The book’s trim size and text block are not yet measured in this repository. Until a representative table is typeset, treat every page allowance as provisional.
+- The book’s 500-word page measure is calibrated for prose. Tables count as text, but their typeset area cannot be predicted from body word counts. Until representative tables are typeset, treat table-heavy page allowances as provisional.
 - A five-column historiographical table with 3–9 rows will likely require a full page at 8.5–9 pt, and a nine-row table may run longer. If it breaks across a page, repeat the header row; do not split a row.
 - If a table cannot fit, shorten the cells. Do not delete a position merely to save space; the register’s row count is the analytical minimum.
 - Inspect every table in proof for: header repetition, row splits, bold leading cells, numeric alignment, caption placement, source line, note keys, and the textual reference. A Markdown render is not a typeset proof.

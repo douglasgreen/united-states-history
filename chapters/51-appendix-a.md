@@ -1,6 +1,6 @@
 # Appendix A. Documents — Thirty Texts That Made and Marked the Nation
 
-*Stage 4 draft — November 2, 2026; revised November 7, 2026. Page allowance: 34 pages. All thirty selections are drafted. This appendix is not checked or integrated.*
+*Stage 4 draft — November 2, 2026; revised November 7, 2026. Text-page allowance: 31 pages. All thirty selections are drafted. This appendix is not checked or integrated.*
 
 ## Note on the Texts
 
@@ -502,7 +502,7 @@ The appendix is drafted, not checked. All thirty selections are transcribed, hea
 
 ### Production
 
-- Confirm the 34-page allowance after typesetting the full thirty selections. The current draft is a working measure, not a page proof.
+- Confirm the 31-page allowance after typesetting the full thirty selections. The current draft is a working measure, not a page proof.
 - Resolve the Pandoc footnote expansion before release. A smoke render expands the source notes because headnote and source-line references reuse keys; the production build needs a filter that resolves repeated references to one note. This is a book-wide build issue, not a defect in the source list.
 - Add chapter cross-references when the relevant chapters are checked. Use “see App. A, Selection 11” and similar references at the points where the documents are discussed; do not duplicate the appendix’s headnotes in the chapters.
 - Confirm rights. Most of the thirty documents are public-domain or U.S. government texts; the King letter requires a separate rights review, and its excerpt is a short quotation for commentary. Confirm the status of each image or facsimile if one is later added; the appendix currently reproduces typeset text, not images.
