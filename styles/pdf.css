@@ -5,7 +5,7 @@
  *   pandoc a-nation-in-question.epub -o a-nation-in-question.pdf \
  *     --pdf-engine=weasyprint \
  *     --extract-media=./media \
- *     --css=styles/textbook.css \
+ *     --css=styles/pdf.css \
  *     -M lang=en
  *
  * This sheet results in 500 words per page on average.
