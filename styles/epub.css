@@ -20,6 +20,27 @@ body {
     text-align: justify;
 }
 
+/* Pandoc writes the EPUB cover as its own XHTML document and wraps the
+   image in an SVG viewport. Keep the cover free of body margins and
+   centered without forcing a fixed size that would crop on small screens. */
+body#cover {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#cover-image {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#cover-image svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 /* History-book paragraphing: indent consecutive paragraphs rather than
    separating every one with a blank line. The first paragraph after a
    heading or another block element stays flush left. */

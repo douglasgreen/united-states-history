@@ -2,7 +2,10 @@
  * A Nation in Question — browser proofreading stylesheet for Pandoc HTML.
  *
  * Intended use, from the repository root:
- *   pandoc metadata.yaml chapters/01-chapter-1.md \
+ *   make html
+ *
+ * Or for one chapter, without the cover:
+ *   pandoc --metadata-file=metadata.yaml chapters/01-chapter-1.md \
  *     --standalone --toc --css=styles/html.css -o ch01.html
  *
  * This sheet is deliberately more expressive than the Kindle EPUB sheet.
@@ -66,6 +69,24 @@ body {
 ::selection {
     background: var(--highlight);
     color: var(--text);
+}
+
+/* ---------- Cover ---------- */
+
+/* The full-book HTML proof opens with the same cover used by the EPUB
+   and PDF targets. Keep it smaller than the reading column so the title
+   block and contents remain the first things a proofreader sees. */
+.cover {
+    max-width: 27rem;
+    margin: 0 auto 3rem;
+    padding: 0;
+}
+
+.cover img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--rule);
 }
 
 /* ---------- Pandoc masthead, contents, and chapter titles ---------- */

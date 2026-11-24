@@ -9,7 +9,7 @@ The deliverable is **exactly 50 numbered chapters, plus an unnumbered Introducti
 | File or directory | Responsibility |
 |---|---|
 | **`README.md`** | Canonical book outline, scope, text-page budget, chapter status, and complete register of tables and illustrations |
-| **`metadata.yaml`** | Title, author, rights, and language |
+| **`metadata.yaml`** | Title, author, rights, language, and the cover-image source |
 | **`AGENTS.md`** | Process, conventions, and acceptance checks |
 | **`chapters/00-introduction.md`** | Introduction |
 | **`chapters/01-chapter-1.md` … `chapters/50-chapter-50.md`** | Chapters 1–50, including the conclusion |
@@ -126,7 +126,7 @@ Read the epigraphs, openings, roadmaps, summaries, closing notes, and bridges in
 
 ### Stage 7 — Build and release
 
-Use the repository’s actual build tooling; discover it rather than inventing commands or claiming that a nonexistent pipeline passed. If no build is available, report that limitation. Inspect rendered output for the single combined note list, citation links and return links, tables, images, captions, emphasis, and page breaks. Resolve build warnings and inspect both representative pages and known difficult passages.
+Use the repository’s actual build tooling; discover it rather than inventing commands or claiming that a nonexistent pipeline passed. The `Makefile` provides `make check`, `make epub`, `make epubcheck`, `make pdf`, and `make html`; all book outputs go to `build/`. If a target is unavailable or fails, report that limitation rather than substituting a different command. Inspect rendered output for the cover, the single combined note list, citation links and return links, tables, images, captions, emphasis, and page breaks. Resolve build warnings and inspect both representative pages and known difficult passages.
 
 Reconcile the measured text-page count, excluding images and notes, with the budget of more than 1,000 text pages. Confirm exactly 50 numbered chapters, one Introduction, and Appendices A–E. Remove planning debris and resolve editorial blockers before release. Do not delete permanent citations or scholarly caveats to make the book look finished. Report build results, remaining limitations, and any deliberate departures from the plan.
 

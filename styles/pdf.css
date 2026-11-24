@@ -2,11 +2,12 @@
  * A Nation in Question — PDF proofreading stylesheet for Pandoc HTML.
  *
  * Intended use, from the repository root:
- *   pandoc a-nation-in-question.epub -o a-nation-in-question.pdf \
- *     --pdf-engine=weasyprint \
- *     --extract-media=./media \
- *     --css=styles/pdf.css \
- *     -M lang=en
+ *   make pdf
+ *
+ * The Makefile builds the print HTML with this sheet already linked and
+ * then renders it with WeasyPrint. The cover is the first page; the
+ * Pandoc title block is hidden in print because the cover carries the
+ * title, subtitle, and author.
  *
  * This sheet results in 500 words per page on average.
  */
@@ -24,11 +25,38 @@
   }
 }
 
+/* The cover is a full-bleed page with no running footer. */
+@page cover {
+  size: letter;
+  margin: 0;
+
+  @bottom-center {
+    content: none;
+  }
+}
+
 /* Hide page number on the first page (cover / title page) */
 @page :first {
   @bottom-center {
     content: none;
   }
+}
+
+/* === Cover === */
+.cover {
+  page: cover;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  break-after: page;
+}
+
+.cover img {
+  display: block;
+  width: auto;
+  height: 11in;
+  max-width: 8.5in;
+  margin: 0 auto;
 }
 
 /* === Base Typography === */
