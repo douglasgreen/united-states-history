@@ -31,7 +31,7 @@
 | **Table 7** | §7 | 38 | 191 (147 verified, 44 n.a.) | 3 pp vs 2 | WID 2026 API; HSUS/OMB/BLS/BEA/Census; 1789–1791 first row; debt and railroad definition breaks |
 | **Table 8** | §8 | 23 | 107 (101 verified, 6 n.a.) | 3 pp vs 1.75 | TVA pages; *Statistical Abstract 1943* Table 156; 1940 Agriculture Tables 4, 9, 10; 1940 Population Table 3; *Statistical Abstract 1946* Table 31; Long and Siu pp. 1002, 1007, 1012, 1014–17 |
 
-- The appendix is 11,678 body words, 154 notes, 28 pipe tables. `python3 tools/check_book.py --strict chapters/52-appendix-b.md` passes with 0 errors and 0 warnings.
+- The appendix is 11,684 body words, 154 notes, 28 pipe tables. `python3 tools/check_book.py --strict chapters/52-appendix-b.md` passes with 0 errors and 0 warnings.
 - The 20-page allowance is exceeded. The final body proof measures 25 pages: Table 1, 3; Table 2, 5; Table 3, 3; Table 4, 3; Table 5, 3; Table 6, 3; Table 7, 3; Table 8, 3; Note on the Tables, about 1. The combined note list is 27 pages and is estimated separately. The five-page overrun awaits a human decision on a revised allowance or the contract fallback cuts (EX-32).
 - The table sections now use the final numbering: §1 = Table 1, §2 = Table 2, §3 = Table 3, §4 = Table 4, §5 = Table 5, §6 = Table 6, §7 = Table 7, §8 = Table 8. `## Note on the Tables` is unnumbered. The Stage 3 production sections §1 “How Appendix B Works” and §10 “Cross-Table Rules and Production Record” are removed.
 - **Build fix, EX-27:** resolved. `tools/dedupe-notes.lua` renders 3,355 distinct note definitions once each and links repeats to the first note; it is wired into the EPUB, HTML, and print targets. The full-book HTML has 15,120 references, all resolving to an existing note ID.
