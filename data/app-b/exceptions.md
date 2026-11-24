@@ -16,7 +16,7 @@
 - **Issue:** The series is WID `sptinc_p99p100_z`, 2025/2026 vintage. WID was not supplied at Step 0. The outline forbids splicing the 2022 PSZ appendix tables or using a different vintage.
 - **Resolution:** Test the public WID download at Table 7. If it fails, the options are a WID export, a documented scope change removing the column, or a declared blocker. Do not substitute another series.
 - **Owner:** Agent tests; human supplies export or decides scope.
-- **Status:** Open. Table 7 cannot be drafted while this column is unresolved.
+- **Status:** Resolved November 24, 2026. The WID public API returned the 2026 release series `sptinc_p99p100_992_j`; Table 7 Panel C uses one vintage. No scope change is needed.
 
 ## EX-03 — Table 2 state-selection check
 
@@ -107,7 +107,7 @@
 - **Issue:** Only the unemployment and a few n.a. cells are seeded. OMB receipts/outlays/debt, railroad mileage, steel, CPI, GDP per capita, WID top shares, Gini, union density, LFP, newspapers, and telephones remain to be transcribed.
 - **Resolution:** Work panel by panel. Keep the FY2024 actuals, the Darby–Weir cells, the CPI and GDP bases, the 2000 Panel D endpoint, and the single WID vintage. Do not fill a panel with a series from a different definition.
 - **Owner:** Agent; WID export from human if needed.
-- **Status:** Open.
+- **Status:** Resolved November 24, 2026. Table 7 is drafted with 38 rows and 191 cells (147 verified, 44 n.a.); OMB, HSUS, BLS, BEA, Maddison, Census, and Editor & Publisher values are transcribed. See the Table 7 notes.
 
 ## EX-14 — Table 2 election rows not seeded
 
@@ -220,3 +220,25 @@
 - **Resolution:** Add a build-stage deduplication step so each named key renders once, with repeated references returning to the same note. Measure the appendix after the filter is in place. This is a Stage 7 build task, not a Table 6 cell change; do not delete repeated references or merge distinct qualifiers to make the count fall.
 - **Owner:** Agent at Stage 7; human approves any change to the note-rendering pipeline.
 - **Status:** Open, build blocker for the page proof.
+
+## EX-28 — Table 7 design corrections from the sources
+
+- **Affected:** `app-b-table-07`, Panels A–D; the Table 7 caption and notes.
+- **Issue:** The Stage 3 design assumed a 1790 first row, a single “gross federal debt” series, one “miles operated” series, BLS LNS annual values, and a 1960 start for household telephone data. The sources do not support those assumptions without qualification.
+- **Resolution:**
+  - The first Panel A row is the combined **1789–1791** account; the federal government published no separate 1790 fiscal-year account. The table is titled 1789–2024.
+  - Debt is **public debt through 1930** (HSUS Y 338 / Ea587) and **gross federal debt from 1940** (OMB Table 7.1); the note states the break.
+  - Railroad mileage is **road operated** in 1830 and 1860 (Q 321) and **road owned** in 1900–1950 (Q 284, column 287); 1970 is `n.a.` because the 1975 scan omits the 1956–1970 rows.
+  - Unemployment for 1950–2024 uses BLS **annual averages, LNU04000000**; the monthly seasonally adjusted LNS14000000 does not publish an annual row in the BLS annual table. LFP uses **LNU01300000** for the same reason. The notes name the series.
+  - Union density is **D 951, percent of nonagricultural employment**, for 1950 and 1970, and the **BLS union membership rate** for wage and salary workers for 2000–2024; the denominators differ and the note says so.
+  - Panel D keeps the 1850 row as all `n.a.` because the daily-newspaper series begins in 1880; the 1950 household telephone rate is 61.8 percent from HSUS R 3, before the Census series begins in 1960.
+- **Owner:** Human review of the printed table; agent implemented.
+- **Status:** Open for human approval of the design corrections; the cells are drafted.
+
+## EX-29 — Table 7 is three pages against a two-page allowance
+
+- **Affected:** `build/app-b-table-07.pdf`.
+- **Issue:** The 38-row, four-panel table plus the panel definitions, source line, and notes runs three pages at the adopted 8-point setting.
+- **Resolution:** Accepted provisionally on November 24, 2026; reconcile the appendix total at the full 20-page proof. If compression is needed, shorten the Panel B and C notes before cutting rows or definitions.
+- **Owner:** Human decision; agent implements.
+- **Status:** Open, accepted provisionally.

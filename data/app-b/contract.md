@@ -1,6 +1,6 @@
 # Appendix B — Stage 4 drafting contract
 
-**Status:** Step 0 complete; Step 1 complete; Step 2 pilot complete; Step 3 in progress, Tables 1–6 drafted, November 24, 2026. This is a production record, not manuscript text.
+**Status:** Step 0 complete; Step 1 complete; Step 2 pilot complete; Step 3 in progress, Tables 1–7 drafted, November 24, 2026. This is a production record, not manuscript text.
 
 **Scope:** [`chapters/52-appendix-b.md`](../../chapters/52-appendix-b.md), Stage 3 researched outline to Stage 4 draft.
 
@@ -35,7 +35,7 @@
 | **App. B, Table 4** | 13 | A: 1775–1898; B: 1917–1991; C: 2001–2021 | Uniformed military only; CRS FY2011 base; DoD OCO current dollars | CRS RL32492 and RS22926; DoD August 2021; Barceló and Hacker; Crawford | Drafted: 130 cells (123 verified, 4 not applicable, 3 n.a.); CRS/DoD/Crawford verified; three pages accepted provisionally |
 | **App. B, Table 5** | 42 | A: 21; B: 6; C: 3; D: 7 printed (2020 reserve); E: 4 | 1820–2024; recorded-arrivals and LPR labels; ACS stock; DHS January 1 estimates | DHS 2022 and 2024 Yearbooks; ACS B05002; 1921, 1924, and 1929 instruments | Drafted: 41 printed rows, 246 cells (244 verified, 2 n.a.); 2020 stock row reserved; 3 pages accepted provisionally |
 | **App. B, Table 6** | 25 | A: 3; B: 8; C: 6 (24 printed; one reserve); D: 8 | British Caribbean only; 1790–1860 census; net forced migrants; Bb210 price series | HSUS 1975 and Millennial; SlaveVoyages; Pritchett and Tadman; Dunn and Southey | Drafted: 24 printed rows and one reserve, 104 cells (103 verified, 1 n.a.); Southey vol. 2, p. 104 read; live U.S. imports 472,372/388,744 with earlier 472,381/388,747 in the note; Dunn and Tadman second-hand; three pages accepted provisionally |
-| **App. B, Table 7** | 38 | A: 15; B: 9; C: 7; D: 7 | Fiscal years; 1900/1930 breaks; Panel D ends 2000 | OMB FY2027; HSUS; BLS, BEA, and Maddison; WID and Census; Editor & Publisher | 15 OMB values; Ba475 and BLS; CPI and GDP bases; WID; Gini; newspaper sub-series |
+| **App. B, Table 7** | 38 | A: 15; B: 9; C: 7; D: 7 | Fiscal years; 1900/1930 breaks; Panel D ends 2000 | OMB FY2027; HSUS; BLS, BEA, and Maddison; WID and Census; Editor & Publisher | Drafted: 38 rows, 191 cells (147 verified, 44 n.a.); WID 2026 API; HSUS/OMB/BLS/BEA/Census series; three pages accepted provisionally |
 | **App. B, Table 8** | 23 | A: 7; B: 5; C: 6; D: 5 | 1930–1944; 48-state 1940 universe; modern TVA capacity | TVA; Statistical Abstract 1943; 1940 Agriculture and Population; Long and Siu | TVA dates and capacity; five CCC values; Kansas, Oklahoma, and Texas cells; California and migration |
 
 **Page allocation:** Table 1, 2.5; Table 2, 4; Table 3, 1.75; Table 4, 2; Table 5, 2.5; Table 6, 2; Table 7, 2; Table 8, 1.75; note, captions, definitions, and notes, 1.5. Total, 20. Table 3 measured about 2.5 pages in the Step 2 pilot, including row notes; Table 1 measured about 3 pages; Table 2 measured 5 pages; Table 4 measured 3 pages; Table 5 measured 3 pages. All allocations are provisional and the total will be reconciled at the full proof. Do not cut evidence to protect the estimate.
@@ -59,7 +59,7 @@
 
 - **HSUS Millennial: available.** Tables Bb209–214, Cc1–2, and Ba470–477 can be opened. This closes the main Table 6 price-series and Table 7 unemployment-series access gap.
 - **Image-only PDFs: available for confirmation.** The 1860 Census, 1940 Agriculture, 1940 Population, and 1960 Census pages can be read and ambiguous cells confirmed. This addresses Table 1's 1950 cells, Table 6's 1860 totals, and Table 8's 1940 cells.
-- **WID: not supplied.** The top-1-percent pre-tax national income share is a headline column in Table 7, Panel C, and the outline forbids substituting the 2022 PSZ appendix tables or a different vintage. A public WID download will be tested at Table 7. If it cannot be opened, Table 7 cannot be drafted under the no-unverified-cells rule; the options are a WID export, a documented scope change removing the column, or a declared blocker. No action is needed for Step 1.
+- **WID: resolved through the public API.** The 2026 release, series `sptinc_p99p100_992_j`, supplies the top-1-percent pre-tax national income share for 1913–2024. Record the release and download date; do not splice a different vintage or the 2022 PSZ appendix tables.
 - **CQ Press: not supplied.** The outline permits APP or CQ Press. Use APP, record the pages, and keep the `app-b-state-selection-check` note only if APP leaves a state unresolved.
 - **Print and archival items: not supplied.** Tadman 1989 and Dunn 1972 remain second-hand: Tadman’s 1,110,000 is cited through Pritchett, and Dunn’s Barbados and Jamaica figures through the DOI record and published citations. The affected source lines say “as cited in …” and the notes carry the limitation. Southey’s 1673 return was read at vol. 2, p. 104 as a printed-page image; the earlier citation to vol. 1 was wrong. Heitman 1903 and the 1902 War Department report can be approached through the Internet Archive copy and the 1914 *Congressional Record* transcription, each with its limitation. Fechner and RG 35 remain a Map 26 task.
 
@@ -86,7 +86,8 @@
 - **Table 4:** drafted under §5; 13 rows and 130 cells (123 verified, 4 not applicable, 3 n.a.); CRS, DoD, and Crawford values verified; three pages accepted provisionally.
 - **Table 5:** drafted under §6; 41 printed rows and one reserve; 246 cells (244 verified, 2 n.a.); Panel A transcribed from the 2022/2024 DHS yearbooks; Panel D 2020 row reserved because the ACS 5-year estimate was not transcribed; three pages accepted provisionally.
 - **Table 6:** drafted under §7; 24 printed rows and one reserve, 104 cells (103 verified, 1 n.a.); Panel A from Collins, Dunn, and Southey (vol. 2, p. 104); Panel B from HSUS A 1–5 and A 91–104; Panel C from the live SlaveVoyages estimates and Pritchett; Panel D from Bb210 and Cc2; three pages against the two-page allowance, accepted provisionally.
-- **Open:** Table 2 HSUS/NARA/FEC row-level cross-check; Tables 7–8.
+- **Table 7:** drafted under §8; 38 rows and 191 cells (147 verified, 44 n.a.); Panel A from HSUS Ea584–587/Y 335–338 and OMB FY 2027; Panel B from HSUS Q/P/Ba, BLS, Maddison, and BEA; Panel C from WID 2026, Census H-4, HSUS D 951, and BLS; Panel D from HSUS R, Editor & Publisher, and Census; three pages against the two-page allowance, accepted provisionally.
+- **Open:** Table 2 HSUS/NARA/FEC row-level cross-check; Table 8; final renumbering and page proof.
 
 ## 8. Step 0–2 exit
 

@@ -191,13 +191,13 @@ Run after every table edit.
 
 ## 8. Table 7 — Economic and communications benchmarks
 
-- [ ] Panel A: receipts, outlays, deficit, debt, and percentages match OMB Tables 1.1, 1.2, and 7.1; FY2024 is an actual; percentages `n.a.` before 1930.
-- [ ] Deficit = receipts − outlays; debt is not deficit.
-- [ ] Panel B: railroad miles (operated, ends 1970), steel (1887–1960), unemployment (Ba475 for 1900/1930/1940; BLS from 1950), CPI (CPI-U 1982–84 = 100 from 1930; E 135 in the note), GDP per capita (Maddison 2011 intl dollars 1830–1900; BEA chained 2017 dollars 1930–2024).
-- [ ] Panel C: one WID vintage; top share pre-tax national income; Gini H-4 from 1967; union density from 1930; LFP BLS LNS11300000 from 1950; n.a. rules as printed.
-- [ ] Panel D: daily newspapers and weekday circulation; 2000 Editor & Publisher; telephones in service ends 1970; household telephone 1960–2000; 97.6 percent in 2000.
-- [ ] No Pew post-2014 print-and-digital series; no FCC line count as “telephones in service.”
-- [ ] No averaging of Lebergott and Darby–Weir.
+- [x] Panel A: receipts, outlays, deficit, debt, and percentages match HSUS Ea584–587 / Y 335–338 for 1789–1930 and OMB Tables 1.1, 1.2, and 7.1 for 1940–2024; FY2024 is an actual; percentages `n.a.` before 1930. The first row is the combined 1789–1791 account.
+- [x] Deficit = receipts − outlays; debt is public debt through 1930 and gross federal debt from 1940, and is not the deficit.
+- [x] Panel B: railroad route miles (1830/1860 operated; 1900–1950 owned; 1970 n.a. because the row was not transcribed), steel (1887–1960), unemployment (Ba475 for 1900/1930/1940; BLS annual averages from 1950), CPI (CPI-U 1982–84 = 100 from 1930; E 135 in the note), GDP per capita (Maddison 2011 intl dollars 1830–1900; BEA chained 2017 dollars 1930–2024).
+- [x] Panel C: one WID 2026 vintage, series `sptinc_p99p100_992_j`; top share pre-tax national income; Gini H-4 from 1967; union density D 951 for 1950/1970 and BLS from 2000; LFP BLS LNU01300000 from 1950; n.a. rules as printed.
+- [x] Panel D: daily newspapers and weekday circulation; 2000 Editor & Publisher; telephones in service ends 1970; household telephone 1950/1970/2000; 97.6 percent in 2000.
+- [x] No Pew post-2014 print-and-digital series; no FCC line count as “telephones in service.”
+- [x] No averaging of Lebergott and Darby–Weir.
 
 **Arithmetic to record**
 
@@ -207,6 +207,11 @@ Run after every table edit.
 | 1940 Darby–Weir | Ba475 | 9.5 |
 | 1940 Lebergott (note) | D 85–86 | 14.6 |
 | 2000 household telephone | 100 − 2.4 | 97.6 |
+| 2024 deficit | 4,919,884 − 6,735,261 | −1,815,377 |
+| 2020 deficit | 3,421,164 − 6,516,817 | −3,095,653 |
+| 1900–1950 railroad change | 198,346 to 223,779 | route miles owned |
+
+*Table 7 run November 24, 2026. OMB FY 2027 Tables 1.1, 1.2, and 7.1; HSUS Ea584–587, Q 321–328/Q 284–312, P 302, Ba475, E 135, D 946–951, R 224–231, R 244–257, and R 1–16; WID public API; Census H-4; BLS annual series; Maddison 2023; BEA NIPA Table 7.1; and the Census telephone table were opened. The WID column uses the 2026 release. Railroad 1970 is n.a. because the 1975 Q 284–312 scan omits the 1956–1970 rows; the table note says so.*
 
 ## 9. Table 8 — Land use, public works, and settlement
 
@@ -255,8 +260,9 @@ Add one line per check run. A passing line names the table, the check, the date,
 | — | — | Table 4 arithmetic | Not run | — |
 | — | — | Table 5 arithmetic | Not run | — |
 | 2026-11-24 | Table 6 | Panels A–D; 24 printed rows and one reserve; 104 cells | Pass; 103 verified, 1 n.a.; Southey vol. 2 p. 104; live SlaveVoyages 472,372/388,744; Dunn and Tadman as cited; three-page proof | Agent |
+| 2026-11-24 | Table 7 | Panels A–D; 38 rows; 191 cells | Pass; 147 verified, 44 n.a.; WID 2026 API; OMB/HSUS/BLS/BEA/Census; three-page proof | Agent |
 | 2026-11-24 | Table 6 | Arithmetic: 1790/1860 shares; 1800–1850 Black totals; eight deflations | Pass | Agent |
 | 2026-11-24 | Appendix B | `python3 tools/check_book.py --strict chapters/52-appendix-b.md` | Pass; 0 errors, 0 warnings, 154 notes, 20 tables | Agent |
-| — | — | Table 7 arithmetic | Not run | — |
+| 2026-11-24 | Table 7 | Arithmetic: deficits, railroad changes, CPI/GDP bases | Pass | Agent |
 | — | — | Table 8 arithmetic | Not run | — |
 | — | — | Cross-table checks | Not run | — |
