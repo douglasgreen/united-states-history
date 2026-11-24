@@ -20,20 +20,22 @@ The ledger is complete. The cell files are deliberately partial: they contain th
 | Table | Ledger rows | Printed rows | Seeded cells | Seeded rows | Not started |
 |---|---:|---:|---:|---:|---:|
 | **Table 1** | 41 | 41 | 178 | 41 | 0 |
-| **Table 2** | 60 | 60 | 24 | 5 | 55 |
+| **Table 2** | 60 | 60 | 710 | 60 | 0 |
 | **Table 3** | 13 | 13 | 113 | 13 | 0 |
 | **Table 4** | 13 | 13 | 117 | 13 | 0 |
 | **Table 5** | 42 | 42 | 29 | 20 | 22 |
 | **Table 6** | 25 | 24 | 63 | 24 | 0 |
 | **Table 7** | 38 | 38 | 11 | 6 | 32 |
 | **Table 8** | 23 | 23 | 59 | 23 | 0 |
-| **Total** | **255** | **254** | **594** | **145** | **109** |
+| **Total** | **255** | **254** | **1,280** | **200** | **54** |
 
 Table 6's 25th ledger row is a reserve for the trade panel's one-row slack; it is not printed. The published row count is 254, inside the Stage 3 estimate of 254–260.
 
-**Step 1 validation:** 255 ledger rows; 254 printed and one reserve; 594 seeded cells; no blank values; no duplicate `(row_id, column_id)` pairs; every seeded cell has a source key and locator; all 153 source keys resolve to definitions in the Stage 3 note list. The only ledger row without a source key is the Table 6 reserve, which is not printed.
+**Step 1 validation:** 255 ledger rows; 254 printed and one reserve; 1,280 seeded cells; no blank values; no duplicate `(row_id, column_id)` pairs; every seeded cell has a source key and locator; all 153 source keys resolve to definitions in the Stage 3 note list. The only ledger row without a source key is the Table 6 reserve, which is not printed.
 
 **Step 2 pilot:** Table 3 now has 113 cells, of which 100 are `verified`, 6 are `n_a`, 6 are `not_applicable`, and 1 is `unverified` (the Texas row note’s 1850 stock terms, pending the 9 Stat. 446 page). Twelve of the thirteen Table 3 rows are `verified`; the 1845 Texas row remains `unverified`. The Table 3 draft and the Table 2 width proof are in `build/app-b-pilot.md` and `build/app-b-pilot.pdf`; the PDF is a 5-page Letter proof, with Table 3 on pages 1–3 including row notes and the Table 2 proof on pages 3–5. `build/` is gitignored, so the pilot is a review artifact, not a tracked manuscript file. Template decisions: eight-column Table 3 with letter-keyed row notes; an `.appendix-table` style at 8-point type, reduced padding, and row-level break avoidance, now added to `styles/pdf.css`; a ten-column packed Table 2 header; and Table 3’s ~2.5-page length accepted provisionally, to be reconciled at the full 20-page proof.
+
+**Step 3, Table 2:** Table 2 is drafted under §3 with 60 rows and 710 cells. The cells are verified against the American Presidency Project compilation; HSUS Y 79–83, NARA, and FEC are the official cross-checks, and the row-level check remains for Stage 5. Popular-vote shares are printed without counts. The table is five pages against the four-page allowance; the length is accepted provisionally and will be reconciled at the full 20-page proof.
 
 **Step 3, Table 1:** Table 1 is drafted in the appendix under its existing §2 heading. It has 178 cells: 166 `verified` and 12 `n_a`; all 41 rows are `verified`. Three design decisions are recorded: the White, Black, and enslaved columns are not printed in Table 1, because Table 6 owns race and legal status; 14 reference cells for those series are in `table-01-race-reference.csv`. Urban and regional counts are printed in thousands; shares are calculated from the underlying counts. The 1860 and 1900 regional counts are printed with a note and shares against the regional sum, because the HSUS retrospective regional series does not sum to the national census totals for those years. The Table 1 proof is three pages including notes, against the 2.5-page allowance. The appendix remains `researched` until Tables 2–8 are drafted.
 

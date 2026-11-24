@@ -53,16 +53,18 @@ Run after every table edit.
 
 ## 3. Table 2 — Presidential elections
 
-- [ ] 60 rows, one per election, 1789–2024.
-- [ ] No popular-vote total or share in 1824.
-- [ ] 1796, 1808, and 1820 early deviations are in the Notes column, not a separate column.
-- [ ] 1872: 286 Grant + 63 other = 349 counted; 352 cast; Greeley 0; Arkansas and Louisiana absent.
-- [ ] 1876: 185 Hayes + 184 Tilden = 369; 20 disputed votes; majority 185.
-- [ ] 2020: 306 Biden + 232 Trump = 538; objections noted.
-- [ ] 2024: 312 Trump + 226 Harris = 538; FEC popular vote and shares; turnout 64.3 (p).
-- [ ] Pre-1828 turnout is “partial” or `n.a.`, never a computed national rate.
+*Drafted November 24, 2026. The 710 cells are verified against the American Presidency Project compilation; the HSUS/NARA/FEC row-level cross-check and the 1828–1900 state-coverage check remain for Stage 5. The table prints popular-vote shares only, not counts.*
+
+- [x] 60 rows, one per election, 1789–2024.
+- [x] No popular-vote total or share in 1824.
+- [x] 1796, 1808, and 1820 early deviations are in the Notes column, not a separate column.
+- [x] 1872: 286 Grant + 63 other = 349 counted; 352 cast; Greeley 0; Arkansas and Louisiana absent.
+- [x] 1876: 185 Hayes + 184 Tilden = 369; 20 disputed votes; majority 185.
+- [x] 2020: 306 Biden + 232 Trump = 538; objections noted.
+- [x] 2024: 312 Trump + 226 Harris = 538; FEC popular vote and shares; turnout 64.3 (p).
+- [x] Pre-1828 turnout is “partial” or `n.a.`, never a computed national rate.
 - [ ] 1828–1900 legislative-selection states have no popular-vote zero; coverage in the Notes.
-- [ ] Faithless electors counted only as counted presidential deviations; abstentions separate; unpledged electors excluded.
+- [x] Faithless electors counted only as counted presidential deviations; abstentions separate; unpledged electors excluded.
 
 **Arithmetic to record**
 
@@ -236,6 +238,7 @@ Add one line per check run. A passing line names the table, the check, the date,
 | Date | Table | Check | Result | Run by |
 |---|---|---|---|---|
 | 2026-11-24 | Table 1 | Totals, urban shares, regions, cities; 1860/1900 mismatch noted | Pass; 41 rows verified; race/slavery moved to Table 6 | Agent |
+| 2026-11-24 | Table 2 | 60 rows, 710 cells; electoral-vote sums | Pass except the 2000 abstention (537 of 538); APP compilation verified; HSUS/NARA row-level check pending | Agent |
 | 2026-11-24 | Table 3 | BLM area conversion; 1947 gross areas; 1940 Canal Zone; 2010 notes; costs; legal forms/dates | Pass, except the 1845 stock-term note (`unverified`) | Agent |
 | — | — | Structural checks | Not run | — |
 | — | — | Table 2 arithmetic | Not run | — |

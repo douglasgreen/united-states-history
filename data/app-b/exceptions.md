@@ -164,3 +164,19 @@
 - **Resolution:** Corrected the Table 6 bullet, the note’s “Used for” sentence, and the two reference cells on November 24, 2026. The printed Table 1 does not use these cells; Table 6 will use the corrected values when it is drafted.
 - **Owner:** Agent.
 - **Status:** Resolved. Recheck the Table 6 draft against the printed Z 1–19 page.
+
+## EX-21 — Table 2 values seeded from a secondary compilation
+
+- **Affected:** `app-b-table-02`; all 710 cells.
+- **Issue:** Table 2’s candidate names, electoral votes, and popular-vote shares are verified against the American Presidency Project compilation. The electoral-vote values are the standard series but have not been checked row by row against HSUS Y 79–83 or NARA. Turnout is from the Election Lab v1.4 CSV. The table is drafted and inserted under §3; the official cross-check remains for Stage 5.
+- **Resolution:** Verify the electoral votes against HSUS Y 79–83 and NARA for the elections the outline already resolved; verify the popular-vote shares against the APP election pages or HSUS; record the exact locators. The table remains `drafted`, not `checked`, until that pass is complete.
+- **Owner:** Agent.
+- **Status:** Resolved for the APP compilation on November 24, 2026; the HSUS/NARA/FEC row-level cross-check remains for Stage 5.
+
+## EX-22 — Table 2 is five pages against a four-page allowance
+
+- **Affected:** `build/app-b-table-02.pdf`.
+- **Issue:** At the adopted 8-point appendix-table style, the 60-row table runs five pages. Candidate and party cells wrap, and the 1828–1900 notes are long.
+- **Resolution options:** (a) abbreviate party labels and candidate names further and shorten the notes; (b) move the special-election notes to a letter key below the table; (c) accept a one-page overrun and reconcile the appendix total at the full proof. The contract’s fallback order puts column tightening before row cuts.
+- **Owner:** Human decision; agent implements.
+- **Status:** Resolved November 24, 2026: the five-page length is accepted provisionally and will be reconciled at the full 20-page proof.
