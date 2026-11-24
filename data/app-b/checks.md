@@ -162,7 +162,7 @@ Run after every table edit.
 
 - [x] 1790: 697,681 enslaved + 59,527 free Black = 757,208 Black; 17.8 percent of 3,929,214; 92.1 percent of Black.
 - [x] 1860: 3,953,760 enslaved + 488,070 free Black = 4,441,830 Black; 12.6 percent of 31,443,321; 89.0 percent of Black.
-- [x] Census years 1800–1850 match HSUS A 91–104 footnote 1, with the Black totals summed from the male and female columns.
+- [x] Census years 1800–1850 match HSUS A 91–104; the 1800 and 1810 Black totals come from footnote 1, and the 1820–1850 Black totals are summed from the male and female columns.
 - [x] Barbados 1643: 18,600 White, 6,400 enslaved (Collins, p. 305).
 - [x] Barbados 1679/80: 38,782 enslaved; White `n.a.`; adjacent benchmarks 21,725 (1676) and 19,568 (1684) in the note (Dunn, as cited).
 - [x] Jamaica 1673: 7,768 White, 9,504 enslaved; 800 privateers and Maroons excluded in the note (Southey, vol. 2, p. 104, read as an image).
@@ -182,7 +182,8 @@ Run after every table edit.
 | 1790 enslaved share of Black | 697,681 / 757,208 × 100 | 92.1 |
 | 1860 enslaved share of total | 3,953,760 / 31,443,321 × 100 | 12.6 |
 | 1860 enslaved share of Black | 3,953,760 / 4,441,830 × 100 | 89.0 |
-| 1800–1850 Black totals | sum male + female columns | 1,002,037; 1,377,808; 1,771,656; 2,328,642; 2,873,648; 3,638,808 |
+| 1800, 1810 Black totals | HSUS A 91–104, footnote 1 | 1,002,037; 1,377,808 |
+| 1820–1850 Black totals | sum male + female columns | 1,771,656; 2,328,642; 2,873,648; 3,638,808 |
 | 1804 real price | 700 × 100 / 142 | 493 |
 | 1861 real price | 1,440 × 100 / 106 | 1,358 |
 
