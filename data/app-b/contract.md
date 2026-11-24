@@ -1,6 +1,6 @@
 # Appendix B — Stage 4 drafting contract
 
-**Status:** Step 0 complete; Step 1 complete; Step 2 pilot complete; Step 3 in progress, Tables 1–7 drafted, November 24, 2026. This is a production record, not manuscript text.
+**Status:** Step 0 complete; Step 1 complete; Step 2 pilot complete; Step 3 complete, Tables 1–8 drafted, November 24, 2026. This is a production record, not manuscript text.
 
 **Scope:** [`chapters/52-appendix-b.md`](../../chapters/52-appendix-b.md), Stage 3 researched outline to Stage 4 draft.
 
@@ -36,7 +36,7 @@
 | **App. B, Table 5** | 42 | A: 21; B: 6; C: 3; D: 7 printed (2020 reserve); E: 4 | 1820–2024; recorded-arrivals and LPR labels; ACS stock; DHS January 1 estimates | DHS 2022 and 2024 Yearbooks; ACS B05002; 1921, 1924, and 1929 instruments | Drafted: 41 printed rows, 246 cells (244 verified, 2 n.a.); 2020 stock row reserved; 3 pages accepted provisionally |
 | **App. B, Table 6** | 25 | A: 3; B: 8; C: 6 (24 printed; one reserve); D: 8 | British Caribbean only; 1790–1860 census; net forced migrants; Bb210 price series | HSUS 1975 and Millennial; SlaveVoyages; Pritchett and Tadman; Dunn and Southey | Drafted: 24 printed rows and one reserve, 104 cells (103 verified, 1 n.a.); Southey vol. 2, p. 104 read; live U.S. imports 472,372/388,744 with earlier 472,381/388,747 in the note; Dunn and Tadman second-hand; three pages accepted provisionally |
 | **App. B, Table 7** | 38 | A: 15; B: 9; C: 7; D: 7 | Fiscal years; 1900/1930 breaks; Panel D ends 2000 | OMB FY2027; HSUS; BLS, BEA, and Maddison; WID and Census; Editor & Publisher | Drafted: 38 rows, 191 cells (147 verified, 44 n.a.); WID 2026 API; HSUS/OMB/BLS/BEA/Census series; three pages accepted provisionally |
-| **App. B, Table 8** | 23 | A: 7; B: 5; C: 6; D: 5 | 1930–1944; 48-state 1940 universe; modern TVA capacity | TVA; Statistical Abstract 1943; 1940 Agriculture and Population; Long and Siu | TVA dates and capacity; five CCC values; Kansas, Oklahoma, and Texas cells; California and migration |
+| **App. B, Table 8** | 23 | A: 7; B: 5; C: 6; D: 5 | 1930–1944; 48-state 1940 universe; modern TVA capacity | TVA; Statistical Abstract 1943; 1940 Agriculture and Population; Long and Siu | Drafted: 23 rows, 107 cells (101 verified, 6 n.a.); TVA dates, capacity, river, state, and purpose; five CCC values; Kansas, Oklahoma, and Texas cells; California and migration; three pages against 1.75, accepted provisionally |
 
 **Page allocation:** Table 1, 2.5; Table 2, 4; Table 3, 1.75; Table 4, 2; Table 5, 2.5; Table 6, 2; Table 7, 2; Table 8, 1.75; note, captions, definitions, and notes, 1.5. Total, 20. Table 3 measured about 2.5 pages in the Step 2 pilot, including row notes; Table 1 measured about 3 pages; Table 2 measured 5 pages; Table 4 measured 3 pages; Table 5 measured 3 pages. All allocations are provisional and the total will be reconciled at the full proof. Do not cut evidence to protect the estimate.
 
@@ -87,7 +87,8 @@
 - **Table 5:** drafted under §6; 41 printed rows and one reserve; 246 cells (244 verified, 2 n.a.); Panel A transcribed from the 2022/2024 DHS yearbooks; Panel D 2020 row reserved because the ACS 5-year estimate was not transcribed; three pages accepted provisionally.
 - **Table 6:** drafted under §7; 24 printed rows and one reserve, 104 cells (103 verified, 1 n.a.); Panel A from Collins, Dunn, and Southey (vol. 2, p. 104); Panel B from HSUS A 1–5 and A 91–104; Panel C from the live SlaveVoyages estimates and Pritchett; Panel D from Bb210 and Cc2; three pages against the two-page allowance, accepted provisionally.
 - **Table 7:** drafted under §8; 38 rows and 191 cells (147 verified, 44 n.a.); Panel A from HSUS Ea584–587/Y 335–338 and OMB FY 2027; Panel B from HSUS Q/P/Ba, BLS, Maddison, and BEA; Panel C from WID 2026, Census H-4, HSUS D 951, and BLS; Panel D from HSUS R, Editor & Publisher, and Census; three pages against the two-page allowance, accepted provisionally.
-- **Open:** Table 2 HSUS/NARA/FEC row-level cross-check; Table 8; final renumbering and page proof.
+- **Table 8:** drafted under §9; 23 rows and 107 cells (101 verified, 6 n.a.); Panel A from the TVA plan and dam pages; Panel B from *Statistical Abstract 1943*, Table 156; Panel C from the 1940 Census of Agriculture, Tables 4, 9, and 10; Panel D from Long and Siu (2018), the 1940 Census of Population, and *Statistical Abstract 1946*, Table 31; three pages against the 1.75-page allowance, accepted provisionally.
+- **Open:** Table 2 HSUS/NARA/FEC row-level cross-check; Map 26’s 48-state CCC collation; final assembly, duplicate-note filter, renumbering, and page proof.
 
 ## 8. Step 0–2 exit
 
@@ -97,4 +98,4 @@
 - [x] No manuscript file changed.
 - [x] Step 1: eight production CSVs, the ledger, and the row ledger created; benchmarks seeded as `unverified`.
 - [x] Step 2: Table 3 verified and drafted in the pilot; Table 2 width proof produced; template decisions recorded; `.appendix-table` style added.
-- [ ] Step 3: verify and draft the remaining tables in display order, beginning with Table 1.
+- [x] Step 3: verify and draft the eight tables in display order; Table 8 completed November 24, 2026.

@@ -1,6 +1,6 @@
 # Appendix B — Stage 4 plan and handoff
 
-**Status:** Tables 1–7 drafted and committed; Table 8 is next. Appendix B remains `researched` until Table 8 is drafted. Last updated November 24, 2026.
+**Status:** Tables 1–8 drafted and committed; final assembly and the page proof are next. Appendix B is `drafted`, not `checked`. Last updated November 24, 2026.
 
 **Purpose of this file:** preserve the original Stage 4 plan, the current state, and the working method so a fresh session can continue without the earlier chat context.
 

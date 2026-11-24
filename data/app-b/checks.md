@@ -215,13 +215,13 @@ Run after every table edit.
 
 ## 9. Table 8 — Land use, public works, and settlement
 
-- [ ] Seven TVA rows; dates and capacities match the dam pages; capacity is modern summer net dependable; Watts Bar 196 and Chickamauga 142 (Facts & Figures values).
-- [ ] CCC five June 30 rows: 279,722; 358,558; 321,243; 200,079; 42,315; peak 505,782 in August 1935 in the note; no camp-count series.
-- [ ] Land use: national 1930/1935/1940 and Kansas/Oklahoma/Texas 1940; farms, land in farms, and cropland harvested are distinct; dates labeled.
-- [ ] Dust Bowl: 120,859 to 97,606; change −23,253 (−19.2 percent).
-- [ ] California: 5,677,251 to 6,907,387; +1,230,136 (21.7 percent); in-migrants 876,829; out-migrants 211,963; net +664,866; residual +565,270 not migration.
-- [ ] 48-state 1940 universe; do not mix with 50-state series.
-- [ ] No state CCC rows in Table 8.
+- [x] Seven TVA rows; river, state, dates, purpose, and capacities match the dam pages; capacity is modern summer net dependable; Watts Bar 196 and Chickamauga 142 (Facts & Figures values).
+- [x] CCC five June 30 rows: 279,722; 358,558; 321,243; 200,079; 42,315; peak 505,782 in August 1935 in the note; no camp-count series.
+- [x] Land use: national 1930/1935/1940 and Kansas/Oklahoma/Texas 1940; farms, land in farms, and cropland harvested are distinct; dates labeled. The 1940 Agriculture tables were read as page images.
+- [x] Dust Bowl: 120,859 to 97,606; change −23,253 (−19.2 percent); Long and Siu p. 1007.
+- [x] California: 5,677,251 to 6,907,387; +1,230,136 (21.7 percent); in-migrants 876,829; out-migrants 211,963; net +664,866; residual +565,270 not migration. The 1940 Population page was read as an image; the migration values were checked against *Statistical Abstract 1946*, Table 31.
+- [x] 48-state 1940 universe; do not mix with 50-state series.
+- [x] No state CCC rows in Table 8.
 
 **Arithmetic to record**
 
@@ -262,7 +262,8 @@ Add one line per check run. A passing line names the table, the check, the date,
 | 2026-11-24 | Table 6 | Panels A–D; 24 printed rows and one reserve; 104 cells | Pass; 103 verified, 1 n.a.; Southey vol. 2 p. 104; live SlaveVoyages 472,372/388,744; Dunn and Tadman as cited; three-page proof | Agent |
 | 2026-11-24 | Table 7 | Panels A–D; 38 rows; 191 cells | Pass; 147 verified, 44 n.a.; WID 2026 API; OMB/HSUS/BLS/BEA/Census; three-page proof | Agent |
 | 2026-11-24 | Table 6 | Arithmetic: 1790/1860 shares; 1800–1850 Black totals; eight deflations | Pass | Agent |
-| 2026-11-24 | Appendix B | `python3 tools/check_book.py --strict chapters/52-appendix-b.md` | Pass; 0 errors, 0 warnings, 154 notes, 20 tables | Agent |
+| 2026-11-24 | Appendix B | `python3 tools/check_book.py --strict chapters/52-appendix-b.md` | Pass; 0 errors, 0 warnings, 154 notes, 28 tables | Agent |
 | 2026-11-24 | Table 7 | Arithmetic: deficits, railroad changes, CPI/GDP bases | Pass | Agent |
-| — | — | Table 8 arithmetic | Not run | — |
+| 2026-11-24 | Table 8 | Panels A–D; 23 rows; 107 cells | Pass; 101 verified, 6 n.a.; TVA pages; *Statistical Abstract 1943* Table 156; 1940 Agriculture Tables 4, 9, 10; 1940 Population Table 3; *Statistical Abstract 1946* Table 31; Long and Siu pp. 1002, 1007, 1012, 1014–17; three-page table-plus-notes proof | Agent |
+| 2026-11-24 | Table 8 | Arithmetic: 120,859 − 97,606 = 23,253; 23,253 / 120,859 = 19.2%; 6,907,387 − 5,677,251 = 1,230,136; 876,829 − 211,963 = 664,866; 1,230,136 − 664,866 = 565,270 | Pass | Agent |
 | — | — | Cross-table checks | Not run | — |

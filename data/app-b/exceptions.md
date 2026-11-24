@@ -242,3 +242,19 @@
 - **Resolution:** Accepted provisionally on November 24, 2026; reconcile the appendix total at the full 20-page proof. If compression is needed, shorten the Panel B and C notes before cutting rows or definitions.
 - **Owner:** Human decision; agent implements.
 - **Status:** Open, accepted provisionally.
+
+## EX-30 — Table 8 is three pages against a 1.75-page allowance
+
+- **Affected:** `build/app-b-table-08.pdf`, `build/app-b-table-08-clean.pdf`.
+- **Issue:** The 23-row, four-panel table plus its row notes, source line, definitions, universe note, and alt text runs three pages at the adopted 8-point setting. The table-only portion is about two pages; the evidence notes add the third. The handoff predicted about 2.5 pages and allowed a provisional overrun.
+- **Resolution:** Accepted provisionally on November 24, 2026; reconcile the appendix total at the full 20-page proof. If compression is needed, shorten the Panel B camp-count and Panel D migration notes before cutting rows or definitions. Do not delete the 48-state universe note, the TVA capacity discrepancy, or the 20-county definition.
+- **Owner:** Human decision; agent implements.
+- **Status:** Open, accepted provisionally.
+
+## EX-31 — Long and Siu page locator corrected
+
+- **Affected:** `app-b-long-siu-2016`; Table 8, Panel D; `table-08.csv`.
+- **Issue:** The Stage 3 note gave “pp. 1002, 1007, and 1012” without assigning claims to pages. The 20-county totals (120,859 to 97,606) are at p. 1007, not p. 1002; p. 1002 supplies the Southern Plains 1890–1930 context. The California destination finding is at pp. 1012 and 1014–17.
+- **Resolution:** The note now assigns the 20-county totals to p. 1007, the Southern Plains context to p. 1002, and the destination finding to pp. 1012 and 1014–17. The table-08 locators were corrected to p. 1007. The California migration counts themselves are from *Statistical Abstract 1946*, Table 31, not from Long and Siu.
+- **Owner:** Agent; verified against the Cambridge PDF of the 2018 article.
+- **Status:** Resolved November 24, 2026.

@@ -1,6 +1,6 @@
 # Appendix B production files
 
-**Status:** Step 1 complete; Step 3 in progress, November 24, 2026. Tables 1–7 are drafted; Table 8 remains. The Stage 4 contract is in [`contract.md`](contract.md). `chapters/52-appendix-b.md` remains `researched` until Table 8 is drafted; it is not `checked`.
+**Status:** Step 1 complete; Step 3 complete, November 24, 2026. Tables 1–8 are drafted. The Stage 4 contract is in [`contract.md`](contract.md). `chapters/52-appendix-b.md` is `drafted`; it is not `checked`. Final assembly and the page proof remain.
 
 ## 1. What is here
 
@@ -18,23 +18,25 @@ The ledger is complete. The cell files are deliberately partial: they contain th
 
 ## 2. Counts
 
-| Table | Ledger rows | Printed rows | Step 1 cells | Step 1 rows | Step 1 not started |
-|---|---:|---:|---:|---:|---:|
-| **Table 1** | 41 | 41 | 178 | 41 | 0 |
-| **Table 2** | 60 | 60 | 710 | 60 | 0 |
-| **Table 3** | 13 | 13 | 113 | 13 | 0 |
-| **Table 4** | 13 | 13 | 117 | 13 | 0 |
-| **Table 5** | 42 | 42 | 29 | 20 | 22 |
-| **Table 6** | 25 | 24 | 63 | 24 | 0 |
-| **Table 7** | 38 | 38 | 11 | 6 | 32 |
-| **Table 8** | 23 | 23 | 59 | 23 | 0 |
-| **Total** | **255** | **254** | **1,280** | **200** | **54** |
+| Table | Ledger rows | Printed rows | Drafted cells | Verified | n.a. | Other |
+|---|---:|---:|---:|---:|---:|---:|
+| **Table 1** | 41 | 41 | 178 | 166 | 12 | 0 |
+| **Table 2** | 60 | 60 | 710 | 710 | 0 | 0 |
+| **Table 3** | 13 | 13 | 113 | 101 | 6 | 6 not applicable |
+| **Table 4** | 13 | 13 | 130 | 123 | 3 | 4 not applicable |
+| **Table 5** | 42 | 41 | 246 | 244 | 2 | 1 reserve row |
+| **Table 6** | 25 | 24 | 104 | 103 | 1 | 1 reserve row |
+| **Table 7** | 38 | 38 | 191 | 147 | 44 | 0 |
+| **Table 8** | 23 | 23 | 107 | 101 | 6 | 0 |
+| **Total** | **255** | **254** | **1,779** | **1,695** | **74** | **10 not applicable; 2 reserve rows** |
 
 Table 6's 25th ledger row is a reserve for the trade panel's one-row slack; it is not printed. The published row count is 254, inside the Stage 3 estimate of 254–260.
 
 **Step 1 validation:** 255 ledger rows; 254 printed and one reserve; 1,280 seeded cells; no blank values; no duplicate `(row_id, column_id)` pairs; every seeded cell has a source key and locator; all 153 source keys resolve to definitions in the Stage 3 note list. The only ledger row without a source key is the Table 6 reserve, which is not printed.
 
 **Step 2 pilot:** At the pilot, Table 3 had 113 cells, of which 100 were `verified`, 6 were `n_a`, 6 were `not_applicable`, and 1 was `unverified` (the Texas row note’s 1850 stock terms). The stock terms were later verified against 9 Stat. 446–47. The Table 3 draft and the Table 2 width proof are in `build/app-b-pilot.md` and `build/app-b-pilot.pdf`; the PDF is a 5-page Letter proof, with Table 3 on pages 1–3 including row notes and the Table 2 proof on pages 3–5. `build/` is gitignored, so the pilot is a review artifact, not a tracked manuscript file. Template decisions: eight-column Table 3 with letter-keyed row notes; an `.appendix-table` style at 8-point type, reduced padding, and row-level break avoidance, now added to `styles/pdf.css`; a ten-column packed Table 2 header; and Table 3’s ~2.5-page length accepted provisionally, to be reconciled at the full 20-page proof.
+
+**Step 3, Table 8:** Table 8 is drafted under §9 with 23 rows and 107 cells (101 `verified`, 6 `n_a`). Panel A prints seven selected TVA dams with river, state, construction and completion dates, purpose, and modern summer net dependable capacity; Wilson Dam, the three unprinted 1936-plan dams, the 1944 completion, and the TVA prose/Facts & Figures discrepancies are in the note. Panel B gives five June 30 CCC enrolled-strength values from *Statistical Abstract 1943*, Table 156; the camp-count benchmarks and the August 1935 peak are in the note, and no state CCC rows are printed. Panel C transcribes the 1940 Census of Agriculture national and Kansas/Oklahoma/Texas values, with inventory and harvest dates separated. Panel D uses Long and Siu (2018) for the 20-county population and the 1940 census and *Statistical Abstract 1946* for California; the 20-county totals are at p. 1007, and the California migration series is from Table 31, not the article. The table-plus-notes proof is three pages against the 1.75-page allowance, accepted provisionally; the table-only portion is about two pages.
 
 **Step 3, Table 7:** Table 7 is drafted under §8 with 38 rows and 191 cells (147 `verified`, 44 `n_a`). Panel A combines HSUS Ea584–587 / Y 335–338 for 1789–1930 with OMB FY 2027 Tables 1.1, 1.2, and 7.1 for 1940–2024; the first row is the combined 1789–1791 account. Panel B uses HSUS Q 321–328 (1830 and 1860 road operated; 1900–1950 road owned), P 302 steel, Ba475 and BLS annual unemployment, CPI-U, Maddison 2023, and BEA NIPA Table 7.1. Panel C uses the WID 2026 public API (series `sptinc_p99p100_992_j`), Census H-4 Gini, HSUS D 951 union density, and BLS LNU01300000 participation. Panel D uses HSUS R 244–257 and R 224–231 newspapers, Editor & Publisher 2000, and HSUS R 1–16 / Census telephone series. The proof is three pages against the two-page allowance, accepted provisionally; WID access is resolved.
 
@@ -139,8 +141,9 @@ See [`exceptions.md`](exceptions.md) for the full list. The main ones:
 - **Table 7, Panel C:** WID access is resolved through the public API; the 2026 release gives the top-share column. WID remains a model vintage, so record the release and do not splice a different vintage.
 - **Table 2, Panel B:** the 1828–1900 state-selection check depends on the American Presidency Project because CQ Press was not supplied.
 - **Table 6, Panel A and C:** Southey’s 1673 page is now read at vol. 2, p. 104; Dunn 1969/1972 and Tadman remain second-hand, and the affected cells say “as cited in …” in the notes.
-- **Table 1, Table 6, Table 8:** page-image cells (1950, 1860, 1940) need confirmation from the image PDFs.
-- **Table 8 and Map 26:** the 48-state CCC counts are a Map 26 task, not a Table 8 column.
+- **Table 1 and Table 6:** page-image cells (1950, 1860) still need confirmation from the image PDFs. The Table 8 1940 Agriculture and Population pages were read as images on November 24, 2026.
+- **Map 26:** the 48-state CCC counts remain a Map 26 task, not a Table 8 column; collate them against Fechner’s *First Report* and NARA RG 35, Entry 3.
+- **Final assembly:** drop §1 “How Appendix B Works” and §10 “Cross-Table Rules and Production Record,” add `## Note on the Tables`, renumber Tables 1–8 as §1–§8, fix the duplicate-note rendering (EX-27), and measure the 20-page proof.
 
 ## 10. Do not
 
