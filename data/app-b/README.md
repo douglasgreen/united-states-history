@@ -7,7 +7,7 @@
 | File | Purpose |
 |---|---|
 | [`contract.md`](contract.md) | Frozen Stage 4 scope, format decisions, verification standard, and access consequences |
-| [`stage4-plan-and-handoff.md`](stage4-plan-and-handoff.md) | Original Stage 4 plan, current table status, and the Table 6 handoff |
+| [`stage4-plan-and-handoff.md`](stage4-plan-and-handoff.md) | Original Stage 4 plan, current table status, and the Table 8 handoff |
 | [`ledger.csv`](ledger.csv) | One record for every display row in the eight tables: 255 rows |
 | `table-01.csv` … `table-08.csv` | Long-format cell records for each table; 594 benchmark cells seeded |
 | `table-01-race-reference.csv` | 14 race/slavery cells from the former Table 1 design; reference only, not printed; Table 6 owns the series |
