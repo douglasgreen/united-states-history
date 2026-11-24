@@ -156,3 +156,28 @@ th, td {
   padding: 0.4em 0.6em;
   text-align: left;
 }
+
+/* === Appendix reference tables === */
+/* Compact setting for wide multi-panel tables; see data/app-b/contract.md. */
+.appendix-table table {
+  font-size: 8pt;
+  line-height: 1.2;
+  page-break-inside: auto;
+}
+
+.appendix-table th,
+.appendix-table td {
+  padding: 0.18em 0.28em;
+}
+
+.appendix-table th {
+  font-size: 7.4pt;
+}
+
+.appendix-table thead {
+  display: table-header-group;
+}
+
+.appendix-table tr {
+  page-break-inside: avoid;
+}
