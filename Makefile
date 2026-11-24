@@ -51,6 +51,7 @@ $(BUILD)/$(BOOK).epub: $(SOURCES) $(METADATA) $(EPUB_CSS) $(COVER) tools/epub-li
 	$(PANDOC) $(PANDOC_FLAGS) $(SOURCES) \
 		--split-level=1 \
 		--lua-filter=tools/epub-links.lua \
+		--lua-filter=tools/dedupe-notes.lua \
 		--css=$(EPUB_CSS) \
 		--epub-cover-image=$(COVER) \
 		--output=$@
@@ -58,6 +59,7 @@ $(BUILD)/$(BOOK).epub: $(SOURCES) $(METADATA) $(EPUB_CSS) $(COVER) tools/epub-li
 $(BUILD)/$(BOOK).html: $(SOURCES) $(METADATA) $(HTML_CSS) $(BUILD)/cover.html $(BUILD)/images/cover.jpg | $(BUILD)
 	$(PANDOC) $(PANDOC_FLAGS) $(SOURCES) \
 		--standalone \
+		--lua-filter=tools/dedupe-notes.lua \
 		--css=../$(HTML_CSS) \
 		--include-before-body=$(BUILD)/cover.html \
 		--output=$@
@@ -66,6 +68,7 @@ $(BUILD)/$(BOOK)-print.html: $(SOURCES) $(METADATA) $(PDF_CSS) $(BUILD)/cover.ht
 	$(PANDOC) $(PANDOC_FLAGS) $(SOURCES) \
 		--standalone \
 		--lua-filter=tools/epub-links.lua \
+		--lua-filter=tools/dedupe-notes.lua \
 		--css=../$(PDF_CSS) \
 		--include-before-body=$(BUILD)/cover.html \
 		--output=$@

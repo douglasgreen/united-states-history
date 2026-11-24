@@ -427,7 +427,7 @@ This is a selective guide, not a citation ledger. The groups move from coalition
 
 [^ch36-check-refuge]: Editorial check — the draft distinguishes American rescue policy’s timing and limits from the counterfactual of what more could have been saved. The War Refugee Board’s creation in January 1944 and the earlier refusal of asylum are documented; the number of lives a different policy would have saved is an argument, not a count.
 
-[^ch36-check-sources]: Editorial check — this is a selective reading guide, not a citation ledger. The annotations distinguish works read for this draft from works identified through catalogs or citations and mark the latter; verify all bibliographic details before publication and do not present a recommendation as verified evidence.
+[^ch36-check-sources]: Editorial check — Chapter 36’s Further Reading is a selective reading guide, not a citation ledger. The annotations distinguish works read for this draft from works identified through catalogs or citations and mark the latter; verify all bibliographic details before publication and do not present a recommendation as verified evidence.
 
 [^ch36-fdr-cable]: Franklin D. Roosevelt, cable to Winston S. Churchill, December 8, 1941, quoted in the White House Historical Association, “Mr. Churchill in the White House,” 2018. [Consulted text](https://www.whitehousehistory.org/mr-churchill-in-the-white-house-1). Accessed November 18, 2026. Used for: the epigraphs and the opening scene — Roosevelt’s statement “Today all of us are in the same boat … and it is a ship which will not and cannot be sunk.” Limitations: the cable is reproduced within a secondary account; collate it against the published Churchill–Roosevelt correspondence.
 

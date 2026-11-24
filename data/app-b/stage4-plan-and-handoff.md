@@ -1,6 +1,6 @@
 # Appendix B — Stage 4 plan and handoff
 
-**Status:** Tables 1–8 drafted and committed; final assembly and the page proof are next. Appendix B is `drafted`, not `checked`. Last updated November 24, 2026.
+**Status:** Tables 1–8 are drafted and committed; final assembly is complete. The body proof measures 25 pages against the 20-page allowance; the combined note list is separate. Appendix B is `drafted`, not `checked`. The page-budget decision and Stage 5 remain. Last updated November 24, 2026.
 
 **Purpose of this file:** preserve the original Stage 4 plan, the current state, and the working method so a fresh session can continue without the earlier chat context.
 
@@ -17,22 +17,24 @@
 | `56b8755` | Table 5 |
 | `b8af27e` | Table 6 |
 | `afbd2a4` | Table 7 |
+| `8bfd480` | Table 8 |
 
 | Display | Appendix section | Rows | Cells | Proof | Notes |
 |---|---|---:|---:|---:|---|
-| **Table 1** | §2 | 41 | 178 (166 verified, 12 n.a.) | 3 pp vs 2.5 | Race/slavery moved to Table 6; regional counts in thousands; 1860/1900 regional-sum note |
-| **Table 2** | §3 | 60 | 710, all verified against the APP compilation | 5 pp vs 4 | Shares only, no counts; HSUS/NARA row-level cross-check remains for Stage 5 |
-| **Table 3** | §4 | 13 | 113 (101 verified, 6 n.a., 6 not applicable) | 3 pp vs 2.5 | Texas 1850 stock terms verified against 9 Stat. 446–47 |
-| **Table 4** | §5 | 13 | 130 (123 verified, 4 not applicable, 3 n.a.) | 3 pp vs 2 | CRS, DoD, Crawford verified |
-| **Table 5** | §6 | 41 printed + 1 reserve | 246 (244 verified, 2 n.a.) | 3 pp vs 2.5 | 2020 foreign-born stock row reserved; ACS 5-year estimate not transcribed |
-| **Table 6** | §7 | 24 printed + 1 reserve | 104 (103 verified, 1 n.a.) | 3 pp vs 2 | Southey vol. 2, p. 104; live SlaveVoyages U.S. imports 472,372/388,744; Dunn and Tadman as cited |
-| **Table 7** | §8 | 38 | 191 (147 verified, 44 n.a.) | 3 pp vs 2 | WID 2026 API; HSUS/OMB/BLS/BEA/Census; 1789–1791 first row; debt and railroad definition breaks |
+| **Table 1** | §1 | 41 | 178 (166 verified, 12 n.a.) | 3 pp vs 2.5 | Race/slavery moved to Table 6; regional counts in thousands; 1860/1900 regional-sum note |
+| **Table 2** | §2 | 60 | 710, all verified against the APP compilation | 5 pp vs 4 | Shares only, no counts; HSUS/NARA row-level cross-check remains for Stage 5 |
+| **Table 3** | §3 | 13 | 113 (101 verified, 6 n.a., 6 not applicable) | 3 pp vs 2.5 | Texas 1850 stock terms verified against 9 Stat. 446–47 |
+| **Table 4** | §4 | 13 | 130 (123 verified, 4 not applicable, 3 n.a.) | 3 pp vs 2 | CRS, DoD, Crawford verified |
+| **Table 5** | §5 | 41 printed + 1 reserve | 246 (244 verified, 2 n.a.) | 3 pp vs 2.5 | 2020 foreign-born stock row reserved; ACS 5-year estimate not transcribed |
+| **Table 6** | §6 | 24 printed + 1 reserve | 104 (103 verified, 1 n.a.) | 3 pp vs 2 | Southey vol. 2, p. 104; live SlaveVoyages U.S. imports 472,372/388,744; Dunn and Tadman as cited |
+| **Table 7** | §7 | 38 | 191 (147 verified, 44 n.a.) | 3 pp vs 2 | WID 2026 API; HSUS/OMB/BLS/BEA/Census; 1789–1791 first row; debt and railroad definition breaks |
+| **Table 8** | §8 | 23 | 107 (101 verified, 6 n.a.) | 3 pp vs 1.75 | TVA pages; *Statistical Abstract 1943* Table 156; 1940 Agriculture Tables 4, 9, 10; 1940 Population Table 3; *Statistical Abstract 1946* Table 31; Long and Siu pp. 1002, 1007, 1012, 1014–17 |
 
-- The appendix is 16,566 words, 154 notes, 24 pipe tables. `python3 tools/check_book.py --strict chapters/52-appendix-b.md` passes with 0 errors and 0 warnings.
-- The 20-page allowance is still the target. Tables 1–7 are all slightly over their individual allowances; the overruns were accepted provisionally and must be reconciled at the full 20-page proof.
-- The table sections still use the Stage 3 numbering: §2 = Table 1, §3 = Table 2, §4 = Table 3, §5 = Table 4, §6 = Table 5, §7 = Table 6, §8 = Table 7, §9 = Table 8. §1 is “How Appendix B Works” and §10 is “Cross-Table Rules and Production Record.” The final pass will drop §1 and §10, add `## Note on the Tables`, and renumber Tables 1–8 as §1–§8.
-- **Build blocker, EX-27:** Pandoc renders one note per reference, so a key used three times appears three times. The appendix has 154 definitions but hundreds of rendered references and an 83-page proof. Add a deduplication filter at Stage 7 before trusting any page measurement; do not delete repeated references to make the count fall.
-- **Layout note:** in the full appendix proof, Table 7 Panel A splits after the 2024 row because the table starts mid-page. The table-only proof is three pages; the final layout needs a keep-together rule or a page break before large panels.
+- The appendix is 11,678 body words, 154 notes, 28 pipe tables. `python3 tools/check_book.py --strict chapters/52-appendix-b.md` passes with 0 errors and 0 warnings.
+- The 20-page allowance is exceeded. The final body proof measures 25 pages: Table 1, 3; Table 2, 5; Table 3, 3; Table 4, 3; Table 5, 3; Table 6, 3; Table 7, 3; Table 8, 3; Note on the Tables, about 1. The combined note list is 27 pages and is estimated separately. The five-page overrun awaits a human decision on a revised allowance or the contract fallback cuts (EX-32).
+- The table sections now use the final numbering: §1 = Table 1, §2 = Table 2, §3 = Table 3, §4 = Table 4, §5 = Table 5, §6 = Table 6, §7 = Table 7, §8 = Table 8. `## Note on the Tables` is unnumbered. The Stage 3 production sections §1 “How Appendix B Works” and §10 “Cross-Table Rules and Production Record” are removed.
+- **Build fix, EX-27:** resolved. `tools/dedupe-notes.lua` renders 3,355 distinct note definitions once each and links repeats to the first note; it is wired into the EPUB, HTML, and print targets. The full-book HTML has 15,120 references, all resolving to an existing note ID.
+- **Layout note:** Table 7 Panel A is marked `.keep-together` so it does not split after the 2024 row. The full proof is 52 pages: 25 body and 27 notes.
 
 ## 2. The original Stage 4 plan
 
@@ -194,10 +196,10 @@ Read these before continuing:
 
 ## 5. Remaining after Table 8
 
-- **Final assembly:** drop §1 “How Appendix B Works” and §10 “Cross-Table Rules and Production Record,” add a reader-facing `## Note on the Tables`, renumber Tables 1–8 as §1–§8, reconcile the 20-page budget, update the README status to `drafted`, and run the full proof. Do not mark `checked`.
-- **Build fix before the page proof:** EX-27, the duplicate-note rendering. Add a filter so each named key renders once with repeated references returning to the same note. Measure the appendix only after the fix.
-- **Layout:** keep large panels together; the full proof currently splits Table 7 Panel A after the 2024 row.
-- **Cross-table reconciliation:** check 1790, 1860, 1940, 1970, 2000, 2010, and 2020 identities across Tables 1–8; log chapter references for Stage 6.
+- **Page budget:** decide whether to revise the Appendix B allowance from 20 to 25 pages or apply the contract fallback cuts. The body proof is 25 pages; the note list is separate (EX-32).
+- **Stage 5:** run the evidence, quotation, cross-reference, visual, and rendering checks. The appendix is `drafted`, not `checked`.
+- **Cross-table reconciliation:** the 1790, 1860, 1940, and 1970 identities are checked; the 2000/2010 and 2020 checks in `checks.md` do not match the current table designs and are logged for Stage 6. Serialize chapter references next.
+- **Build:** re-run `make html` and `make pdf` after any note-text change; the duplicate-note filter keys on note bodies, so identical editorial notes in different chapters would merge. The Chapters 36 and 37 notes were made chapter-specific for this reason.
 
 ## 6. Useful commands
 
@@ -237,4 +239,4 @@ git commit -m "Draft Appendix B Table 8"
 
 ## 8. Immediate next action
 
-Start with Table 8: open §9 and `table-08.csv`, verify the seven TVA rows, the five CCC values, the six land-use rows, and the five Dust Bowl rows, build the four-panel proof, splice it into §9, run the checker, update the records, and commit. Then the final assembly: drop the production sections, renumber Tables 1–8, fix the duplicate-note rendering, and measure the 20-page proof.
+Table 8 and final assembly are complete. The next decision is the Appendix B page budget: keep the 20-page allowance and apply the contract fallback cuts, or revise the allowance to 25 pages to match the measured body proof. After that decision, run Stage 5 on the appendix: reopen the cited sources, check the table cells and quotations, verify the cross-references, and inspect the rendered tables and notes. Do not mark the appendix `checked` until those passes are complete.

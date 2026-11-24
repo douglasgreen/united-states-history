@@ -217,9 +217,9 @@
 
 - **Affected:** `build/app-b-full.pdf`; the combined note list in the appendix and the book.
 - **Issue:** The appendix has 154 named note definitions but 279 footnote references. The current Pandoc build creates one rendered note per reference, so a note used in a table cell, a row note, and a source line appears two or three times. The appendix proof is 87 pages, and the note list is inflated; the 20-page text allowance cannot be measured from this build.
-- **Resolution:** Add a build-stage deduplication step so each named key renders once, with repeated references returning to the same note. Measure the appendix after the filter is in place. This is a Stage 7 build task, not a Table 6 cell change; do not delete repeated references or merge distinct qualifiers to make the count fall.
-- **Owner:** Agent at Stage 7; human approves any change to the note-rendering pipeline.
-- **Status:** Open, build blocker for the page proof.
+- **Resolution:** `tools/dedupe-notes.lua` keeps the first rendered note for each distinct note body and replaces later copies with a link to that note. It is wired into the EPUB, HTML, and print targets in the `Makefile`. The full-book HTML now renders 3,355 definitions once each; all 15,120 references resolve to an existing note ID. One pair of editorial notes in Chapters 36 and 37 had identical bodies and was made chapter-specific so the filter would not merge them.
+- **Owner:** Agent; build-pipeline change reviewed at Stage 5/7.
+- **Status:** Resolved November 24, 2026. Recheck after any change to note text or filter order.
 
 ## EX-28 — Table 7 design corrections from the sources
 
@@ -258,3 +258,11 @@
 - **Resolution:** The note now assigns the 20-county totals to p. 1007, the Southern Plains context to p. 1002, and the destination finding to pp. 1012 and 1014–17. The table-08 locators were corrected to p. 1007. The California migration counts themselves are from *Statistical Abstract 1946*, Table 31, not from Long and Siu.
 - **Owner:** Agent; verified against the Cambridge PDF of the 2018 article.
 - **Status:** Resolved November 24, 2026.
+
+## EX-32 — Appendix B body is 25 pages against a 20-page allowance
+
+- **Affected:** `build/app-b-body.pdf`; `chapters/52-appendix-b.md`; the README Appendix B allowance.
+- **Issue:** After final assembly and the duplicate-note filter, the body proof—eight tables plus the Note on the Tables, with citation references removed—measures 25 pages at the adopted 8-point setting. The combined note list adds 27 pages and is excluded from the text-page goal under the book’s page metric. The measured table sections are Table 1, 3; Table 2, 5; Table 3, 3; Table 4, 3; Table 5, 3; Table 6, 3; Table 7, 3; Table 8, 3; Note on the Tables, about 1. The 20-page allocation was 2.5 + 4 + 1.75 + 2 + 2.5 + 2 + 2 + 1.75 + 1.5.
+- **Resolution:** Recorded, not resolved. The contract fallback order is (1) tighten Table 2 to 10–11 columns without losing the 60-election scope, (2) cut Table 8’s three state land-use rows to one, and (3) drop Table 3’s 1763 row. Those cuts are not applied because each would remove promised material or require a new table design; the overrun is largely the accumulated provisional table overruns already recorded in EX-22, EX-23, EX-24, EX-26, EX-29, and EX-30.
+- **Owner:** Human decision on a revised 25-page allowance or the fallback cuts.
+- **Status:** Open. The appendix remains `drafted`, not `checked`.

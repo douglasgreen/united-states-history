@@ -181,3 +181,7 @@ th, td {
 .appendix-table tr {
   page-break-inside: avoid;
 }
+
+.appendix-table.keep-together table {
+  break-inside: avoid;
+}

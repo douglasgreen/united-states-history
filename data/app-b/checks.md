@@ -235,14 +235,14 @@ Run after every table edit.
 
 ## 10. Cross-table checks
 
-- [ ] 1790 total in Table 1 and Table 6 is 3,929,214.
-- [ ] 1860 total in Table 1 and Table 6 is 31,443,321; enslaved 3,953,760.
-- [ ] 1940 conterminous total in Table 1 and Table 8 is 131,669,275; 1930 is 122,775,046.
-- [ ] 1970 official total and 203,211,926 tabulated base agree across Table 1 panels.
-- [ ] 2000 and 2010 totals in Table 1 and Table 7 match.
-- [ ] 2020 total in Table 1 and Table 5 is 331,449,281; Puerto Rico and the Island Areas are separate.
+- [x] 1790 total in Table 1 and Table 6 is 3,929,214.
+- [x] 1860 total in Table 1 and Table 6 is 31,443,321; enslaved 3,953,760.
+- [x] 1940 conterminous total in Table 8 is 131,669,275; 1930 is 122,775,046. Table 1’s national series is conterminous through 1940 but prints no 1940 row, so the check is the series geography, not a row match.
+- [x] 1970 official total in Table 1 is 203,235,298; the 203,211,926 tabulated base and the 23,372 difference are in the note.
+- [ ] 2000 and 2010 population totals are not a Table 7 comparison: Table 7 has no population column. Remove this check at Stage 6 or replace it with a defined cross-table claim.
+- [ ] 2020 total is not a Table 5 comparison: Table 5 has foreign-born stock, not total population. Remove or replace at Stage 6.
 - [ ] Appendix B references in Chapters 12, 13, 16, 21, 22, 31, 36, 37, 41, 46, and 49 point to a table that supports the claim. Record any mismatch for Stage 6; do not edit the chapter here.
-- [ ] No table prints a ninth display number or an unregistered panel.
+- [x] No table prints a ninth display number or an unregistered panel: eight table sections and 28 pipe-table blocks.
 
 ## 11. Result log
 
@@ -266,4 +266,6 @@ Add one line per check run. A passing line names the table, the check, the date,
 | 2026-11-24 | Table 7 | Arithmetic: deficits, railroad changes, CPI/GDP bases | Pass | Agent |
 | 2026-11-24 | Table 8 | Panels A–D; 23 rows; 107 cells | Pass; 101 verified, 6 n.a.; TVA pages; *Statistical Abstract 1943* Table 156; 1940 Agriculture Tables 4, 9, 10; 1940 Population Table 3; *Statistical Abstract 1946* Table 31; Long and Siu pp. 1002, 1007, 1012, 1014–17; three-page table-plus-notes proof | Agent |
 | 2026-11-24 | Table 8 | Arithmetic: 120,859 − 97,606 = 23,253; 23,253 / 120,859 = 19.2%; 6,907,387 − 5,677,251 = 1,230,136; 876,829 − 211,963 = 664,866; 1,230,136 − 664,866 = 565,270 | Pass | Agent |
-| — | — | Cross-table checks | Not run | — |
+| 2026-11-24 | Appendix B | Final assembly: production sections removed; Note on the Tables added; sections renumbered 1–8; note annotations reassigned | Pass; 11,678 body words, 154 notes, 28 tables; body proof 25 pages, notes 27 pages | Agent |
+| 2026-11-24 | Appendix B | Duplicate-note filter on the full book | Pass; 3,355 note definitions rendered once; 15,120 references, all resolving to an existing note ID | Agent |
+| 2026-11-24 | Cross-table | 1790, 1860, 1940, 1970, and display-number checks | Pass except the 2000/2010 and 2020 checks, which do not match the current table designs and are logged for Stage 6 | Agent |

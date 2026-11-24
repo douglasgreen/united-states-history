@@ -419,7 +419,7 @@ This is a selective guide, not a citation ledger. The groups move from the origi
 
 [^ch37-check-image]: Editorial check — no image is assigned to Chapter 37. The In Focus is a textual close reading; reproducing the executive order or any photograph would require a new register entry with caption, credit, rights, and alt text before it could be added. Do not add an unregistered image.
 
-[^ch37-check-sources]: Editorial check — this is a selective reading guide, not a citation ledger. The annotations distinguish works read for this draft from works identified through catalogs or citations and mark the latter; verify all bibliographic details before publication and do not present a recommendation as verified evidence.
+[^ch37-check-sources]: Editorial check — Chapter 37’s Further Reading is a selective reading guide, not a citation ledger. The annotations distinguish works read for this draft from works identified through catalogs or citations and mark the latter; verify all bibliographic details before publication and do not present a recommendation as verified evidence.
 
 [^ch37-check-bridge]: Editorial check — the closing bridge names Levittown in 1950 as Chapter 38’s planned opening. Confirm Chapter 38’s actual opening and adjust this bridge during Stage 6; this dependency remains open until Chapter 38 is drafted.
 

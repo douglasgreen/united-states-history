@@ -1,6 +1,6 @@
 # Appendix B — Stage 4 drafting contract
 
-**Status:** Step 0 complete; Step 1 complete; Step 2 pilot complete; Step 3 complete, Tables 1–8 drafted, November 24, 2026. This is a production record, not manuscript text.
+**Status:** Step 0 complete; Step 1 complete; Step 2 pilot complete; Step 3 and final assembly complete, Tables 1–8 drafted and renumbered 1–8, November 24, 2026. The body proof measures 25 pages against the 20-page allowance; the appendix is `drafted`, not `checked`. This is a production record, not manuscript text.
 
 **Scope:** [`chapters/52-appendix-b.md`](../../chapters/52-appendix-b.md), Stage 3 researched outline to Stage 4 draft.
 
@@ -38,7 +38,7 @@
 | **App. B, Table 7** | 38 | A: 15; B: 9; C: 7; D: 7 | Fiscal years; 1900/1930 breaks; Panel D ends 2000 | OMB FY2027; HSUS; BLS, BEA, and Maddison; WID and Census; Editor & Publisher | Drafted: 38 rows, 191 cells (147 verified, 44 n.a.); WID 2026 API; HSUS/OMB/BLS/BEA/Census series; three pages accepted provisionally |
 | **App. B, Table 8** | 23 | A: 7; B: 5; C: 6; D: 5 | 1930–1944; 48-state 1940 universe; modern TVA capacity | TVA; Statistical Abstract 1943; 1940 Agriculture and Population; Long and Siu | Drafted: 23 rows, 107 cells (101 verified, 6 n.a.); TVA dates, capacity, river, state, and purpose; five CCC values; Kansas, Oklahoma, and Texas cells; California and migration; three pages against 1.75, accepted provisionally |
 
-**Page allocation:** Table 1, 2.5; Table 2, 4; Table 3, 1.75; Table 4, 2; Table 5, 2.5; Table 6, 2; Table 7, 2; Table 8, 1.75; note, captions, definitions, and notes, 1.5. Total, 20. Table 3 measured about 2.5 pages in the Step 2 pilot, including row notes; Table 1 measured about 3 pages; Table 2 measured 5 pages; Table 4 measured 3 pages; Table 5 measured 3 pages. All allocations are provisional and the total will be reconciled at the full proof. Do not cut evidence to protect the estimate.
+**Page allocation:** Table 1, 2.5; Table 2, 4; Table 3, 1.75; Table 4, 2; Table 5, 2.5; Table 6, 2; Table 7, 2; Table 8, 1.75; note, captions, definitions, and notes, 1.5. Total, 20. Measured at final assembly: Table 1, 3 pages; Table 2, 5; Table 3, 3; Table 4, 3; Table 5, 3; Table 6, 3; Table 7, 3; Table 8, 3; Note on the Tables, about 1. Body total, 25 pages. The five-page overrun awaits a human decision on a revised allowance or the fallback cuts. The combined note list is 27 pages and is estimated separately, not counted against the text-page goal. Do not cut evidence to protect the estimate.
 
 ## 4. Common rules
 
@@ -88,7 +88,8 @@
 - **Table 6:** drafted under §7; 24 printed rows and one reserve, 104 cells (103 verified, 1 n.a.); Panel A from Collins, Dunn, and Southey (vol. 2, p. 104); Panel B from HSUS A 1–5 and A 91–104; Panel C from the live SlaveVoyages estimates and Pritchett; Panel D from Bb210 and Cc2; three pages against the two-page allowance, accepted provisionally.
 - **Table 7:** drafted under §8; 38 rows and 191 cells (147 verified, 44 n.a.); Panel A from HSUS Ea584–587/Y 335–338 and OMB FY 2027; Panel B from HSUS Q/P/Ba, BLS, Maddison, and BEA; Panel C from WID 2026, Census H-4, HSUS D 951, and BLS; Panel D from HSUS R, Editor & Publisher, and Census; three pages against the two-page allowance, accepted provisionally.
 - **Table 8:** drafted under §9; 23 rows and 107 cells (101 verified, 6 n.a.); Panel A from the TVA plan and dam pages; Panel B from *Statistical Abstract 1943*, Table 156; Panel C from the 1940 Census of Agriculture, Tables 4, 9, and 10; Panel D from Long and Siu (2018), the 1940 Census of Population, and *Statistical Abstract 1946*, Table 31; three pages against the 1.75-page allowance, accepted provisionally.
-- **Open:** Table 2 HSUS/NARA/FEC row-level cross-check; Map 26’s 48-state CCC collation; final assembly, duplicate-note filter, renumbering, and page proof.
+- **Final assembly:** production sections removed; `## Note on the Tables` added; table sections renumbered 1–8; note annotations reassigned from deleted subsection numbers to table and panel references; `tools/dedupe-notes.lua` wired into the EPUB, HTML, and print targets; body proof measured at 25 pages, notes at 27 pages.
+- **Open:** Table 2 HSUS/NARA/FEC row-level cross-check; Map 26’s 48-state CCC collation; the 25-vs-20-page budget decision; Stage 5 checks.
 
 ## 8. Step 0–2 exit
 
