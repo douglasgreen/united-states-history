@@ -6,7 +6,7 @@
 
 ## 1. Current state
 
-**HEAD:** the latest commit on `main`; the Table 7 commit is `afbd2a4` (“Draft Appendix B Table 7”).
+**HEAD:** `5221193` (“Assemble Appendix B and deduplicate notes”).
 
 | Commit | Work |
 |---|---|
@@ -18,6 +18,7 @@
 | `b8af27e` | Table 6 |
 | `afbd2a4` | Table 7 |
 | `8bfd480` | Table 8 |
+| `5221193` | Final assembly and duplicate-note filter |
 
 | Display | Appendix section | Rows | Cells | Proof | Notes |
 |---|---|---:|---:|---:|---|
