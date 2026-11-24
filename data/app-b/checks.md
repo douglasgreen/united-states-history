@@ -89,7 +89,7 @@ Run after every table edit.
 - [x] Canal Zone is control, not sovereignty; abolished 1979; canal transferred 1999.
 - [x] Do not sum the area column across rows; bases differ.
 
-*Pilot run November 24, 2026. BLM Table 1-1, 1947 Statistical Abstract Table 1, 1940 Canal Zone Census p. 4, and the 2010 State Area Measurements were opened and the printed cells checked. The 1845 Texas row note’s 1850 stock terms remain `unverified`; the BLM compiled cost is checked.*
+*Table 3 run November 24, 2026. BLM Table 1-1, 1947 Statistical Abstract Table 1, 1940 Canal Zone Census p. 4, and the 2010 State Area Measurements were opened and the printed cells checked. The 1845 Texas row note’s 1850 stock terms were verified against 9 Stat. 446–47 (GovInfo page 447); the BLM compiled cost is checked.*
 
 **Arithmetic to record**
 
@@ -239,7 +239,7 @@ Add one line per check run. A passing line names the table, the check, the date,
 |---|---|---|---|---|
 | 2026-11-24 | Table 1 | Totals, urban shares, regions, cities; 1860/1900 mismatch noted | Pass; 41 rows verified; race/slavery moved to Table 6 | Agent |
 | 2026-11-24 | Table 2 | 60 rows, 710 cells; electoral-vote sums | Pass except the 2000 abstention (537 of 538); APP compilation verified; HSUS/NARA row-level check pending | Agent |
-| 2026-11-24 | Table 3 | BLM area conversion; 1947 gross areas; 1940 Canal Zone; 2010 notes; costs; legal forms/dates | Pass, except the 1845 stock-term note (`unverified`) | Agent |
+| 2026-11-24 | Table 3 | BLM area conversion; 1947 gross areas; 1940 Canal Zone; 2010 notes; costs; legal forms/dates; Texas stock terms | Pass; 113 cells (101 verified, 6 n.a., 6 not applicable) | Agent |
 | — | — | Structural checks | Not run | — |
 | — | — | Table 2 arithmetic | Not run | — |
 | — | — | Table 4 arithmetic | Not run | — |

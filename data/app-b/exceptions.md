@@ -99,7 +99,7 @@
 - **Issue:** The legal forms and current statuses are partly seeded; the counterparty, cost coverage, sovereignty/control, and termination columns are not yet fully transcribed.
 - **Resolution:** Use the closed rules: Hawaii joint resolution and contested sovereignty; Philippines independent 1946; Canal Zone control, not sovereignty, abolished 1979, canal transferred 1999; Danish West Indies $25 million in gold, paid March 31, 1917. Keep the 1947 gross-area standard and the 2010 notes separate.
 - **Owner:** Agent.
-- **Status:** Resolved in the Step 2 pilot, except the 1845 Texas row note’s stock terms (EX-17). The 12 other Table 3 rows are `verified`.
+- **Status:** Resolved November 24, 2026. All 13 Table 3 rows are `verified`; the 1845 stock terms are confirmed in EX-17.
 
 ## EX-13 — Table 7 non-seeded series
 
@@ -137,9 +137,9 @@
 
 - **Affected:** `app-b-table-03`, 1845 Texas row, `notes` cell.
 - **Issue:** The note says the 1850 act authorized $10 million in 5 percent stock. The BLM compiled cost of $15,496,448 is verified, but the act’s page image was not opened in the pilot; the page 447 PDF was not available from the GovInfo one-page endpoint.
-- **Resolution:** Open 9 Stat. 446–47 or the NARA transcript and confirm the $10 million, 5 percent, and fourteen-year terms. Until then the note cell remains `unverified`; the table may print the BLM cost, but not the stock terms as checked.
+- **Resolution:** Opened 9 Stat. 446–47 at GovInfo page 447 and confirmed the $10 million, 5 percent, fourteen-year terms. The note cell and Table 3 row are `verified`.
 - **Owner:** Agent.
-- **Status:** Open.
+- **Status:** Resolved November 24, 2026.
 
 ## EX-18 — Table 1: 1860 and 1900 regional counts do not sum to the national total
 
