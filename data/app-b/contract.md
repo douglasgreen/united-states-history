@@ -1,6 +1,6 @@
 # Appendix B — Stage 4 drafting contract
 
-**Status:** Step 0 complete; Step 1 complete; Step 2 pilot complete; Step 3 in progress, Tables 1–3 drafted, November 24, 2026. This is a production record, not manuscript text.
+**Status:** Step 0 complete; Step 1 complete; Step 2 pilot complete; Step 3 in progress, Tables 1–4 drafted, November 24, 2026. This is a production record, not manuscript text.
 
 **Scope:** [`chapters/52-appendix-b.md`](../../chapters/52-appendix-b.md), Stage 3 researched outline to Stage 4 draft.
 
@@ -32,13 +32,13 @@
 | **App. B, Table 1** | 41 | A: 14 national (total, urban thousands, urban share); B: 7 regional (counts in thousands, shares); C: 20 city | Conterminous through 1940; 50 states and D.C. from 1950; Puerto Rico and Island Areas in a note; 1790 Midwest and West n.a.; 1860/1900 shares use the regional sum | HSUS 1975; 1960, 2000, 2010, 2020 Censuses; Gibson | Verified: totals, urban, regions, cities. 1860/1900 regional sum mismatch noted; race/slavery in Table 6 |
 | **App. B, Table 2** | 60 | A: 1789–1824 short header (9 cols); B: 1828–1900 full (10 cols); C: 1904–2024 full (10 cols) | 60 elections; no 1824 popular vote; voting-eligible-population turnout; pre-1828 rates partial; popular-vote shares only | HSUS Y; American Presidency Project; NARA; CRS; FEC; Election Lab | Drafted: 710 cells verified against the APP compilation; five-page proof accepted provisionally; HSUS/NARA row-level cross-check remains for Stage 5 |
 | **App. B, Table 3** | 13 | A: 9 continental; B: 4 overseas | 1763–1917; gross square miles; nominal cost; control versus sovereignty | 1947 Statistical Abstract; BLM; treaty texts; 1940 Canal Zone census | Drafted: 113 cells (101 verified, 6 n.a., 6 not applicable); Texas 1850 stock terms verified; 2.5 pages accepted provisionally |
-| **App. B, Table 4** | 13 | A: 1775–1898; B: 1917–1991; C: 2001–2021 | Uniformed military only; CRS FY2011 base; DoD OCO current dollars | CRS RL32492 and RS22926; DoD August 2021; Barceló and Hacker; Crawford | CRS cells; frozen DoD snapshot; Confederate row; Heitman; OCO components |
+| **App. B, Table 4** | 13 | A: 1775–1898; B: 1917–1991; C: 2001–2021 | Uniformed military only; CRS FY2011 base; DoD OCO current dollars | CRS RL32492 and RS22926; DoD August 2021; Barceló and Hacker; Crawford | Drafted: 130 cells (123 verified, 4 not applicable, 3 n.a.); CRS/DoD/Crawford verified; three pages accepted provisionally |
 | **App. B, Table 5** | 42 | A: 21; B: 6; C: 3; D: 8; E: 4 | 1820–2024; recorded-arrivals and LPR labels; ACS stock; DHS January 1 estimates | DHS 2022 and 2024 Yearbooks; ACS B05002; 1921, 1924, and 1929 instruments | Decade totals; 2022/2024 splice; 688,230 Unknown; ACS vintages; 1921 allotments |
 | **App. B, Table 6** | 25 | A: 3; B: 8; C: 6 (24 printed; one reserve); D: 8 | British Caribbean only; 1790–1860 census; net forced migrants; Bb210 price series | HSUS 1975 and Millennial; SlaveVoyages; Pritchett and Tadman; Dunn and Southey | Dunn and Southey pages; Bb210 and Cc2 values; 1860 page images; 388,747 imports |
 | **App. B, Table 7** | 38 | A: 15; B: 9; C: 7; D: 7 | Fiscal years; 1900/1930 breaks; Panel D ends 2000 | OMB FY2027; HSUS; BLS, BEA, and Maddison; WID and Census; Editor & Publisher | 15 OMB values; Ba475 and BLS; CPI and GDP bases; WID; Gini; newspaper sub-series |
 | **App. B, Table 8** | 23 | A: 7; B: 5; C: 6; D: 5 | 1930–1944; 48-state 1940 universe; modern TVA capacity | TVA; Statistical Abstract 1943; 1940 Agriculture and Population; Long and Siu | TVA dates and capacity; five CCC values; Kansas, Oklahoma, and Texas cells; California and migration |
 
-**Page allocation:** Table 1, 2.5; Table 2, 4; Table 3, 1.75; Table 4, 2; Table 5, 2.5; Table 6, 2; Table 7, 2; Table 8, 1.75; note, captions, definitions, and notes, 1.5. Total, 20. Table 3 measured about 2.5 pages in the Step 2 pilot, including row notes; Table 1 measured about 3 pages; Table 2 measured 5 pages. All three allocations are provisional and the total will be reconciled at the full proof. Do not cut evidence to protect the estimate.
+**Page allocation:** Table 1, 2.5; Table 2, 4; Table 3, 1.75; Table 4, 2; Table 5, 2.5; Table 6, 2; Table 7, 2; Table 8, 1.75; note, captions, definitions, and notes, 1.5. Total, 20. Table 3 measured about 2.5 pages in the Step 2 pilot, including row notes; Table 1 measured about 3 pages; Table 2 measured 5 pages; Table 4 measured 3 pages. All allocations are provisional and the total will be reconciled at the full proof. Do not cut evidence to protect the estimate.
 
 ## 4. Common rules
 
@@ -83,7 +83,8 @@
 - **Table 1:** drafted under §2; 178 cells (166 `verified`, 12 `n_a`); 41 rows verified; three-page proof. Race/slavery moved to Table 6; regional counts in thousands; 1860/1900 regional-sum note.
 - **Table 2:** drafted under §3; 60 rows and 710 cells, verified against the American Presidency Project compilation; shares only; five pages accepted provisionally. HSUS/NARA/FEC row-level cross-check remains for Stage 5. The table uses HSUS Y 79–83 for 1789–1968, House Clerk/NARA/FEC for 1972–2024, and Election Lab v1.4 for turnout.
 - **Table 3:** drafted under §4; 13 rows and 113 cells (101 verified, 6 n.a., 6 not applicable); Texas 1850 stock terms verified against 9 Stat. 446–47; 2.5 pages accepted provisionally.
-- **Open:** Table 2 HSUS/NARA/FEC row-level cross-check; Tables 4–8.
+- **Table 4:** drafted under §5; 13 rows and 130 cells (123 verified, 4 not applicable, 3 n.a.); CRS, DoD, and Crawford values verified; three pages accepted provisionally.
+- **Open:** Table 2 HSUS/NARA/FEC row-level cross-check; Tables 5–8.
 
 ## 8. Step 0–2 exit
 

@@ -106,15 +106,17 @@ Run after every table edit.
 
 ## 5. Table 4 — Wars, mobilization, and cost
 
-- [ ] Every row: total deaths = battle + other, or the note explains the difference.
-- [ ] Service totals, deaths, and wounds match CRS RL32492 (July 29, 2020).
-- [ ] Costs match CRS RS22926, FY2011 base; cost definition in the row.
-- [ ] Civil War rows are roster counts; Barceló 698,000, Hacker 752,000, and conventional 618,222 in the note only.
-- [ ] Confederate row: service 600,000–1,500,000; deaths 133,821 (74,524 + 59,297); wounded `n.a.`; prison deaths 26,000–31,000 in the note.
-- [ ] Panel C: uniformed military only; DoD August 31, 2021 snapshot; OCO current dollars; constant-dollar cells `—`.
-- [ ] Panel A note carries the Philippine-American War and Boxer Rebellion; no fourteenth row.
-- [ ] Persian Gulf gross cost in cells; $4.7 billion net in the note.
-- [ ] Do not add DoD civilians or contractors to any cell.
+- [x] Every row: total deaths = battle + other, or the note explains the difference.
+- [x] Service totals, deaths, and wounds match CRS RL32492 (July 29, 2020).
+- [x] Costs match CRS RS22926, FY2011 base; cost definition in the row.
+- [x] Civil War rows are roster counts; Barceló 698,000, Hacker 752,000, and conventional 618,222 in the note only.
+- [x] Confederate row: service 600,000–1,500,000; deaths 133,821 (74,524 + 59,297); wounded `n.a.`; prison deaths 26,000–31,000 in the note.
+- [x] Panel C: uniformed military only; DoD August 31, 2021 snapshot; OCO current dollars; constant-dollar cells `—`.
+- [x] Panel A note carries the Philippine-American War and Boxer Rebellion; no fourteenth row.
+- [x] Persian Gulf gross cost in cells; $4.7 billion net in the note.
+- [x] Do not add DoD civilians or contractors to any cell.
+
+*Table 4 run November 24, 2026. CRS RL32492 Table 1, CRS RS22926 Table 1, the August 31, 2021 DoD casualty status, Crawford Table 2, and Barceló et al. 2024 were opened and the cells checked. The 1902 Philippine report and Heitman remain OCR/secondary-locator items in the note.*
 
 **Arithmetic to record**
 
@@ -239,6 +241,7 @@ Add one line per check run. A passing line names the table, the check, the date,
 |---|---|---|---|---|
 | 2026-11-24 | Table 1 | Totals, urban shares, regions, cities; 1860/1900 mismatch noted | Pass; 41 rows verified; race/slavery moved to Table 6 | Agent |
 | 2026-11-24 | Table 2 | 60 rows, 710 cells; electoral-vote sums | Pass except the 2000 abstention (537 of 538); APP compilation verified; HSUS/NARA row-level check pending | Agent |
+| 2026-11-24 | Table 4 | CRS service/casualties/costs; DoD Panel C; Crawford OCO; Civil War note | Pass; 130 cells (123 verified, 4 not applicable, 3 n.a.) | Agent |
 | 2026-11-24 | Table 3 | BLM area conversion; 1947 gross areas; 1940 Canal Zone; 2010 notes; costs; legal forms/dates; Texas stock terms | Pass; 113 cells (101 verified, 6 n.a., 6 not applicable) | Agent |
 | — | — | Structural checks | Not run | — |
 | — | — | Table 2 arithmetic | Not run | — |

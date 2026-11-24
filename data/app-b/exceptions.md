@@ -180,3 +180,11 @@
 - **Resolution options:** (a) abbreviate party labels and candidate names further and shorten the notes; (b) move the special-election notes to a letter key below the table; (c) accept a one-page overrun and reconcile the appendix total at the full proof. The contract’s fallback order puts column tightening before row cuts.
 - **Owner:** Human decision; agent implements.
 - **Status:** Resolved November 24, 2026: the five-page length is accepted provisionally and will be reconciled at the full 20-page proof.
+
+## EX-23 — Table 4 is three pages against a two-page allowance
+
+- **Affected:** `build/app-b-table-04.pdf`.
+- **Issue:** The 13-row, ten-column table plus the Civil War, Panel C, Philippine, and cost notes runs three pages at the adopted 8-point setting.
+- **Resolution:** Accepted provisionally on November 24, 2026; reconcile the appendix total at the full 20-page proof. If compression is needed, shorten the notes before cutting rows or definitions.
+- **Owner:** Human decision; agent implements.
+- **Status:** Open, accepted provisionally.
