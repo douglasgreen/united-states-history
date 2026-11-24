@@ -188,3 +188,11 @@
 - **Resolution:** Accepted provisionally on November 24, 2026; reconcile the appendix total at the full 20-page proof. If compression is needed, shorten the notes before cutting rows or definitions.
 - **Owner:** Human decision; agent implements.
 - **Status:** Open, accepted provisionally.
+
+## EX-24 — Table 5: 2020 stock row reserved; three-page proof
+
+- **Affected:** `app-b-table-05`, Panel D 2020 row; `build/app-b-table-05.pdf`.
+- **Issue:** The 2020 ACS 5-year estimate was not transcribed in this pass, so the 2020 stock row is not printed; the 2010 and 2024 ACS 1-year estimates bracket the period. The 41-row table plus notes runs three pages against the 2.5-page allowance.
+- **Resolution:** The 2020 row is recorded as a reserve with a note. The three-page length is accepted provisionally and will be reconciled at the full 20-page proof. If the 2020 estimate is supplied later, restore the row and its label.
+- **Owner:** Human decision; agent implements.
+- **Status:** Open, accepted provisionally.

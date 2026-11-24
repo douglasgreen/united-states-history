@@ -136,16 +136,18 @@ Run after every table edit.
 
 ## 6. Table 5 — Immigration
 
-- [ ] Panel A decade totals match the 2022 Yearbook Table 2; the 2020–2024 row is a calculated partial.
-- [ ] 2020–2024 total 5,002,710; regional cells 5,002,750; difference 40 explained by rounding.
-- [ ] 2024 regional cells sum to 1,364,100 against 1,364,090; difference 10 explained.
-- [ ] 688,230 Unknown for 2020–2024, including 440,430 in FY 2024; 32.3 percent of FY 2024.
-- [ ] 2022 “America” row and the 2024 North America + South America splice are not added together.
-- [ ] Panel B 2024 uses region of birth; Mexico 202,600; Cuba and China in the note.
-- [ ] Panel C: 1921 formula and administrative allotments; 1924 164,667; 1929 153,714.
-- [ ] Panel D: 2010 and 2024 ACS 1-year; 2020 2016–2020 ACS 5-year; no decennial labels.
-- [ ] Panel E: DHS residual, January 1, 2010/2015/2020/2022; subset of Panel D; do not add.
-- [ ] No post-2022 unauthorized estimate.
+- [x] Panel A decade totals match the 2022 Yearbook Table 2; the 2020–2024 row is a calculated partial.
+- [x] 2020–2024 total 5,002,710; regional cells 5,002,750; difference 40 explained by rounding.
+- [x] 2024 regional cells sum to 1,364,100 against 1,364,090; difference 10 explained.
+- [x] 688,230 Unknown for 2020–2024, including 440,430 in FY 2024; 32.3 percent of FY 2024.
+- [x] 2022 “America” row and the 2024 North America + South America splice are not added together.
+- [x] Panel B 2024 uses region of birth; Mexico 202,600; Cuba and China in the note.
+- [x] Panel C: 1921 formula and administrative allotments; 1924 164,667; 1929 153,714.
+- [ ] Panel D: 2010 and 2024 ACS 1-year; the 2020 ACS 5-year row is reserved, not printed; no decennial labels.
+- [x] Panel E: DHS residual, January 1, 2010/2015/2020/2022; subset of Panel D; do not add.
+- [x] No post-2022 unauthorized estimate.
+
+*Table 5 run November 24, 2026. The 2022 and 2024 DHS Yearbook tables, the 1921/1924/1929 instruments, Gibson and Jung, the 2010/2024 ACS B05002 tables, and the DHS unauthorized reports were opened and the cells checked. Panel D’s 2020 row is reserved because the 2016–2020 ACS 5-year estimate was not transcribed; 2010 and 2024 bracket the period.*
 
 **Arithmetic to record**
 
@@ -242,6 +244,7 @@ Add one line per check run. A passing line names the table, the check, the date,
 | 2026-11-24 | Table 1 | Totals, urban shares, regions, cities; 1860/1900 mismatch noted | Pass; 41 rows verified; race/slavery moved to Table 6 | Agent |
 | 2026-11-24 | Table 2 | 60 rows, 710 cells; electoral-vote sums | Pass except the 2000 abstention (537 of 538); APP compilation verified; HSUS/NARA row-level check pending | Agent |
 | 2026-11-24 | Table 4 | CRS service/casualties/costs; DoD Panel C; Crawford OCO; Civil War note | Pass; 130 cells (123 verified, 4 not applicable, 3 n.a.) | Agent |
+| 2026-11-24 | Table 5 | DHS decade/regional matrix; 2024 cells; quotas; stock; unauthorized | Pass; 41 printed rows, 246 cells (244 verified, 2 n.a.); 2020 stock row reserved | Agent |
 | 2026-11-24 | Table 3 | BLM area conversion; 1947 gross areas; 1940 Canal Zone; 2010 notes; costs; legal forms/dates; Texas stock terms | Pass; 113 cells (101 verified, 6 n.a., 6 not applicable) | Agent |
 | — | — | Structural checks | Not run | — |
 | — | — | Table 2 arithmetic | Not run | — |
