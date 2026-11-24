@@ -6,7 +6,7 @@
 
 ## 1. Current state
 
-**HEAD:** this handoff commit; the last table commit is `b8af27e` (“Draft Appendix B Table 6”).
+**HEAD:** the latest commit on `main`; the Table 6 commit is `b8af27e` (“Draft Appendix B Table 6”).
 
 | Commit | Work |
 |---|---|
