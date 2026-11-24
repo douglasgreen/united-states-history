@@ -32,15 +32,15 @@
 - **Issue:** Tadman 1989, p. 12, was not read. The figure is reported in Pritchett 2017, p. 3 n. 2.
 - **Resolution:** Print the value with the source line “Tadman, as cited in Pritchett.” The note must say the original was not consulted. Do not present it as verified against Tadman.
 - **Owner:** Agent; human may supply the book page later.
-- **Status:** Open, secondary-locator limitation.
+- **Status:** Resolved for drafting November 24, 2026. Table 6 Panel C prints 1,110,000 with the source cell “Pritchett, citing Tadman”; the note says the book was not consulted. The value is verified only as Pritchett reports it.
 
 ## EX-05 — Dunn and Southey print pages
 
 - **Affected:** `app-b-table-06`, Panel A: Barbados 1679/80 enslaved 38,782; Jamaica 1673 White 7,768 and enslaved 9,504; Dunn's adjacent White benchmarks.
-- **Issue:** Dunn 1969 was consulted through its DOI record and a research review, not full text. Dunn 1972 was not read. Southey is an OCR text.
+- **Issue:** Dunn 1969 was consulted through its DOI record and published citations, not full text. Dunn 1972 was not read. Southey is an OCR text, and the earlier note cited the wrong volume.
 - **Resolution:** Confirm the printed pages, or name the secondary locator and label the values “as cited in ….” Do not upgrade them to `verified` against the original without the page.
 - **Owner:** Agent; human supplies access if available.
-- **Status:** Open. Panel A is gated on this item.
+- **Status:** Resolved for drafting November 24, 2026. Southey’s 1673 return was read at vol. 2, p. 104 as a printed-page image; the earlier “vol. 1, pp. 104–106” citation was wrong. Barbados 38,782 and Dunn’s 21,725/19,568 benchmarks remain “as cited in” published citations because Dunn was not read in full. The note carries the limitation.
 
 ## EX-06 — Heitman and the 1902 War Department report
 
@@ -59,7 +59,7 @@
 - **Issue:** The PDFs are page images or OCR with no reliable text layer. The user can confirm ambiguous cells.
 - **Resolution:** Read the image, record the printed cell, and set `verified`. If a cell is illegible, leave `pending_image` and record it here.
 - **Owner:** Agent reads; human confirms ambiguous cells.
-- **Status:** Open for verification.
+- **Status:** Resolved for Table 6 on November 24, 2026: the 1860 Census pp. ix and 599 were read as images, confirming 3,953,760 enslaved, 487,970 free “colored,” 4,441,730 “colored,” and 3,542,147 “black” plus 411,613 “mulatto.” Table 1’s 1950 cells and Table 8’s 1940 cells remain open.
 
 ## EX-08 — Table 1 universes and 1790/1970/2020 rules
 
@@ -196,3 +196,27 @@
 - **Resolution:** The 2020 row is recorded as a reserve with a note. The three-page length is accepted provisionally and will be reconciled at the full 20-page proof. If the 2020 estimate is supplied later, restore the row and its label.
 - **Owner:** Human decision; agent implements.
 - **Status:** Open, accepted provisionally.
+
+## EX-25 — SlaveVoyages Mainland North America totals changed between releases
+
+- **Affected:** `app-b-table-06`, Panel C, U.S. imports row; `app-b-slavevoyages-estimates`.
+- **Issue:** The Stage 3 outline and earlier releases give 472,381 embarked and 388,747 disembarked for Mainland North America. The live SlaveVoyages estimates table, read in a browser session on November 24, 2026, gives 472,372 embarked and 388,744 disembarked. The nine-person and three-person differences are vintage differences, not definitional changes.
+- **Resolution:** Table 6 prints the live totals, 472,372 and 388,744, with the earlier figures in the note. The transatlantic totals remain 12,521,354 embarked and 10,702,644 disembarked. Update any chapter reference to 472,381/388,747 at Stage 6; do not silently mix the two vintages.
+- **Owner:** Agent; human should confirm the choice if a chapter quotes the older figures.
+- **Status:** Open for Stage 6 cross-reference reconciliation; the Table 6 cells are drafted.
+
+## EX-26 — Table 6 is three pages against a two-page allowance
+
+- **Affected:** `build/app-b-table-06.pdf`.
+- **Issue:** The 24-row, four-panel table plus the Panel A row notes, Panel B–D definitions, source line, and alt text runs three pages at the adopted 8-point setting. The Stage 3 allowance is two pages.
+- **Resolution:** Accepted provisionally on November 24, 2026; reconcile the appendix total at the full 20-page proof. If compression is needed, shorten the Panel B and C notes before cutting rows or definitions.
+- **Owner:** Human decision; agent implements.
+- **Status:** Open, accepted provisionally.
+
+## EX-27 — Appendix proof duplicates notes when a key is reused
+
+- **Affected:** `build/app-b-full.pdf`; the combined note list in the appendix and the book.
+- **Issue:** The appendix has 154 named note definitions but 279 footnote references. The current Pandoc build creates one rendered note per reference, so a note used in a table cell, a row note, and a source line appears two or three times. The appendix proof is 87 pages, and the note list is inflated; the 20-page text allowance cannot be measured from this build.
+- **Resolution:** Add a build-stage deduplication step so each named key renders once, with repeated references returning to the same note. Measure the appendix after the filter is in place. This is a Stage 7 build task, not a Table 6 cell change; do not delete repeated references or merge distinct qualifiers to make the count fall.
+- **Owner:** Agent at Stage 7; human approves any change to the note-rendering pipeline.
+- **Status:** Open, build blocker for the page proof.

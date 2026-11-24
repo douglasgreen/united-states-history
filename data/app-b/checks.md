@@ -160,17 +160,17 @@ Run after every table edit.
 
 ## 7. Table 6 — Slavery and coerced movement
 
-- [ ] 1790: 697,681 enslaved + 59,527 free Black = 757,208 Black; 17.8 percent of 3,929,214; 92.1 percent of Black.
-- [ ] 1860: 3,953,760 enslaved + 488,070 free Black = 4,441,830 Black; 12.6 percent of 31,443,321; 89.0 percent of Black.
-- [ ] Census years 1800–1850 match HSUS A 91–104 footnote 1.
-- [ ] Barbados 1643: 18,600 White, 6,400 enslaved.
-- [ ] Barbados 1679/80: 38,782 enslaved; White `n.a.`; adjacent benchmarks 21,725 (1676) and 19,568 (1684) in the note.
-- [ ] Jamaica 1673: 7,768 White, 9,504 enslaved; 800 privateers and Maroons excluded in the note.
-- [ ] Transatlantic: 12,521,354 embarked; about 10.7 million disembarked; do not say “arrived” for embarked.
-- [ ] U.S. imports: 472,381 embarked, 388,747 disembarked; do not use 305,326.
-- [ ] Goldin 835,000 and Tadman 1,110,000 are alternatives, not a range or components.
-- [ ] Prices: nominal × 100 / Cc2; eight real values as listed.
-- [ ] Do not add the enslaved column to the Black column.
+- [x] 1790: 697,681 enslaved + 59,527 free Black = 757,208 Black; 17.8 percent of 3,929,214; 92.1 percent of Black.
+- [x] 1860: 3,953,760 enslaved + 488,070 free Black = 4,441,830 Black; 12.6 percent of 31,443,321; 89.0 percent of Black.
+- [x] Census years 1800–1850 match HSUS A 91–104 footnote 1, with the Black totals summed from the male and female columns.
+- [x] Barbados 1643: 18,600 White, 6,400 enslaved (Collins, p. 305).
+- [x] Barbados 1679/80: 38,782 enslaved; White `n.a.`; adjacent benchmarks 21,725 (1676) and 19,568 (1684) in the note (Dunn, as cited).
+- [x] Jamaica 1673: 7,768 White, 9,504 enslaved; 800 privateers and Maroons excluded in the note (Southey, vol. 2, p. 104, read as an image).
+- [x] Transatlantic: 12,521,354 embarked; 10,702,644 disembarked; the page describes the latter as about 10.7 million.
+- [x] U.S. imports: 472,372 embarked, 388,744 disembarked in the live table; earlier 472,381/388,747 in the note; do not use 305,326.
+- [x] Goldin 835,000 and Tadman 1,110,000 are alternatives, not a range or components.
+- [x] Prices: nominal × 100 / Cc2; eight real values as listed.
+- [x] Do not add the enslaved column to the Black column.
 
 **Arithmetic to record**
 
@@ -182,8 +182,11 @@ Run after every table edit.
 | 1790 enslaved share of Black | 697,681 / 757,208 × 100 | 92.1 |
 | 1860 enslaved share of total | 3,953,760 / 31,443,321 × 100 | 12.6 |
 | 1860 enslaved share of Black | 3,953,760 / 4,441,830 × 100 | 89.0 |
+| 1800–1850 Black totals | sum male + female columns | 1,002,037; 1,377,808; 1,771,656; 2,328,642; 2,873,648; 3,638,808 |
 | 1804 real price | 700 × 100 / 142 | 493 |
 | 1861 real price | 1,440 × 100 / 106 | 1,358 |
+
+*Table 6 run November 24, 2026. HSUS A 1–5 and A 91–104, Bb209–214, and Cc1–2 were opened; the 1860 Census pp. ix and 599 were read as page images; the live SlaveVoyages estimates table was read in a browser session; Pritchett note 2, Collins p. 305, the EHS pilot page, and Southey vol. 2 p. 104 were read. Barbados 38,782 and the Dunn 1972 adjacent benchmarks remain “as cited” because the print works were not consulted directly; the U.S. imports row uses the live 472,372/388,744 values, with the earlier 472,381/388,747 in the note.*
 
 ## 8. Table 7 — Economic and communications benchmarks
 
@@ -250,7 +253,9 @@ Add one line per check run. A passing line names the table, the check, the date,
 | — | — | Table 2 arithmetic | Not run | — |
 | — | — | Table 4 arithmetic | Not run | — |
 | — | — | Table 5 arithmetic | Not run | — |
-| — | — | Table 6 arithmetic | Not run | — |
+| 2026-11-24 | Table 6 | Panels A–D; 24 printed rows and one reserve; 104 cells | Pass; 103 verified, 1 n.a.; Southey vol. 2 p. 104; live SlaveVoyages 472,372/388,744; Dunn and Tadman as cited; three-page proof | Agent |
+| 2026-11-24 | Table 6 | Arithmetic: 1790/1860 shares; 1800–1850 Black totals; eight deflations | Pass | Agent |
+| 2026-11-24 | Appendix B | `python3 tools/check_book.py --strict chapters/52-appendix-b.md` | Pass; 0 errors, 0 warnings, 154 notes, 20 tables | Agent |
 | — | — | Table 7 arithmetic | Not run | — |
 | — | — | Table 8 arithmetic | Not run | — |
 | — | — | Cross-table checks | Not run | — |

@@ -1,6 +1,6 @@
 # Appendix B production files
 
-**Status:** Step 1 complete, November 24, 2026. The Stage 4 contract is in [`contract.md`](contract.md). No manuscript file has been changed; `chapters/52-appendix-b.md` remains `researched`.
+**Status:** Step 1 complete; Step 3 in progress, November 24, 2026. Tables 1–6 are drafted; Tables 7–8 remain. The Stage 4 contract is in [`contract.md`](contract.md). `chapters/52-appendix-b.md` remains `researched` until Tables 7–8 are drafted; it is not `checked`.
 
 ## 1. What is here
 
@@ -18,7 +18,7 @@ The ledger is complete. The cell files are deliberately partial: they contain th
 
 ## 2. Counts
 
-| Table | Ledger rows | Printed rows | Seeded cells | Seeded rows | Not started |
+| Table | Ledger rows | Printed rows | Step 1 cells | Step 1 rows | Step 1 not started |
 |---|---:|---:|---:|---:|---:|
 | **Table 1** | 41 | 41 | 178 | 41 | 0 |
 | **Table 2** | 60 | 60 | 710 | 60 | 0 |
@@ -35,6 +35,8 @@ Table 6's 25th ledger row is a reserve for the trade panel's one-row slack; it i
 **Step 1 validation:** 255 ledger rows; 254 printed and one reserve; 1,280 seeded cells; no blank values; no duplicate `(row_id, column_id)` pairs; every seeded cell has a source key and locator; all 153 source keys resolve to definitions in the Stage 3 note list. The only ledger row without a source key is the Table 6 reserve, which is not printed.
 
 **Step 2 pilot:** At the pilot, Table 3 had 113 cells, of which 100 were `verified`, 6 were `n_a`, 6 were `not_applicable`, and 1 was `unverified` (the Texas row note’s 1850 stock terms). The stock terms were later verified against 9 Stat. 446–47. The Table 3 draft and the Table 2 width proof are in `build/app-b-pilot.md` and `build/app-b-pilot.pdf`; the PDF is a 5-page Letter proof, with Table 3 on pages 1–3 including row notes and the Table 2 proof on pages 3–5. `build/` is gitignored, so the pilot is a review artifact, not a tracked manuscript file. Template decisions: eight-column Table 3 with letter-keyed row notes; an `.appendix-table` style at 8-point type, reduced padding, and row-level break avoidance, now added to `styles/pdf.css`; a ten-column packed Table 2 header; and Table 3’s ~2.5-page length accepted provisionally, to be reconciled at the full 20-page proof.
+
+**Step 3, Table 6:** Table 6 is drafted under §7 with 24 printed rows and one reserve, 104 cells (103 `verified`, 1 `n_a`). Panel A is transcribed from Collins, Dunn, and Southey; Southey’s 1673 return was read at vol. 2, p. 104. Panel B combines HSUS A 1–5 and A 91–104 for total, Black, and enslaved counts; the 1800–1850 Black totals are summed from the male and female columns. Panel C uses the live SlaveVoyages estimates (12,521,354 embarked; 10,702,644 disembarked; 472,372 embarked and 388,744 disembarked for Mainland North America), with the earlier 472,381/388,747 figures in the note, and Pritchett’s Goldin and Tadman estimates. Panel D transcribes the Engerman Bb210 series and the Cc2 index. The proof is three pages against the two-page allowance, accepted provisionally.
 
 **Step 3, Table 5:** Table 5 is drafted under §6 with 41 printed rows and one reserve (the 2020 foreign-born stock row), 246 cells (244 `verified`, 2 `n_a`). Panel A is transcribed from the 2022 and 2024 DHS Yearbook tables; Panel C prints selected quotas only for 1929; Panel D uses the 1850–1990 census stock and the 2010/2024 ACS 1-year estimates. The proof is three pages against the 2.5-page allowance, accepted provisionally.
 
@@ -134,7 +136,7 @@ See [`exceptions.md`](exceptions.md) for the full list. The main ones:
 
 - **Table 7, Panel C:** the WID top-share column is blocked without a WID export or a documented scope change.
 - **Table 2, Panel B:** the 1828–1900 state-selection check depends on the American Presidency Project because CQ Press was not supplied.
-- **Table 6, Panel A and C:** Dunn, Southey, and Tadman print pages are not supplied; affected values must say “as cited in …” or remain `pending_print`.
+- **Table 6, Panel A and C:** Southey’s 1673 page is now read at vol. 2, p. 104; Dunn 1969/1972 and Tadman remain second-hand, and the affected cells say “as cited in …” in the notes.
 - **Table 1, Table 6, Table 8:** page-image cells (1950, 1860, 1940) need confirmation from the image PDFs.
 - **Table 8 and Map 26:** the 48-state CCC counts are a Map 26 task, not a Table 8 column.
 
