@@ -1,6 +1,6 @@
 # Appendix B — Stage 4 plan and handoff
 
-**Status:** Tables 1–8 are drafted and committed; final assembly is complete. The body proof measures 25 pages against the 20-page allowance; the combined note list is separate. Appendix B is `drafted`, not `checked`. The page-budget decision and Stage 5 remain. Last updated November 24, 2026.
+**Status:** Tables 1–8 are drafted and committed; final assembly is complete. The body proof measures 25 pages, and the Appendix B allowance was revised from 20 to 25 pages on November 24, 2026; the combined note list is separate. Appendix B is `drafted`, not `checked`. Stage 5 remains. Last updated November 24, 2026.
 
 **Purpose of this file:** preserve the original Stage 4 plan, the current state, and the working method so a fresh session can continue without the earlier chat context.
 
@@ -32,7 +32,7 @@
 | **Table 8** | §8 | 23 | 107 (101 verified, 6 n.a.) | 3 pp vs 1.75 | TVA pages; *Statistical Abstract 1943* Table 156; 1940 Agriculture Tables 4, 9, 10; 1940 Population Table 3; *Statistical Abstract 1946* Table 31; Long and Siu pp. 1002, 1007, 1012, 1014–17 |
 
 - The appendix is 11,684 body words, 154 notes, 28 pipe tables. `python3 tools/check_book.py --strict chapters/52-appendix-b.md` passes with 0 errors and 0 warnings.
-- The 20-page allowance is exceeded. The final body proof measures 25 pages: Table 1, 3; Table 2, 5; Table 3, 3; Table 4, 3; Table 5, 3; Table 6, 3; Table 7, 3; Table 8, 3; Note on the Tables, about 1. The combined note list is 27 pages and is estimated separately. The five-page overrun awaits a human decision on a revised allowance or the contract fallback cuts (EX-32).
+- The Appendix B allowance is 25 pages, revised from 20 on November 24, 2026, to match the measured body proof. The proof is 25 pages: Table 1, 3; Table 2, 5; Table 3, 3; Table 4, 3; Table 5, 3; Table 6, 3; Table 7, 3; Table 8, 3; Note on the Tables, about 1. The combined note list is 27 pages and is estimated separately. No fallback cuts are applied (EX-32 resolved).
 - The table sections now use the final numbering: §1 = Table 1, §2 = Table 2, §3 = Table 3, §4 = Table 4, §5 = Table 5, §6 = Table 6, §7 = Table 7, §8 = Table 8. `## Note on the Tables` is unnumbered. The Stage 3 production sections §1 “How Appendix B Works” and §10 “Cross-Table Rules and Production Record” are removed.
 - **Build fix, EX-27:** resolved. `tools/dedupe-notes.lua` renders 3,355 distinct note definitions once each and links repeats to the first note; it is wired into the EPUB, HTML, and print targets. The full-book HTML has 15,120 references, all resolving to an existing note ID.
 - **Layout note:** Table 7 Panel A is marked `.keep-together` so it does not split after the 2024 row. The full proof is 52 pages: 25 body and 27 notes.
@@ -85,7 +85,7 @@
 
 - **Agent:** build a PDF or table-only proof; measure pages per table, column widths, header repetition, overflow, and note length.
 - **Human:** inspect at 8-point type; decide the fallback cuts if needed.
-- **Gate:** tables fit 20 pages or approved cuts are applied; measured pages recorded.
+- **Gate:** tables fit the approved allowance (25 pages, revised from 20 on November 24, 2026) or approved cuts are applied; measured pages recorded.
 
 ### Step 8 — README and register; Stage 4 exit
 
@@ -105,7 +105,7 @@ Read these before continuing:
   - **EX-18:** Table 1’s 1860/1900 regional counts do not sum to national totals.
   - **EX-19:** Table 1 race/slavery columns dropped; Table 6 owns that series.
   - **EX-21:** Table 2 values verified against APP; HSUS/NARA/FEC row-level cross-check remains for Stage 5.
-  - **EX-22/EX-23/EX-24/EX-26/EX-29:** Table 2, 4, 5, 6, and 7 page overruns accepted provisionally.
+  - **EX-22/EX-23/EX-24/EX-26/EX-29/EX-30:** Table 2, 4, 5, 6, 7, and 8 page lengths resolved in the approved 25-page allowance (EX-32).
   - **EX-25:** SlaveVoyages Mainland North America totals changed between releases.
   - **EX-27:** the appendix proof duplicates notes on repeated references; fix the build before the page proof.
   - **EX-28:** Table 7 design corrections: 1789–1791 first row; public debt through 1930 and gross debt from 1940; road owned for 1900–1950; BLS annual series LNU04000000/LNU01300000; union-density denominator break; 1850 daily-newspaper row n.a.
@@ -141,7 +141,7 @@ Read these before continuing:
 - **Panel B (5):** CCC enrollment, June 30, 1933, 1935, 1936, 1940, 1942. Columns: date; enrolled strength; source definition; note. No camp-count column, no state rows.
 - **Panel C (6):** national 1930, 1935, 1940; Kansas, Oklahoma, Texas 1940. Columns: year; farms; land in farms; cropland harvested; unit; source.
 - **Panel D (5):** Dust Bowl 20-county population 1930/1940/change; California in-migrants, out-migrants, net interstate migration. Columns: area; 1930; 1940; change; note.
-- **Page allowance:** 1.75 pages; likely 2.5 at 8-point. Accept provisionally if needed and record an exception.
+- **Page allowance:** 1.75 pages in the superseded 20-page estimate; the measured table-plus-notes proof is three pages, absorbed in the approved 25-page allowance (EX-32).
 
 ### Panel design (from the Stage 3 §9.2 outline)
 
@@ -197,7 +197,7 @@ Read these before continuing:
 
 ## 5. Remaining after Table 8
 
-- **Page budget:** decide whether to revise the Appendix B allowance from 20 to 25 pages or apply the contract fallback cuts. The body proof is 25 pages; the note list is separate (EX-32).
+- **Page budget:** resolved November 24, 2026. The allowance is 25 pages, matching the measured body proof; no fallback cuts are applied. The note list is separate (EX-32 resolved).
 - **Stage 5:** run the evidence, quotation, cross-reference, visual, and rendering checks. The appendix is `drafted`, not `checked`.
 - **Cross-table reconciliation:** the 1790, 1860, 1940, and 1970 identities are checked; the 2000/2010 and 2020 checks in `checks.md` do not match the current table designs and are logged for Stage 6. Serialize chapter references next.
 - **Build:** re-run `make html` and `make pdf` after any note-text change; the duplicate-note filter keys on note bodies, so identical editorial notes in different chapters would merge. The Chapters 36 and 37 notes were made chapter-specific for this reason.
@@ -226,7 +226,7 @@ git commit -m "Draft Appendix B Table 8"
 
 | Path | Role |
 |---|---|
-| `chapters/52-appendix-b.md` | The draft; Tables 1–7 drafted under §§2–8, Table 8 still a Stage 3 specification under §9 |
+| `chapters/52-appendix-b.md` | The draft; Tables 1–8 drafted under §§1–8 |
 | `data/app-b/contract.md` | Frozen decisions and verification standard |
 | `data/app-b/README.md` | Counts, schemas, status, Step 3 workflow |
 | `data/app-b/ledger.csv` | 255 display rows; current statuses and notes |
@@ -240,4 +240,4 @@ git commit -m "Draft Appendix B Table 8"
 
 ## 8. Immediate next action
 
-Table 8 and final assembly are complete. The next decision is the Appendix B page budget: keep the 20-page allowance and apply the contract fallback cuts, or revise the allowance to 25 pages to match the measured body proof. After that decision, run Stage 5 on the appendix: reopen the cited sources, check the table cells and quotations, verify the cross-references, and inspect the rendered tables and notes. Do not mark the appendix `checked` until those passes are complete.
+Table 8 and final assembly are complete, and the page budget is resolved at 25 pages, matching the measured body proof. The next task is Stage 5 on the appendix: reopen the cited sources, check the table cells and quotations, verify the cross-references, and inspect the rendered tables and notes. Do not mark the appendix `checked` until those passes are complete.

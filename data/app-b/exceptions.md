@@ -179,23 +179,23 @@
 - **Issue:** At the adopted 8-point appendix-table style, the 60-row table runs five pages. Candidate and party cells wrap, and the 1828–1900 notes are long.
 - **Resolution options:** (a) abbreviate party labels and candidate names further and shorten the notes; (b) move the special-election notes to a letter key below the table; (c) accept a one-page overrun and reconcile the appendix total at the full proof. The contract’s fallback order puts column tightening before row cuts.
 - **Owner:** Human decision; agent implements.
-- **Status:** Resolved November 24, 2026: the five-page length is accepted provisionally and will be reconciled at the full 20-page proof.
+- **Status:** Resolved November 24, 2026: the revised 25-page allowance absorbs the five-page length; no cuts are applied (EX-32).
 
 ## EX-23 — Table 4 is three pages against a two-page allowance
 
 - **Affected:** `build/app-b-table-04.pdf`.
 - **Issue:** The 13-row, ten-column table plus the Civil War, Panel C, Philippine, and cost notes runs three pages at the adopted 8-point setting.
-- **Resolution:** Accepted provisionally on November 24, 2026; reconcile the appendix total at the full 20-page proof. If compression is needed, shorten the notes before cutting rows or definitions.
+- **Resolution:** Accepted November 24, 2026 in the revised 25-page allowance; no compression is required (EX-32). If later edits lengthen the table, shorten the notes before cutting rows or definitions.
 - **Owner:** Human decision; agent implements.
-- **Status:** Open, accepted provisionally.
+- **Status:** Resolved November 24, 2026: the 25-page allowance absorbs the overrun.
 
 ## EX-24 — Table 5: 2020 stock row reserved; three-page proof
 
 - **Affected:** `app-b-table-05`, Panel D 2020 row; `build/app-b-table-05.pdf`.
 - **Issue:** The 2020 ACS 5-year estimate was not transcribed in this pass, so the 2020 stock row is not printed; the 2010 and 2024 ACS 1-year estimates bracket the period. The 41-row table plus notes runs three pages against the 2.5-page allowance.
-- **Resolution:** The 2020 row is recorded as a reserve with a note. The three-page length is accepted provisionally and will be reconciled at the full 20-page proof. If the 2020 estimate is supplied later, restore the row and its label.
+- **Resolution:** The 2020 row is recorded as a reserve with a note. The three-page length is absorbed by the revised 25-page allowance (EX-32). If the 2020 estimate is supplied later, restore the row and its label.
 - **Owner:** Human decision; agent implements.
-- **Status:** Open, accepted provisionally.
+- **Status:** Page-length item resolved November 24, 2026 in the 25-page allowance; the 2020 stock row remains a declared reserve.
 
 ## EX-25 — SlaveVoyages Mainland North America totals changed between releases
 
@@ -209,14 +209,14 @@
 
 - **Affected:** `build/app-b-table-06.pdf`.
 - **Issue:** The 24-row, four-panel table plus the Panel A row notes, Panel B–D definitions, source line, and alt text runs three pages at the adopted 8-point setting. The Stage 3 allowance is two pages.
-- **Resolution:** Accepted provisionally on November 24, 2026; reconcile the appendix total at the full 20-page proof. If compression is needed, shorten the Panel B and C notes before cutting rows or definitions.
+- **Resolution:** Accepted November 24, 2026 in the revised 25-page allowance; no compression is required (EX-32). If later edits lengthen the table, shorten the Panel B and C notes before cutting rows or definitions.
 - **Owner:** Human decision; agent implements.
-- **Status:** Open, accepted provisionally.
+- **Status:** Resolved November 24, 2026: the 25-page allowance absorbs the overrun.
 
 ## EX-27 — Appendix proof duplicates notes when a key is reused
 
 - **Affected:** `build/app-b-full.pdf`; the combined note list in the appendix and the book.
-- **Issue:** The appendix has 154 named note definitions but 279 footnote references. The current Pandoc build creates one rendered note per reference, so a note used in a table cell, a row note, and a source line appears two or three times. The appendix proof is 87 pages, and the note list is inflated; the 20-page text allowance cannot be measured from this build.
+- **Issue:** The appendix has 154 named note definitions but 279 footnote references. The current Pandoc build creates one rendered note per reference, so a note used in a table cell, a row note, and a source line appears two or three times. The appendix proof is 87 pages, and the note list is inflated; the text-page allowance could not be measured from this build.
 - **Resolution:** `tools/dedupe-notes.lua` keeps the first rendered note for each distinct note body and replaces later copies with a link to that note. It is wired into the EPUB, HTML, and print targets in the `Makefile`. The full-book HTML now renders 3,355 definitions once each; all 15,120 references resolve to an existing note ID. One pair of editorial notes in Chapters 36 and 37 had identical bodies and was made chapter-specific so the filter would not merge them.
 - **Owner:** Agent; build-pipeline change reviewed at Stage 5/7.
 - **Status:** Resolved November 24, 2026. Recheck after any change to note text or filter order.
@@ -239,17 +239,17 @@
 
 - **Affected:** `build/app-b-table-07.pdf`.
 - **Issue:** The 38-row, four-panel table plus the panel definitions, source line, and notes runs three pages at the adopted 8-point setting.
-- **Resolution:** Accepted provisionally on November 24, 2026; reconcile the appendix total at the full 20-page proof. If compression is needed, shorten the Panel B and C notes before cutting rows or definitions.
+- **Resolution:** Accepted November 24, 2026 in the revised 25-page allowance; no compression is required (EX-32). If later edits lengthen the table, shorten the Panel B and C notes before cutting rows or definitions.
 - **Owner:** Human decision; agent implements.
-- **Status:** Open, accepted provisionally.
+- **Status:** Resolved November 24, 2026: the 25-page allowance absorbs the overrun.
 
 ## EX-30 — Table 8 is three pages against a 1.75-page allowance
 
 - **Affected:** `build/app-b-table-08.pdf`, `build/app-b-table-08-clean.pdf`.
 - **Issue:** The 23-row, four-panel table plus its row notes, source line, definitions, universe note, and alt text runs three pages at the adopted 8-point setting. The table-only portion is about two pages; the evidence notes add the third. The handoff predicted about 2.5 pages and allowed a provisional overrun.
-- **Resolution:** Accepted provisionally on November 24, 2026; reconcile the appendix total at the full 20-page proof. If compression is needed, shorten the Panel B camp-count and Panel D migration notes before cutting rows or definitions. Do not delete the 48-state universe note, the TVA capacity discrepancy, or the 20-county definition.
+- **Resolution:** Accepted November 24, 2026 in the revised 25-page allowance; no compression is required (EX-32). If later edits lengthen the table, shorten the Panel B camp-count and Panel D migration notes before cutting rows or definitions. Do not delete the 48-state universe note, the TVA capacity discrepancy, or the 20-county definition.
 - **Owner:** Human decision; agent implements.
-- **Status:** Open, accepted provisionally.
+- **Status:** Resolved November 24, 2026: the 25-page allowance absorbs the overrun.
 
 ## EX-31 — Long and Siu page locator corrected
 
@@ -259,10 +259,10 @@
 - **Owner:** Agent; verified against the Cambridge PDF of the 2018 article.
 - **Status:** Resolved November 24, 2026.
 
-## EX-32 — Appendix B body is 25 pages against a 20-page allowance
+## EX-32 — Appendix B body is 25 pages; allowance revised to 25 pages
 
 - **Affected:** `build/app-b-body.pdf`; `chapters/52-appendix-b.md`; the README Appendix B allowance.
-- **Issue:** After final assembly and the duplicate-note filter, the body proof—eight tables plus the Note on the Tables, with citation references removed—measures 25 pages at the adopted 8-point setting. The combined note list adds 27 pages and is excluded from the text-page goal under the book’s page metric. The measured table sections are Table 1, 3; Table 2, 5; Table 3, 3; Table 4, 3; Table 5, 3; Table 6, 3; Table 7, 3; Table 8, 3; Note on the Tables, about 1. The 20-page allocation was 2.5 + 4 + 1.75 + 2 + 2.5 + 2 + 2 + 1.75 + 1.5.
-- **Resolution:** Recorded, not resolved. The contract fallback order is (1) tighten Table 2 to 10–11 columns without losing the 60-election scope, (2) cut Table 8’s three state land-use rows to one, and (3) drop Table 3’s 1763 row. Those cuts are not applied because each would remove promised material or require a new table design; the overrun is largely the accumulated provisional table overruns already recorded in EX-22, EX-23, EX-24, EX-26, EX-29, and EX-30.
-- **Owner:** Human decision on a revised 25-page allowance or the fallback cuts.
-- **Status:** Open. The appendix remains `drafted`, not `checked`.
+- **Issue:** After final assembly and the duplicate-note filter, the body proof—eight tables plus the Note on the Tables, with citation references removed—measures 25 pages at the adopted 8-point setting, five pages above the 20-page allowance then in force. The combined note list adds 27 pages and is excluded from the text-page goal under the book’s page metric. The measured table sections are Table 1, 3; Table 2, 5; Table 3, 3; Table 4, 3; Table 5, 3; Table 6, 3; Table 7, 3; Table 8, 3; Note on the Tables, about 1. The superseded 20-page allocation was 2.5 + 4 + 1.75 + 2 + 2.5 + 2 + 2 + 1.75 + 1.5.
+- **Resolution:** Resolved November 24, 2026: the Appendix B allowance was revised from 20 to 25 pages to match the measured body proof. No contract fallback cuts are applied, and the body fits the revised allowance. This closes the page-length items in EX-22, EX-23, EX-24, EX-26, EX-29, and EX-30. The combined note list remains separate at 27 pages.
+- **Owner:** Human decision; the 25-page allowance was approved November 24, 2026.
+- **Status:** Resolved November 24, 2026. The appendix remains `drafted`, not `checked`; Stage 5 remains.
