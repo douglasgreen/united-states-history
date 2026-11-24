@@ -6,7 +6,7 @@
 
 ## 1. Current state
 
-**HEAD:** `5221193` (“Assemble Appendix B and deduplicate notes”).
+**HEAD:** the latest commit on `main`; the final-assembly commit is `5221193` (“Assemble Appendix B and deduplicate notes”).
 
 | Commit | Work |
 |---|---|
