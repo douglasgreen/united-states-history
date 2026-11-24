@@ -1,12 +1,12 @@
 # Appendix B — Stage 4 plan and handoff
 
-**Status:** Tables 1–5 drafted and committed; Table 6 is next. Appendix B remains `researched` until Tables 6–8 are drafted. Last updated November 24, 2026.
+**Status:** Tables 1–6 drafted and committed; Table 7 is next. Appendix B remains `researched` until Tables 7–8 are drafted. Last updated November 24, 2026.
 
 **Purpose of this file:** preserve the original Stage 4 plan, the current state, and the working method so a fresh session can continue without the earlier chat context.
 
 ## 1. Current state
 
-**HEAD:** this handoff commit; the last table commit is `56b8755` (“Draft Appendix B Table 5”).
+**HEAD:** this handoff commit; the last table commit is `b8af27e` (“Draft Appendix B Table 6”).
 
 | Commit | Work |
 |---|---|
@@ -15,18 +15,21 @@
 | `0947ff5` | Table 3 |
 | `71f6052` | Table 4 |
 | `56b8755` | Table 5 |
+| `b8af27e` | Table 6 |
 
 | Display | Appendix section | Rows | Cells | Proof | Notes |
-|---|---:|---:|---:|---:|---|
+|---|---|---:|---:|---:|---|
 | **Table 1** | §2 | 41 | 178 (166 verified, 12 n.a.) | 3 pp vs 2.5 | Race/slavery moved to Table 6; regional counts in thousands; 1860/1900 regional-sum note |
 | **Table 2** | §3 | 60 | 710, all verified against the APP compilation | 5 pp vs 4 | Shares only, no counts; HSUS/NARA row-level cross-check remains for Stage 5 |
 | **Table 3** | §4 | 13 | 113 (101 verified, 6 n.a., 6 not applicable) | 3 pp vs 2.5 | Texas 1850 stock terms verified against 9 Stat. 446–47 |
 | **Table 4** | §5 | 13 | 130 (123 verified, 4 not applicable, 3 n.a.) | 3 pp vs 2 | CRS, DoD, Crawford verified |
 | **Table 5** | §6 | 41 printed + 1 reserve | 246 (244 verified, 2 n.a.) | 3 pp vs 2.5 | 2020 foreign-born stock row reserved; ACS 5-year estimate not transcribed |
+| **Table 6** | §7 | 24 printed + 1 reserve | 104 (103 verified, 1 n.a.) | 3 pp vs 2 | Southey vol. 2, p. 104; live SlaveVoyages U.S. imports 472,372/388,744; Dunn and Tadman as cited |
 
-- The appendix is 20,681 words, 154 notes, 16 pipe tables. `python3 tools/check_book.py --strict chapters/52-appendix-b.md` passes with 0 errors and 0 warnings.
-- The 20-page allowance is still the target. Tables 1–5 are all slightly over their individual allowances; the overruns were accepted provisionally and must be reconciled at the full 20-page proof.
+- The appendix is 18,466 words, 154 notes, 20 pipe tables. `python3 tools/check_book.py --strict chapters/52-appendix-b.md` passes with 0 errors and 0 warnings.
+- The 20-page allowance is still the target. Tables 1–6 are all slightly over their individual allowances; the overruns were accepted provisionally and must be reconciled at the full 20-page proof.
 - The table sections still use the Stage 3 numbering: §2 = Table 1, §3 = Table 2, §4 = Table 3, §5 = Table 4, §6 = Table 5, §7 = Table 6, §8 = Table 7, §9 = Table 8. §1 is “How Appendix B Works” and §10 is “Cross-Table Rules and Production Record.” The final pass will drop §1 and §10, add `## Note on the Tables`, and renumber Tables 1–8 as §1–§8.
+- **New build blocker, EX-27:** Pandoc renders one note per reference, so a key used three times appears three times. The appendix has 154 definitions but 279 rendered references and an 87-page proof. Add a deduplication filter at Stage 7 before trusting any page measurement; do not delete repeated references to make the count fall.
 
 ## 2. The original Stage 4 plan
 
@@ -91,12 +94,14 @@ Read these before continuing:
 - `contract.md` — panel layout (one pipe table per panel), temporary heading scheme, verification standard, fallback order, access consequences.
 - `README.md` — counts, status vocabulary, Step 3 workflow.
 - `exceptions.md` — all open/resolved items, especially:
+  - **EX-04/EX-05:** Tadman is cited through Pritchett; Dunn 1969/1972 remain “as cited”; Southey’s 1673 return was read at vol. 2, p. 104.
   - **EX-17/EX-20:** Texas 1850 stock terms verified; Z 1–19 enslaved values corrected (1780 575,420; 1770 459,822; 1760 325,806; 1750 236,420).
   - **EX-18:** Table 1’s 1860/1900 regional counts do not sum to national totals; shares use the regional sum.
   - **EX-19:** Table 1 race/slavery columns dropped; Table 6 owns that series.
   - **EX-21:** Table 2 values verified against the APP compilation; HSUS/NARA/FEC row-level cross-check remains for Stage 5.
-  - **EX-22/EX-23:** Table 2 and Table 4 page overruns accepted provisionally.
-  - **EX-24:** Table 5 2020 stock row reserved; three-page proof accepted provisionally.
+  - **EX-22/EX-23/EX-24/EX-26:** Table 2, 4, 5, and 6 page overruns accepted provisionally.
+  - **EX-25:** SlaveVoyages Mainland North America totals changed between releases: live 472,372/388,744; earlier 472,381/388,747. Table 6 prints the live values and notes the older ones.
+  - **EX-27:** the appendix proof duplicates notes on repeated references; fix the build before the page proof.
 - `checks.md` — per-table checks and result log.
 
 ### Key conventions learned
@@ -119,76 +124,82 @@ Read these before continuing:
 9. **Avoid broad year-based edits across panels.** A regex that matched `| **1860** |` once added a South Carolina note to Table 1’s rows. Always scope edits by panel/table.
 10. **Watch for Vim swap files** in `chapters/`; do not delete them. The earlier session was closed cleanly.
 
-## 4. Table 6 handoff
+## 4. Table 7 handoff
 
 ### Scope and rows
 
-- **Table 6. Slavery, Coerced Movement, and Prices.**
-- **25 ledger rows, 24 printed + 1 trade-panel reserve.**
-  - **Panel A (3):** Barbados 1643; Barbados 1679/80; Jamaica 1673.
-  - **Panel B (8):** 1790, 1800, 1810, 1820, 1830, 1840, 1850, 1860.
-  - **Panel C (6 ledger / 5 printed):** transatlantic embarked 1501–1866; transatlantic disembarked; U.S. imports; domestic trade, Goldin 1790–1860; domestic trade, Tadman 1790–1860; reserve (not printed).
-  - **Panel D (8):** 1804, 1810, 1820, 1830, 1840, 1850, 1860, 1861.
-- **Cells:** 63 currently seeded — 62 `unverified`, 1 `n_a`. The reserve row has no cells.
-- **Page allowance:** 2 pages; likely 2–3 pages at 8-point. Accept provisionally if needed and record an exception.
+- **Table 7. Economic and Communications Benchmarks, 1790–2024.**
+- **38 ledger rows, all printed.** The cell file has only 11 seeded cells (7 `n_a`, 4 `unverified`); 32 rows are `not_started`. This is the largest remaining transcription: roughly 190 cells across four panels.
+- **Panel A (15):** public finance, 1790, 1800, 1820, 1840, 1860, 1880, 1900, 1920, 1930, 1940, 1950, 1970, 2000, 2020, 2024.
+- **Panel B (9):** production, prices, and output, 1830, 1860, 1900, 1930, 1940, 1950, 1970, 2000, 2024.
+- **Panel C (7):** distribution and labor, 1913, 1929, 1950, 1970, 2000, 2020, 2024.
+- **Panel D (7):** communications, 1850, 1880, 1900, 1920, 1950, 1970, 2000.
+- **Page allowance:** 2 pages; likely 3–4 at 8-point. Accept provisionally if needed and record an exception.
 
-### Panel design (from the Stage 3 §7.2 outline)
+### Panel design (from the Stage 3 §8.2 outline)
 
-- **A:** colony; year; White population; enslaved population; source type; notes.
-- **B:** census year; total population; Black population; enslaved population; enslaved share of total; enslaved share of Black.
-- **C:** series; period; estimate; unit; method; source. The unit for the domestic rows is “net forced migrants (not sales).”
-- **D:** year; nominal price; real price in 1860 dollars; sample; notes.
+- **A:** year; receipts; outlays; surplus or deficit; gross federal debt; receipts as % of GDP; outlays as % of GDP. Current dollars. Fiscal years, not calendar years. The percentage columns are `n.a.` before 1930.
+- **B:** year; railroad miles operated; steel ingots; unemployment rate; CPI; real GDP per capita. Endpoints and `n.a.` rules: railroad mileage ends 1970; steel begins 1887 and ends 1960; unemployment begins 1890; CPI begins 1913. The 2020 row is dropped.
+- **C:** year; top 1 percent pre-tax national income share; Gini index; union density; labor-force participation. Gini begins 1967; union density begins 1930; LFP begins 1950. `n.a.` before those years.
+- **D:** year; daily newspapers; weekday circulation; telephones in service; households with telephone. Panel ends at 2000. Telephones in service ends 1970; household telephone begins 1960.
 
-### Key values and checks
+### Key values and checks (seeded)
 
-- **1790:** 697,681 enslaved within 757,208 Black; 17.8% of 3,929,214; 92.1% of Black.
-- **1800–1850:** 893,602; 1,191,362; 1,538,022; 2,009,043; 2,487,355; 3,204,313.
-- **1860:** 3,953,760 enslaved within 4,441,830 Black; 12.6% of 31,443,321; 89.0% of Black. The 1860 census introduction prints 487,970 free “colored” and 4,441,730 total; the 100-person difference is a vintage difference.
-- **Caribbean:** Barbados 1643 18,600 White / 6,400 enslaved; Barbados 1679/80 38,782 enslaved, White `n.a.`; Jamaica 1673 7,768 White / 9,504 enslaved.
-- **Trade:** 12,521,354 embarked; about 10.7 million disembarked; U.S. imports 472,381 embarked / 388,747 disembarked; Goldin 835,000; Tadman 1,110,000. Goldin and Tadman are alternatives, not a range; Tadman is cited through Pritchett unless the book is read.
-- **Prices:** nominal 700, 624, 875, 591, 773, 756, 1,513, 1,440; Cc2 index 142, 148, 141, 111, 104, 94, 100, 106; real 1860 dollars 493, 422, 621, 532, 743, 804, 1,513, 1,358.
-- **Arithmetic:** 697,681 + 59,527 = 757,208; 3,953,760 + 488,070 = 4,441,830; 3,542,147 “black” + 411,613 “mulatto” = 3,953,760; nominal × 100 / Cc2 = real (rounded).
+- **Panel B unemployment:** 1900 5.00 percent; 1930 8.7; 1940 9.5. These are the Darby–Weir Ba475 values. Lebergott’s D 85–86 gives 1940 14.6; put that in the note, not the cell.
+- **Panel D 2000:** 1,480 daily newspapers and 55,772,847 weekday circulation from *Editor & Publisher*; households with telephone 97.6 percent (100 − 2.4).
+- **Panel D 2000:** telephones in service is `n.a.`; do not substitute the FCC line count.
+- **Panel C:** Gini is `n.a.` for 1913, 1929, and 1950; union density and LFP are `n.a.` for 1913 and 1929.
+- **Panel A:** the percentage columns are `n.a.` before 1930. Do not compute them from receipts and outlays.
+- **Panel B:** steel is `n.a.` for 1830, 1860, 1970, 2000, and 2024; railroad mileage is `n.a.` after 1970; CPI is `n.a.` before 1913.
 
 ### Sources and access
 
-- **HSUS Millennial** (user can supply): Bb209–214, Cc1–2; also Ba470–477. Record the release/access date.
-- **HSUS 1975:** A 91–104 (race and enslaved totals), Z 1–19 (colonial totals; corrected values), Bb essay (if using the Millennial).
-- **SlaveVoyages:** Estimates and Intra-American database pages.
-- **Pritchett 2017** working paper; Tadman 1989 and Goldin via Pritchett.
-- **Dunn 1969/1972 and Southey 1673:** print/archival pages not supplied. Use the exact page locators from the outline, or mark the affected cells `pending_print` and state “as cited in …”; do not present them as read.
-- **1860 Census:** page images, pp. ix and 599; read as images.
-- **ICPSR 7423 / Kotlikoff 1979:** alternatives, not cell sources; keep limitations.
+- **OMB Historical Tables FY 2027:** Table 1.1 (receipts, outlays, deficits, 1789–2025), Table 1.2 (percentages of GDP, 1930–2025), Table 7.1 (federal debt, 1940–2025). FY 2024 and FY 2025 are actuals. Use Table 1.2 for the percentage columns; do not compute them from Table 1.1.
+- **HSUS 1975:** Y 335–338 for 1789–1939 and Y 339–342 for 1929–1970; Q 321–328 and Q 284–312 for railroad mileage; P 302 for steel; E 135 for the 1967 = 100 CPI; D 927–969 for union density; R 224–231 and R 244–257 for newspapers; R 1–16 for telephones.
+- **HSUS Millennial:** Ba475 for the Darby–Weir unemployment rate; Cc1–2 is not needed here.
+- **BLS:** LNS14000000 for unemployment 1950–2024; CUUR0000SA0 for CPI-U 1930–2024; LNS11300000 for LFP 1950–2024; union membership data 1983–2025.
+- **BEA:** NIPA Table 7.1 for real GDP per capita 1930–2024, chained 2017 dollars; cross-check FRED A939RX0Q048SBEA from 1947.
+- **Maddison Project Database 2023:** 1830–1900, 2011 international dollars. It ends in 2022, so 2024 is BEA only.
+- **WID:** top 1 percent pre-tax national income share, series `sptinc_p99p100_z`, one 2025/2026 vintage, 1913–2024. **Access is unresolved.** Test the public WID download first. If it fails, the options are a WID export, a documented scope change removing the column, or a declared blocker; do not substitute the 2022 PSZ appendix tables or splice vintages.
+- **Census:** Historical Income Table H-4 for Gini, household money income, 1967–2024; do not use family Gini F-4.
+- **Editor & Publisher:** 2001 *Year Book* for 2000; Pew’s 55,773,000 is a cross-check, not a second series.
+- **Census housing:** “Historical Census of Housing Tables: Telephones” for 1960–2000.
+- **CRS R47596:** union membership data 1930–1982, in addition to HSUS D 927–969.
 
 ### Procedure
 
-1. Read the current Stage 3 §7 in `chapters/52-appendix-b.md` and `data/app-b/table-06.csv`; note the current values and statuses.
-2. Verify or transcribe every cell. Use the production CSV; do not rebuild from memory. Mark `verified`, `n_a`, or `not_applicable`.
-3. Build `build/app-b-table-06.md` with four panels (A–D) and captions after each table inside `.appendix-table` divs. Render with:
+1. Read §8 in `chapters/52-appendix-b.md` and `data/app-b/table-07.csv`; note the 11 seeded cells and the 32 `not_started` rows.
+2. Resolve WID first. If the column cannot be sourced, stop and record the blocker; do not draft the table with an empty column.
+3. Verify or transcribe every cell panel by panel. Use the production CSV; do not rebuild from memory. Mark `verified`, `n_a`, or `not_applicable`.
+4. Build `build/app-b-table-07.md` with four panels (A–D) and captions after each table inside `.appendix-table` divs. Render with:
    ```bash
-   pandoc build/app-b-table-06.md --standalone --css=../styles/pdf.css \
-     --metadata title='Table 6 proof' -o build/app-b-table-06.html
-   weasyprint build/app-b-table-06.html build/app-b-table-06.pdf
+   pandoc build/app-b-table-07.md --standalone --css=../styles/pdf.css \
+     --metadata title='Table 7 proof' -o build/app-b-table-07.html
+   weasyprint build/app-b-table-07.html build/app-b-table-07.pdf
    ```
-4. Replace §7 in `chapters/52-appendix-b.md` with the draft. Keep the `## 7.` heading until the final renumbering. Do not leave unused note definitions: the checker reports `note-unused-definition`.
-5. Run `python3 tools/check_book.py --strict chapters/52-appendix-b.md`. Expect 0 errors and 0 warnings; 154 notes remain unless a new note is needed.
-6. Update `ledger.csv` (24 printed rows verified; reserve stays `reserve`), `table-06.csv`, `README.md`, `contract.md`, `checks.md`, and `exceptions.md`.
-7. Commit: `git add README.md chapters/52-appendix-b.md data/app-b && git commit -m "Draft Appendix B Table 6"`.
+5. Replace §8 in `chapters/52-appendix-b.md` with the draft. Keep the `## 8.` heading until the final renumbering. Do not leave unused note definitions: the checker reports `note-unused-definition`.
+6. Run `python3 tools/check_book.py --strict chapters/52-appendix-b.md`. Expect 0 errors and 0 warnings; 154 notes remain unless a new note is needed.
+7. Update `ledger.csv` (38 rows verified), `table-07.csv`, `README.md`, `contract.md`, `checks.md`, and `exceptions.md`.
+8. Commit: `git add README.md chapters/52-appendix-b.md data/app-b && git commit -m "Draft Appendix B Table 7"`.
 
-### Specific Table 6 traps
+### Specific Table 7 traps
 
-- The **1780/1770/1760/1750 enslaved values** were corrected in EX-20. Do not reintroduce 675,420/459,822/325,806 for 1780/1760/1750. Table 6 Panel B starts at 1790, but the source note and any colonial context must use the corrected values.
-- **Do not add enslaved to Black**; the enslaved population is a subset of the Black population before 1865.
-- **Do not use 305,326** as U.S. imports; that is the U.S.-flagged-vessel series.
-- **Goldin and Tadman** are alternative estimates of net forced migrants, not a range and not sales counts.
-- **Barbados 1679/80 White** is `n.a.`, not zero; the adjacent 21,725 (1676) and 19,568 (1684) values go in the note.
-- **Prices** are the published Engerman Bb210 series, not a raw median from ICPSR 7423.
-- The trade panel’s sixth ledger row is a reserve; do not print it.
+- **WID is a hard blocker.** The outline forbids splicing the 2022 Piketty–Saez–Zucman appendix tables onto RealTimeInequality or a later vintage. One vintage only.
+- **Do not average or splice Lebergott and Darby–Weir.** The cells use Ba475; Lebergott’s 14.6 percent for 1940 belongs in the note.
+- **Do not mix CPI bases.** CPI-U 1982–84 = 100 from 1930; E 135 1967 = 100 in the note only.
+- **Do not compare GDP levels across the 1900/1930 break.** Maddison 2011 international dollars for 1830–1900; BEA chained 2017 dollars for 1930–2024. Compare growth rates within each segment.
+- **Do not use the family Gini F-4.** H-4 household money income only.
+- **Do not use Pew’s post-2014 print-and-digital circulation series.** Panel D ends at 2000.
+- **Do not use the FCC line count as “telephones in service.”** It counts incumbent and competitive local-exchange lines, interconnected VoIP, and mobile subscriptions.
+- **Fiscal years are not calendar years.** Label the Panel A rows as fiscal years.
+- **The 2024 output cell is BEA only.** Maddison ends in 2022.
+- **No 2020 Panel B row.** The pandemic year is an outlier and is discussed in the chapters.
 
-## 5. Remaining after Table 6
+## 5. Remaining after Table 7
 
-- **Table 7 (38 rows, 11 cells: 7 n.a., 4 unverified):** economic and communications benchmarks. WID access is unresolved; HSUS Millennial is available; OMB/BLS/BEA/Maddison and Editor & Publisher. The top-share column cannot be drafted without a WID export or a documented scope change. The table is 38 rows and four panels; check the CSV and §8 outline.
 - **Table 8 (23 rows, 59 cells; 53 unverified, 6 n.a.):** TVA, CCC, 1940 land use, Dust Bowl population. Need TVA dam pages, Statistical Abstract 1943, 1940 Census of Agriculture/Population images, Long–Siu. Map 26’s 48-state CCC counts stay in the map production file, not Table 8.
 - **Final assembly:** after Table 8, drop §1 “How Appendix B Works” and §10 “Cross-Table Rules and Production Record,” add a reader-facing `## Note on the Tables`, renumber Tables 1–8 as §1–§8, reconcile the 20-page budget, update the README status to `drafted`, and run the full proof. Do not mark `checked`.
+- **Build fix before the page proof:** EX-27, the duplicate-note rendering. Add a filter so each named key renders once with repeated references returning to the same note. Measure the appendix only after the fix.
 
 ## 6. Useful commands
 
@@ -197,35 +208,35 @@ Read these before continuing:
 python3 tools/check_book.py --strict chapters/52-appendix-b.md
 
 # Section proof
-pandoc build/app-b-table-06.md --standalone --css=../styles/pdf.css \
-  --metadata title='Table 6 proof' -o build/app-b-table-06.html
-weasyprint build/app-b-table-06.html build/app-b-table-06.pdf
-pdfinfo build/app-b-table-06.pdf | grep Pages
+pandoc build/app-b-table-07.md --standalone --css=../styles/pdf.css \
+  --metadata title='Table 7 proof' -o build/app-b-table-07.html
+weasyprint build/app-b-table-07.html build/app-b-table-07.pdf
+pdfinfo build/app-b-table-07.pdf | grep Pages
 
 # Normalize CSV line endings before commit
 sed -i 's/\r$//' data/app-b/*.csv
 
 # Commit
 git add README.md chapters/52-appendix-b.md data/app-b
-git commit -m "Draft Appendix B Table 6"
+git commit -m "Draft Appendix B Table 7"
 ```
 
 ## 7. File map
 
 | Path | Role |
 |---|---|
-| `chapters/52-appendix-b.md` | The draft; Tables 1–5 drafted under §§2–6, Tables 6–8 still Stage 3 specifications under §§7–9 |
+| `chapters/52-appendix-b.md` | The draft; Tables 1–6 drafted under §§2–7, Tables 7–8 still Stage 3 specifications under §§8–9 |
 | `data/app-b/contract.md` | Frozen decisions and verification standard |
 | `data/app-b/README.md` | Counts, schemas, status, Step 3 workflow |
 | `data/app-b/ledger.csv` | 255 display rows; current statuses and notes |
 | `data/app-b/table-01.csv` … `08.csv` | Cell-level production records |
 | `data/app-b/table-01-race-reference.csv` | 14 race/slavery cells moved out of Table 1; reference only |
 | `data/app-b/checks.md` | Per-table checks and result log |
-| `data/app-b/exceptions.md` | All open/resolved exceptions |
+| `data/app-b/exceptions.md` | All open/resolved exceptions, including EX-25/26/27 |
 | `styles/pdf.css` | `.appendix-table` compact table style |
 | `README.md` | Book plan, Appendix B status row, page budget |
 | `build/app-b-table-0N.md` / `.pdf` | Scratch proofs; `build/` is gitignored |
 
 ## 8. Immediate next action
 
-Start with Table 6: open §7 and `table-06.csv`, verify the cells, build the four-panel proof, splice it into §7, run the checker, update the records, and commit. Then Table 7, Table 8, and the final renumbering/20-page proof.
+Start with Table 7: open §8 and `table-07.csv`, resolve the WID column first, then verify and transcribe the other panels, build the four-panel proof, splice it into §8, run the checker, update the records, and commit. Then Table 8, the duplicate-note build fix, and the final renumbering/20-page proof.
