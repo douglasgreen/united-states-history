@@ -1,12 +1,13 @@
 # Cover production record
 
 - **Asset:** [`cover.jpg`](cover.jpg)
-- **Dimensions:** 1696 × 2528 pixels, RGB JPEG
-- **Embedded density:** 96 dpi
-- **SHA-256:** `ca4048e574dd3c725077eae7fd7974d1412153377c35c8061796e4ed67a597a2`
+- **Dimensions:** 1600 × 2560 pixels, RGB JPEG
+- **Aspect ratio:** 1.6:1
+- **Embedded density:** 300 dpi
+- **SHA-256:** `ec8e29bf220a66eeb3264f2cc0e3678b6f6c9dde74d91629ef65d445a7b8ef67`
 - **Generated:** November 24, 2026
 - **Generator:** OpenAI ChatGPT image generation
-- **Edition file:** upscaled to 1696 × 2528 JPEG for the Amazon KDP cover specification
+- **Edition file:** 1600 × 2560 JPEG at 300 dpi, 5,191,936 bytes (5.19 MB), prepared November 25, 2026, for the Amazon KDP cover specification
 
 ## Prompt
 
@@ -18,4 +19,4 @@ The author records that OpenAI’s terms grant publication rights to the generat
 
 ## Production status
 
-`produced`. The 1696 × 2528 JPEG is prepared for the Amazon KDP ebook cover and is adequate for the reflowable EPUB and screen wrappers. At a 6 × 9 inch trim the front image is about 283 pixels per inch; at 5.5 × 8.5 inches it is about 308 pixels per inch. The embedded 96 dpi density does not change the pixel dimensions, but a print workflow that reads density metadata should set it to 300 dpi without resampling. A print edition also needs a full wraparound cover with spine and back at the selected trim. The cover is not an interior figure and does not enter the 500-word text-page measure.
+`produced`. The 1600 × 2560 JPEG at 300 dpi is prepared for the Amazon KDP ebook cover and is adequate for the reflowable EPUB and screen wrappers. At a 6 × 9 inch trim the front image is about 267 pixels per inch; at 5.5 × 8.5 inches it is about 291 pixels per inch. The file is 5,191,936 bytes (5.19 MB decimal; 4.95 MiB), so it meets KDP’s 50 MB upload maximum but is at or slightly above the 5 MB guideline depending on the unit; a quality-preserving re-export below 5 MB would satisfy the stricter guideline. A print edition also needs a full wraparound cover with spine and back at the selected trim. The cover is not an interior figure and does not enter the 500-word text-page measure.
