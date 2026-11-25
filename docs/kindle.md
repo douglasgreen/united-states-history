@@ -26,7 +26,7 @@
 | **Layout model** | Reflowable is preferred for text-heavy books because it supports every Kindle device, adjustable type, screen readers, and Enhanced Typesetting. Fixed layout and Print Replica are fallbacks for image-heavy or exact-layout books. | Reflowable only. Print Replica would defeat the book’s accessibility and reading goals. |
 | **Cover** | A separate marketing cover is required. KDP’s manuscript guide says **not** to include the cover in the manuscript; KDP adds the marketing cover during title setup. The guidelines’ internal-cover section explicitly does not apply to KDP eBooks. Ideal marketing cover is 1,600 × 2,560 px at 300 PPI, RGB, JPEG, ≤5 MB in the guidelines (≤50 MB in the upload criteria); KDP asks for minimal compression. | Master is 1,600 × 2,560 px, 5.19 MB, 100% JPEG, 300 dpi, ratio 1.60:1; upload it as the marketing cover. The build makes a 1.13 MB, 80% JPEG derivative for proofs, the with-cover EPUB, and a strict 5 MB fallback. The default KDP EPUB contains no cover. |
 | **Interior visuals** | Images must be legible at 300 PPI at their display size; maps and charts with text need at least 80% screen width. Missing promised images are a critical quality issue. | 39 maps, 9 figures, and 8 images are registered, but **none is produced**. This is the largest release blocker. |
-| **Tables** | Use HTML tables, not images. Keep tables below 100 rows and 11 columns. Test at font size 3. | 92 Markdown table blocks; the widest have 10 columns; Appendix B prints lettered panels. Within the row/column ceiling but at the wide edge. Test and split where needed. |
+| **Tables** | Use HTML tables, not images. Keep tables below 100 rows and 11 columns. Test at font size 3. | 95 Markdown table blocks, including three Appendix C production schedules that are not display tables; the widest have 10 columns; Appendix B prints lettered panels. Within the row/column ceiling but at the wide edge. Test and split where needed. |
 | **Notes** | Use bidirectional hyperlinks; `aside` plus `epub:type="footnote"` is preferred; notes at the end of a chapter or book; pop-ups must not be blank. | 3,355 notes are present with `aside` markup and backlinks. Repeated-note links and pop-ups still need a Kindle Previewer check. |
 | **Body text** | Body text must use defaults: no forced font size, font family, line height, color, background, or justification. | `styles/epub.css` now leaves body line height and alignment to Kindle; blockquote and list horizontal margins are percentages; figure images fill the column. |
 | **Kindle validation** | Kindle Previewer 4 compiles the EPUB and flags errors and warnings; KDP says these can prevent a title from becoming available. | EPUBCheck passes, but Kindle Previewer has not been run. The desktop Previewer runs on Windows and macOS, not Linux. |
@@ -61,7 +61,7 @@ KDP converts the uploaded EPUB into Kindle delivery formats. The EPUB is the sou
 
 | Limit | KDP rule | Current book |
 |---|---|---|
-| **EPUB file size** | 650 MB maximum (S1 §11.4.2; S23). | 2,099,382 bytes (2.10 MB) for the current KDP EPUB without a cover. Large headroom. |
+| **EPUB file size** | 650 MB maximum (S1 §11.4.2; S23). | 2,105,185 bytes (2.11 MB) for the current KDP EPUB without a cover. Large headroom. |
 | **Manuscript page count** | 8,000 pages or fewer (S23). | About 1,031 text pages by the book’s own measure; well under. |
 | **HTML files in the EPUB** | Fewer than 300 (S1 §9). | 58 XHTML files: title page, navigation, and 56 manuscript units. No cover document. |
 | **Size of one HTML file** | Less than 30 MB (S1 §9). | Far below. |
@@ -307,7 +307,7 @@ KDP normalizes body font size, family, and color at upload, but relying on that 
 | **Line art and text** | Use PNG for charts, maps, diagrams, and line art. Text in an image should have a lowercase “a” at least 6 px high. | S1 §11.4.6–11.4.7 |
 | **Text as image** | Do not render paragraphs or captions as images. Prefer HTML. Captions and table text should be HTML. | S1 §11.4.8; S4 |
 | **Captions** | Put captions below the image, in HTML, using a separate block or `<figcaption>`. Do not raster the caption. | S1 §11.4.9; S4 |
-| **Alt text** | Every meaningful image needs an `alt` attribute; keep it under 140 characters; decorative images use `alt=""` or `role="presentation"`. | S4; S15 |
+| **Alt text** | Every meaningful image needs an `alt` attribute; keep it to 140 characters or fewer; decorative images use `alt=""` or `role="presentation"`. | S4; S15 |
 | **Aspect ratio** | Set either width or height to a percentage, not both, and set the other to `auto`. | S1 §11.4.10 |
 | **SVG** | SVG has minimal support. `viewBox` is mandatory; SVG `<text>` is not supported; `preserveAspectRatio="slice"` is not supported; books with more than 25 SVG images are not supported in Enhanced Typesetting. | S1 §11.4.11 |
 | **Accessibility** | Text inside images cannot be read by screen readers or braille displays. Use real text where possible; describe complex images in the surrounding prose. | S1 §11.4.7; S15 |
@@ -331,11 +331,21 @@ Every visual needs:
 
 1. a figure number and caption in HTML, below the image;
 2. a source line and credit;
-3. alt text under 140 characters;
+3. alt text of 140 characters or fewer;
 4. a fuller prose description in the surrounding text when the image carries historical argument that a short alt cannot convey;
 5. a rights basis recorded in the README register.
 
-For maps, the caption must state the date and the area covered and must distinguish boundaries, claims, and uncertain reconstructions. For charts, state units, denominators, and base years. Put all of that text in HTML below the image; never bake the title, caption, legend, or source line into the PNG. This is both KDP’s rule and the book’s evidence standard (S4; S1 §11.4.8–11.4.9).
+For maps, the caption must state the date and the area covered and must distinguish boundaries, claims, and uncertain reconstructions. For charts, state units, denominators, and base years. Put all of that text in HTML below the image; never bake the title, caption, source line, or credit into the PNG. A map’s labels, legend, scale bar, axis labels, and data labels may be inside the image because they are part of the visual; a separate figure title, caption, source line, or credit may not. This is both KDP’s rule and the book’s evidence standard (S4; S1 §11.4.8–11.4.9).
+
+Appendix C §§2.7, 3.3, and 4.5 are the approved caption and alt-text schedule for the 56 registered visuals. The owning chapter, the README register, and the production file must use those strings. A compliant block is:
+
+```html
+<figure>
+  <img src="map-12.png"
+       alt="Map of canals, roads, and railroads, 1825–1840, showing completed, under-construction, and projected routes, including the Erie Canal." />
+  <figcaption><strong>Map 12. Canals, roads, and railroads, 1825–1840.</strong> Completed and projected lines show the Erie Canal crossing the Appalachian divide through the Mohawk corridor. Source: drawn for this volume from Henry Schenck Tanner’s 1840 map and description. Credit: the author and the named repository.</figcaption>
+</figure>
+```
 
 The CC0 dedication covers the book’s original text; it does not clear third-party images, maps, facsimiles, or quotations. KDP requires the publisher to hold the necessary rights for all content. Each visual needs its own rights basis, credit line, and, where required, permission record. Do not treat “public domain” as a global clearance without checking the jurisdiction and the particular source.
 
@@ -343,7 +353,7 @@ For complex maps, the alt text should identify the map’s subject and scope, no
 
 ### 7.3 File size and delivery
 
-KDP sets no separate count limit on maps and charts. The constraints are the 650 MB package, the delivered file size, and legibility on a phone. The 650 MB package ceiling is generous; the commercial limit is not. The KDP EPUB is 2.10 MB without a cover. A 56-image program adds about 5.6–22.4 MB at the 100–400 KB working target; at 0.5 MB per image it adds about 28 MB, and at 1 MB per image about 56 MB. That is enough to change both the delivery fee and the minimum list price. See §12.
+KDP sets no separate count limit on maps and charts. The constraints are the 650 MB package, the delivered file size, and legibility on a phone. The 650 MB package ceiling is generous; the commercial limit is not. The KDP EPUB is 2.11 MB without a cover. A 56-image program adds about 5.6–22.4 MB at the 100–400 KB working target; at 0.5 MB per image it adds about 28 MB, and at 1 MB per image about 56 MB. That is enough to change both the delivery fee and the minimum list price. See §12.
 
 KDP’s 70% royalty option deducts a delivery fee based on the file size KDP determines, at **US$0.15 per MB** on Amazon.com (S11). The 35% option does not deduct delivery costs (S11). KDP reports the “file size after conversion” in the pricing tab, and that converted size, not the raw EPUB, is what the delivery fee uses. KDP also recompresses images during conversion. Measure the converted book in KDP or Kindle Previewer; do not assume the EPUB byte count is the billing size.
 
@@ -363,7 +373,7 @@ KDP’s quality guide is blunt: a table with content cut off at the bottom of th
 
 ### 8.2 Current table inventory
 
-The manuscript has 92 Markdown table blocks. The README registers 80 display tables; it counts a multi-panel reference table once, while Appendix B prints each lettered panel as a separate Markdown block. The widest tables have 10 columns; the longest have 32 printed rows. Five Appendix B panels have 10 columns, and fifteen are set to full width. All are within KDP’s 100-row and 11-column ceiling.
+The manuscript has 95 Markdown table blocks, including three Appendix C production schedules that are not display tables. The README registers 80 display tables; it counts a multi-panel reference table once, while Appendix B prints each lettered panel as a separate Markdown block. The widest tables have 10 columns; the longest have 32 printed rows. Five Appendix B panels have 10 columns, and fifteen are set to full width. All are within KDP’s 100-row and 11-column ceiling.
 
 That does not make them safe. A 10-column table on a phone at font size 3 is likely to be cramped even with the table viewer. Appendix B’s panels are the right instinct: split a large reference table into lettered panels with their own captions. Appendix D’s planned six-column chronology is also at the edge; plan panels or a narrower matrix.
 
@@ -374,7 +384,7 @@ Pandoc produces `<thead>` and `<th>` header cells for the column headers, which 
 1. **Captions are paragraphs after the table, not `<caption>` elements.** Appendix B uses `<p><strong>Caption.</strong> …</p>` after the table. KDP and accessibility guidance call for a table caption; a `<caption>` element is the semantic way to provide it. Move the caption before the table or generate a `<caption>` with a Lua filter.
 2. **Leading cells are bold `<td>` cells, not row headers.** The house style bolds the first cell of each row. Visually that reads as a row header; semantically it is a data cell. For screen readers, promote the leading cell to `<th scope="row">` where it labels the row.
 
-A small Pandoc Lua filter can promote the first body cell to a row header and move a following “Caption.” paragraph into a `<caption>` before the table. That is preferable to hand-editing 92 tables, and it keeps the Markdown source readable.
+A small Pandoc Lua filter can promote the first body cell to a row header and move a following “Caption.” paragraph into a `<caption>` before the table. That is preferable to hand-editing the tables, and it keeps the Markdown source readable.
 
 ### 8.4 Project actions
 
@@ -445,7 +455,7 @@ KDP’s accessibility guidance asks for:
 - sufficient contrast and no reliance on thin or light type;
 - MathML for mathematical content (S1 §8; S15).
 
-The current book has `lang="en-US"` and `xml:lang="en-US"` on every XHTML document. It does not use phrase-level `lang` attributes for foreign-language quotations; if any are present, they should be tagged. The book has no interior images; when they are added, each needs alt text. The KDP EPUB has no cover document, so there is no cover SVG to describe; the title page carries the title and author. The optional with-cover EPUB has a cover SVG without alt text, which should be fixed for wide distribution. The table captions and row headers are not yet semantic. Those are the main accessibility gaps.
+The current book has `lang="en-US"` and `xml:lang="en-US"` on every XHTML document. It does not use phrase-level `lang` attributes for foreign-language quotations; if any are present, they should be tagged. The book has no interior images; when they are added, each needs alt text. Appendix C §§2.7, 3.3, and 4.5 supply the approved alt text for all 56 registered visuals. The KDP EPUB has no cover document, so there is no cover SVG to describe; the title page carries the title and author. The optional with-cover EPUB has a cover SVG without alt text, which should be fixed for wide distribution. The table captions and row headers are not yet semantic. Those are the main accessibility gaps.
 
 A useful EPUB 3 accessibility metadata block would include, at minimum:
 
@@ -491,9 +501,9 @@ The current build is at risk on several of these: the unproduced visuals, the wi
 
 | Check | Tool or evidence | Current status |
 |---|---|---|
-| Structural checker | `python3 tools/check_book.py --strict` | Passes: 56 files, 529,476 words, 3,355 notes, 92 tables, 24 local links, 0 errors. |
-| EPUB build | `make epub` | Passes; `build/a-nation-in-question.epub` is 2.10 MB and contains no cover. |
-| With-cover EPUB | `make epub-with-cover` | Passes; `build/a-nation-in-question-with-cover.epub` is 3.23 MB; for wide distribution only. |
+| Structural checker | `python3 tools/check_book.py --strict` | Passes: 56 files, 533,270 words, 3,355 notes, 95 tables, 27 local links, 0 errors. |
+| EPUB build | `make epub` | Passes; `build/a-nation-in-question.epub` is 2.11 MB and contains no cover. |
+| With-cover EPUB | `make epub-with-cover` | Passes; `build/a-nation-in-question-with-cover.epub` is 3.24 MB; for wide distribution only. |
 | EPUBCheck | `make epubcheck` | Passes for both editions: 0 fatals, 0 errors, 0 warnings. |
 | Kindle conversion | Kindle Previewer 4 | **Not run.** Needs Windows or macOS, or KDP Online Previewer. |
 | Enhanced Typesetting | Previewer → View → Book Information | **Not checked.** Large tables may disable it. |
@@ -505,7 +515,7 @@ The current build is at risk on several of these: the unproduced visuals, the wi
 | NCX/landmarks | EPUBCheck and Previewer | Present; verify. |
 | Notes | Previewer pop-ups and return links | 3,355 notes; repeated-note behavior not verified. |
 | Images | Previewer, font size 3, device profiles | **No interior images.** Produce and test 56. |
-| Tables | Previewer, font size 3, phone and e-reader | 92 blocks; 10-column panels untested. |
+| Tables | Previewer, font size 3, phone and e-reader | 95 blocks; 10-column panels untested. |
 | Background themes | White, black, mint, sepia | Not checked. `currentColor` rules need a dark-mode check. |
 | Font settings | Change size and typeface | Body defaults are clean; verify at multiple sizes. |
 | External links | Link checker and archive | Not run. |
@@ -534,7 +544,7 @@ Delivery costs on Amazon.com are **US$0.15 per MB** of the file size KDP determi
 
 | File size | Delivery fee at US$0.15/MB | 35% at US$9.99 | 35% at US$12.99 | 70% at US$9.99 | 70% at US$12.99 |
 |---|---|---|---|---|---|
-| **2.10 MB** (current, no cover) | $0.32 | $3.50 | $4.55 | $6.77 | $8.87 |
+| **2.11 MB** (current, no cover) | $0.32 | $3.50 | $4.55 | $6.77 | $8.87 |
 | **3 MB** (first price-tier boundary) | $0.45 | $3.50 | $4.55 | $6.68 | $8.78 |
 | **10 MB** (second price-tier boundary) | $1.50 | $3.50 | $4.55 | $5.94 | $8.04 |
 | **25 MB** | $3.75 | $3.50 | $4.55 | $4.37 | $6.47 |
@@ -545,7 +555,7 @@ Delivery costs on Amazon.com are **US$0.15 per MB** of the file size KDP determi
 
 At US$9.99, the 35% and 70% options break even at about 33 MB; at US$12.99, at about 43 MB. Above those sizes, the 35% option pays more because it does not deduct delivery. That is counterintuitive but follows directly from KDP’s formulas. It matters for a 56-image history book. The table shows $0.00 where the formula would go negative; use KDP’s estimator for the actual floor.
 
-The 35% option also has a file-size-based minimum list price on Amazon.com: **under 3 MB, $0.99; 3 MB to under 10 MB, $1.99; 10 MB or more, $2.99**; the maximum is $200 (S12). The 70% option’s minimum is $2.99 regardless of size. The current 2.10 MB EPUB preserves the $0.99 floor. Adding about 0.9 MB of visuals crosses into the $1.99 tier, and a 10 MB book cannot be priced below $2.99 under either option. This matters more than the delivery fee if the book is 35%-only because of its public-domain status.
+The 35% option also has a file-size-based minimum list price on Amazon.com: **under 3 MB, $0.99; 3 MB to under 10 MB, $1.99; 10 MB or more, $2.99**; the maximum is $200 (S12). The 70% option’s minimum is $2.99 regardless of size. The current 2.11 MB EPUB preserves the $0.99 floor. Adding about 0.9 MB of visuals crosses into the $1.99 tier, and a 10 MB book cannot be priced below $2.99 under either option. This matters more than the delivery fee if the book is 35%-only because of its public-domain status.
 
 ### 12.2 The public-domain problem
 
@@ -560,7 +570,7 @@ If the author instead selects “I own the copyright” and qualifies for the 70
 
 ### 12.3 Practical image budget
 
-- Current KDP EPUB: 2.10 MB, no cover.
+- Current KDP EPUB: 2.11 MB, no cover.
 - 56 images at 0.25 MB each: about 14 MB added, roughly 16 MB total.
 - 56 images at 0.5 MB each: about 28 MB added, roughly 30 MB total.
 - 56 images at 1 MB each: about 56 MB added, roughly 58 MB total.
@@ -669,7 +679,7 @@ Do not optimize the book to a byte count before the images exist. Produce the vi
 
 The table in §12.1 is the working example. Two rules of thumb:
 
-- At **35%**, delivery costs are not deducted. The 650 MB ceiling, download performance, and the file-size-based minimum list price are the constraints: under 3 MB, $0.99; 3 MB to under 10 MB, $1.99; 10 MB or more, $2.99. The current 2.10 MB EPUB keeps the $0.99 floor.
+- At **35%**, delivery costs are not deducted. The 650 MB ceiling, download performance, and the file-size-based minimum list price are the constraints: under 3 MB, $0.99; 3 MB to under 10 MB, $1.99; 10 MB or more, $2.99. The current 2.11 MB EPUB keeps the $0.99 floor.
 - At **70%**, every 10 MB of delivered file size costs about **US$1.50** in delivery on Amazon.com. On a US$12.99 book, the 70% option stops beating the 35% option at about **43 MB**; on a US$9.99 book, at about **33 MB**.
 
 These are planning figures. KDP determines the delivered file size, applies VAT and territory rules, may price-match, and may recompress images. Use KDP’s royalty estimator after upload for the actual numbers.
