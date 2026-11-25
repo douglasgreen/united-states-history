@@ -28,7 +28,7 @@
 | **Interior visuals** | Images must be legible at 300 PPI at their display size; maps and charts with text need at least 80% screen width. Missing promised images are a critical quality issue. | 39 maps, 9 figures, and 8 images are registered, but **none is produced**. This is the largest release blocker. |
 | **Tables** | Use HTML tables, not images. Keep tables below 100 rows and 11 columns. Test at font size 3. | 92 Markdown table blocks; the widest have 10 columns; Appendix B prints lettered panels. Within the row/column ceiling but at the wide edge. Test and split where needed. |
 | **Notes** | Use bidirectional hyperlinks; `aside` plus `epub:type="footnote"` is preferred; notes at the end of a chapter or book; pop-ups must not be blank. | 3,355 notes are present with `aside` markup and backlinks. Repeated-note links and pop-ups still need a Kindle Previewer check. |
-| **Body text** | Body text must use defaults: no forced font size, font family, line height, color, background, or justification. | `styles/epub.css` sets `line-height: 1.5` and `text-align: justify` on `body`. These should be removed. |
+| **Body text** | Body text must use defaults: no forced font size, font family, line height, color, background, or justification. | `styles/epub.css` now leaves body line height and alignment to Kindle; blockquote and list horizontal margins are percentages; figure images fill the column. |
 | **Kindle validation** | Kindle Previewer 4 compiles the EPUB and flags errors and warnings; KDP says these can prevent a title from becoming available. | EPUBCheck passes, but Kindle Previewer has not been run. The desktop Previewer runs on Windows and macOS, not Linux. |
 | **AI disclosure** | KDP requires disclosure of AI-generated text, images, and translations. AI-assisted work does not require disclosure. | The cover is recorded as OpenAI ChatGPT output. It must be disclosed as an AI-generated image. The manuscript text and any future interior images still need a classification decision. |
 | **Rights and royalty** | KDP treats works in the public domain, or consisting primarily of public-domain content, as eligible only for the 35% royalty option. Public-domain content is not eligible for KDP Select. | The book is dedicated to CC0. That may make the 70% royalty option unavailable and may make KDP Select incompatible with the book’s nonexclusive status. Confirm the rights selection with KDP before pricing. |
@@ -229,21 +229,20 @@ Headings should specify their alignment because reflowable text is justified by 
 
 ### 6.2 Current CSS audit
 
-| Current rule | KDP issue | Action |
+| Rule | Current state | Action |
 |---|---|---|
-| `body { line-height: 1.5; }` | Body text must use the default line height. | Remove. Let Kindle set line height. |
-| `body { text-align: justify; }` | Forced justification of body text is a quality issue; KDP says reflowable text is justified by default. | Remove. Do not force alignment. |
-| `blockquote { margin: 0.8em 1.25em; }` | Left/right margins should be percentages, not ems. | Use a percentage such as `8%`. |
-| `ul, ol { margin: 0.5em 0 1em 1.4em; }` | Left margin in ems can grow too wide at large type. | Use a percentage left margin. |
-| `table { font-size: 0.8em; line-height: 1.3; }` | Tables may be styled, but 0.8em may be too small at font size 3; table cut-off is a critical quality issue. | Test at font size 3; consider 0.9em or 1em. |
-| `.footnotes { font-size: 0.85em; line-height: 1.4; }` | Notes may be styled, but 0.85em can be small at font size 3. | Test at font size 3; consider 0.9em. |
-| `figure img { display: block; margin: 0 auto; }` | No width is set, so an image may render at its intrinsic size rather than filling the column. KDP recommends text-bearing images occupy at least 80% width. | Add `width: 100%; height: auto;` for full-width figures, or a percentage width for smaller figures. |
-| `img { max-width: 100%; height: auto; }` | Good for preventing overflow, but it does not enlarge small images. | Keep, and add explicit figure widths. |
-| `a { color: inherit; text-decoration: underline; }` | Good: no forced link color, and links remain identifiable. | Keep. |
-| `a { overflow-wrap: break-word; word-wrap: break-word; }` | Long source URLs need to wrap; support for these properties varies. | Check in Kindle Previewer; if URLs overflow, shorten the visible link text or add safe break points. |
-| `body` has no font family, font size, or background color. | Correct. | Keep. |
-| No JavaScript, forms, frames, or `position:` rules. | Correct. | Keep. |
-| `currentColor` table rules | `currentColor` should adapt to themes, but verify in dark mode. | Check in Kindle Previewer; fall back to a neutral gray if needed. |
+| Body line height and alignment | `body` sets neither line height nor text alignment; Kindle controls both. | Keep. |
+| Blockquote margins | `margin: 0.8em 8%;` and epigraphs use `padding: 0 8%;`. | Keep; horizontal spacing is proportional. |
+| List margins | `ul, ol { margin: 0.5em 0 1em 8%; }`. | Keep; left margin is proportional. |
+| Table text | `table { font-size: 0.8em; line-height: 1.3; }`. | Test at font size 3; 0.8em may be too small. Consider 0.9em if the tables still fit. |
+| Note text | `.footnotes { font-size: 0.85em; line-height: 1.4; }`. | Test at font size 3; consider 0.9em. |
+| Figure images | `figure img { display: block; width: 100%; height: auto; margin: 0 auto; }`. | Keep; images fill the text column and preserve aspect ratio. |
+| General images | `img { max-width: 100%; height: auto; }`. | Keep. |
+| Link styling | `a { color: inherit; text-decoration: underline; }`. | Keep; no forced link color and links remain identifiable. |
+| Long URLs | `a { overflow-wrap: break-word; word-wrap: break-word; }`. | Check in Kindle Previewer; shorten link text or add break points if URLs overflow. |
+| Body font | No font family, font size, or background color. | Keep. |
+| Scripting and layout | No JavaScript, forms, frames, or `position:` rules. | Keep. |
+| Table rules | `currentColor` borders. | Check in Kindle Previewer’s dark mode; fall back to a neutral gray if needed. |
 
 A compliant body rule is deliberately minimal:
 
@@ -279,7 +278,7 @@ figcaption {
 }
 ```
 
-KDP normalizes body font size, family, and color at upload, but relying on that normalization is not a substitute for clean CSS. The current file is close; the body line-height and justification are the two clear violations. The book’s bold paragraph labels and italic titles are selective emphasis, not the body-wide styling KDP prohibits, so they do not need to be removed. The project embeds no fonts; if a future design embeds one, the publisher must hold the license and follow KDP’s embedded-font rules (S1 §11.3.8).
+KDP normalizes body font size, family, and color at upload, but relying on that normalization is not a substitute for clean CSS. The body line-height and forced-justification violations are now resolved. The remaining CSS checks are visual: table and note text at font size 3, long URLs in the notes, and `currentColor` rules in dark mode. The book’s bold paragraph labels and italic titles are selective emphasis, not the body-wide styling KDP prohibits, so they do not need to be removed. The project embeds no fonts; if a future design embeds one, the publisher must hold the license and follow KDP’s embedded-font rules (S1 §11.3.8).
 
 ---
 
@@ -472,7 +471,7 @@ KDP’s content-quality guide divides problems into **critical**, **destructive*
 - unsupported characters;
 - missing content or wrong content.
 
-The current build is at risk on several of these: the unproduced visuals, the forced body justification and line height, the wide tables, the repeated-note backlink behavior, and the fact that Kindle Previewer has not been run. The current EPUB is also a proof, not a release candidate: Appendices C–E are researched outlines rather than final prose, and the 56 visuals are unproduced. KDP quality review is not the place to discover that.
+The current build is at risk on several of these: the unproduced visuals, the wide tables, the repeated-note backlink behavior, and the fact that Kindle Previewer has not been run. The body CSS defaults are now fixed, but table and note text still need visual testing at font size 3. The current EPUB is also a proof, not a release candidate: Appendices C–E are researched outlines rather than final prose, and the 56 visuals are unproduced. KDP quality review is not the place to discover that.
 
 ### 11.2 Release checklist
 
@@ -491,7 +490,7 @@ The current build is at risk on several of these: the unproduced visuals, the fo
 | Images | Previewer, font size 3, device profiles | **No interior images.** Produce and test 56. |
 | Tables | Previewer, font size 3, phone and e-reader | 92 blocks; 10-column panels untested. |
 | Background themes | White, black, mint, sepia | Not checked. `currentColor` rules need a dark-mode check. |
-| Font settings | Change size and typeface | Body CSS needs cleanup first. |
+| Font settings | Change size and typeface | Body defaults are clean; verify at multiple sizes. |
 | External links | Link checker and archive | Not run. |
 | Accessibility | ACE checker | Not run. |
 | Metadata | KDP title setup | Title/subtitle split and description still to write. |
@@ -561,7 +560,7 @@ Do not optimize the book to a byte count before the images exist. Produce the vi
 ### P0 — before any KDP upload
 
 1. **Produce the 56 interior visuals or remove the promises.** The README and Appendix C register 39 maps, 9 figures, and 8 images; the EPUB has none. KDP treats a missing promised image section as a critical issue. Do not publish a catalog of absent maps.
-2. **Fix the body CSS.** Remove `line-height: 1.5` and `text-align: justify` from `body`; move blockquote and list horizontal margins to percentages; add explicit figure widths.
+2. **Verify the body CSS in Kindle Previewer.** The body line-height and forced justification are removed; blockquote and list horizontal margins are percentages; figure images fill the column. Check the result at multiple font sizes and in all four background themes.
 3. **Re-export the cover only if strict 5 MB compliance is required.** The 1,600 × 2,560 dimensions, 1.6:1 ratio, and 300 dpi density are correct. The 5.19 MB file is within the 50 MB maximum but at or slightly above the 5 MB guideline; update `images/cover.md` and the README after any re-export.
 4. **Decide the KDP publishing-rights selection.** CC0 may mean public domain, 35% only, no KDP Select. Confirm with KDP; record the decision.
 5. **Disclose the AI-generated cover.** Classify the manuscript text and any future interior images as AI-generated or AI-assisted.

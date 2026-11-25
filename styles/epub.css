@@ -3,8 +3,9 @@
  *
  * Amazon converts the EPUB to KFX. This file therefore uses only widely
  * supported CSS, relative units, and inherited colors. It deliberately
- * sets no font family, no fixed font size, no page geometry, and no
- * background colors, so the Kindle's own type and theme settings win.
+ * sets no font family, no fixed font size, no body line height, no forced
+ * body alignment, no page geometry, and no background colors, so the
+ * Kindle's own type and theme settings win.
  *
  * The book is 50 long narrative chapters plus an Introduction and five
  * appendices. Its recurring page furniture is: chapter epigraphs, long
@@ -16,8 +17,6 @@
 body {
     margin: 0;
     padding: 0;
-    line-height: 1.5;
-    text-align: justify;
 }
 
 /* Pandoc writes the EPUB cover as its own XHTML document and wraps the
@@ -151,7 +150,7 @@ nav#toc h1,
    Appendix A share this element. Keep the indentation moderate so a
    long document does not become a narrow column on a phone. */
 blockquote {
-    margin: 0.8em 1.25em;
+    margin: 0.8em 8%;
     padding: 0;
     text-align: left;
 }
@@ -176,7 +175,7 @@ h1 + blockquote + blockquote,
 h1 + blockquote + blockquote + blockquote,
 h1 + blockquote + blockquote + blockquote + blockquote {
     margin: 0 0 1.6em;
-    padding: 0 1em;
+    padding: 0 8%;
     text-align: center;
     font-style: italic;
 }
@@ -192,7 +191,7 @@ h1 + blockquote + blockquote + blockquote + blockquote p:last-child {
 
 ul,
 ol {
-    margin: 0.5em 0 1em 1.4em;
+    margin: 0.5em 0 1em 8%;
     padding: 0;
     text-align: left;
 }
@@ -286,6 +285,8 @@ figure {
 
 figure img {
     display: block;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
 }
 
