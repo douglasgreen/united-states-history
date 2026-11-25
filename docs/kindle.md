@@ -4,7 +4,7 @@
 
 **Scope.** The focus is the Kindle eBook edition: reflowable EPUB, cover, metadata, navigation, text and CSS, images and charts, tables, notes, accessibility, quality checks, and the commercial rules that affect a CC0 book. Print-on-demand and the print wraparound cover use a separate KDP workflow and are outside this document.
 
-**Source versions.** The comprehensive source is Amazon’s *Amazon Kindle Publishing Guidelines*, version 2026.3 (copyright 2025, revision history through 2026.3), cited below as **KPG 2026.3**. The KDP Help pages cited below were consulted on **November 25, 2026**. KDP changes its rules; recheck the sources in the [Sources](#sources) table before upload.
+**Source versions.** The comprehensive source is Amazon’s *Amazon Kindle Publishing Guidelines*, version 2026.3 (copyright 2025, revision history through 2026.3), cited below as **KPG 2026.3**. The KDP Help pages cited below were consulted on **November 25, 2026**. The cover policy was rechecked on that date against KPG 2026.3 §4.2 and the current eBook Manuscript Formatting Guide (S24). KDP changes its rules; recheck the sources in the [Sources](#sources) table before upload.
 
 **Last updated.** November 25, 2026.
 
@@ -24,7 +24,7 @@
 |---|---|---|
 | **Format** | Upload a reflowable EPUB 3; KDP converts it into Kindle delivery formats. EPUB 2.0 is also accepted. MOBI is no longer accepted for reflowable books, and fixed-layout MOBI ended in March 2025. | The build already produces EPUB 3, and `make epubcheck` passes under EPUB 3.2 rules. Upload the EPUB, not the PDF, MOBI, or KPF. |
 | **Layout model** | Reflowable is preferred for text-heavy books because it supports every Kindle device, adjustable type, screen readers, and Enhanced Typesetting. Fixed layout and Print Replica are fallbacks for image-heavy or exact-layout books. | Reflowable only. Print Replica would defeat the book’s accessibility and reading goals. |
-| **Cover** | A separate marketing cover is required. The internal cover must be in the EPUB. Ideal marketing cover is 1,600 × 2,560 px at 300 PPI, RGB, JPEG, ≤5 MB in the guidelines (≤50 MB in the upload criteria). | Current cover is 1,600 × 2,560 px, 5.19 MB, 300 dpi, ratio 1.60:1. Dimensions, ratio, and density meet KDP’s ideal. The file is within the 50 MB upload maximum but at or slightly above the 5 MB guideline; re-export below 5 MB if strict compliance is wanted. |
+| **Cover** | A separate marketing cover is required. KDP’s manuscript guide says **not** to include the cover in the manuscript; KDP adds the marketing cover during title setup. The guidelines’ internal-cover section explicitly does not apply to KDP eBooks. Ideal marketing cover is 1,600 × 2,560 px at 300 PPI, RGB, JPEG, ≤5 MB in the guidelines (≤50 MB in the upload criteria); KDP asks for minimal compression. | Master is 1,600 × 2,560 px, 5.19 MB, 100% JPEG, 300 dpi, ratio 1.60:1; upload it as the marketing cover. The build makes a 1.13 MB, 80% JPEG derivative for proofs, the with-cover EPUB, and a strict 5 MB fallback. The default KDP EPUB contains no cover. |
 | **Interior visuals** | Images must be legible at 300 PPI at their display size; maps and charts with text need at least 80% screen width. Missing promised images are a critical quality issue. | 39 maps, 9 figures, and 8 images are registered, but **none is produced**. This is the largest release blocker. |
 | **Tables** | Use HTML tables, not images. Keep tables below 100 rows and 11 columns. Test at font size 3. | 92 Markdown table blocks; the widest have 10 columns; Appendix B prints lettered panels. Within the row/column ceiling but at the wide edge. Test and split where needed. |
 | **Notes** | Use bidirectional hyperlinks; `aside` plus `epub:type="footnote"` is preferred; notes at the end of a chapter or book; pop-ups must not be blank. | 3,355 notes are present with `aside` markup and backlinks. Repeated-note links and pop-ups still need a Kindle Previewer check. |
@@ -43,6 +43,8 @@
 
 KDP accepts EPUB, DOCX, KPF, HTML, RTF, TXT, and PDF for eBook manuscripts, but it recommends EPUB for books produced with third-party tools. EPUB files must meet the specifications in the Kindle Publishing Guidelines (S17). Amazon accepts both EPUB 2.0 and EPUB 3.0 files that meet the guidelines (S18).
 
+This project does not use DOCX. The Word-specific parts of KDP’s manuscript guide, including its image-compression settings, do not apply to this build. The source is Markdown, and Pandoc writes the EPUB.
+
 MOBI is no longer the route for new books. KDP stopped accepting MOBI for reflowable eBooks on August 1, 2021, and ended MOBI support for fixed-layout eBooks in March 2025 (S17, S18). The project’s EPUB is the correct upload format.
 
 Do **not** upload the PDF proof as the eBook manuscript. PDF is accepted for some KDP workflows, but a PDF-interior eBook may become a Print Replica or convert poorly. It would not reflow, would not support the reader’s type settings, and would not be accessible in the way this book requires.
@@ -59,17 +61,18 @@ KDP converts the uploaded EPUB into Kindle delivery formats. The EPUB is the sou
 
 | Limit | KDP rule | Current book |
 |---|---|---|
-| **EPUB file size** | 650 MB maximum (S1 §11.4.2; S23). | 6.9 MB. Large headroom. |
+| **EPUB file size** | 650 MB maximum (S1 §11.4.2; S23). | 2,099,382 bytes (2.10 MB) for the current KDP EPUB without a cover. Large headroom. |
 | **Manuscript page count** | 8,000 pages or fewer (S23). | About 1,031 text pages by the book’s own measure; well under. |
-| **HTML files in the EPUB** | Fewer than 300 (S1 §9). | 59 XHTML files: cover, title page, navigation, and 56 manuscript units. |
+| **HTML files in the EPUB** | Fewer than 300 (S1 §9). | 58 XHTML files: title page, navigation, and 56 manuscript units. No cover document. |
 | **Size of one HTML file** | Less than 30 MB (S1 §9). | Far below. |
-| **Cover image** | 50 MB maximum in the upload criteria; the guidelines recommend 5 MB or fewer (S2; S1 §4.1). | 5,191,936 bytes (5.19 MB). Meets the 50 MB maximum; at or slightly above the 5 MB guideline. |
+| **Marketing cover image** | 50 MB maximum in the upload criteria; the guidelines recommend 5 MB or fewer, and KDP asks for minimal compression (S2; S3; S1 §4.1). | Master: 5,191,936 bytes (5.19 MB), 100% JPEG; use it for the marketing upload. Build derivative: 1,130,762 bytes (1.13 MB), 80% JPEG; use it for proofs, the with-cover EPUB, or a strict 5 MB fallback. Both meet the 50 MB maximum. |
+| **Cover in the EPUB** | Not required for KDP; KDP adds the marketing cover (S24; S1 §4.2). | None by design. `cover.xhtml`, the cover image, and the `cover-image` manifest property are absent. |
 
-The 650 MB ceiling is not the practical limit for an illustrated book. Delivery fees and download time impose a much lower working budget; see §12.
+The 50 MB figure is a limit on the cover image, not on the manuscript; the EPUB ceiling is 650 MB. The 650 MB ceiling is not the practical limit for an illustrated book. Delivery fees, the file-size-based minimum list price, and download time impose a much lower working budget; see §12.
 
 ### 2.4 Validation
 
-`make epub` builds the EPUB; `make epubcheck` runs EPUBCheck. EPUBCheck validates the EPUB package against the EPUB specification. It does not emulate Kindle conversion, and it does not test Kindle-specific layout, Enhanced Typesetting, pop-up notes, or the cover’s on-device appearance.
+`make epub` builds the KDP EPUB; `make epubcheck` runs EPUBCheck on it. `make epub-with-cover` builds the wide-distribution edition, and `make epubcheck-with-cover` validates that one. EPUBCheck validates the EPUB package against the EPUB specification. It does not emulate Kindle conversion, and it does not test Kindle-specific layout, Enhanced Typesetting, pop-up notes, or the cover’s on-device appearance.
 
 KDP’s own gate is Kindle Previewer 4, which compiles the EPUB and runs checks for common errors. KDP states that errors or warnings can prevent a title from becoming available and strongly recommends fixing all of them (S1 §2.2.1). Kindle Previewer runs on Windows 10 and later and on Intel or Apple Silicon Macs with macOS 12 or later (S14). It does not run natively on Linux. The Linux build can run EPUBCheck and the repository checker, but a human must complete the Kindle Previewer or KDP Online Previewer pass on a supported machine or in a browser before publication (S21).
 
@@ -77,16 +80,18 @@ KDP’s own gate is Kindle Previewer 4, which compiles the EPUB and runs checks 
 
 ## 3. Cover
 
-### 3.1 Two covers, two jobs
+### 3.1 Two cover jobs, and why the KDP EPUB omits one
 
 KDP distinguishes the **marketing cover** from the **internal content cover**:
 
 - The marketing cover is uploaded separately and appears on the Amazon detail page. It is required (S2; S1 §4.1).
-- The internal cover is packaged inside the EPUB and appears when the reader opens the book. KDP’s current cover help says it is required and that Amazon quality assurance can fail a book whose internal cover is too small (S2).
+- The internal content cover is the image inside the book content. The guidelines’ internal-cover section begins, “This cover image guidance doesn’t apply to KDP eBooks” (S1 §4.2). The current KDP Help page repeats the generic internal-cover requirement without that KDP exclusion (S2), so the two pages appear to conflict.
 
-The comprehensive PDF contains a note that its internal-cover guidance “doesn’t apply to KDP eBooks” (S1 §4.2). The current KDP Help page is more specific to KDP and says the opposite. The safe production rule is to keep a high-resolution internal cover in the EPUB and also upload the marketing cover separately. This build already does that.
+KDP’s manuscript guide states the rule plainly, although its steps are written for Word: “Don’t include your cover image in your manuscript file. When you publish your eBook, we’ll automatically add the cover image you provide during title setup” (S24). For a KDP-only EPUB, omit the cover; KDP inserts the marketing cover. Do not add an HTML cover page on top of a cover image, because KDP warns that this can duplicate the cover or fail conversion (S2; S1 §4.2).
 
-Do not add a second HTML cover page in addition to the cover image. KDP warns that this can make the cover appear twice or cause conversion failure (S2; S1 §4.2). Pandoc’s `cover.xhtml` is the cover document itself, not a duplicate; the separate title page is text-only. Do not paste the cover image into a chapter or another front-matter page; KDP’s quality guide lists a cover image inserted into the manuscript as a cover issue (S16).
+Wide distribution is different. Apple Books, Kobo, Google Play, and direct EPUB readers expect the cover inside the file. `make epub` therefore builds the KDP edition without a cover, and `make epub-with-cover` builds a separate edition with the 80% JPEG cover for those channels. Verify in KDP’s Online Previewer that the marketing cover appears once at the front of the KDP edition; if it does not, the fallback is to upload the with-cover EPUB and confirm there is no duplication.
+
+Do not paste the cover into a chapter or another front-matter page; KDP’s quality guide treats a cover image inserted into the manuscript as a cover issue (S16).
 
 ### 3.2 Marketing cover specifications
 
@@ -103,39 +108,45 @@ Do not add a second HTML cover page in addition to the cover image. KDP warns th
 | **Alignment** | Centered vertically and horizontally; proportional to the source within ±15%. | S1 §4.1 |
 | **Content** | Title and author/contributor; no spine, bar code, back cover, or inside flap; no pricing or temporary promotions; no typos, watermarks, or placeholder text; language matches the book; text must not contradict the detail page. | S2; S1 §4.1 |
 
-The 5 MB versus 50 MB difference is a real inconsistency between the two official sources. Keeping the marketing cover at or below 5 MB satisfies both. The current 5.19 MB file meets the 50 MB maximum but is at or slightly above the 5 MB guideline; a re-export below 5 MB would satisfy both.
+The 5 MB versus 50 MB difference is a real inconsistency between the two official sources. KDP’s cover criteria ask for minimal compression and warn that compression can affect on-device quality (S3). Upload the 100% master as the marketing cover: at 5.19 MB it is under the 50 MB hard limit and only slightly above the 5 MB guideline. The 80% build derivative is 1.13 MB; use it for local proofs and the with-cover EPUB, and keep it as the fallback if strict 5 MB compliance is required. At 80%, the title, subtitle, and author remain sharp, but the master is the better marketing upload.
 
 KDP requires the publisher to hold the rights to the cover art and forbids cover images that infringe another publisher’s or artist’s copyright (S2; S1 §4.1). Keep the cover production record, the generator’s terms, and the prompt history with the project files.
 
-### 3.3 Internal cover in the OPF
+### 3.3 Cover metadata in the EPUB
 
-KDP prefers the EPUB 3 `cover-image` property:
+The KDP EPUB contains no `cover.xhtml`, no image item with `properties="cover-image"`, and no legacy `<meta name="cover">`. That is deliberate (S24; S1 §4.2). EPUBCheck passes without a cover.
+
+The optional with-cover EPUB, built by `make epub-with-cover`, uses Pandoc’s `--epub-cover-image` flag. That writes `text/cover.xhtml`, declares the image in the OPF with the EPUB 3 `cover-image` property, adds the legacy `<meta name="cover">`, and puts the cover first in the spine:
 
 ```xml
 <manifest>
-  <item id="cimage" media-type="image/jpeg" href="other_cover.jpg"
+  <item id="cimage" media-type="image/jpeg" href="media/cover.jpg"
         properties="cover-image"/>
 </manifest>
 ```
 
-The older `<meta name="cover" content="..."/>` method is also accepted. The current EPUB uses both, which is acceptable. The internal cover should occupy at least 50% of the allocated space, be high-resolution, and carry the same title and author as the detail page (S2; S1 §4.2).
+The older `<meta name="cover" content="..."/>` method is also accepted. Pandoc emits both, which is acceptable; do not add a separate HTML cover page on top of them. The internal cover should occupy at least 50% of the allocated space, be high-resolution, and carry the same title and author as the detail page (S2; S1 §4.2).
+
+In the current Pandoc 3.1.11.1 build, `cover-image-alt` metadata does not reach the `<image>` element inside Pandoc’s generated SVG cover. The with-cover edition therefore has no cover alt text. Add one for wide distribution, or rely on the following title page. This does not affect the KDP EPUB, which has no cover.
 
 ### 3.4 Current cover audit
 
 | Item | Current value | Assessment |
 |---|---|---|
-| **File** | `images/cover.jpg` | Present. |
+| **Master file** | `images/cover.jpg`, 100% JPEG | Archival source and the marketing upload. |
+| **Build derivative** | `build/images/cover.jpg`, 80% JPEG | Generated by `make cover`; used in proofs, the with-cover EPUB, and a strict 5 MB fallback. |
 | **Dimensions** | 1,600 × 2,560 px | Matches KDP’s ideal dimensions. |
 | **Aspect ratio** | 1.600:1 | Matches the 1.6:1 ideal. |
 | **Resolution metadata** | 300 dpi | Matches the 300 PPI recommendation. |
-| **File size** | 5,191,936 bytes (5.19 MB; 4.95 MiB) | Within the 50 MB upload maximum; at or slightly above the 5 MB guideline depending on the unit. |
-| **Color** | RGB JPEG | Correct. |
+| **File size** | Master 5,191,936 bytes (5.19 MB); derivative 1,130,762 bytes (1.13 MB) | Master is within the 50 MB maximum but slightly above the 5 MB guideline; derivative meets both. |
+| **Color** | RGB JPEG, sRGB | Correct. |
 | **Content** | Title, subtitle, author; front cover only; no pricing | Correct. |
-| **Alt text** | None in `cover.xhtml` | Add a short text alternative to the cover SVG, or confirm the following title page supplies the same information to assistive technology. |
+| **EPUB presence** | None in the default KDP EPUB | Correct; KDP adds the marketing cover. The with-cover edition carries the 80% derivative. |
+| **Alt text** | None in the with-cover `cover.xhtml` | Add for wide distribution, or rely on the title page. The KDP EPUB has no cover to describe. |
 | **Rights** | AI-generated with OpenAI ChatGPT; OpenAI terms recorded in `images/cover.md` | The CC0 dedication covers the original text, not the generated cover. Keep the production record for KDP rights review. |
 | **AI disclosure** | Cover is AI-generated | Must be disclosed in KDP as an AI-generated image. |
 
-**Project action.** The cover now matches KDP’s ideal dimensions, 1.6:1 ratio, and 300 dpi recommendation. If strict 5 MB compliance is required, re-export at a slightly lower JPEG quality or strip nonessential metadata, then verify that the title, subtitle, and author remain legible at thumbnail size. Update `images/cover.md` and the README cover record after any re-export. The cover is ready for the EPUB and the separate marketing upload apart from that optional size optimization.
+**Project action.** The master meets KDP’s dimensions, ratio, density, and 50 MB limit; upload it as the marketing cover. `make cover` produces the 1.13 MB, 80% derivative for proofs, the with-cover EPUB, and a strict 5 MB fallback. `make epub` omits the cover from the KDP EPUB; `make epub-with-cover` produces the wide-distribution edition. No re-export of the master is needed. If strict 5 MB compliance is required, inspect the derivative at thumbnail size and confirm that the title, subtitle, and author remain legible; if they do not, keep the master or try `make COVER_QUALITY=85 cover`.
 
 ---
 
@@ -149,10 +160,9 @@ A reflowable EPUB does not need a `book-type` meta element. `<dc:language>` and 
 - `dc:title` — the full title including subtitle;
 - `dc:language` — `en-US`;
 - `dc:creator` — Douglas S. Green;
-- `dc:rights` — the CC0 dedication;
-- `meta name="cover"` and `properties="cover-image"`.
+- `dc:rights` — the CC0 dedication.
 
-It lacks `dc:description`, `dc:subject`, `dc:publisher`, and accessibility metadata. Those are optional for conversion but useful for accessibility and retail display. The title, author, and language in the file must match the values entered during KDP title setup (S7; S16).
+It has no `meta name="cover"` or `properties="cover-image"`, because the KDP EPUB omits the cover; KDP adds the marketing cover (S24; S1 §4.2). The optional with-cover edition adds both. The KDP EPUB also lacks `dc:description`, `dc:subject`, `dc:publisher`, and accessibility metadata. Those are optional for conversion but useful for accessibility and retail display. The title, author, and language in the file must match the values entered during KDP title setup (S7; S16).
 
 ### 4.2 KDP book details
 
@@ -195,7 +205,7 @@ The commercial consequence is significant: KDP states that works in the public d
 
 KDP requires a logical table of contents, and strongly recommends an HTML TOC for books that benefit from navigation. The HTML TOC should be near the beginning, not at the end; its entries must be links; it must not use page numbers; it must not be built as an HTML table; and it should be in chronological order (S1 §5.1; S6).
 
-The logical TOC can be a `toc nav` element or an NCX file. Kindle devices and applications support **two levels of nesting** (S1 §5.2; S6). The NCX must follow the book’s order and must not omit or duplicate chapters. Guide items or landmarks for the cover and TOC are optional but highly recommended; the start-reading location is defined by Amazon, not the publisher (S1 §5.3).
+The logical TOC can be a `toc nav` element or an NCX file. Kindle devices and applications support **two levels of nesting** (S1 §5.2; S6). The NCX must follow the book’s order and must not omit or duplicate chapters. Guide items or landmarks for the cover (when the EPUB has one) and TOC are optional but highly recommended; the start-reading location is defined by Amazon, not the publisher (S1 §5.3). The KDP EPUB has no cover landmark; its title page and TOC landmarks remain.
 
 If the TOC includes a list of maps or illustrations, each entry should link to the item (S1 §5.1). This matters for Appendix C when the visuals are produced.
 
@@ -203,11 +213,11 @@ If the TOC includes a list of maps or illustrations, each entry should link to t
 
 The EPUB has:
 
-- `cover.xhtml`, `title_page.xhtml`, and `nav.xhtml` before the first chapter;
+- `title_page.xhtml` and `nav.xhtml` before the first chapter; there is no `cover.xhtml`;
 - a `nav.xhtml` with 56 chapter-level entries in order;
 - a `toc.ncx`;
-- a hidden landmarks nav with title page, cover, and TOC;
-- a `guide` with TOC and cover references.
+- a hidden landmarks nav with title page and TOC;
+- a `guide` with a TOC reference only.
 
 The TOC is **flat**: one level, 56 entries. That is valid and usable. A 1,000-page book would benefit from a two-level Part/Chapter TOC, but the manuscript has no part divider pages and `--toc-depth=1` intentionally avoids dumping every `##` section into the TOC. Raising the depth to 2 would add roughly 300 section entries, which is worse. If a two-level TOC is wanted, add explicit part anchors or part divider pages and a small Lua filter or nav template, then update the README and Appendix C. Do not simply raise `--toc-depth`.
 
@@ -288,10 +298,10 @@ KDP normalizes body font size, family, and color at upload, but relying on that 
 
 | Rule | Detail | Source |
 |---|---|---|
-| **Formats** | JPEG and PNG are supported. TIFF, multi-frame GIFs, and images with transparency are not. Transparent backgrounds are converted to white. | S1 §11.4.1; S4 |
+| **Formats** | JPEG and PNG are supported. TIFF, multi-frame GIFs, and images with transparency are not. Transparent backgrounds are converted to white; flatten every image onto white and remove the alpha channel. | S1 §11.4.1; S4 |
 | **Color** | Use RGB. The current KDP image page recommends sRGB and says CMYK is converted to sRGB. The 2026.3 PDF contains a contradictory sentence that Kindle “does not support sRGB”; use sRGB as the practical target and verify in Previewer. | S4; S1 §11.4.1 |
-| **Resolution** | 300 PPI at the intended display size. A full-page image after margins, running heads, page numbers, and captions is treated as 4 × 6 inches, or 1,200 × 1,800 px. | S1 §11.4.2 |
-| **Display width** | Pictorial images should occupy at least 60% of the screen width; images with text, charts, or maps should occupy at least 80%. At 100% width, minimum 1,200 × 1,800 px; at 80%, 960 × 1,440 px; at 60%, 720 × 1,080 px. Important images should not be laid out below 40%. | S4; S1 §11.4.2 |
+| **Resolution** | 300 PPI at the intended display size. A full-page image after margins, running heads, page numbers, and captions is treated as 4 × 6 inches, or 1,200 × 1,800 px. At 80% width the minimum is 960 × 1,440 px; at 60%, 720 × 1,080 px. | S1 §11.4.2 |
+| **Display width** | Pictorial images should occupy at least 60% of the screen width; images with text, charts, or maps should occupy at least 80%. Important images should not be laid out below 40%. | S4; S1 §11.4.2 |
 | **High-resolution devices** | KDP recommends images display clearly at 2× magnification; a full-width image should be captured at 3,200 px wide. | S1 §11.4.5 |
 | **Minimum photographs** | Photographs below 300 × 400 px may be scaled and blurred. Images below 72 PPI can fail conversion. | S1 §11.4.5 |
 | **Line art and text** | Use PNG for charts, maps, diagrams, and line art. Text in an image should have a lowercase “a” at least 6 px high. | S1 §11.4.6–11.4.7 |
@@ -310,10 +320,12 @@ A production specification that meets KDP’s rules:
 
 | Visual type | Format | Target size | Notes |
 |---|---|---|---|
-| **Maps** | PNG, sRGB, flattened on white | 1,600 × 2,400 px minimum; 2,400 × 3,600 px for dense labels | At 100% width this is above the 300 PPI minimum on the 4 × 6 canonical page. Labels should remain legible on a phone. Use patterns and labels, not color alone, so the map survives grayscale. |
-| **Charts and figures** | PNG, sRGB | 1,600 × 2,400 px; 2,400 × 3,600 px if labels are small | Line art should be PNG, not JPEG. Keep the lowercase “a” at least 6 px high in the final image. |
-| **Photographs and facsimiles** | JPEG, sRGB | 1,600–3,200 px on the long edge | Use the highest-quality source available. Do not upscale a small image and call it high resolution. Check rights and credit. |
-| **Cover** | JPEG, RGB | 1,600 × 2,560 px | Separate marketing upload; internal cover in the EPUB. See §3. |
+| **Maps** | PNG, sRGB, flattened on white | 1,600 × 2,400 px minimum; 2,400 × 3,600 px for dense labels | At 100% width this is above the 300 PPI minimum on the 4 × 6 canonical page. Labels should remain legible on a phone. Use patterns and labels, not color alone, so the map survives grayscale. Target 100–400 KB as an indexed PNG. |
+| **Charts and figures** | PNG, sRGB | 1,600 × 2,400 px; 2,400 × 3,600 px if labels are small | Line art should be PNG, not JPEG. Keep the lowercase “a” at least 6 px high in the final image. Target 100–400 KB as an indexed PNG. |
+| **Photographs and facsimiles** | JPEG, sRGB | 1,600–3,200 px on the long edge | Use the highest-quality source available. Do not upscale a small image and call it high resolution. JPEG quality around 80–85; target 100–400 KB. Check rights and credit. |
+| **Cover** | JPEG, RGB | 1,600 × 2,560 px | Separate marketing upload; no cover in the KDP EPUB. The master is 100% quality; the build derivative is 80%. See §3. |
+
+KDP’s floor is 1,200 × 1,800 px for a full-width image, with 960 × 1,440 at 80% width. A 1,200–1,600 px width is the practical floor for full-width maps and charts; the project’s 1,600–2,400 px range is deliberately higher so labels survive zoom. KDP recommends 3,200 px wide for 2× magnification, so the limit is file size, not an arbitrary pixel cap. Do not drop below the 300 PPI table to save bytes. Reduce file size with indexed PNG, stripped metadata, and JPEG quality around 80–85 for photographs; a flat-color indexed PNG at 2,400 × 3,600 can be smaller than an RGB PNG at 1,600 × 2,400, so measure the actual file.
 
 Every visual needs:
 
@@ -323,15 +335,17 @@ Every visual needs:
 4. a fuller prose description in the surrounding text when the image carries historical argument that a short alt cannot convey;
 5. a rights basis recorded in the README register.
 
+For maps, the caption must state the date and the area covered and must distinguish boundaries, claims, and uncertain reconstructions. For charts, state units, denominators, and base years. Put all of that text in HTML below the image; never bake the title, caption, legend, or source line into the PNG. This is both KDP’s rule and the book’s evidence standard (S4; S1 §11.4.8–11.4.9).
+
 The CC0 dedication covers the book’s original text; it does not clear third-party images, maps, facsimiles, or quotations. KDP requires the publisher to hold the necessary rights for all content. Each visual needs its own rights basis, credit line, and, where required, permission record. Do not treat “public domain” as a global clearance without checking the jurisdiction and the particular source.
 
 For complex maps, the alt text should identify the map’s subject and scope, not attempt to transcribe every label. The caption and adjacent paragraph can carry the interpretation. This satisfies both KDP’s alt-text rule and the book’s evidence standard.
 
 ### 7.3 File size and delivery
 
-The 650 MB package ceiling is generous; the commercial limit is not. KDP’s 70% royalty option deducts a delivery fee based on the file size KDP determines, at **US$0.15 per MB** on Amazon.com (S11). The 35% option does not deduct delivery costs (S11). A 56-image program at 0.5 MB per image adds about 28 MB; at 1 MB per image it adds about 56 MB. That is enough to change the royalty picture. See §12.
+KDP sets no separate count limit on maps and charts. The constraints are the 650 MB package, the delivered file size, and legibility on a phone. The 650 MB package ceiling is generous; the commercial limit is not. The KDP EPUB is 2.10 MB without a cover. A 56-image program adds about 5.6–22.4 MB at the 100–400 KB working target; at 0.5 MB per image it adds about 28 MB, and at 1 MB per image about 56 MB. That is enough to change both the delivery fee and the minimum list price. See §12.
 
-KDP may recompress images during conversion. The delivered file size, not the raw EPUB size, is what KDP uses for delivery costs. Measure the converted book or use KDP’s estimate after upload; do not assume the EPUB byte count is the billing size.
+KDP’s 70% royalty option deducts a delivery fee based on the file size KDP determines, at **US$0.15 per MB** on Amazon.com (S11). The 35% option does not deduct delivery costs (S11). KDP reports the “file size after conversion” in the pricing tab, and that converted size, not the raw EPUB, is what the delivery fee uses. KDP also recompresses images during conversion. Measure the converted book in KDP or Kindle Previewer; do not assume the EPUB byte count is the billing size.
 
 ---
 
@@ -431,7 +445,7 @@ KDP’s accessibility guidance asks for:
 - sufficient contrast and no reliance on thin or light type;
 - MathML for mathematical content (S1 §8; S15).
 
-The current book has `lang="en-US"` and `xml:lang="en-US"` on every XHTML document. It does not use phrase-level `lang` attributes for foreign-language quotations; if any are present, they should be tagged. The book has no interior images, and the cover SVG does not carry a text alternative; when images are added, each needs alt text. The table captions and row headers are not yet semantic. Those are the main accessibility gaps.
+The current book has `lang="en-US"` and `xml:lang="en-US"` on every XHTML document. It does not use phrase-level `lang` attributes for foreign-language quotations; if any are present, they should be tagged. The book has no interior images; when they are added, each needs alt text. The KDP EPUB has no cover document, so there is no cover SVG to describe; the title page carries the title and author. The optional with-cover EPUB has a cover SVG without alt text, which should be fixed for wide distribution. The table captions and row headers are not yet semantic. Those are the main accessibility gaps.
 
 A useful EPUB 3 accessibility metadata block would include, at minimum:
 
@@ -478,12 +492,15 @@ The current build is at risk on several of these: the unproduced visuals, the wi
 | Check | Tool or evidence | Current status |
 |---|---|---|
 | Structural checker | `python3 tools/check_book.py --strict` | Passes: 56 files, 529,476 words, 3,355 notes, 92 tables, 24 local links, 0 errors. |
-| EPUB build | `make epub` | Passes; `build/a-nation-in-question.epub` is 6.9 MB. |
-| EPUBCheck | `make epubcheck` | Passes: 0 fatals, 0 errors, 0 warnings. |
+| EPUB build | `make epub` | Passes; `build/a-nation-in-question.epub` is 2.10 MB and contains no cover. |
+| With-cover EPUB | `make epub-with-cover` | Passes; `build/a-nation-in-question-with-cover.epub` is 3.23 MB; for wide distribution only. |
+| EPUBCheck | `make epubcheck` | Passes for both editions: 0 fatals, 0 errors, 0 warnings. |
 | Kindle conversion | Kindle Previewer 4 | **Not run.** Needs Windows or macOS, or KDP Online Previewer. |
 | Enhanced Typesetting | Previewer → View → Book Information | **Not checked.** Large tables may disable it. |
-| Cover | KDP cover criteria and Previewer | Present; 1,600 × 2,560 px, 1.6:1, 300 dpi. The 5.19 MB file is within the 50 MB maximum but at or slightly above the 5 MB guideline. |
-| Single cover | Previewer: cover, then next page | Current EPUB has one cover; verify no duplicate. |
+| Cover master | KDP cover criteria and Previewer | 1,600 × 2,560 px, 1.6:1, 300 dpi, 100% JPEG, 5.19 MB. Within the 50 MB maximum; slightly above the 5 MB guideline. |
+| Cover derivative | `make cover`; inspect | 80% JPEG, 1.13 MB, 1,600 × 2,560, 300 dpi. For proofs, the with-cover EPUB, and a strict 5 MB fallback; check title and author at thumbnail size. |
+| Cover in EPUB | Inspect `content.opf` and spine | None in the KDP EPUB by design; KDP adds the marketing cover. |
+| Single cover | Previewer: cover, then next page | No cover in the EPUB; verify KDP adds exactly one cover and no duplicate. |
 | TOC links | Previewer, Go To menu | 56 links in order; verify each resolves. |
 | NCX/landmarks | EPUBCheck and Previewer | Present; verify. |
 | Notes | Previewer pop-ups and return links | 3,355 notes; repeated-note behavior not verified. |
@@ -511,13 +528,15 @@ EPUBCheck passing is necessary, not sufficient. It does not prove that Kindle Pr
 
 ### 12.1 The two royalty options
 
-KDP offers a 35% royalty option and a 70% royalty option. The 70% option is available for list prices from **US$2.99 to US$12.99** on Amazon.com effective July 7, 2026 (S12). The 70% royalty is calculated on the list price less VAT and less delivery costs; the 35% royalty is calculated on the list price less VAT, with no delivery-cost deduction (S11).
+KDP offers a 35% royalty option and a 70% royalty option. The 70% option is available for list prices from **US$2.99 to US$12.99** on Amazon.com effective July 7, 2026 (S12). The 70% royalty is 70% of the list price after VAT and delivery costs are subtracted: 0.70 × (list price − VAT − delivery). The 35% royalty is 35% of the list price after VAT, with no delivery-cost deduction (S11). Applying 70% to the price and then subtracting the full delivery fee understates the royalty; the delivery fee is inside the parentheses. At US$9.99 with an 8 MB file, for example, 0.70 × (9.99 − 1.20) = $6.15, not $5.79.
 
 Delivery costs on Amazon.com are **US$0.15 per MB** of the file size KDP determines, rounded up to the nearest kilobyte, with a US$0.01 minimum (S11). The 70% option is available only in certain territories; sales outside those territories earn 35% (S11). The table below ignores VAT, territory mix, price matching, and currency, so it is a planning example, not a royalty quote. The 70% columns apply only if the book qualifies for the 70% option; a public-domain classification makes them unavailable.
 
 | File size | Delivery fee at US$0.15/MB | 35% at US$9.99 | 35% at US$12.99 | 70% at US$9.99 | 70% at US$12.99 |
 |---|---|---|---|---|---|
-| **7 MB** (current) | $1.05 | $3.50 | $4.55 | $6.26 | $8.36 |
+| **2.10 MB** (current, no cover) | $0.32 | $3.50 | $4.55 | $6.77 | $8.87 |
+| **3 MB** (first price-tier boundary) | $0.45 | $3.50 | $4.55 | $6.68 | $8.78 |
+| **10 MB** (second price-tier boundary) | $1.50 | $3.50 | $4.55 | $5.94 | $8.04 |
 | **25 MB** | $3.75 | $3.50 | $4.55 | $4.37 | $6.47 |
 | **40 MB** | $6.00 | $3.50 | $4.55 | $2.79 | $4.89 |
 | **50 MB** | $7.50 | $3.50 | $4.55 | $1.74 | $3.84 |
@@ -525,6 +544,8 @@ Delivery costs on Amazon.com are **US$0.15 per MB** of the file size KDP determi
 | **100 MB** | $15.00 | $3.50 | $4.55 | $0.00 | $0.00 |
 
 At US$9.99, the 35% and 70% options break even at about 33 MB; at US$12.99, at about 43 MB. Above those sizes, the 35% option pays more because it does not deduct delivery. That is counterintuitive but follows directly from KDP’s formulas. It matters for a 56-image history book. The table shows $0.00 where the formula would go negative; use KDP’s estimator for the actual floor.
+
+The 35% option also has a file-size-based minimum list price on Amazon.com: **under 3 MB, $0.99; 3 MB to under 10 MB, $1.99; 10 MB or more, $2.99**; the maximum is $200 (S12). The 70% option’s minimum is $2.99 regardless of size. The current 2.10 MB EPUB preserves the $0.99 floor. Adding about 0.9 MB of visuals crosses into the $1.99 tier, and a 10 MB book cannot be priced below $2.99 under either option. This matters more than the delivery fee if the book is 35%-only because of its public-domain status.
 
 ### 12.2 The public-domain problem
 
@@ -539,13 +560,15 @@ If the author instead selects “I own the copyright” and qualifies for the 70
 
 ### 12.3 Practical image budget
 
-- Current EPUB: 6.9 MB.
-- 56 images at 0.5 MB each: about 28 MB added, for roughly 35 MB total.
-- 56 images at 1 MB each: about 56 MB added, for roughly 63 MB total.
-- At 35%, delivery is not deducted; the main constraints are the 650 MB ceiling, download time, and device performance.
+- Current KDP EPUB: 2.10 MB, no cover.
+- 56 images at 0.25 MB each: about 14 MB added, roughly 16 MB total.
+- 56 images at 0.5 MB each: about 28 MB added, roughly 30 MB total.
+- 56 images at 1 MB each: about 56 MB added, roughly 58 MB total.
+- The 100–400 KB working target puts the image program at roughly 5.6–22.4 MB, for a total of roughly 7.7–24.5 MB.
+- At 35%, delivery is not deducted; the main size penalties are the minimum list price tiers and download time.
 - At 70% and US$12.99, keep the delivered file under about 43 MB to beat the 35% option; under 40 MB is a safer target.
 
-Do not optimize the book to a byte count before the images exist. Produce the visuals at KDP’s resolution standard, measure the converted file, and then decide whether compression is needed.
+Do not optimize the book to a byte count before the images exist. Produce the visuals at KDP’s resolution standard, keep each map or chart in the 100–400 KB range where the labels allow it, measure the converted file, and then decide whether more compression is needed.
 
 ### 12.4 DRM, ISBN, and print
 
@@ -561,7 +584,7 @@ Do not optimize the book to a byte count before the images exist. Produce the vi
 
 1. **Produce the 56 interior visuals or remove the promises.** The README and Appendix C register 39 maps, 9 figures, and 8 images; the EPUB has none. KDP treats a missing promised image section as a critical issue. Do not publish a catalog of absent maps.
 2. **Verify the body CSS in Kindle Previewer.** The body line-height and forced justification are removed; blockquote and list horizontal margins are percentages; figure images fill the column. Check the result at multiple font sizes and in all four background themes.
-3. **Re-export the cover only if strict 5 MB compliance is required.** The 1,600 × 2,560 dimensions, 1.6:1 ratio, and 300 dpi density are correct. The 5.19 MB file is within the 50 MB maximum but at or slightly above the 5 MB guideline; update `images/cover.md` and the README after any re-export.
+3. **Upload the 100% cover master and keep the 80% derivative for proofs.** The master is 1,600 × 2,560, 1.6:1, 300 dpi, 100% JPEG (5.19 MB); KDP asks for minimal compression. `make cover` produces the 1.13 MB, 80% derivative for proofs, the with-cover EPUB, and a strict 5 MB fallback. The KDP EPUB omits the cover by design; confirm in the Online Previewer that KDP adds it once. Update `images/cover.md` after any change.
 4. **Decide the KDP publishing-rights selection.** CC0 may mean public domain, 35% only, no KDP Select. Confirm with KDP; record the decision.
 5. **Disclose the AI-generated cover.** Classify the manuscript text and any future interior images as AI-generated or AI-assisted.
 6. **Run Kindle Previewer 4 or KDP Online Previewer.** Check conversion, Enhanced Typesetting, cover, TOC, notes, tables, and images. Linux cannot run the desktop Previewer.
@@ -609,7 +632,7 @@ Do not optimize the book to a byte count before the images exist. Produce the vi
 | **Upload format** | EPUB 2 or 3; EPUB recommended for third-party tools. | S17, S18 |
 | **Layout** | Reflowable for text-heavy books; fixed layout and Print Replica are fallbacks. | S1 §3 |
 | **Package size** | 650 MB; 8,000 pages; fewer than 300 HTML files; each under 30 MB. | S1 §9, §11.4.2; S23 |
-| **Cover** | 1,600 × 2,560 ideal; 1.6:1; 300 PPI; RGB; JPEG; ≤5 MB preferred; separate marketing upload; internal cover in EPUB. | S1 §4; S2; S3 |
+| **Cover** | 1,600 × 2,560 ideal; 1.6:1; 300 PPI; RGB; JPEG; ≤5 MB preferred; separate marketing upload; omit from the KDP manuscript and let KDP add it. | S1 §4; S2; S3; S24 |
 | **Metadata** | `dc:title` and `dc:language` required; title/author/language must match KDP setup. | S1 §11.1; S7 |
 | **Navigation** | HTML TOC near the front; NCX or `toc nav`; two levels maximum; no page numbers. | S1 §5; S6 |
 | **Body text** | Defaults only; no forced font, size, line height, color, background, or justification. | S1 §11.3.2; S5 |
@@ -632,11 +655,12 @@ Do not optimize the book to a byte count before the images exist. Produce the vi
 | **Dimensions** | 1,600 × 2,560 px | 1,600 × 2,560 px | Matches. |
 | **Aspect ratio** | At least 1.6:1 | 1.600:1 | Matches. |
 | **Resolution** | 300 PPI recommended | 300 dpi | Matches. |
-| **File size** | ≤5 MB preferred; 50 MB maximum | 5.19 MB (4.95 MiB) | Within the 50 MB maximum; at or slightly above the 5 MB guideline. Re-export only if strict 5 MB compliance is required. |
+| **File size** | ≤5 MB preferred; 50 MB maximum; minimal compression recommended | Master 5.19 MB (100%); derivative 1.13 MB (80%) | Upload the master; both are under the 50 MB maximum. The derivative is the proof and strict 5 MB fallback. |
 | **Format** | JPEG preferred; JPEG/PNG/GIF/TIFF accepted | JPEG | Keep JPEG. |
-| **Color** | RGB; CMYK converted | RGB | Keep RGB/sRGB. |
+| **Color** | RGB; CMYK converted | RGB/sRGB | Keep RGB/sRGB. |
 | **Content** | Title, author; no spine/back; no pricing; no watermarks | Title, subtitle, author; front only | Keep. |
 | **Language** | Match the book | English | Keep. |
+| **EPUB treatment** | Do not include the cover in the KDP manuscript; KDP adds the marketing cover | No cover in the KDP EPUB; derivative in the with-cover edition | Correct. Verify one cover in Previewer. |
 | **AI** | Disclose AI-generated images | AI-generated with ChatGPT | Disclose in KDP. |
 
 ---
@@ -645,7 +669,7 @@ Do not optimize the book to a byte count before the images exist. Produce the vi
 
 The table in §12.1 is the working example. Two rules of thumb:
 
-- At **35%**, delivery costs are not deducted. The 650 MB ceiling and download performance are the constraints.
+- At **35%**, delivery costs are not deducted. The 650 MB ceiling, download performance, and the file-size-based minimum list price are the constraints: under 3 MB, $0.99; 3 MB to under 10 MB, $1.99; 10 MB or more, $2.99. The current 2.10 MB EPUB keeps the $0.99 floor.
 - At **70%**, every 10 MB of delivered file size costs about **US$1.50** in delivery on Amazon.com. On a US$12.99 book, the 70% option stops beating the 35% option at about **43 MB**; on a US$9.99 book, at about **33 MB**.
 
 These are planning figures. KDP determines the delivered file size, applies VAT and territory rules, may price-match, and may recompress images. Use KDP’s royalty estimator after upload for the actual numbers.
@@ -659,8 +683,8 @@ All web sources were consulted on **November 25, 2026**. The Kindle Publishing G
 | Key | Source | Used for |
 |---|---|---|
 | **S1** | Amazon, *Amazon Kindle Publishing Guidelines*, version 2026.3. [PDF](https://kindlegen.s3.amazonaws.com/AmazonKindlePublishingGuidelines.pdf). | Comprehensive rules for formats, covers, navigation, HTML/CSS, images, tables, notes, accessibility, QA, and package limits. Section numbers are cited in the text. |
-| **S2** | Amazon KDP, “Cover Image Guidelines for Kindle eBooks.” [Page](https://kdp.amazon.com/en_US/help/topic/G6GTK3T3NUHKLEFX). | Marketing and internal cover requirements; 50 MB maximum; 1,600 × 2,560 recommendation; OPF methods; no duplicate HTML cover. |
-| **S3** | Amazon KDP, “What criteria does my eBook’s cover image need to meet?” [Page](https://kdp.amazon.com/help/topic/G200645690). | Cover dimensions, 1.6:1 ratio, 72 dpi table, 300 PPI recommendation, RGB, 50 MB limit. |
+| **S2** | Amazon KDP, “Cover Image Guidelines for Kindle eBooks.” [Page](https://kdp.amazon.com/en_US/help/topic/G6GTK3T3NUHKLEFX). | Marketing and internal cover requirements; 50 MB maximum; 1,600 × 2,560 recommendation; OPF methods; no duplicate HTML cover. The internal-cover section is generic Kindle guidance; S1 §4.2 says it does not apply to KDP eBooks. |
+| **S3** | Amazon KDP, “What criteria does my eBook’s cover image need to meet?” [Page](https://kdp.amazon.com/help/topic/G200645690). | Cover dimensions, 1.6:1 ratio, 72 dpi table, 300 PPI recommendation, RGB, 50 MB limit, and the caution against compressing the marketing cover. |
 | **S4** | Amazon KDP, “Image Guidelines — Reflowable.” [Page](https://kdp.amazon.com/help/topic/G75V4YX5X8GRGXWV). | Image formats, sRGB, 60%/80% width guidance, alt text, captions, figure markup, no text as images. |
 | **S5** | Amazon KDP, “Text Guidelines — Reflowable.” [Page](https://kdp.amazon.com/en_US/help/topic/GH4DRT75GWWAGBTU). | Body defaults, paragraph formatting, margins, page breaks, fonts, page numbers, footnotes. |
 | **S6** | Amazon KDP, “Navigation Guidelines.” [Page](https://kdp.amazon.com/en_US/help/topic/GY3AD8C6C6GAG42N). | HTML TOC, NCX/`toc nav`, two-level nesting, guide items. |
@@ -669,7 +693,7 @@ All web sources were consulted on **November 25, 2026**. The Kindle Publishing G
 | **S9** | Amazon KDP, “Publishing Public Domain Content.” [Page](https://kdp.amazon.com/help?topicId=G200743940). | Public-domain proof, differentiation rules, publishing-rights selection. |
 | **S10** | Amazon KDP, “KDP Select Enrollment.” [Page](https://kdp.amazon.com/en_US/help/topic/GD9PMU58BV24QFZ7). | Exclusivity requirement; public-domain ineligibility. |
 | **S11** | Amazon KDP, “Digital Book Pricing Page.” [Page](https://kdp.amazon.com/en_US/help/topic/G200634500). | 35%/70% royalty formulas; delivery costs at US$0.15/MB; public-domain 35% limitation. |
-| **S12** | Amazon KDP, “eBook List Price Requirements.” [Page](https://kdp.amazon.com/help/topic/G200634560). | 70% price band US$2.99–$12.99 effective July 7, 2026. |
+| **S12** | Amazon KDP, “eBook List Price Requirements.” [Page](https://kdp.amazon.com/help/topic/G200634560). | 70% price band US$2.99–$12.99 effective July 7, 2026; 35% minimum list price by file size: $0.99 under 3 MB, $1.99 from 3 to under 10 MB, $2.99 at 10 MB or more. |
 | **S13** | Amazon KDP, “eBook Royalties.” [Page](https://kdp.amazon.com/help/topic/G200644210). | Royalty mechanics; public-domain 35% limitation. |
 | **S14** | Amazon KDP, “Kindle Previewer.” [Page](https://kdp.amazon.com/help/topic/G202131170). | Previewer 4, supported platforms, EPUB support, Enhanced Typesetting check. |
 | **S15** | Amazon KDP, “Accessibility for eBooks.” [Page](https://kdp.amazon.com/help/topic/GBPE3QVZ2J3HLQ4B). | Accessibility best practices for images, language, headings, tables, color; ACE recommendation. |
@@ -681,5 +705,6 @@ All web sources were consulted on **November 25, 2026**. The Kindle Publishing G
 | **S21** | Amazon KDP, “Upload and Preview Book Content.” [Page](https://kdp.amazon.com/help/topic/G200641240). | KDP Online Previewer and upload workflow. |
 | **S22** | Amazon KDP, “Attributes and Tags Supported by Enhanced Typesetting.” [Page](https://kdp.amazon.com/en_US/help/topic/GB5GDY7WAJDN9GFK). | Supported CSS/HTML values for Enhanced Typesetting. |
 | **S23** | Amazon KDP, “Advanced Macintosh Techniques” (help page on reducing manuscript file size). [Page](https://kdp.amazon.com/help/topic/A1NXD7HGI9Q8K3). | 650 MB and 8,000-page outer limits. |
+| **S24** | Amazon KDP, “eBook Manuscript Formatting Guide.” [Page](https://kdp.amazon.com/help/topic/G200645680). | Cover image: do not include it in the manuscript; KDP adds the marketing cover provided during title setup. |
 
-**Note on conflicts.** Two official sources disagree in places. The guidelines recommend a 5 MB marketing cover, while the cover upload criteria allow 50 MB. The guidelines contain a sentence saying Kindle does not support sRGB, while the current image page recommends sRGB and describes automatic CMYK conversion. The guidelines say the internal-cover guidance does not apply to KDP eBooks, while the current KDP cover page says the internal cover is required. The cover criteria also list 72 dpi in one table and 300 PPI in another; treat 300 PPI as the quality target and 72 dpi as the floor. In each case this document follows the stricter or more current operational rule and recommends verifying in Kindle Previewer. When KDP’s upload system and this summary disagree, the upload system controls.
+**Note on conflicts.** The official sources disagree in places. The guidelines recommend a 5 MB marketing cover, while the cover upload criteria allow 50 MB. The guidelines contain a sentence saying Kindle does not support sRGB, while the current image page recommends sRGB and describes automatic CMYK conversion. The guidelines say the internal-cover guidance does not apply to KDP eBooks, while the KDP cover help page repeats the generic internal-cover requirement; the manuscript guide separately says not to put the cover in the manuscript. This document resolves the cover conflict in favor of the manuscript guide and the explicit KDP exclusion: omit the cover from the KDP manuscript, and include it in a separate wide-distribution EPUB. The cover criteria also list 72 dpi in one table and 300 PPI in another; treat 300 PPI as the quality target and 72 dpi as the floor. The cover criteria caution against compressing the marketing cover; the 80% build derivative is a project choice for proofs, the wide-distribution edition, and a strict 5 MB fallback, not a KDP requirement. In each case this document follows the stricter or more current operational rule and recommends verifying in Kindle Previewer. When KDP’s upload system and this summary disagree, the upload system controls.

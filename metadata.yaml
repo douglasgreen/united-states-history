@@ -4,6 +4,8 @@ author: "Douglas S. Green"
 rights: "Dedicated to the Public Domain under CC0 1.0 Universal (2026)"
 language: "en-US"
 lang: "en-US"
-cover-image: "images/cover.jpg"
+# The KDP EPUB omits the cover by design; KDP adds the marketing cover
+# uploaded during title setup. The epub-with-cover target sets the cover
+# image on the command line for wide-distribution editions.
 cover-image-alt: "Front cover of A Nation in Question: a large patchwork quilt in red, white, blue, ochre, green, and cream, with stars, stripes, map fragments, and newspaper text; several hands of different skin tones stitch and repair a torn seam; the title appears on a cream fabric label at the top and the author’s name at the bottom."
 ---
