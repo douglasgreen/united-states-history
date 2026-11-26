@@ -346,7 +346,7 @@ This is a selective guide, not a citation ledger. The combined notes carry the e
 
 [^ch07-check-names]: Editorial check — use the nations’ and persons’ preferred names and forms: Jonathan Edwards, George Whitefield, Benjamin Franklin, Tituba, Samuel Parris, Paul Boyer, Stephen Nissenbaum, Gary Nash, Richard Bushman, Christine Leigh Heyrman, Jon Butler; Wampanoag, Haudenosaunee, Kongolese, Scots-Irish. Capitalize Native American, Indigenous, Black, and White for people; use “enslaved people” in the book’s prose except in quotations and historical proper names. Explain why “Negro” appears in the statute name.
 
-[^ch07-check-ch8]: Editorial check — Chapter 8 begins with George Washington’s 1753 mission to the Ohio Country. This chapter’s bridge must name that scene, and its material must stop before the Seven Years’ War and the 1763 settlement. Treat the 1757 tenant risings only as a forward pressure owned by Chapter 8. Confirm Chapter 8’s opening before the bridge is called checked.
+[^ch07-check-ch8]: Editorial check — resolved November 25, 2026. Chapter 8 is drafted and opens with George Washington’s 1753 mission to the Ohio Country, matching this bridge. The Seven Years’ War and the 1763 settlement belong to Chapter 8; treat the 1757 tenant risings only as a forward pressure.
 
 [^ch07-check-dating]: Editorial check — keep contested dates and figures contested: the number of Stono participants (widely given as about fifty at the height), the death toll on each side, the day and number of the 1741 New York fires, and the number of executions. Give estimates as estimates and attribute each figure to its source. Reconcile relevant dates with Appendix D (Chronology).
 

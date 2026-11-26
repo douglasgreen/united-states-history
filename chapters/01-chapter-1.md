@@ -496,4 +496,4 @@ The chapter’s legacies are therefore double. The continent was humanized, and 
 
 [^ch01-check-sources]: Editorial check — Krech’s *The Ecological Indian* and Mann’s *1491* are central to the Debate but were read only through reviews, excerpts, and Denevan’s forum for this draft. Read both before publication; supply page locators; and revise the rows if the texts do not support the summaries. The NPS, UNESCO, and NOAA pages are institutional syntheses, not primary excavation reports; use them for orientation and cite the underlying scholarship where the claim is consequential.
 
-[^ch01-check-ch2]: Editorial check — Chapter 2 is now drafted and begins at L’Anse aux Meadows, matching this bridge. Recheck the hand-off at integration; if Chapter 2’s opening changes, rewrite this bridge rather than the chapter. The Norse landfall belongs to Chapter 2, not to this chapter’s narrative.
+[^ch01-check-ch2]: Editorial check — resolved November 25, 2026. Chapter 2 is drafted and opens with L’Anse aux Meadows and its turf buildings, matching this bridge. The Norse landfall belongs to Chapter 2, not to this chapter’s narrative.

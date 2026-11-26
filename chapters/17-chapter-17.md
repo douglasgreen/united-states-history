@@ -382,9 +382,9 @@ This is a selective guide, not a citation ledger. The groups move from the prima
 
 [^ch17-check-scope]: Editorial check — the chapter’s dates run from the 1820s through 1848. Reconcile every event with Appendix D (Chronology) and with Chapters 15, 16, 18, and 25. Do not let the narrative re-open the market revolution (Chapter 15) or the Age of Jackson’s political history (Chapter 16), and do not carry the Mexican-American War or the Guadalupe Hidalgo settlement into this chapter (Chapter 18). Texas’s revolution and the annexation controversy belong here; the war does not.
 
-[^ch17-check-ch16]: Editorial check — Chapter 16 owns removal’s national political role: the 1830 removal vote, the Cherokee cases as politics, and the consensus behind dispossession, and it bridges to this chapter’s opening at New Echota in December 1835. Confirm the two chapters do not duplicate the political narrative and that this chapter’s backward sentence matches Chapter 16’s actual closing.
+[^ch17-check-ch16]: Editorial check — resolved November 25, 2026. Chapter 16’s drafted closing names this chapter’s opening at New Echota in December 1835, and this chapter takes it up. The two chapters do not duplicate the political narrative.
 
-[^ch17-check-ch18]: Editorial check — Chapter 18 owns the 1845 annexation decision’s international consequences and the Mexican-American War and opens with Captain Seth Thornton’s patrol at Carricitos in April 1846. Confirm this chapter stops at the annexation controversy and that its bridge matches Chapter 18’s actual opening.
+[^ch17-check-ch18]: Editorial check — resolved November 25, 2026. Chapter 18 is drafted and opens with Thornton’s patrol at Rancho de Carricitos on April 25, 1846, matching this bridge. This chapter stops at the annexation controversy.
 
 [^ch17-check-epigraphs]: Editorial check — collate each epigraph character by character: Jackson’s message against the printed Second Annual Message of December 6, 1830; Ross’s letter against the manuscript or a scholarly edition, with a precise date and archive locator; Marshall’s sentence against the *United States Reports* (31 U.S. 515, 1832); and Saunt’s sentence against *Unworthy Republic*, p. xiii, since it reaches this draft through a review. Every epigraph’s locator must be a direct citation, not a summary.
 

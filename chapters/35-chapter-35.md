@@ -358,13 +358,13 @@ This is a selective guide, not a citation ledger. The groups move from the instr
 
 *A closing note.* Between 1937 and 1941 the United States moved from a legal neutrality meant to keep it out of Europe’s wars to a set of commitments. Bases, Lend-Lease, a charter of war aims, and an undeclared naval war made conflict difficult to avoid. The final decisions were not American: Japan attacked Pearl Harbor on December 7, 1941, and Germany declared war four days later. But the ground had been prepared by four years of American argument and policy, and the isolationists who had fought every step saw their cause collapse in a week. The chapter’s question — how did neutrality give way to intervention, and how much of that outcome was chosen? — is answered by that double record of foreign decision and American preparation.[^ch35-lend-lease-act][^ch35-hitler-declaration][^ch35-house-declarations]
 
-*And a bridge.* The next chapter begins in December 1941, when Prime Minister Winston Churchill crossed the Atlantic and came to Washington for the Arcadia Conference with President Roosevelt. Chapter 36 takes up the Second World War itself and asks how coalition warfare remade American power and belonging. That story begins where this one ends, and the two chapters are meant to be read together.[^ch35-check-bridge][^ch35-check-ch36]
+*And a bridge.* The next chapter begins in December 1941, when Prime Minister Winston Churchill crossed the Atlantic and came to Washington for the Arcadia Conference with President Roosevelt. Chapter 36 takes up the Second World War itself and asks how coalition warfare remade American power and belonging. That story begins where this one ends, and the two chapters are meant to be read together.[^ch35-check-ch36]
 
 [^ch35-check-scope]: Editorial check — the draft runs from Roosevelt’s Chicago address of October 5, 1937, to the declarations of war of December 8 and 11, 1941, in the six README sections. The roadmap states that §§3 and 4 are thematic and overlap in time, and the chapter does not re-narrate the New Deal (Ch. 34) or coalition warfare and the home fronts (Ch. 36). Stage 5 must reconcile every date with Appendix D, Table 5 (1900–1945) and with the adjacent chapters.
 
-[^ch35-check-ch34]: Editorial check — Chapter 34 is now drafted and its closing bridge names this chapter’s Chicago address of October 5, 1937. The draft opens on that address and states that the date falls inside Chapter 34’s range but that its subject belongs to foreign policy. The seam now matches; Stage 6 should read the two paragraphs together.
+[^ch35-check-ch34]: Editorial check — resolved November 25, 2026. Chapter 34’s drafted closing names this chapter’s opening at Roosevelt’s Chicago address on October 5, 1937, and this chapter takes it up. The date falls inside Chapter 34’s range, but its subject belongs to foreign policy.
 
-[^ch35-check-ch36]: Editorial check — Chapter 36 owns coalition warfare and plans to open on Churchill’s December 1941 visit for the Arcadia Conference. The draft bridge names that visit and does not describe a battleship journey all the way to Washington. The dependency remains open until Chapter 36 is drafted and its actual opening can be matched.
+[^ch35-check-ch36]: Editorial check — resolved November 25, 2026. Chapter 36 is drafted and opens with Churchill’s December 1941 crossing and the ARCADIA Conference, matching this bridge. The two chapters are meant to be read together.
 
 [^ch35-check-dates-appD]: Editorial check — reconcile the chapter’s dates with Appendix D, Table 5 (1900–1945), including the neutrality acts, the 1939 revision, the fall of France, the bases and Lend-Lease agreements, the Atlantic Charter, the Atlantic incidents, the freeze and Hull note, Pearl Harbor, and the December declarations, and confirm that no event is placed on the wrong track.
 
@@ -392,7 +392,6 @@ This is a selective guide, not a citation ledger. The groups move from the instr
 
 [^ch35-check-debate-works]: Editorial check — the debate table names Beard, Langer and Gleason, Divine, Cole, Heinrichs, Barnhart, and Kennedy, whose positions were identified through catalogs, publisher descriptions, or another work’s citation and were not read in full. The source line marks the rows unverified. Read the works and supply page locators before the table is published.
 
-[^ch35-check-bridge]: Editorial check — the closing bridge names Churchill’s December 1941 journey to Washington for the Arcadia Conference as Chapter 36’s planned opening. Confirm Chapter 36’s actual opening and adjust this bridge when that chapter is drafted; the dependency remains open.
 
 [^ch35-check-sources]: Editorial check — this is a selective reading guide, not a citation ledger. The annotations distinguish works read for this draft from works identified through catalogs or citations. Verify all bibliographic details before publication and do not present a recommendation as verified evidence.
 

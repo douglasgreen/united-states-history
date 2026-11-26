@@ -434,9 +434,9 @@ This is a selective guide, not a citation ledger. The groups move from war and c
 
 [^ch06-check-names]: Editorial check — use the nations’ and persons’ preferred names and forms: Wampanoag, Pokanoket, Narragansett, Nipmuc, Mohegan, Haudenosaunee, Mohawk, Abenaki, Wendat, Pueblo, Hopi, Tewa; Metacom (Metacomet), Ousamequin, Awashonks, Uncas, Po’pay, Diego de Vargas, Sir Edmund Andros, Jacob Leisler, John Easton, Benjamin Church. Capitalize Native American, Indigenous, Black, and White for people; use “enslaved people” in the book’s prose except in quotations and historical proper names.
 
-[^ch06-check-ch5]: Editorial check — Chapter 5 ends with the legal regimes of the 1660s–1680s and bridges to this chapter’s opening at Swansea in June 1675. Confirm that Chapter 5’s closing wording matches this opening, and that this chapter summarizes only what it needs of the statutory making of hereditary slavery. If this opening changes, rewrite Chapter 5’s bridge rather than this chapter.
+[^ch06-check-ch5]: Editorial check — resolved November 25, 2026. Chapter 5’s drafted closing names this chapter’s opening at John Sassamon’s death in the winter of 1674/75 and the Swansea outbreak in June 1675, and this chapter takes it up. This chapter summarizes only what it needs of the statutory making of hereditary slavery.
 
-[^ch06-check-ch7]: Editorial check — Chapter 7 begins at Enfield on July 8, 1741, and owns Stono (1739), Salem, the Great Awakening, and colonial society. This chapter’s bridge must name the Enfield scene, and its material must stop before Stono and the Great Awakening. Confirm Chapter 7’s opening before drafting the bridge.
+[^ch06-check-ch7]: Editorial check — resolved November 25, 2026. Chapter 7 is drafted and opens with Jonathan Edwards preaching at Enfield on July 8, 1741, matching this bridge. Stono (1739), Salem, the Great Awakening, and colonial society belong to Chapter 7.
 
 [^ch06-check-stono]: Editorial check — Stono (1739) belongs to Chapter 7, not this chapter’s 1675–1713 scope, per the README decision recorded as source `plan-stono`. Do not reintroduce Stono here. Keep this chapter’s enslaved-resistance material to the 1712 New York rebellion.
 

@@ -381,13 +381,13 @@ This is a selective guide, not a citation ledger. The groups move from the origi
 
 *A closing note.* Between 1945 and 1953 the United States answered a broken wartime alliance with a permanent security state abroad and at home. It built the institutions of containment — the Truman Doctrine, the Marshall Plan, NATO, the National Security Council, and the Central Intelligence Agency — and it screened, investigated, and blacklisted its own citizens in the name of loyalty. The chapter’s question — how did a wartime alliance become a permanent security confrontation? — is answered by that double record of commitment and coercion, and by a Korean armistice that ended the fighting without ending the war.[^ch37-nato-milestone][^ch37-eo9835][^ch37-armistice]
 
-*And a bridge.* The next chapter begins in 1950 in Levittown, New York, where developers were building the first mass-produced suburbs for a growing and largely White middle class. Chapter 38 takes up the affluent society of the 1950s and asks for whom postwar abundance was secure. The security state that Chapter 37 describes did not recede as the fighting in Korea ended; it became the backdrop for the consumer culture and the conformity that the next chapter examines.[^ch37-check-bridge][^ch37-check-ch38]
+*And a bridge.* The next chapter begins in 1950 in Levittown, New York, where developers were building the first mass-produced suburbs for a growing and largely White middle class. Chapter 38 takes up the affluent society of the 1950s and asks for whom postwar abundance was secure. The security state that Chapter 37 describes did not recede as the fighting in Korea ended; it became the backdrop for the consumer culture and the conformity that the next chapter examines.[^ch37-check-ch38]
 
 [^ch37-check-scope]: Editorial check — the draft runs from the wartime alliance of 1945 to the Korean armistice of July 1953 in the six README sections. The roadmap states that §§1–2 overlap in 1947 and §§3–4 overlap in 1947–50. Stage 5 must reconcile every date with Appendix D, Table 6 (1946–2000) and with Chapters 36 and 38. Do not re-narrate the Second World War’s ending (Ch. 36) or the 1950s (Ch. 38).
 
-[^ch37-check-ch36]: Editorial check — Chapter 36 closes on the Japanese surrender of September 1945 and its bridge names this chapter’s Long Telegram opening. This draft opens on that telegram and states the changed problem. Stage 6 should read the two paragraphs together and confirm that the seam does not repeat Chapter 36’s narrative.
+[^ch37-check-ch36]: Editorial check — resolved November 25, 2026. Chapter 36’s drafted closing names this chapter’s opening at Kennan’s Long Telegram of February 22, 1946, and this chapter takes it up. It states the changed problem.
 
-[^ch37-check-ch38]: Editorial check — Chapter 38 owns the affluent society, the 1954 Army–McCarthy hearings, and the 1956 highway act, and opens on Levittown in 1950. This draft names the 1954 hearings as Chapter 38’s material and its closing bridge names Levittown. The dependency remains open until Chapter 38 is drafted.
+[^ch37-check-ch38]: Editorial check — resolved November 25, 2026. Chapter 38 is drafted and opens with Levittown in 1950, matching this bridge. The security state becomes the backdrop for Chapter 38 rather than receding with the Korean armistice.
 
 [^ch37-check-dates-appD]: Editorial check — reconcile the chapter’s dates with Appendix D, Table 6 (1946–2000), including the Long Telegram, the Truman Doctrine, the Marshall Plan, the Berlin blockade and airlift, NATO, Executive Orders 9835 and 10241, the Hollywood Ten contempt vote, *Dennis*, the fall of China, the first Soviet test, NSC-68, the Korean invasion and armistice, and the McCarthy speech, and confirm that no event is placed on the wrong track.
 
@@ -421,7 +421,6 @@ This is a selective guide, not a citation ledger. The groups move from the origi
 
 [^ch37-check-sources]: Editorial check — Chapter 37’s Further Reading is a selective reading guide, not a citation ledger. The annotations distinguish works read for this draft from works identified through catalogs or citations and mark the latter; verify all bibliographic details before publication and do not present a recommendation as verified evidence.
 
-[^ch37-check-bridge]: Editorial check — the closing bridge names Levittown in 1950 as Chapter 38’s planned opening. Confirm Chapter 38’s actual opening and adjust this bridge during Stage 6; this dependency remains open until Chapter 38 is drafted.
 
 [^ch37-check-institutions]: Editorial check — the National Security Act of 1947 created a National Military Establishment under a secretary of defense; the Department of Defense name dates from the 1949 amendments. The draft avoids attributing the later name to the 1947 statute and distinguishes the act’s organizations from the covert operations that later used them. Confirm the statutory language against 61 Stat. 496.
 
