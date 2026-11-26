@@ -2,7 +2,7 @@
 
 **Status:** Proposed, November 25, 2026. No manuscript file has been changed, and none of the 56 registered assets has been produced. This is a production plan, not a competing book outline. [`README.md`](../../README.md) remains the book plan; [`AGENTS.md`](../../AGENTS.md) remains the process and style authority. When this plan changes scope, numbering, or a registered visual, the change must be applied to the README, [`chapters/53-appendix-c.md`](../../chapters/53-appendix-c.md), and the owning chapter in the same pass.
 
-**Inputs:** [`research.md`](../../research.md) for the Kindle constraints and the conversion options; [`docs/kindle.md`](../../docs/kindle.md) for the current KDP rules; the README illustration register for the 56 registered assets; the Appendix C Stage 3 outline for each asset’s argument and evidence.
+**Inputs:** [`docs/kindle-visuals-research.md`](../../docs/kindle-visuals-research.md) for the Kindle constraints and the conversion options; [`docs/kindle.md`](../../docs/kindle.md) for the current KDP rules; the README illustration register for the 56 registered assets; the Appendix C Stage 3 outline for each asset’s argument and evidence.
 
 **Repository note.** This file is not one of the 56 manuscript files, so `tools/check_book.py` does not check it. The manuscript rules in `AGENTS.md` still govern any prose moved from this plan into the book. The file layout follows the `data/app-b` production pattern: a README, a ledger, a checks file, and machine-readable data.
 
@@ -52,7 +52,7 @@ The outline also plans 56 raster assets at once. That is a large cartographic an
 | **Appendix C** | 20,500-word production outline | ~3,000-word reader catalog | Production detail moves to `data/app-c/` |
 | **Image payload** | 5.6–22.4 MB at 100–400 KB each | 2.5–5.0 MB | 13 maps, 3 figures, 2 photos |
 
-The 18 survivors sit inside the 15–20 range proposed in `research.md`; the 38 conversions sit inside its 35–40 range. The appendix will promise only the 18 baseline visuals and the tables that exist; it will not retain a 56-item catalog of absent assets. That removes the KDP missing-content risk described in `docs/kindle.md`. The 18 survivors are not simply the “best” old visuals. They are the assets whose argument is genuinely spatial or tonal and can be reduced to a single panel, eight to twelve large labels, and four gray tones. Everything else becomes text.
+The 18 survivors sit inside the 15–20 range proposed in `docs/kindle-visuals-research.md`; the 38 conversions sit inside its 35–40 range. The appendix will promise only the 18 baseline visuals and the tables that exist; it will not retain a 56-item catalog of absent assets. That removes the KDP missing-content risk described in `docs/kindle.md`. The 18 survivors are not simply the “best” old visuals. They are the assets whose argument is genuinely spatial or tonal and can be reduced to a single panel, eight to twelve large labels, and four gray tones. Everything else becomes text.
 
 ### 1.4 The conversion test
 
@@ -492,7 +492,7 @@ The sequence is gated. Do not start a later stage until the prior gate is met. S
 
 **Tasks**
 
-1. Read this plan against `research.md`, `AGENTS.md`, `README.md`, and `docs/kindle.md`.
+1. Read this plan against `docs/kindle-visuals-research.md`, `AGENTS.md`, `README.md`, and `docs/kindle.md`.
 2. Decide the eleven items in §13. The recommended choices are the baseline.
 3. Decide whether to pursue the two optional images now or defer them. The baseline must not depend on either.
 4. Record the decisions in §13 with the date and initials.
