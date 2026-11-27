@@ -1,12 +1,12 @@
 # Appendix C visual program overhaul plan
 
-**Status:** Proposed, November 25, 2026. No manuscript file has been changed, and none of the 56 registered assets has been produced. This is a production plan, not a competing book outline. [`README.md`](../../README.md) remains the book plan; [`AGENTS.md`](../../AGENTS.md) remains the process and style authority. When this plan changes scope, numbering, or a registered visual, the change must be applied to the README, [`chapters/53-appendix-c.md`](../../chapters/53-appendix-c.md), and the owning chapter in the same pass.
+**Status:** Proposed, November 25, 2026; source-image note added November 26, 2026. No manuscript file has been changed, and none of the 56 registered assets has been produced as a publication asset. Two source images are on file: [`images/hiawatha-wampum-belt.jpg`](../../images/hiawatha-wampum-belt.jpg) and [`images/aids-quilt.jpg`](../../images/aids-quilt.jpg). Neither is a cleared or produced publication asset; see §3.4. This is a production plan, not a competing book outline. [`README.md`](../../README.md) remains the book plan; [`AGENTS.md`](../../AGENTS.md) remains the process and style authority. When this plan changes scope, numbering, or a registered visual, the change must be applied to the README, [`chapters/53-appendix-c.md`](../../chapters/53-appendix-c.md), and the owning chapter in the same pass.
 
 **Inputs:** [`docs/kindle-visuals-research.md`](../../docs/kindle-visuals-research.md) for the Kindle constraints and the conversion options; [`docs/kindle.md`](../../docs/kindle.md) for the current KDP rules; the README illustration register for the 56 registered assets; the Appendix C Stage 3 outline for each asset’s argument and evidence.
 
 **Repository note.** This file is not one of the 56 manuscript files, so `tools/check_book.py` does not check it. The manuscript rules in `AGENTS.md` still govern any prose moved from this plan into the book. The file layout follows the `data/app-b` production pattern: a README, a ledger, a checks file, and machine-readable data.
 
-**Contents:** [Why](#1-what-changes-and-why) · [Design rules](#2-design-rules) · [Target program](#3-target-program-and-numbering) · [13 maps](#4-the-13-maps-to-keep) · [3 figures](#5-the-three-figures-to-keep) · [2 images](#6-the-two-images-to-keep) · [38 conversions](#7-the-38-conversions) · [Gazetteer](#8-gazetteer-overhaul) · [Step-by-step](#9-step-by-step-plan) · [Change map](#10-file-by-file-change-map) · [Validation](#11-validation-and-acceptance) · [Risks](#12-risks-and-open-decisions) · [Decisions](#13-decision-record) · [Done](#14-what-done-looks-like)
+**Contents:** [Why](#1-what-changes-and-why) · [Design rules](#2-design-rules) · [Target program](#3-target-program-and-numbering) · [13 maps](#4-the-13-maps-to-keep) · [3 figures](#5-the-three-figures-to-keep) · [2 images](#6-the-two-images-to-keep) · [Located images](#34-optional-images) · [38 conversions](#7-the-38-conversions) · [Gazetteer](#8-gazetteer-overhaul) · [Step-by-step](#9-step-by-step-plan) · [Change map](#10-file-by-file-change-map) · [Validation](#11-validation-and-acceptance) · [Risks](#12-risks-and-open-decisions) · [Decisions](#13-decision-record) · [Done](#14-what-done-looks-like)
 
 **The decision in one paragraph.** Keep **18 produced visuals**: 13 schematic maps, three line charts, and two archival photographs. Convert **38 registered visuals** into Kindle-native HTML: comparison and chronology tables, primary-source exhibit boxes, and close readings. Convert the 76-row gazetteer table into a dictionary-style list. Renumber the survivors. Move production detail and the caption/alt schedules out of the printed appendix into `data/app-c/`. The result is a smaller, sharper, more accessible visual program that preserves each chapter’s argument and cuts the potential image payload from 15–35 MB to about 2.5–5 MB.
 
@@ -47,9 +47,10 @@ The outline also plans 56 raster assets at once. That is a large cartographic an
 | **Figures** | 9 | 3 drawn | 6 convert to benchmark or chronology tables |
 | **Images** | 8 | 2 reproduced | 6 convert to exhibit tables or close readings |
 | **Produced visuals** | 56 | **18** | 13 maps + 3 figures + 2 images |
-| **Optional images** | 0 | 0–2 | Hiawatha Belt and AIDS Quilt only with written consent; ceiling 20 |
+| **Optional images** | 0 | 0–2 | Two candidates on file: a 1909 public-domain Hiawatha Belt halftone and a 1992 AIDS Quilt photograph that is not the panel and is not cleared; ceiling 20 |
+| **Source images on file** | 2 | 2 | `images/hiawatha-wampum-belt.jpg` and `images/aids-quilt.jpg`; neither is a publication asset |
 | **Gazetteer** | 76-row, 5-column table | 77-entry dictionary list | No table clipping; 77 names reconciled with the README |
-| **Appendix C** | 20,500-word production outline | ~3,000-word reader catalog | Production detail moves to `data/app-c/` |
+| **Appendix C** | About 20,900-word production outline | ~3,000-word reader catalog | Production detail moves to `data/app-c/` |
 | **Image payload** | 5.6–22.4 MB at 100–400 KB each | 2.5–5.0 MB | 13 maps, 3 figures, 2 photos |
 
 The 18 survivors sit inside the 15–20 range proposed in `docs/kindle-visuals-research.md`; the 38 conversions sit inside its 35–40 range. The appendix will promise only the 18 baseline visuals and the tables that exist; it will not retain a 56-item catalog of absent assets. That removes the KDP missing-content risk described in `docs/kindle.md`. The 18 survivors are not simply the “best” old visuals. They are the assets whose argument is genuinely spatial or tonal and can be reduced to a single panel, eight to twelve large labels, and four gray tones. Everything else becomes text.
@@ -162,6 +163,7 @@ Sidebars use the existing bold labels. Quantitative comparisons use **The measur
 - The CC0 dedication covers the book’s original text, not a third-party photograph, map, or facsimile. Each reproduced object has its own rights basis.
 - Alt text is 140 characters or fewer. It describes the subject and scope, not every label.
 - A community-held object needs community authorization. A photograph of a wampum belt is not the belt; a catalog image of a medal is not the medal’s history.
+- Copyright and cultural authority are different questions. The 1909 Hiawatha halftone is public domain as a printed work, but it depicts a belt in the Thacher collection and still needs Haudenosaunee review. The 1992 Quilt photograph is not made public domain by an NIH host page; it carries a visible © NAMES Project credit and is not the first panel.
 - If permission fails, withdraw the image and keep the close reading. Do not substitute an unregistered stock image.
 - No visual or table enters a chapter or the appendix without a README register row. A table added in Stage 5 gets its register row in the same pass.
 
@@ -212,6 +214,8 @@ The survivors are renumbered sequentially in narrative order. Sparse old numbers
 | **Image 1** | Image 2 | Ch. 14, §2 In Focus | A Jefferson peace medal, both faces, 1801 |
 | **Image 2** | Image 3 | Ch. 25, §4 In Focus | Tom Torlino, 1882 and 1885 |
 
+**Located candidates.** Two optional source images are on file and are not part of the 18-visual baseline. They are recorded in §3.4; neither adds a display number until it is cleared.
+
 **Catalog entry shape.** Each entry is 30–40 words, not a production record:
 
 > **New Map 6. War for Independence, 1775–1783.** Two vertical panels trace the northern and southern campaigns, with French naval power and the 1783 settlement shown only where documented. Chs. 10–11.
@@ -234,12 +238,17 @@ New tables use **descriptive stable IDs** (`ch04-table-settlements`, `ch35-table
 
 ### 3.4 Optional images
 
-The baseline is 18. Two community-held objects may be added only with written authorization:
+The baseline is 18. Two optional source images are now on file. Neither is authorized for baseline use, and neither adds a display number until its checks are met.
 
-- **Hiawatha Belt** (old Image 1): if the Haudenosaunee custodian authorizes a specific photograph, add it as **Image 3**. The close reading stands without it.
-- **AIDS Memorial Quilt panel** (old Image 7): if the maker or caretaker authorizes a specific photograph, add it as **Image 3 or 4**. The close reading stands without it.
+| Candidate | File and dimensions | What it is | Rights and status |
+|---|---|---|---|
+| **Hiawatha Belt** (old Image 1) | [`images/hiawatha-wampum-belt.jpg`](../../images/hiawatha-wampum-belt.jpg); 1,210 × 2,448 px; about 540 KB | A 1909 halftone captioned “Hiawatha Wampum Belt,” printed in *New York at the Jamestown Exposition, Norfolk, Virginia, April 26 to December 1, 1907* (Albany: J.B. Lyon Co., 1909), p. 209, from the belt lent by John Boyd Thacher; the Flickr scan is from scan page 218, while the book’s list of illustrations gives p. 209. The Thacher belts were the subject of *Onondaga Nation v. Thacher*, 189 U.S. 306 (1903). The 1909 volume does not establish that this belt is the object now held by the Onondaga Nation. | Public domain as a 1909 U.S. publication; the scan is from the Internet Archive. Haudenosaunee cultural-protocol review and a provenance note are still required. `sourced`; not a publication asset. |
+| **AIDS Memorial Quilt** (old Image 7) | [`images/aids-quilt.jpg`](../../images/aids-quilt.jpg); 1,800 × 1,355 px; about 551 KB | A 1992 photograph of the entire Quilt on the National Mall, with the Washington Monument; the visible credit reads “photograph by Mark Thiessen ©1992 The NAMES Project.” It is not the first panel and does not show Marvin Feldman’s panel. | Not cleared. The Wikimedia Commons public-domain tag rests on an NIH host page; independent records credit Mark Thiessen and The NAMES Project Foundation. Permission from the foundation is required, and the caption must identify the 1992 display, not the first panel. `permission_pending`; blocked as Image 7. |
 
-The optional images do not block the baseline, the table of contents, or the page budget. If neither is authorized, the book has 18 visuals; if both are, 20. Do not add a stock photograph or a redrawn schematic as a substitute.
+- **Hiawatha Belt.** If the Haudenosaunee review and the provenance note are accepted, add the halftone as **Image 3** (old Image 1). Do not present it as a new photograph of the present object. The close reading stands without it.
+- **AIDS Memorial Quilt.** The 1992 photograph cannot serve as Image 7. If a quilt photograph is wanted, clear the rights and caption it as the 1992 display; otherwise keep the close reading and add no image.
+
+The optional images do not block the baseline, the table of contents, or the page budget. If neither is approved, the book has 18 visuals; if both are, 20. Do not add a stock photograph, a redrawn schematic, or the 1992 wide view as a substitute for the first panel.
 
 ### 3.5 Budgets
 
@@ -319,6 +328,8 @@ Each map below is a **single-panel schematic** unless the row says two vertical 
 - **Image 1** works because the object is two high-contrast metal faces with almost no small text. The engraver dispute (Robert Scot versus John Reich) belongs in the caption and note, not in the image.
 - **Image 2** works because the before-and-after contrast is tonal and emotional. Reproduce the pair as the archive published it; do not separate the two portraits or crop out the original captions. The original captions are object content, not the book’s caption; the book’s caption remains HTML below the image.
 
+**Optional candidates.** The two optional source images are not in this baseline table. A 1909 public-domain Hiawatha halftone and a 1992 AIDS Quilt photograph are recorded in §3.4; the quilt photograph is not the first panel and is not cleared.
+
 ---
 
 ## 7. The 38 conversions
@@ -382,16 +393,16 @@ The tables below are the working disposition. Each replacement gets a full one-p
 
 | Old | Owner | Replacement | Form | Content specification | Rights and evidence rule |
 |---:|---|---|---|---|---|
-| **Image 1** | Ch. 3, §3 In Focus | `ch03-focus-belt` | Close reading | Keep the 150–250-word In Focus reading. No image by default. Optional authorized photograph becomes Image 3. | Haudenosaunee authorization required. No stock photo, no redrawn schematic without consent. |
+| **Image 1** | Ch. 3, §3 In Focus | `ch03-focus-belt` | Close reading | Keep the 150–250-word In Focus reading. A 1909 public-domain halftone is on file and would become Image 3 if the cultural-protocol review is accepted. | Haudenosaunee authorization and a provenance note required; the halftone is a period reproduction of the Thacher belt, not an authorized photograph of the present object. No stock photo, no redrawn schematic without consent. |
 | **Image 4** | Ch. 28, §2 In Focus | `ch28-exhibit-sears` | Exhibit table | 3 cols: Item; Specification; Price. 6 rows: men’s frame, women’s frame, tires, clothing, accessories, price range. | Public-domain 1897 catalog; fix the exact page; transcribe exact copy; no scan. |
 | **Image 5** | Ch. 32, §2 In Focus | `ch32-exhibit-radio` | Exhibit table | 4 cols: Time; Station and call letters; Wavelength; Program type. 8–10 rows. | 1924 public-domain page; verify against the page image, not OCR; exact headings. |
 | **Image 6** | Ch. 39, §5 In Focus | `ch39-exhibit-literacy` | Exhibit table | 2 cols: Question; Registrar’s rule or note. 6 rows. | Exact form, parish, and date. If provenance fails, use a documented excerpt or no exhibit; no composite. |
-| **Image 7** | Ch. 44, §4 In Focus | `ch44-focus-quilt` | Close reading | Keep the In Focus reading. No image by default. Optional consented photograph becomes Image 3 or 4. | Maker or caretaker consent required. No stock photo. |
+| **Image 7** | Ch. 44, §4 In Focus | `ch44-focus-quilt` | Close reading | Keep the In Focus reading. No image by default. A 1992 photograph of the whole Quilt is on file, but it is not the first panel and cannot stand in for it. | Maker or caretaker consent and rights clearance required. The 1992 file carries a © NAMES Project credit; do not treat the NIH-host public-domain tag as clearance. No stock photo. |
 | **Image 8** | Ch. 48, §5 In Focus | `ch48-exhibit-dorian` | Exhibit table | 3 cols: Item; Official record; Displayed or altered version. 4 rows: forecast date, cone extent, Alabama status, NOAA statement. | No photograph by default. The official graphic is a government work; a displayed photograph needs a rights-cleared source. |
 
 **Why these six convert.**
 
-- **Images 1 and 7** are community-held or maker-held objects. The close reading is the argument; a small, decontextualized photograph is not worth the consent risk. If consent is granted, add the image; do not make the chapter depend on it.
+- **Images 1 and 7** are community-held or maker-held objects. The close reading is the argument; a small, decontextualized photograph is not worth the consent risk. If the Hiawatha review is accepted or the quilt rights are cleared, add the image; do not make the chapter depend on it.
 - **Image 4** is a catalog spread. At 3.5 inches, the prices and specifications are unreadable. A transcription table preserves the exact copy and makes the gender and price argument visible.
 - **Image 5** is a newspaper broadsheet. A clean excerpt of eight to ten station rows is more legible than the full page and avoids the OCR errors.
 - **Image 6** is a legal form with unresolved provenance. A verified excerpt of questions, paired with the registrar’s discretion, is stronger than an unidentified scan. If the exact form cannot be established, the chapter keeps the close reading without a facsimile.
@@ -574,7 +585,7 @@ python3 tools/check_book.py --strict
 
 ### Stage 4 — Rewrite Appendix C
 
-**Purpose:** turn a 20,500-word production outline into a reader-facing catalog.
+**Purpose:** turn an about 20,900-word production outline into a reader-facing catalog.
 
 **Tasks**
 
@@ -647,15 +658,15 @@ Work in four batches: Chapters 1–12, 13–25, 26–38, and 39–50. For each c
 2. For each image, record the object ID, repository, rights basis, credit, permission status, evidence URL, and date.
 3. Jefferson medal: confirm the Smithsonian media’s open-access status; download the exact file; record the object number.
 4. Torlino: confirm Dickinson’s terms; use the archival composite; credit the archive.
-5. Hiawatha Belt: request written authorization from the Onondaga Nation or the appropriate Haudenosaunee cultural office. If granted, add Image 3; if not, no image.
-6. AIDS Quilt: request maker or caretaker consent through the National AIDS Memorial. If granted, add Image 3 or 4; if not, no image.
+5. Hiawatha Belt: review the 1909 halftone on file, its Thacher provenance, and the *Onondaga Nation v. Thacher* record with the Onondaga Nation or the appropriate Haudenosaunee cultural office. If the review is accepted, add the halftone as Image 3 with a caption identifying the 1909 volume; if not, no image.
+6. AIDS Quilt: the 1992 photograph on file is credited to Mark Thiessen and The NAMES Project Foundation and is not the first panel. Do not use it as Image 7. If a quilt photograph is wanted, obtain permission from the foundation and caption the 1992 display; otherwise keep the close reading and add no image.
 7. Dorian: use the official National Hurricane Center graphic, a U.S. government work, and exact NOAA and inspector-general quotations. Do not use a news photograph of the Oval Office display without a cleared source.
 8. For maps and figures, record the data licenses and the original-compilation copyright.
 9. If an image fails, withdraw it from the register and the chapter, keep the close reading, and update the counts.
 
 **Outputs:** `rights.csv`, permission correspondence, and final credit lines.
 
-**Gate:** no image is placed without a rights basis; optional images only with written consent; credits match the register and the caption file.
+**Gate:** no image is placed without a rights basis; optional images only after Haudenosaunee review or a cleared quilt-photograph license; credits match the register and the caption file.
 
 ### Stage 8 — Verify
 
@@ -795,7 +806,7 @@ python3 -m unittest discover -s tools -p 'test_*.py'
 - [ ] **Chronology:** dates in captions and tables agree with Appendix D and the chapters.
 - [ ] **Statistics:** units, denominators, base years, and rounding are stated.
 - [ ] **References:** every visual and table is cited by number; no old number remains; every note resolves.
-- [ ] **Rights:** every image has a rights basis and a credit; optional images have written consent.
+- [ ] **Rights:** every image has a rights basis and a credit; optional images have Haudenosaunee review or a cleared quilt-photograph license.
 - [ ] **AI disclosure:** every AI-assisted visual is recorded and classified for KDP disclosure; deterministic maps and figures are marked as such.
 - [ ] **Architecture:** In Focus boxes and tables sit where the argument needs them; no visual is decorative.
 - [ ] **Language:** captions read aloud cleanly; no “see below” or file names in alt text.
@@ -815,7 +826,7 @@ python3 -m unittest discover -s tools -p 'test_*.py'
 | **Author rejects the 18/38 split** | Every later stage depends on it | Stage 0 gate; revise §§4–7 before any prose |
 | **Map 3 cannot be verified** | Indigenous names and ranges need nation-specific sources | Convert Map 3 to a Chapter 3 table; the map count becomes 12 and the produced count 17 |
 | **Jefferson medal or Torlino rights fail** | The baseline drops to 1 or 0 photographs | Keep the close readings; add no stock substitute; record the count |
-| **Hiawatha Belt or Quilt consent fails** | Optional images are not available | Baseline is unaffected; no image; keep the close reading |
+| **Hiawatha Belt or Quilt consent fails** | The Hiawatha file is a 1909 public-domain halftone but still needs cultural-protocol review; the Quilt file is a copyrighted 1992 wide view, not the first panel | Baseline is unaffected; no image; keep the close reading; do not substitute the 1992 wide view for the first panel |
 | **Converted data cannot be sourced** | A table is not evidence | Narrow the table, qualify the claim, or move the argument to prose |
 | **Table fatigue** | 30–39 new tables can overwhelm the book | Merge before add; four-column cap; 24-row cap; sidebars where a table is overkill |
 | **Renumbering cascade** | Chapters 19, 20, 31, and 49 have multiple tables | Per-chapter reference audit; do not append tables just to avoid renumbering |
@@ -854,7 +865,7 @@ Complete this table in Stage 0. “Recommended” is the plan’s baseline; “A
 | **Table format** | Real HTML tables, never images of tables | Rasterized tables | Accessible, reflowable, searchable |
 | **Palette** | Four tones plus hatching | 16-level grayscale | Crisp on E-Ink; print-safe |
 | **AI policy** | Deterministic cartography; disclose any AI-assisted image | Generative maps | KDP compliance; historical accuracy |
-| **Optional images** | Pursue consent; do not block the baseline | Drop now | Ceiling 20; no dependency |
+| **Optional images** | Two candidates on file; review the 1909 Hiawatha halftone with Haudenosaunee stewards; do not use the 1992 Quilt photograph as the first panel | Drop both | Ceiling 20; no dependency; the quilt photograph needs permission |
 
 **Signed:** ____________________  **Date:** ____________________
 
@@ -866,7 +877,7 @@ Complete this table in Stage 0. “Recommended” is the plan’s baseline; “A
 - **38 former visuals** have a table, exhibit, close reading, or documented merge, and every one preserves its old argument.
 - The gazetteer is a **77-entry dictionary list**, with Montgomery restored and the count reconciled.
 - The README register, the appendix, the chapters, and `docs/kindle.md` agree on every count and number.
-- The 18 baseline assets exist within their class targets: maps at 1,600 × 2,400 px and 150–300 KB, figures at 1,600 × 1,000–2,000 px and 80–150 KB, photographs at 1,600 px on the long edge and 150–300 KB; all are four-tone grayscale or high-contrast JPEG; the optional images exist only with written consent.
+- The 18 baseline assets exist within their class targets: maps at 1,600 × 2,400 px and 150–300 KB, figures at 1,600 × 1,000–2,000 px and 80–150 KB, photographs at 1,600 px on the long edge and 150–300 KB; all are four-tone grayscale or high-contrast JPEG; the optional images exist only after Haudenosaunee review and rights clearance, and the 1992 Quilt photograph is not used as the first panel.
 - Every image has a caption, source line, credit, alt text, and rights basis; no caption or credit is baked into an image.
 - Every new table has four columns or fewer, 24 rows or fewer, a real caption, and a textual reference.
 - The EPUB is **under 8 MB** without a cover; the image payload is 2.5–5.0 MB; the 70% delivery fee is about $1.16 or less.
